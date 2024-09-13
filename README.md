@@ -1,2 +1,2 @@
-# hegemol.github.io
+# theboomdog.github.io
 NovelHub website
