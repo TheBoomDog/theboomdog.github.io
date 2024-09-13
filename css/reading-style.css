@@ -1,0 +1,23 @@
+:root {
+  --text-color: #fffc;
+  --background-color: #171717;
+}
+
+
+
+.chapter-container {
+  font-family: sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
