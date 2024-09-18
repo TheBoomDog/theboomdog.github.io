@@ -4,7 +4,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 120rem;
   font-size: calc(100% + (200vw - 720px)/39);
   font-size: calc(16px + (200vw - 720px)/39);
   line-height: 1;
