@@ -139,7 +139,7 @@ try{
 const response=await fetch(chapterURL.href,{credentials:"same-origin"});
 if(!response.ok)throw new Error("HTTP "+response.status);
 const doc=new DOMParser().parseFromString(await response.text(),"text/html");
-const source=doc.querySelector(".chapter-content")||doc.querySelector("#chapter-content");
+const source=doc.querySelector(".chapter-content")||doc.querySelector("#chapter-content")||(chapter.format==="jekyll"?doc.body:null);
 if(!source)throw new Error("Could not locate chapter text");
 const pageTitle=doc.querySelector("title")?.textContent?.trim();
 if(pageTitle){$("chapter-title").textContent=pageTitle;$("bar-chapter").textContent=pageTitle;document.title=pageTitle+" | "+book.title+" | NovelHub"}else{document.title=$("chapter-title").textContent+" | "+book.title+" | NovelHub"}
