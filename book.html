@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101414">
+  <meta name="description" content="Book details and chapters on NovelHub.">
+  <title>Book | NovelHub</title>
+  <link rel="icon" type="image/png" href="Images/Logo_pixel_art.png">
+  <link rel="stylesheet" href="css/book.css">
+  <script defer src="data/books.js"></script>
+  <script defer src="js/book.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="NovelHub home"><span class="brand-icon">N</span><span class="brand-name">NovelHub</span></a>
+      <nav class="top-nav" aria-label="Main navigation"><a href="index.html#novels">Library</a><a href="index.html#chapters">Latest chapters</a></nav>
+    </div>
+  </header>
+  <main class="wrap" id="content">
+    <div class="breadcrumb"><a href="index.html#novels">Library</a><span aria-hidden="true">/</span><span id="crumb-title">Book</span></div>
+    <div id="load-status" class="load-status" role="status">Loading book…</div>
+    <div id="book-content" hidden>
+      <section class="book-overview" aria-labelledby="book-title">
+        <div class="book-cover" id="book-cover" aria-hidden="true">
+          <span class="cover-label">NovelHub</span>
+          <span class="cover-title" id="cover-title"></span>
+          <span class="cover-mark">N.</span>
+        </div>
+        <div class="book-details">
+          <span class="book-status" id="book-status"></span>
+          <h1 id="book-title"></h1>
+          <div class="metadata" id="metadata"></div>
+          <div class="tags" id="genres"></div>
+          <p class="description" id="description" hidden></p>
+          <div class="actions">
+            <a class="primary-action" id="start-reading" href="#" hidden>Start reading <span aria-hidden="true">↗</span></a>
+            <a class="secondary-action" id="latest-reading" href="#" hidden>Latest chapter</a>
+            <button class="secondary-action save-action" type="button" id="save-book" aria-pressed="false">☆ Save</button>
+          </div>
+        </div>
+      </section>
+      <section class="chapter-section" aria-labelledby="chapters-heading">
+        <div class="chapters-top">
+          <div class="chapters-heading"><h2 id="chapters-heading">Chapters</h2><span id="chapter-count" class="chapter-count"></span></div>
+          <div class="chapter-controls" id="chapter-controls">
+            <label class="sr-only" for="chapter-search">Search chapters</label>
+            <input id="chapter-search" type="search" placeholder="Find a chapter" autocomplete="off">
+            <label class="sr-only" for="chapter-sort">Chapter order</label>
+            <select id="chapter-sort"><option value="asc">First to last</option><option value="desc">Last to first</option></select>
+          </div>
+        </div>
+        <div class="chapter-list" id="chapter-list"></div>
+        <p class="empty-state" id="chapter-empty" hidden>No matching chapters.</p>
+        <div class="pager" id="pager" hidden><button type="button" id="page-prev">← Previous</button><span id="page-status"></span><button type="button" id="page-next">Next →</button></div>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="wrap"><span>NovelHub</span><a href="index.html">Library</a></div></footer>
+</body>
+</html>
