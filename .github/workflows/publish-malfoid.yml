@@ -2,8 +2,6 @@ name: Publish Malfoid chapters
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '23 9 * * *'
 
 permissions:
   contents: write
