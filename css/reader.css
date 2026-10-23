@@ -11,3 +11,13 @@ a{color:inherit}button,select,input{font:inherit}button{cursor:pointer}a:focus-v
 .toc-dialog{width:min(530px,calc(100vw - 30px))}.toc-controls{padding:14px 18px;border-bottom:1px solid #33413a}.toc-controls input{width:100%;min-height:42px;border:1px solid #465248;background:#222d26;color:#f0ede5;padding:10px 12px}.toc-list{max-height:65dvh;overflow:auto;padding:5px 0}.toc-list a{padding:13px 20px;border-bottom:1px solid #2b362f;display:block;font-size:12px;color:#ecece6;text-decoration:none}.toc-list a small{display:block;color:#94a298;margin-bottom:3px}.toc-list a:hover,.toc-list a[aria-current=page]{color:var(--accent);background:#202b23}.toc-empty{color:#b5beb6;padding:16px 20px}
 @media(max-width:650px){.bar-inner{padding:0 14px;min-height:57px;gap:13px}.brand-name{display:none}.brand-mark{width:27px;height:27px}.bar-book{gap:6px;font-size:11px;flex:1}.bar-divider{display:none}#bar-chapter{display:none}.bar-actions{gap:2px}.button-label{display:none}.reader-main{padding:42px 18px 0}.chapter-identity{margin-bottom:35px}.bottom-navigation{margin-top:50px;margin-bottom:60px}.nav-chapters{width:auto}.reader-footer a,.reader-footer button{min-width:65px}.chapter-text{hyphens:auto}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+
+/* Fixed reader chrome; tap the middle of the chapter to toggle it. */
+.reader-bar{position:fixed;left:0;right:0;top:0;transform:translateY(0);transition:transform .18s ease}
+.reader-footer{position:fixed;left:0;right:0;bottom:0;transform:translateY(0);transition:transform .18s ease}
+.reader-main{padding-top:112px}
+body.controls-hidden .reader-bar{transform:translateY(calc(-100% - 4px))}
+body.controls-hidden .reader-footer{transform:translateY(calc(100% + 4px))}
+@media(max-width:650px){.reader-main{padding-top:93px}}
+@media(prefers-reduced-motion:reduce){.reader-bar,.reader-footer{transition:none}}
