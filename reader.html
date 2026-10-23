@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101414">
+  <meta name="description" content="NovelHub chapter reader">
+  <title>Read | NovelHub</title>
+  <link rel="icon" type="image/png" href="Images/Logo_pixel_art.png">
+  <link rel="stylesheet" href="css/reader.css">
+  <script defer src="data/books.js"></script>
+  <script defer src="js/reader.js"></script>
+</head>
+<body data-theme="dark">
+  <a class="skip-link" href="#chapter-text">Skip to chapter</a>
+  <div id="scroll-progress" role="progressbar" aria-label="Chapter progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+  <header class="reader-bar" id="reader-header">
+    <div class="bar-inner">
+      <a class="wordmark" href="index.html" aria-label="NovelHub home"><span class="brand-mark">N</span><span class="brand-name">NOVELHUB</span></a>
+      <div class="bar-book"><a href="#" id="book-link"></a><span class="bar-divider">/</span><span id="bar-chapter"></span></div>
+      <div class="bar-actions">
+        <button id="toc-open" class="icon-button" type="button" title="Chapters" aria-label="Open chapter list">☷ <span class="button-label">Chapters</span></button>
+        <button id="settings-open" class="icon-button" type="button" aria-label="Reading settings" aria-expanded="false" title="Reading settings"><span class="aa-mark">Aa</span></button>
+      </div>
+    </div>
+  </header>
+  <main class="reader-main" id="reader-main">
+    <div class="chapter-identity">
+      <a href="#" id="novel-title-link" class="book-back"></a>
+      <h1 id="chapter-title">Loading chapter…</h1>
+      <span class="chapter-position" id="chapter-position"></span>
+    </div>
+    <article id="chapter-text" class="chapter-text" aria-label="Chapter text" tabindex="-1">
+      <p class="loading-message" id="load-message" role="status">Loading chapter…</p>
+    </article>
+    <nav class="bottom-navigation" aria-label="Chapter navigation">
+      <a id="bottom-prev" class="nav-pill" href="#"><span aria-hidden="true">←</span> Previous</a>
+      <button id="bottom-toc" class="nav-pill nav-chapters" type="button">Chapters</button>
+      <a id="bottom-next" class="nav-pill" href="#">Next <span aria-hidden="true">→</span></a>
+    </nav>
+  </main>
+  <footer class="reader-footer" id="reader-footer">
+    <div class="footer-inner">
+      <a id="footer-prev" href="#" aria-label="Previous chapter">← <span>Previous</span></a>
+      <button type="button" id="footer-chapters"> <span id="footer-position">—</span> <span class="footer-chevron">⌄</span></button>
+      <a id="footer-next" href="#" aria-label="Next chapter"><span>Next</span> →</a>
+    </div>
+  </footer>
+  <dialog id="settings-dialog" class="reader-dialog" aria-labelledby="settings-title">
+    <div class="dialog-heading"><h2 id="settings-title">Reader settings</h2><button type="button" class="close-button" data-close-dialog aria-label="Close settings">×</button></div>
+    <div class="settings-content">
+      <fieldset class="setting-group"><legend>Appearance</legend>
+        <div class="theme-options" id="theme-options">
+          <button type="button" data-theme-choice="dark" class="theme-swatch swatch-dark"><span class="swatch-preview">Aa</span>Dark</button>
+          <button type="button" data-theme-choice="light" class="theme-swatch swatch-light"><span class="swatch-preview">Aa</span>Light</button>
+          <button type="button" data-theme-choice="sepia" class="theme-swatch swatch-sepia"><span class="swatch-preview">Aa</span>Sepia</button>
+          <button type="button" data-theme-choice="black" class="theme-swatch swatch-black"><span class="swatch-preview">Aa</span>Black</button>
+        </div>
+      </fieldset>
+      <div class="setting-group">
+        <label for="font-select">Font</label>
+        <select id="font-select">
+          <option value="georgia">Georgia</option><option value="times">Times New Roman</option>
+          <option value="literata">Literata</option><option value="arial">Arial</option>
+          <option value="verdana">Verdana</option><option value="system">System</option>
+        </select>
+      </div>
+      <div class="setting-group">
+        <div class="setting-label"><label for="font-size">Font size</label><output id="font-size-label" for="font-size"></output></div>
+        <div class="range-row"><span class="range-min">A</span><input id="font-size" type="range" min="14" max="32" step="1"><span class="range-max">A</span></div>
+      </div>
+      <div class="setting-group">
+        <div class="setting-label"><label for="line-height">Line spacing</label><output id="line-height-label" for="line-height"></output></div>
+        <input id="line-height" type="range" min="1.3" max="2.3" step="0.1">
+      </div>
+      <div class="setting-group">
+        <div class="setting-label"><label for="paragraph-gap">Paragraph spacing</label><output id="paragraph-gap-label" for="paragraph-gap"></output></div>
+        <input id="paragraph-gap" type="range" min="0" max="2.5" step="0.25">
+      </div>
+      <div class="setting-group">
+        <div class="setting-label"><label for="reader-width">Text width</label><output id="reader-width-label" for="reader-width"></output></div>
+        <input id="reader-width" type="range" min="520" max="1080" step="40">
+      </div>
+      <div class="setting-group">
+        <label for="text-align">Text alignment</label>
+        <select id="text-align"><option value="left">Left</option><option value="justify">Justified</option></select>
+      </div>
+      <div class="setting-bottom"><button id="reset-settings" type="button" class="reset-button">Reset defaults</button><button id="done-settings" type="button" class="done-button">Done</button></div>
+    </div>
+  </dialog>
+  <dialog id="toc-dialog" class="reader-dialog toc-dialog" aria-labelledby="toc-title">
+    <div class="dialog-heading"><h2 id="toc-title">Chapters</h2><button type="button" class="close-button" data-close-dialog aria-label="Close chapters">×</button></div>
+    <div class="toc-controls"><label for="toc-search" class="sr-only">Find chapter</label><input type="search" id="toc-search" placeholder="Find a chapter" autocomplete="off"></div>
+    <nav id="toc-list" class="toc-list" aria-label="Chapter list"></nav>
+  </dialog>
+</body>
+</html>
