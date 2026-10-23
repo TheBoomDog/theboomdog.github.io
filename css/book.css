@@ -56,3 +56,11 @@ h1{font:normal clamp(32px,4.6vw,49px)/1.12 var(--serif);letter-spacing:-.045em;m
 .site-footer .wrap{display:flex;justify-content:space-between}.site-footer a{text-decoration:none}
 @media(max-width:720px){.wrap{width:min(100% - 32px,560px)}.header-inner{min-height:67px}.top-nav{gap:15px}.top-nav a{font-size:12px}.brand-name{font-size:12px}.breadcrumb{padding:22px 0}.book-overview{grid-template-columns:112px minmax(0,1fr);gap:17px;padding-bottom:28px}.book-cover{min-height:168px;padding:12px 10px}.book-cover::after{inset:6px}.cover-label{font-size:7px}.cover-title{font-size:20px}.cover-mark{font-size:24px}.book-status{font-size:9px}h1{font-size:29px;margin:7px 0 12px}.metadata{gap:3px 10px;font-size:11px}.metadata span+span::before{margin-right:9px}.tags{gap:5px;margin-top:12px}.tag{font-size:10px;padding:3px 6px}.description{font-size:12px;margin-top:13px}.actions{gap:7px;margin-top:15px}.primary-action,.secondary-action{min-height:36px;padding:7px 10px;font-size:11px}.chapters-top{align-items:stretch;flex-direction:column;gap:15px}.chapter-controls{width:100%}.chapter-controls input{width:100%;min-width:0;flex:1}.chapter-controls select{max-width:130px}.chapter-row{gap:12px;padding:11px 10px}.chapter-label{min-width:67px}.pager{gap:10px}}
 @media(max-width:430px){.book-overview{grid-template-columns:100px minmax(0,1fr)}.book-cover{min-height:150px}.cover-title{font-size:17px}h1{font-size:26px}.top-nav a:last-child{display:none}.metadata span+span::before{display:none}.metadata{flex-direction:column}.actions{grid-column:1/-1}.chapter-row{font-size:12px}}
+
+
+/* Multi-volume books: keep the extra book selector readable on small screens. */
+@media (max-width:720px) {
+  .chapter-controls:has(select[aria-label="Select book volume"]) {flex-wrap:wrap}
+  .chapter-controls select[aria-label="Select book volume"] {flex:1 1 100%;max-width:none}
+  .chapter-controls input {flex:1 1 45%}
+}
