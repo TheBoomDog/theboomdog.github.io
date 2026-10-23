@@ -24,6 +24,9 @@ jobs:
       - name: Check out NovelHub
         uses: actions/checkout@v4
 
+      - name: Validate importer
+        run: python3 -m unittest discover -s tests -p 'test_malfoid_import.py' -v
+
       - name: Check out the private Malfoid manuscript
         uses: actions/checkout@v4
         with:
