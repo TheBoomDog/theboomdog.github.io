@@ -23,7 +23,7 @@ const nav=(id,n)=>{const a=$(id);if(n>=1&&n<=book.chapters.length){a.href=reader
 nav("bottom-prev",ordinal-1);nav("footer-prev",ordinal-1);nav("bottom-next",ordinal+1);nav("footer-next",ordinal+1);
 const defaults={theme:"dark",font:"georgia",size:18,line:1.8,gap:1.25,width:760,align:"left"};
 const settingsKey="novelhub:reader-settings:v1",progressKey="novelhub:progress:v1";
-const fonts={georgia:'Georgia,"Times New Roman",serif',times:'"Times New Roman",Times,serif',literata:'Georgia,serif',arial:'Arial,Helvetica,sans-serif',verdana:'Verdana,Geneva,sans-serif',system:'system-ui,-apple-system,"Segoe UI",sans-serif'};
+const fonts={georgia:'Georgia,"Times New Roman",serif',times:'"Times New Roman",Times,serif',palatino:'Palatino,"Palatino Linotype","Book Antiqua",Georgia,serif',arial:'Arial,Helvetica,sans-serif',verdana:'Verdana,Geneva,sans-serif',system:'system-ui,-apple-system,"Segoe UI",sans-serif'};
 const themes=["dark","light","sepia","black"];
 const numeric=(x,min,max,fallback)=>{const n=Number(x);return Number.isFinite(n)?Math.max(min,Math.min(max,n)):fallback};
 const loadJSON=(key,fallback)=>{try{const value=JSON.parse(localStorage.getItem(key)||"null");return value&&typeof value==="object"&&!Array.isArray(value)?value:fallback}catch(e){return fallback}};
