@@ -6,9 +6,10 @@ Run locally with copies of BOTH repositories on your computer:
 or:
   python3 scripts/import_malfoid.py --source ../Malfoid
 
-Only Books 1-4 are imported by default. Never copies reference PDFs, GPT
-notes, outlines, or Book 5-7 placeholders. Review the generated files before
-committing to your public website repository.
+Books 1-4 are imported by default. Supports Books 1-7 when explicitly
+included via --books. For Books 5-7, navigation-only chapter placeholders
+are skipped until substantive chapter text exists. Never copies reference
+PDFs, GPT notes or outlines. This script writes only approved chapter files.
 """
 import argparse
 import json
@@ -25,6 +26,9 @@ VOLUME_NAMES = {
     2: "Chamber of Secrets",
     3: "Prisoner of Azkaban",
     4: "Goblet of Fire",
+    5: "Order of the Phoenix",
+    6: "Half-Blood Prince",
+    7: "Deathly Hallows",
 }
 DATA_MARKER = "// Auto-generated from the local Malfoid manuscript by scripts/import_malfoid.py.\n"
 
@@ -45,7 +49,7 @@ def import_books(source: Path, website: Path, books: list[int]) -> int:
         found = list(INDEX_ENTRY.finditer(index))
         if not found:
             raise SystemExit(f"No chapter links found in {index_path}")
-        volumes.append({"number": book_number, "name": f"Book {book_number} — {VOLUME_NAMES[book_number]}"})
+        initial_count = len(chapters)
         for local_number, match in enumerate(found, 1):
             title, relative, group, filename = match.groups()
             if int(group) != book_number:
@@ -60,6 +64,10 @@ def import_books(source: Path, website: Path, books: list[int]) -> int:
             body = re.sub(r"\A#\s+[^\n]+\r?\n+", "", body, count=1)
             body = body.strip()
             if len(body) < 1000:
+                if book_number >= 5:
+                    # Later books still contain chapter-navigation placeholders.
+                    # Exclude those chapters until the author writes the manuscript.
+                    continue
                 raise SystemExit(f"Refusing to import chapter placeholder: {chapter_file}")
             destination = website / "Novels" / "Malfoid" / f"book-{book_number}" / filename
             chapter_key = (book_number, filename)
@@ -80,6 +88,8 @@ def import_books(source: Path, website: Path, books: list[int]) -> int:
                 "source": f"Novels/Malfoid/book-{book_number}/{Path(filename).stem}.html",
                 "href": f"reader.html?id=malfoid&chapter={ordinal}",
             })
+        if len(chapters) > initial_count:
+            volumes.append({"number": book_number, "name": f"Book {book_number} — {VOLUME_NAMES[book_number]}"})
 
     record = {
         "id": "malfoid",
@@ -115,10 +125,10 @@ def main() -> None:
     parser.add_argument("--source", required=True, type=Path, help="Path to your local private Malfoid repository")
     parser.add_argument("--site", type=Path, default=Path(__file__).resolve().parents[1],
                         help="Path to the NovelHub GitHub Pages repository (default: this script's parent repository)")
-    parser.add_argument("--books", nargs="+", type=int, default=[1, 2, 3, 4], help="Book numbers (default: 1 2 3 4)")
+    parser.add_argument("--books", nargs="+", type=int, default=[1, 2, 3, 4], help="Approved book numbers from 1 to 7 (default: 1 2 3 4)")
     args = parser.parse_args()
     if not args.books or any(n not in VOLUME_NAMES for n in args.books) or len(set(args.books)) != len(args.books):
-        parser.error("Choose unique book numbers among 1, 2, 3, 4; other books contain placeholders.")
+        parser.error("Choose unique book numbers among 1 through 7.")
     import_books(args.source.expanduser().resolve(), args.site.expanduser().resolve(), sorted(args.books))
 
 
