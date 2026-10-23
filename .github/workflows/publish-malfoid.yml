@@ -1,0 +1,46 @@
+name: Publish Malfoid chapters
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 9 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: malfoid-publication
+  cancel-in-progress: false
+
+jobs:
+  update-chapters:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out NovelHub
+        uses: actions/checkout@v4
+
+      - name: Check out the private Malfoid manuscript
+        uses: actions/checkout@v4
+        with:
+          repository: TheBoomDog/Malfoid
+          token: ${{ secrets.MALFOID_READ_TOKEN }}
+          path: _private_malfoid
+          persist-credentials: false
+
+      - name: Import approved volumes
+        run: python3 scripts/import_malfoid.py --source ./_private_malfoid --site . --books 1 2 3 4
+
+      - name: Remove the private checkout
+        run: rm -rf _private_malfoid
+
+      - name: Publish generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Novels/Malfoid/ data/malfoid.js
+          if git diff --staged --quiet; then
+            echo "No chapter changes."
+          else
+            git commit -m "Sync approved Malfoid chapters"
+            git push
+          fi
