@@ -23,6 +23,16 @@ const chapters=Array.isArray(book.chapters)?book.chapters.filter(c=>c&&typeof c.
 const first=chapters[0],last=chapters[chapters.length-1];
 if(first){$("start-reading").href=first.href;$("start-reading").hidden=false}
 if(last){$("latest-reading").href=last.href;$("latest-reading").hidden=false}
+try{
+  const storedProgress=JSON.parse(localStorage.getItem("novelhub:progress:v1")||"{}");
+  const place=storedProgress&&storedProgress[book.id];
+  if(place&&Number.isInteger(place.chapter)&&place.chapter>0&&place.chapter<=chapters.length){
+    const continueLink=element("a","secondary-action","Continue reading");
+    continueLink.href=chapters[place.chapter-1].href;
+    $("start-reading").after(continueLink);
+  }
+}catch(e){}
+
 $("chapter-count").textContent=chapters.length+" total";
 const storageKey="novelhub:saved:v1";let saved=[];
 try{const value=JSON.parse(localStorage.getItem(storageKey)||"[]");if(Array.isArray(value))saved=value.filter(x=>typeof x==="string")}catch(e){}
