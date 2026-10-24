@@ -1105,4 +1105,3 @@ window.NOVELHUB_BOOKS = [
   if (index < 0) books.push(book);
   else books[index] = book;
 })();
-
