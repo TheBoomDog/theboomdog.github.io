@@ -59,7 +59,7 @@ for (const page of ["index.html", "browse.html", "search.html", "ranking.html"])
     selector.value = value;
     selector.dispatchEvent(new view.Event("change"));
     const shown = [...view.document.querySelectorAll(".novel-card")].map(el => el.dataset.id).sort();
-    const expected = allBooks.filter(matches).map(b => b.id).sort();
+    const expected = Array.from(allBooks).filter(matches).map(b => b.id).sort();
     assert.deepEqual(shown, expected, page + " filters correctly for " + value);
   }
 }
