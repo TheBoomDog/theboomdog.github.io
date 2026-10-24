@@ -148,6 +148,9 @@ if(pageTitle){$("chapter-title").textContent=pageTitle;$("bar-chapter").textCont
 article.replaceChildren();
 source.childNodes.forEach(node=>article.append(sanitize(node)));
 if(!article.textContent?.trim())throw new Error("Chapter is empty");
+// Record a chapter as seen only after its content loads successfully.
+// This is stored on this device and clears its New/Updated label.
+window.NOVELHUB_CHAPTER_CHANGES?.markSeen?.(book.id,chapter);
 requestAnimationFrame(()=>requestAnimationFrame(()=>{
 if(saved&&((saved.key&&chapter.key&&saved.key===chapter.key)||(!saved.key&&saved.chapter===ordinal))&&Number.isFinite(saved.ratio)&&saved.ratio>0){window.scrollTo(0,Math.max(0,document.documentElement.scrollHeight-innerHeight)*Math.min(1,saved.ratio))}
 ready=true;updateProgress();
