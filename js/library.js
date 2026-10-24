@@ -30,6 +30,11 @@
   const bookURL = book => "book.html?id=" + encodeURIComponent(book.id);
   const isPublished = book => chapterEntries(book).length > 0;
   const statusOf = book => isPublished(book) ? (book.status || "Available") : "Unpublished";
+  const normalizedStatus = book => typeof book.status === "string" ? book.status.trim().toLocaleLowerCase() : "";
+  const statusOptions = [...new Map(books.filter(isPublished)
+    .map(book => [normalizedStatus(book), typeof book.status === "string" ? book.status.trim() : ""])
+    .filter(([key]) => key && key !== "unpublished" && key !== "available")).values()]
+    .sort((a, b) => a.localeCompare(b));
   const totalChapters = books.reduce((n, b) => n + chapterEntries(b).length, 0);
   const el = (tag, className, text) => {
     const node = document.createElement(tag);
@@ -225,7 +230,8 @@
       const searchable = [book.title, book.author || "", book.description || "", ...(book.genres || [])].join(" ").toLocaleLowerCase();
       return (!query || searchable.includes(query)) &&
         (genre === "all" || (book.genres || []).includes(genre)) &&
-        (status === "all" || (status === "available" ? isPublished(book) : !isPublished(book))) &&
+        (status === "all" || (status === "available" && isPublished(book)) ||
+          (status.startsWith("status:") && isPublished(book) && normalizedStatus(book) === status.slice(7))) &&
         (!savedOnly || saved.includes(book.id));
     }), sort);
     const container = $("novel-list");
@@ -283,6 +289,12 @@
   if ($("novel-list")) {
     const search = $("search");
     const genre = $("genre");
+    const statusSelect = $("status");
+    for (const value of statusOptions) {
+      const opt = el("option", "", value);
+      opt.value = "status:" + value.toLocaleLowerCase();
+      statusSelect.append(opt);
+    }
     for (const value of genreOptions) {
       const opt = el("option", "", value);
       opt.value = value;
