@@ -8,7 +8,7 @@
   const rankingsReady = rankingData.status === "ready" && Array.isArray(rankingData.entries);
   const rankById = new Map(rankingsReady
     ? rankingData.entries.filter(entry => entry && typeof entry.id === "string" &&
-      Number.isInteger(entry.visits) && entry.visits >= 0)
+      Number.isInteger(entry.rank) && entry.rank >= 1 && entry.rank <= 10)
       .map(entry => [entry.id, entry]) : []);
   const savedKey = "novelhub:saved:v1";
   const progressKey = "novelhub:progress:v1";
@@ -126,9 +126,6 @@
     meta.append(el("span", "status", statusOf(book)));
     const chapters = chapterEntries(book);
     meta.append(el("span", "", chapters.length + (chapters.length === 1 ? " chapter" : " chapters")));
-    const weekly = rankById.get(book.id);
-    if (weekly) meta.append(el("span", "weekly-visits",
-      weekly.visits.toLocaleString() + " reader " + (weekly.visits === 1 ? "visit" : "visits") + " last week"));
     if (Array.isArray(book.volumes) && book.volumes.length > 1) {
       meta.append(el("span", "", book.volumes.length + " books"));
     }
@@ -184,11 +181,11 @@
   const sortBooks = (arr, how) => {
     const copy = [...arr];
     if (how === "readers") {
-      // Don't substitute chapter count or made-up popularity for missing readership data.
+      // Private analytics calculates the rankings; only the positions are public.
       copy.sort((x, y) => {
-        const a = rankById.get(x.id)?.visits ?? -1;
-        const b = rankById.get(y.id)?.visits ?? -1;
-        return b - a || x.title.localeCompare(y.title);
+        const a = rankById.get(x.id)?.rank ?? Infinity;
+        const b = rankById.get(y.id)?.rank ?? Infinity;
+        return a - b || x.title.localeCompare(y.title);
       });
     } else if (how === "za") copy.sort((x, y) => y.title.localeCompare(x.title));
     else if (how === "chapters") copy.sort((x, y) => chapterEntries(y).length - chapterEntries(x).length || x.title.localeCompare(y.title));
@@ -290,12 +287,12 @@
     renderBooks();
     if (page === "ranking" && $("ranking-summary")) {
       if (!rankingsReady) {
-        $("ranking-summary").textContent = "Readership rankings are awaiting analytics setup. No positions are assigned until actual visits are recorded.";
+        $("ranking-summary").textContent = "Rankings are being prepared.";
       } else {
         const from = rankingData.periodStart ? new Date(rankingData.periodStart).toLocaleString(undefined, {dateStyle:"medium"}) : "";
         const until = rankingData.periodEnd ? new Date(rankingData.periodEnd).toLocaleString(undefined, {dateStyle:"medium"}) : "";
-        $("ranking-summary").textContent = "Ranked by reader visits · " + from + " – " + until +
-          " · refreshed weekly Mondays at 1:00 a.m. Central";
+        $("ranking-summary").textContent = "Weekly rankings · " + from + " – " + until +
+          " · updated Mondays at 1:00 a.m. Central";
       }
     }
     if (page === "search") $("search").focus();
