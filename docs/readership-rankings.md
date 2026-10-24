@@ -1,8 +1,8 @@
 # Reader tracking and weekly top-ten rankings
 
 NovelHub is a static GitHub Pages website. GitHub cannot count actual readers
-per novel without an analytics provider, so rankings are **not activated**
-until GoatCounter is connected.
+per novel without an analytics provider, and rankings remain **unassigned** until authenticated visitor statistics
+have been retrieved. Tracking is active for GoatCounter site `theboomdog`.
 
 ## Metric
 
@@ -24,27 +24,31 @@ until GoatCounter is connected.
 - The reader rankings snapshot is generated under `data/rankings.js` each week;
   manual runs publish the latest **completed** Monday-to-Monday week.
 
-## One-time setup
+## One-time analytics setup
 
-1. Create a free GoatCounter account at https://www.goatcounter.com/ and create
-   a site to track `theboomdog.github.io`.
-2. In the **NovelHub website repository**, open Settings → Secrets and
-   variables → Actions → **Variables** → New repository variable. Set name
-   `GOATCOUNTER_CODE` to just your chosen GoatCounter subdomain code, e.g.
-   `myreadingstats` for `https://myreadingstats.goatcounter.com`.
-   This is publicly visible configuration, not a password.
-3. In your GoatCounter account, use the user menu → **API** to create an API
-   key with permission to read that site's statistics. On the **NovelHub website
-   repository**, open Settings → Secrets and variables → Actions → **Secrets** →
-   New repository secret. Name it `GOATCOUNTER_API_TOKEN` and paste the token.
-   Do not commit, paste, or share the key with readers.
-4. Open NovelHub → Actions → **Update weekly reader rankings** → **Run
-   workflow** (branch `main`). This generates the public tracking configuration
-   and reads the most recent complete week, which will initially have no visits.
-5. Once the workflow and GitHub Pages deployment complete, test reading a novel
-   without an ad blocker and verify `/novel/malfoid` or `/novel/mol` appears
-   in the GoatCounter dashboard. Rank positions become populated when the
-   first measured weekly snapshot contains reader visits.
+The public tracking code for `https://theboomdog.goatcounter.com/count` is
+already connected via `data/analytics-config.js` and `js/analytics.js`.
+There is no need to paste the standard tracking script into each page.
+A per-novel path override ensures all chapters of a single book contribute
+to the same visit counter.
+
+To publish **weekly rankings**, one private credential remains necessary:
+
+1. In GoatCounter (`https://theboomdog.goatcounter.com/`), create an
+   API token with read access to statistics.
+2. In the **NovelHub public website repository**, go to Settings → Secrets
+   and variables → Actions → Secrets → New repository secret.
+   Name it `GOATCOUNTER_API_TOKEN` and paste the private token.
+   Never put this token in Git, web-page JavaScript, or the chat.
+3. Open GitHub Actions → **Update weekly reader rankings** → Run workflow
+   on `main`. It reads the latest completed week and publishes a real
+   snapshot if there were recorded visits. Monday at 1:00 a.m. Central
+   is already scheduled automatically.
+
+If you ever change the GoatCounter account, update the public
+`goatcounterCode` value in `data/analytics-config.js`, and set
+`GOATCOUNTER_CODE` in the repository Actions **Variables** to the new
+subdomain code. The default remains `theboomdog`.
 
 GitHub Actions workflow: `.github/workflows/weekly-reader-rankings.yml`.
 
