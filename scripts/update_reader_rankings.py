@@ -127,7 +127,6 @@ def build_snapshot(book_ids: list[str], counts: dict[str, int],
     ]
     return {
         "status": "ready",
-        "metric": "visits",
         "timezone": "America/Chicago",
         "periodStart": start.isoformat(timespec="seconds"),
         "periodEnd": end.isoformat(timespec="seconds"),
