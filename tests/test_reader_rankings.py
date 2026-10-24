@@ -41,16 +41,17 @@ class ReaderRankingTests(unittest.TestCase):
         start, end = completed_week(datetime(2026, 10, 26, 8, tzinfo=timezone.utc))
         snapshot = build_snapshot(["mol", "malfoid", "empty"],
                                   {"mol": 3, "malfoid": 7, "empty": 0}, start, end)
-        self.assertEqual(snapshot["entries"][0], {"id":"malfoid","visits":7,"rank":1})
-        self.assertEqual(snapshot["entries"][1], {"id":"mol","visits":3,"rank":2})
-        self.assertIsNone(snapshot["entries"][2]["rank"])
+        self.assertEqual(snapshot["entries"][0], {"id":"malfoid","rank":1})
+        self.assertEqual(snapshot["entries"][1], {"id":"mol","rank":2})
+        self.assertEqual(len(snapshot["entries"]), 2)
+        self.assertNotIn("visits", str(snapshot))
 
     def test_more_than_ten_are_not_given_cover_numbers(self):
         ids = [f"book-{n}" for n in range(12)]
         start, end = completed_week()
         snapshot = build_snapshot(ids, {book: 1 for book in ids}, start, end)
-        self.assertEqual(sum(entry["rank"] is not None for entry in snapshot["entries"]), 10)
-        self.assertIsNone(snapshot["entries"][10]["rank"])
+        self.assertEqual(len(snapshot["entries"]), 10)
+        self.assertTrue(all(1 <= entry["rank"] <= 10 for entry in snapshot["entries"]))
 
     def test_analytics_counts_use_one_path_per_novel(self):
         class Response(io.BytesIO):
