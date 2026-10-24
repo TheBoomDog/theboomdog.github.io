@@ -46,7 +46,12 @@ assert.equal(search.document.querySelector(".card-title").textContent, "Malfoid"
 
 const rankings = open("ranking.html");
 assert.equal(rankings.document.querySelectorAll(".cover-mark").length, 0, "Do not invent rankings before analytics is active");
-assert.match(rankings.document.getElementById("ranking-summary").textContent, /awaiting analytics/i);
+const summary = rankings.document.getElementById("ranking-summary").textContent;
+if (rankings.NOVELHUB_RANKINGS?.status === "ready") {
+  assert.match(summary, /Ranked by reader visits/);
+} else {
+  assert.match(summary, /awaiting analytics/i);
+}
 const sample = {
   status: "ready", metric: "visits", periodStart: "2026-10-12T01:00:00-05:00",
   periodEnd: "2026-10-19T01:00:00-05:00",
