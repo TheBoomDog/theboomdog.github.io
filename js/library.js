@@ -192,7 +192,7 @@
     labels.append(el("span", "update-book", book.title), el("span", "update-title", chapter.title || chapterLabel(entry)));
     labels.append(el("span", "update-label", chapterLabel(entry)));
     node.append(labels);
-    if (entry.timestamp) node.append(el("time", "update-time", displayDate(chapter.updatedAt)));
+    if (entry.timestamp) { const when = el("time", "update-time", displayDate(chapter.updatedAt)); when.dateTime = chapter.updatedAt; node.append(when); }
     return node;
   };
   const renderRecent = () => {
@@ -202,9 +202,10 @@
   };
   const renderUpdatesPage = (() => {
     let shown = 30;
-    return (reset = false) => {
+    return (action = "reset") => {
       if (!$("updates-list")) return;
-      if (reset) shown = 30;
+      if (action === "reset") shown = 30;
+      if (action === "more") shown += 30;
       const query = ($("update-search")?.value || "").trim().toLocaleLowerCase();
       const selected = $("update-book")?.value || "all";
       const found = updates.filter(item =>
@@ -264,16 +265,8 @@
     }
     $("update-search").addEventListener("input", () => renderUpdatesPage(true));
     selector.addEventListener("change", () => renderUpdatesPage(true));
-    $("more-updates").addEventListener("click", () => renderUpdatesPage(false) || (() => {})());
-    // Increment before rerendering, so each click reveals the next page.
-    $("more-updates").replaceWith((() => {
-      const button = el("button", "load-more", "Load more");
-      button.id = "more-updates";
-      button.type = "button";
-      button.addEventListener("click", () => { /* Replaced with the pagination closure below. */ });
-      return button;
-    })());
-    renderUpdatesPage(true);
+    $("more-updates").addEventListener("click", () => renderUpdatesPage("more"));
+    renderUpdatesPage("reset");
   }
   if ($("catalog-total")) $("catalog-total").textContent = books.length + " novels · " + totalChapters + " chapters";
 })();
