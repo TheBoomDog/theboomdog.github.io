@@ -19,6 +19,20 @@ function open(page, search = "", rankings = null, extra = null) {
   return dom.window;
 }
 
+function openBook(id, extra = null) {
+  const html = fs.readFileSync("book.html", "utf8");
+  const dom = new JSDOM(html, {
+    url: "https://novelhub.test/book.html?id=" + encodeURIComponent(id),
+    runScripts: "outside-only"
+  });
+  const context = dom.getInternalVMContext();
+  vm.runInContext(fs.readFileSync("data/catalog.js", "utf8"), context);
+  if (extra) context.window.NOVELHUB_BOOKS.push(extra);
+  vm.runInContext(fs.readFileSync("data/rankings.js", "utf8"), context);
+  vm.runInContext(fs.readFileSync("js/book.js", "utf8"), context);
+  return dom.window;
+}
+
 const allBooks = open("index.html").NOVELHUB_BOOKS;
 const published = allBooks.filter(book => book.chapters?.length);
 assert.ok(published.length > 0, "At least one novel is published");
@@ -46,6 +60,24 @@ assert.equal(home.document.querySelectorAll(".novel-card").length,
 
 const searched = open("search.html", "?q=" + encodeURIComponent(first.title));
 assert.ok([...searched.document.querySelectorAll(".card-title")].some(n => n.textContent === first.title));
+
+// Genre badges are real, shareable links to prefiltered search—not local filter buttons.
+const homeTag = firstCard.querySelector(".tags a.tag");
+assert.ok(homeTag, "Library card genre must be a clickable link");
+const homeTagURL = new URL(homeTag.href);
+assert.equal(homeTagURL.pathname, "/search.html");
+assert.equal(homeTagURL.searchParams.get("genre"), first.genres[0]);
+const filteredFromTag = open("search.html", homeTagURL.search);
+assert.equal(filteredFromTag.document.querySelector("#genre").value, first.genres[0]);
+assert.equal(filteredFromTag.document.querySelectorAll(".novel-card").length,
+  allBooks.filter(b => (b.genres || []).includes(first.genres[0])).length,
+  "Genre link should open search already filtered");
+
+const detail = openBook(first.id);
+const detailTag = detail.document.querySelector("#genres a.tag");
+assert.ok(detailTag, "Book detail genre must be a clickable link");
+assert.equal(new URL(detailTag.href).searchParams.get("genre"), first.genres[0]);
+assert.equal(new URL(detailTag.href).pathname, "/search.html");
 
 const rankings = open("ranking.html");
 const validRanks = (rankings.NOVELHUB_RANKINGS?.entries || []).filter(entry =>
@@ -80,7 +112,7 @@ assert.equal(updates.document.getElementById("updates-list").children.length, Ma
 
 // Adding a future novel must not require editing page HTML or application code.
 const newBook = {
-  id: "synthetic-future-novel", title: "An Unlisted New Novel", genres: ["Experimental"],
+  id: "synthetic-future-novel", title: "An Unlisted New Novel", genres: ["Experimental", "Myth & Magic"],
   status: "In progress", chapters: [{
     key: "first", label: "Chapter 1", title: "A Beginning",
     href: "reader.html?id=synthetic-future-novel&chapter=first",
@@ -91,6 +123,18 @@ const additional = open("index.html", "", null, newBook);
 assert.equal(additional.document.querySelectorAll(".novel-card").length, allBooks.length + 1);
 assert.ok(additional.document.querySelector('.novel-card[data-id="synthetic-future-novel"]'));
 assert.ok([...additional.document.querySelector("#genre").options].some(x => x.value === "Experimental"));
+const newGenreLink = [...additional.document.querySelectorAll('.novel-card[data-id="synthetic-future-novel"] .tags a.tag')]
+  .find(node => node.textContent === "Myth & Magic");
+assert.ok(newGenreLink);
+assert.equal(new URL(newGenreLink.href).searchParams.get("genre"), "Myth & Magic");
+const newGenreResults = open("search.html", new URL(newGenreLink.href).search, null, newBook);
+assert.equal(newGenreResults.document.getElementById("genre").value, "Myth & Magic");
+assert.deepEqual([...newGenreResults.document.querySelectorAll(".novel-card")].map(node => node.dataset.id),
+  ["synthetic-future-novel"]);
+const newDetail = openBook(newBook.id, newBook);
+assert.equal([...newDetail.document.querySelectorAll("#genres a.tag")].length, 2);
+assert.equal(new URL([...newDetail.document.querySelectorAll("#genres a.tag")][1].href)
+  .searchParams.get("genre"), "Myth & Magic");
 const rankedExtra = open("ranking.html", "", {
   status: "ready", metric: "visits", periodStart: "2026-10-12T01:00:00-05:00",
   periodEnd: "2026-10-19T01:00:00-05:00",
