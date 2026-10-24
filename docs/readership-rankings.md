@@ -36,7 +36,7 @@ script. Instead, when a visitor opens a novel's chapter, the site's own tiny
 script loads GoatCounter's official 1×1 tracking image using exactly one query
 parameter:
 
-`https://theboomdog.goatcounter.com/count?p=/novel/malfoid`
+`https://theboomdog.goatcounter.com/count?p=/novel/<novel-id>`
 
 The only application-specific data sent is the novel ID. No chapter number,
 chapter title, search query, referrer, screen dimensions, language, or campaign
