@@ -1,25 +1,29 @@
 (() => {
   "use strict";
-  // Count one path per *novel*, not per chapter. GoatCounter deduplicates
-  // repeat views of that path within its session window.
+  // Minimal anonymous counting. Do not load GoatCounter's normal count.js,
+  // collect per-chapter URLs, send a title, referrer, screen size or campaigns.
+  // The requested URL carries exactly one piece of site-specific information:
+  // the novel identifier (e.g. /novel/malfoid).
   const code = window.NOVELHUB_ANALYTICS?.goatcounterCode;
   if (typeof code !== "string" || !/^[a-z0-9-]{2,50}$/.test(code)) return;
-  const params = new URLSearchParams(location.search);
-  const id = params.get("id");
-  if (!id) return;
+  if (!location.pathname.endsWith("/reader.html")) return;
+
+  const id = new URLSearchParams(location.search).get("id");
   const book = (Array.isArray(window.NOVELHUB_BOOKS) ? window.NOVELHUB_BOOKS : [])
     .find(item => item.id === id && Array.isArray(item.chapters) && item.chapters.length);
   if (!book || !/^[a-z0-9-]{1,80}$/.test(book.id)) return;
-  // Visiting a novel details page is not evidence that the person read it.
-  if (!location.pathname.endsWith("/reader.html")) return;
 
-  const loader = document.createElement("script");
-  loader.async = true;
-  loader.src = "https://gc.zgo.at/count.js";
-  loader.setAttribute("data-goatcounter", "https://" + code + ".goatcounter.com/count");
-  loader.setAttribute("data-goatcounter-settings", JSON.stringify({
-    path: "/novel/" + book.id,
-    title: book.title
-  }));
-  document.head.append(loader);
+  // GoatCounter's official /count pixel accepts p=path and retains
+  // the same session-based deduplication as its regular JS integration.
+  const pixel = document.createElement("img");
+  pixel.alt = "";
+  pixel.width = 1;
+  pixel.height = 1;
+  pixel.setAttribute("aria-hidden", "true");
+  pixel.setAttribute("data-novel-reader-count", "");
+  pixel.referrerPolicy = "no-referrer";
+  pixel.style.cssText = "position:absolute;left:-9999px;width:1px;height:1px;pointer-events:none;";
+  pixel.src = "https://" + code + ".goatcounter.com/count?p=" +
+    encodeURIComponent("/novel/" + book.id);
+  document.body.append(pixel);
 })();
