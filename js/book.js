@@ -26,9 +26,10 @@ if(last){$("latest-reading").href=last.href;$("latest-reading").hidden=false}
 try{
   const storedProgress=JSON.parse(localStorage.getItem("novelhub:progress:v1")||"{}");
   const place=storedProgress&&storedProgress[book.id];
-  if(place&&Number.isInteger(place.chapter)&&place.chapter>0&&place.chapter<=chapters.length){
+  const continueChapter=place?.key?chapters.find(ch=>ch.key===place.key):(Number.isInteger(place?.chapter)?chapters[place.chapter-1]:null);
+  if(continueChapter){
     const continueLink=element("a","secondary-action","Continue reading");
-    continueLink.href=chapters[place.chapter-1].href;
+    continueLink.href=continueChapter.href;
     $("start-reading").after(continueLink);
   }
 }catch(e){}
