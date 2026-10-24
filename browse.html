@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/site.css">
   <script defer src="data/books.js"></script>
   <script defer src="data/malfoid.js"></script>
+  <script defer src="data/rankings.js"></script>
   <script defer src="js/library.js"></script>
 </head>
 <body data-page="browse">
@@ -27,7 +28,7 @@
     <nav class="page-tabs" aria-label="Explore catalog">
       <a href="index.html" >Library</a>
       <a href="browse.html" aria-current="page">Browse</a>
-      <a href="ranking.html" >Most chapters</a>
+      <a href="ranking.html" >Rankings</a>
       <a href="updates.html" >Latest updates</a>
     </nav>
     
@@ -40,7 +41,7 @@
       <label><span class="sr-only">Availability</span><select class="control" id="status"><option value="all">All statuses</option><option value="available">Available</option><option value="unpublished">Unpublished</option></select></label>
       <label><span class="sr-only">Sort novels</span><select class="control" id="sort">
         <option value="az">Title: A–Z</option><option value="za">Title: Z–A</option>
-        <option value="recent">Recently updated</option><option value="chapters">Most chapters</option>
+        <option value="recent">Recently updated</option><option value="chapters">Most chapters</option><option value="readers">Weekly readers</option>
       </select></label>
     </div>
     <div class="utility-bar">
