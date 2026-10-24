@@ -1106,8 +1106,3 @@ window.NOVELHUB_BOOKS = [
   else books[index] = book;
 })();
 
-// Source: data/site-config.js
-// Public site-level settings. Site features must not hard-code a particular novel.
-window.NOVELHUB_SITE = {
-  reportIssuesUrl: "https://github.com/TheBoomDog/theboomdog.github.io/issues/new"
-};
