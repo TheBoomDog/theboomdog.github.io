@@ -131,13 +131,8 @@
     }
     const tags = el("div", "tags");
     (book.genres || []).forEach(genre => {
-      const tag = el("button", "tag", genre);
-      tag.type = "button";
-      tag.addEventListener("click", () => {
-        const selector = $("genre");
-        if (selector) { selector.value = genre; renderBooks(); }
-      });
-      tags.append(tag);
+      // Every novel tag is a shareable link to the already-filtered search page.
+      tags.append(a("search.html?genre=" + encodeURIComponent(genre), "tag", genre));
     });
     const actions = el("div", "card-actions");
     if (chapters.length) {
