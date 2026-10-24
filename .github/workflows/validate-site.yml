@@ -20,6 +20,10 @@ jobs:
           for file in js/*.js data/*.js; do
             node --check "$file"
           done
+      - name: Smoke test dynamic catalog rendering
+        run: |
+          npm install --no-save --no-audit --no-fund jsdom@26
+          node tests/catalog-smoke.cjs
       - name: Verify dynamic page entry points
         run: |
           python3 - <<'PY'
