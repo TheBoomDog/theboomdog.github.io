@@ -39,14 +39,18 @@ jobs:
       - name: Import approved volumes
         run: python3 scripts/import_malfoid.py --source ./_private_malfoid --site . --books $MALFOID_APPROVED_BOOKS
 
+      - name: Build shared catalog for all novels
+        run: python3 scripts/build_catalog.py
+
       - name: Remove the private checkout
+        if: always()
         run: rm -rf _private_malfoid
 
       - name: Publish generated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Novels/Malfoid/ data/malfoid.js
+          git add Novels/Malfoid/ data/malfoid.js data/catalog.js
           if git diff --staged --quiet; then
             echo "No chapter changes."
           else
