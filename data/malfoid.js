@@ -7,7 +7,8 @@
   "genres": [
     "Fantasy",
     "Fanfiction",
-    "Romance"
+    "Romance",
+    "Magic"
   ],
   "description": "A Harry Potter fan rewrite featuring a gender-swapped Draco Malfoy.",
   "cover": {
