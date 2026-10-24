@@ -27,6 +27,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Build catalog from every registered novel source
+        run: |
+          python3 scripts/build_catalog.py
+          python3 scripts/build_catalog.py --check
+      - name: Test catalog extensibility
+        run: python3 -m unittest discover -s tests -p 'test_catalog_builder.py' -v
       - name: Test manuscript importer
         run: python3 -m unittest discover -s tests -p 'test_malfoid_import.py' -v
       - name: Test reader ranking aggregation
@@ -63,6 +69,6 @@ jobs:
           for file,required in pages.items():
               p=Page();p.feed(Path(file).read_text(encoding="utf-8"))
               assert required<=p.ids,(file,required-p.ids)
-              assert "data/books.js" in p.scripts and "data/malfoid.js" in p.scripts and "data/rankings.js" in p.scripts and "js/library.js" in p.scripts,file
+              assert "data/catalog.js" in p.scripts and "data/rankings.js" in p.scripts and "js/library.js" in p.scripts,file
               print(file,"OK")
           PY
