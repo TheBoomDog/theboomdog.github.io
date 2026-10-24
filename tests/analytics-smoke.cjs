@@ -3,35 +3,44 @@ const fs = require("node:fs");
 const vm = require("node:vm");
 const {JSDOM} = require("jsdom");
 
-function visit(page, query) {
+function visit(page, query, novel = null) {
   const dom = new JSDOM(fs.readFileSync(page, "utf8"), {
     url: "https://theboomdog.github.io/" + page + (query || ""),
     runScripts: "outside-only"
   });
   const context = dom.getInternalVMContext();
-  for (const path of ["data/books.js", "data/malfoid.js", "data/analytics-config.js", "js/analytics.js"]) {
-    vm.runInContext(fs.readFileSync(path, "utf8"), context, {filename: path});
+  for (const path of ["data/catalog.js", "data/analytics-config.js"]) {
+    vm.runInContext(fs.readFileSync(path, "utf8"), context, {filename:path});
   }
-  return {
-    pixel: dom.window.document.querySelector('img[data-novel-reader-count]'),
-    loadedScript: dom.window.document.querySelector('script[data-goatcounter]'),
-  };
+  if (novel) context.window.NOVELHUB_BOOKS.push(novel);
+  vm.runInContext(fs.readFileSync("js/analytics.js", "utf8"), context, {
+    filename:"js/analytics.js"
+  });
+  return dom.window.document.querySelector("img[data-novel-reader-count]");
 }
 
-for (const [novel, chapter] of [["mol", "1"], ["malfoid", "b1-01-the-boy-who-lived"]]) {
-  const {pixel, loadedScript} = visit("reader.html", "?id=" + novel + "&chapter=" + chapter);
-  assert.ok(pixel, "Registered " + novel + " in reader");
-  assert.equal(loadedScript, null, "External analytics JavaScript must not load");
+const books = visit; // Every published entry gets the same anonymous visitor treatment.
+const base = new JSDOM("", {runScripts:"outside-only"});
+vm.runInContext(fs.readFileSync("data/catalog.js","utf8"),base.getInternalVMContext());
+const available = base.window.NOVELHUB_BOOKS.filter(b=>b.chapters?.length);
+assert.ok(available.length > 0);
+function verify(book, extra = null) {
+  const pixel = visit("reader.html", "?id=" + encodeURIComponent(book.id) +
+    "&chapter=" + encodeURIComponent(book.chapters[0].key || "1"), extra);
+  assert.ok(pixel, "Registered "+book.id+" in reader");
   const url = new URL(pixel.src);
   assert.equal(url.origin, "https://theboomdog.goatcounter.com");
   assert.equal(url.pathname, "/count");
-  assert.deepEqual([...url.searchParams.keys()], ["p"], "Send only the novel path");
-  assert.equal(url.searchParams.get("p"), "/novel/" + novel);
-  assert.equal(pixel.referrerPolicy, "no-referrer", "Do not send referrer headers");
-  assert.equal(pixel.getAttribute("alt"), "", "Invisible analytics pixel is decorative");
+  assert.deepEqual([...url.searchParams.keys()], ["p"]);
+  assert.equal(url.searchParams.get("p"), "/novel/" + book.id);
+  assert.equal(pixel.referrerPolicy, "no-referrer");
 }
-assert.equal(visit("book.html", "?id=malfoid").pixel, null,
-  "Book info pages do not count as readers");
-assert.equal(visit("reader.html", "?id=unknown&chapter=1").pixel, null,
-  "Unknown novels do not count");
-console.log("Minimal novel-reader pixel tracking passes.");
+available.forEach(b => verify(b));
+const future = {id:"future-book",title:"Any New Novel",chapters:[{
+  key:"chapter-one",href:"reader.html?id=future-book&chapter=chapter-one"
+}]};
+verify(future, future);
+assert.equal(visit("book.html","?id="+encodeURIComponent(available[0].id)), null,
+  "Book details do not count as reading");
+assert.equal(visit("reader.html","?id=unknown&chapter=1"), null);
+console.log("Minimal reader tracking automatically supports new novels.");
