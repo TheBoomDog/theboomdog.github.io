@@ -151,19 +151,15 @@ Ron and Hermione were crossing the grass to see what was going on.
 
 He was looking at Malfoy, taking in her Slytherin Quidditch robes.
 
-“I’m the new Slytherin Seeker, Weasley,” said Malfoy, smugly. “Everyone’s just been admiring the brooms my father’s bought our team.”
+“I'm the new Slytherin Seeker, Weasley,” said Malfoy, looking rather pleased with herself. “Everyone's been admiring the brooms Father bought us.” She glanced at the Gryffindors' broomsticks. “Good, aren't they? Perhaps Gryffindor could take up a collection. Those old Cleansweeps of yours might be worth something to a museum.”
 
 Ron gaped, openmouthed, at the seven superb broomsticks in front of him.
-
-“Good, aren’t they?” said Malfoy smoothly. “But perhaps the Gryffindor team will be able to raise some gold and get new brooms, too. You could raffle off those Cleansweep Fives; I expect a museum would bid for them.”
 
 The Slytherin team howled with laughter.
 
 “At least no one on the Gryffindor team had to *buy* their way in,” said Hermione sharply. “*They* got in on pure talent.”
 
-The smug look on Malfoy’s face flickered.
-
-“No one asked your opinion, you filthy little Mudblood,” she spat.
+The smug look on Malfoy's face disappeared. “Oh, do be quiet, Granger,” she said sharply. “No one asked for your opinion, you filthy little Mudblood.”
 
 Harry knew at once that Malfoy had said something really bad because there was an instant uproar at her words. Flint had to dive in front of Malfoy to stop Fred and George jumping on her, Alicia shrieked, *“How dare you!”*, and Ron plunged his hand into his robes, pulled out his wand, yelling, “You’ll pay for that one, Malfoy!” and pointed it furiously under Flint’s arm at Malfoy’s face.
 

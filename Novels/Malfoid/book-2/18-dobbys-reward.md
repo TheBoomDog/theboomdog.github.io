@@ -265,9 +265,7 @@ Harry had been to several Hogwarts feasts, but never one quite like this. Everyb
 
 The rest of the final term passed in a haze of blazing sunshine. Hogwarts was back to normal with only a few, small differences. Defense Against the Dark Arts classes were canceled (“but we’ve had plenty of practice at that anyway,” Ron told a disgruntled Hermione) and Lucius Malfoy had been sacked as a school governor. Drusilla was no longer strutting around the school as though she owned the place. On the contrary, she looked resentful and sulky.
 
-Harry saw her once across the entrance hall, speaking sharply to a younger Slytherin. When the conversation ended, she folded her arms and stood for a moment looking toward the doors. Then Daphne Greengrass came over, said something Harry couldn't hear, and walked away with her.
-
-He couldn't pretend to feel sorry for Malfoy. Her father had escaped punishment for far worse than losing a place on the school board, and Drusilla had spent the year making other people's lives miserable. Still, he was glad she had less reason to boast.
+Harry saw her once across the entrance hall, speaking sharply to a younger Slytherin. When the conversation ended, she folded her arms and stood for a moment looking toward the doors. Then Daphne Greengrass came over, said something Harry couldn't hear, and walked away with her. He couldn't pretend to feel sorry for Malfoy. Her father had escaped punishment for far worse than losing a place on the school board, and Drusilla had spent the year making other people's lives miserable. Still, he was glad she had less reason to boast.
 
 On the other hand, Ginny Weasley was perfectly happy again.
 

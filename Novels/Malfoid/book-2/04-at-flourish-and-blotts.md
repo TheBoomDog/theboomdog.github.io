@@ -138,15 +138,11 @@ Harry looked quickly around and spotted a large black cabinet to his left; he sh
 
 The man who followed could only be Drusilla’s father. He had the same pale, pointed face and identical cold, gray eyes. Mr. Malfoy crossed the shop, looking lazily at the items on display, and rang a bell on the counter before turning to his daughter and saying, “Touch nothing, Drusilla.”
 
-Malfoy, who had reached for the glass eye, said, “I thought you were going to buy me a present.”
+Malfoy, who had reached for the glass eye, said, “I thought you were going to buy me something.”
 
 “I said I would buy you a racing broom,” said her father, drumming his fingers on the counter.
 
-“What’s the good of that if I’m not on the House team?” said Malfoy, looking sulky and bad-tempered. “Harry Potter got a Nimbus Two Thousand last year. Special permission from Dumbledore so he could play for Gryffindor. He’s not even that good, it’s just because he’s *famous* . . . famous for having a stupid *scar* on his forehead. . . .”
-
-Malfoy bent down to examine a shelf full of skulls.
-
-“. . . everyone thinks he’s so *smart,* wonderful *Potter* with his *scar* and his *broomstick* —”
+“And what use is a racing broom if I'm not on the House team?” said Malfoy. “Harry Potter got a Nimbus Two Thousand last year. Special permission from Dumbledore, of course. Apparently being famous means you needn't wait your turn like everyone else.” She bent down to examine a shelf full of skulls. “And he's not even that good,” she continued. “Everyone makes such a fuss over him. Wonderful Potter, with his scar and his broomstick—”
 
 “You have told me this at least a dozen times already,” said Mr. Malfoy, with a quelling look at his daughter. “And I would remind you that it is not — prudent — to appear less than fond of Harry Potter, not when most of our kind regard him as the hero who made the Dark Lord disappear — ah, Mr. Borgin.”
 
@@ -188,9 +184,7 @@ Harry felt a hot surge of anger.
 
 Drusilla opened her mouth, but her father had already turned away from her. She shut it again, her fingers closing around the edge of her sleeve.
 
-Harry had seen her order Crabbe and Goyle about often enough. It was rather satisfying to discover that there was at least one person who could silence her so easily.
-
-“Ha!” said Harry under his breath, pleased to see Drusilla looking both abashed and angry.
+Harry had seen her order Crabbe and Goyle about often enough. It was rather satisfying to discover that there was at least one person who could silence her so easily. “Ha!” said Harry under his breath, pleased to see Drusilla looking both abashed and angry.
 
 “It’s the same all over,” said Mr. Borgin, in his oily voice. “Wizard blood is counting for less everywhere —”
 

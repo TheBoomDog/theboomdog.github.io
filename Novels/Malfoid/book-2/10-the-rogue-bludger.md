@@ -159,23 +159,35 @@ The rain was falling more heavily now. On Madam Hooch’s whistle, Harry kicked 
 
 A whistling in Harry’s ear told him the Bludger had just missed him again; he turned right over and sped in the opposite direction.
 
-“Training for the ballet, Potter?” yelled Malfoy as Harry was forced to do a stupid kind of twirl in midair to dodge the Bludger, and he fled, the Bludger trailing a few feet behind him; and then, glaring back at Malfoy in hatred, he saw it — *the Golden Snitch.* It was hovering inches above Malfoy’s left ear — and Malfoy, busy laughing at Harry, hadn’t seen it.
+“Very graceful, Potter!” called Malfoy as Harry twisted sideways to avoid another Bludger. “Have you thought of taking up dancing?”
 
-For an agonizing moment, Harry hung in midair, not daring to speed toward Malfoy in case she looked up and saw the Snitch.
+She was circling below him, evidently enjoying the spectacle. Her new Nimbus responded easily as she turned, and Harry had to admit that she handled it well. He was in no mood to appreciate it. He glared at her, preparing a reply, when something gold flickered beside her head—the Snitch.
+
+It was hovering scarcely an inch above Malfoy's left ear. She was so occupied with watching Harry that she hadn't noticed it. Harry's first impulse was to dive. Then he hesitated. If he flew straight toward her, she would be bound to look around, and on that broom of hers she might reach the Snitch before he did.
+
+He waited for her to turn away. She didn't. Instead, she smiled up at him, plainly delighted that he appeared to have stopped flying altogether.
 
 WHAM.
 
-He had stayed still a second too long. The Bludger had hit him at last, smashed into his elbow, and Harry felt his arm break. Dimly, dazed by the searing pain in his arm, he slid sideways on his rain-drenched broom, one knee still crooked over it, his right arm dangling useless at his side — the Bludger came pelting back for a second attack, this time aiming at his face — Harry swerved out of the way, one idea firmly lodged in his numb brain: *get to Malfoy.*
+The Bludger struck Harry's elbow. Pain shot through his arm, and for an instant he could scarcely see. He slipped sideways on his broom, his right arm hanging uselessly beneath him. The Bludger came hurtling back toward his face, and Harry swerved, barely avoiding it.
 
-Through a haze of rain and pain he dived for the shimmering, sneering face below him and saw its eyes widen with fear: Malfoy thought Harry was attacking her.
+The Snitch was still there. He bent low over his broom and dived.
 
-“What the —” she gasped, careening out of Harry’s way.
+Malfoy looked up just as he came plunging toward her. Her smile vanished. “Potter, what are you—” She pulled her broom sharply sideways, evidently thinking he meant to knock her out of the air. Then she looked behind her.
 
-Harry took his remaining hand off his broom and made a wild snatch; he felt his fingers close on the cold Snitch but was now only gripping the broom with his legs, and there was a yell from the crowd below as he headed straight for the ground, trying hard not to pass out.
+Harry saw the moment she spotted the Snitch. Her expression changed at once. She leaned forward, urging the Nimbus around in a remarkably tight turn, and shot toward the little golden ball.
 
-With a splattering thud he hit the mud and rolled off his broom. His arm was hanging at a very strange angle; riddled with pain, he heard, as though from a distance, a good deal of whistling and shouting. He focused on the Snitch clutched in his good hand.
+She was quick. Harry had already begun his dive, but his broken arm made it difficult to steer. For one terrible moment he thought she would reach the Snitch first. He forced his broom downward with his remaining hand.
 
-“Aha,” he said vaguely. “We’ve won.”
+Malfoy swept across his path. They came so close that Harry could see the rain on her eyelashes, but neither of them slowed. Her eyes were fixed on the same spot as his.
+
+The Snitch darted to the left. Harry was nearer. He let go of his broom.
+
+His fingers closed around something small and cold. There was a furious shout from Malfoy, but Harry was already falling, gripping his broom only with his knees. The ground rushed toward him. He tried to straighten, but his arm would not move, and the broom was slipping beneath him.
+
+He struck the mud hard and rolled onto his side. For several seconds he could do nothing but lie there, fighting the pain. Then he opened his good hand. The Snitch was struggling between his fingers.
+
+“Aha,” he said vaguely. “We've won.”
 
 And he fainted.
 
@@ -239,9 +251,9 @@ So was taking the Skele-Gro. It burned Harry’s mouth and throat as it went dow
 
 “We won, though,” said Ron, a grin breaking across his face. “That was some catch you made. Malfoy’s face . . . she looked ready to kill. . . .”
 
-“I want to know how he fixed that Bludger,” said Hermione darkly.
+“I want to know how she fixed that Bludger,” said Hermione darkly.
 
-“We can add that to the list of questions we’ll ask him when we’ve taken the Polyjuice Potion,” said Harry, sinking back onto his pillows. “I hope it tastes better than this stuff. . . .”
+“We can add that to the list of questions we’ll ask her when we’ve taken the Polyjuice Potion,” said Harry, sinking back onto his pillows. “I hope it tastes better than this stuff. . . .”
 
 “If it’s got bits of Slytherins in it? You’ve got to be joking,” said Ron.
 

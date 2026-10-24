@@ -219,17 +219,23 @@ Harry would have given all the gold in Gringotts to evaporate on the spot. Tryin
 
 “Off you go, off you go, the bell rang five minutes ago, off to class, now,” he said, shooing some of the younger students away. “*And* you, Malfoy —”
 
-Harry, glancing over, saw Malfoy stoop and snatch up something. Leering, she showed it to Crabbe and Goyle, and Harry realized that she’d got Riddle’s diary.
+Harry glanced over and saw Malfoy stoop to pick up something. It was Riddle's diary.
+
+“Well, what's this?” she said, turning it over. She looked at Harry and smiled. “You keep a diary, Potter? How interesting.”
 
 “Give that back,” said Harry quietly.
 
-“Wonder what Potter’s written in this?” said Malfoy, who obviously hadn’t noticed the year on the cover and thought she had Harry’s own diary. A hush fell over the onlookers. Ginny was staring from the diary to Harry, looking terrified.
+Crabbe and Goyle laughed.
+
+“I wonder what you write in it,” Malfoy continued. “Perhaps you'd like me to read a little aloud?”
+
+Ginny was staring at the diary, her face white.
 
 “Hand it over, Malfoy,” said Percy sternly.
 
-“When I’ve had a look,” said Malfoy, waving the diary tauntingly at Harry.
+“Oh, don't be tiresome, Weasley,” she said, holding it away from him. “I've hardly had a look.”
 
-Percy said, “As a school prefect —” but Harry had lost his temper. He pulled out his wand and shouted, *“Expelliarmus!”* and just as Snape had Disarmed Lockhart, so Malfoy found the diary shooting out of her hand into the air. Ron, grinning broadly, caught it.
+Percy began to protest, but Harry had already pulled out his wand and shouted, *“Expelliarmus!”* and just as Snape had Disarmed Lockhart, so Malfoy found the diary shooting out of her hand into the air. Ron, grinning broadly, caught it.
 
 “Harry!” said Percy loudly. “No magic in the corridors. I’ll have to report this, you know!”
 

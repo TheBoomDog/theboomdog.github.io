@@ -359,7 +359,21 @@ She dropped her hands and looked at Harry and Ron.
 
 Far too late, Harry and Ron forced themselves to laugh, but Malfoy seemed satisfied; perhaps Crabbe and Goyle were always slow on the uptake.
 
-“Saint Potter, the Mudbloods’ friend,” said Malfoy slowly. “He’s another one with no proper wizard feeling, or he wouldn’t go around with that jumped-up Granger Mudblood. And people think *he’s* Slytherin’s heir!”
+Malfoy settled back in her chair, still looking amused by her impression of Colin. “Honestly, I don't know how Potter stands it. People follow him everywhere.” Harry said nothing. “And now everyone's talking about that ridiculous Quidditch match.” Ron glanced at Harry.
+
+“You'd think he'd won the Quidditch Cup all by himself,” Malfoy continued. “Catching the Snitch with a broken arm. Very impressive, apparently.” She looked into the fire. “I thought he was coming straight at me, you know. When he started that dive.” Harry remembered the look on her face.
+
+“He was coming straight at you,” Ron said before he could stop himself.
+
+“Obviously, Crabbe. I was there,” said Malfoy irritably. “But he wasn't looking at me. He'd seen the Snitch, and I hadn't. By the time I realized what he was doing, he'd already got too close.” She folded her arms. “It was a good catch.” Harry looked at her in surprise.
+
+“A lucky one,” she added quickly. “He could hardly see through all that rain, and that Bludger was practically knocking him off his broom. I don't suppose he could do it twice.”
+
+“You reckon you'll beat him next time?” asked Ron.
+
+“Of course I will,” said Malfoy. “I'd like to see him try that again when he's got two working arms. Then he won't have an excuse when he loses.” She sounded perfectly confident. Harry found himself remembering the sharp turn she had made when she finally noticed the Snitch. He had been too occupied with catching it to think about her flying afterward.
+
+Malfoy gave a short laugh. “Still, I suppose everyone will go on calling him marvelous Potter. They always do.” Her expression became unpleasant again. “Saint Potter, the Mudbloods' friend. He's another one with no proper wizard feeling, or he wouldn't go around with that jumped-up Granger Mudblood. And people think *he's* Slytherin's heir!”
 
 Harry and Ron waited with bated breath: Malfoy was surely seconds away from telling them it was her — but then —
 

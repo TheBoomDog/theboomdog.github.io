@@ -264,7 +264,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-2/04-at-flourish-and-blotts.html",
       "href": "reader.html?id=malfoid&chapter=b2-04-at-flourish-and-blotts",
-      "updatedAt": "2026-10-23T17:11:25-05:00"
+      "updatedAt": "2026-10-24T14:57:09-05:00"
     },
     {
       "number": 22,
@@ -286,7 +286,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-2/06-gilderoy-lockhart.html",
       "href": "reader.html?id=malfoid&chapter=b2-06-gilderoy-lockhart",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T14:57:11-05:00"
     },
     {
       "number": 24,
@@ -297,7 +297,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-2/07-mudbloods-and-murmurs.html",
       "href": "reader.html?id=malfoid&chapter=b2-07-mudbloods-and-murmurs",
-      "updatedAt": "2026-10-23T17:11:27-05:00"
+      "updatedAt": "2026-10-24T14:57:13-05:00"
     },
     {
       "number": 25,
@@ -330,7 +330,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-2/10-the-rogue-bludger.html",
       "href": "reader.html?id=malfoid&chapter=b2-10-the-rogue-bludger",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T14:58:18-05:00"
     },
     {
       "number": 28,
@@ -341,7 +341,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-2/11-the-dueling-club.html",
       "href": "reader.html?id=malfoid&chapter=b2-11-the-dueling-club",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T14:58:20-05:00"
     },
     {
       "number": 29,
@@ -352,7 +352,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-2/12-the-polyjuice-potion.html",
       "href": "reader.html?id=malfoid&chapter=b2-12-the-polyjuice-potion",
-      "updatedAt": "2026-10-23T17:11:32-05:00"
+      "updatedAt": "2026-10-24T14:59:11-05:00"
     },
     {
       "number": 30,
@@ -363,7 +363,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-2/13-the-very-secret-diary.html",
       "href": "reader.html?id=malfoid&chapter=b2-13-the-very-secret-diary",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T14:59:13-05:00"
     },
     {
       "number": 31,
@@ -385,7 +385,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-2/15-aragog.html",
       "href": "reader.html?id=malfoid&chapter=b2-15-aragog",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T14:59:44-05:00"
     },
     {
       "number": 33,
@@ -396,7 +396,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-2/16-the-chamber-of-secrets.html",
       "href": "reader.html?id=malfoid&chapter=b2-16-the-chamber-of-secrets",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T14:59:46-05:00"
     },
     {
       "number": 34,
@@ -418,7 +418,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-2/18-dobbys-reward.html",
       "href": "reader.html?id=malfoid&chapter=b2-18-dobbys-reward",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T14:59:48-05:00"
     },
     {
       "number": 36,

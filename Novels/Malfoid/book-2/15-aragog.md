@@ -17,21 +17,21 @@ Hagrid’s hint about the spiders was far easier to understand — the trouble w
 
 One person, however, seemed to be thoroughly enjoying the atmosphere of terror and suspicion. Drusilla Malfoy was strutting around the school as though she had just been appointed Head Girl. Harry didn’t realize what she was so pleased about until the Potions lesson about two weeks after Dumbledore and Hagrid had left, when, sitting right behind Malfoy, Harry overheard her gloating to Crabbe and Goyle.
 
-“I always thought Father might be the one who got rid of Dumbledore,” she said, not troubling to keep her voice down. “I told you he thinks Dumbledore’s the worst headmaster the school’s ever had. Maybe we’ll get a decent headmaster now. Someone who won’t *want* the Chamber of Secrets closed. McGonagall won’t last long, she’s only filling in. . . .”
+“I always thought Father would be the one to get rid of Dumbledore,” Drusilla said, quite loudly. “He's been saying for ages that Hogwarts needs a proper headmaster. Perhaps we'll finally get someone who doesn't insist on protecting every Mudblood in the castle.”
 
-Snape swept past Harry, making no comment about Hermione’s empty seat and cauldron.
+Snape swept past Harry without mentioning Hermione's empty seat.
 
-“Sir,” said Malfoy loudly. “Sir, why don’t *you *apply for the headmaster’s job?”
+“Professor,” Drusilla called sweetly. “Why don't you apply for the headmaster's position?”
 
-“Now, now, Malfoy,” said Snape, though he couldn’t suppress a thin-lipped smile. “Professor Dumbledore has only been suspended by the governors. I daresay he’ll be back with us soon enough.”
+“Now, now, Malfoy,” said Snape, though he couldn't suppress a thin-lipped smile. “Professor Dumbledore has only been suspended by the governors. I daresay he'll be back with us soon enough.”
 
-“Yeah, right,” said Malfoy, smirking. “I expect you’d have Father’s vote, sir, if you wanted to apply for the job — *I’ll* tell Father you’re the best teacher here, sir —”
+“Oh, I shouldn't think so,” said Drusilla. “I'm sure Father would support you, sir. I could write and tell him what an excellent headmaster you'd make.”
 
 Snape smirked as he swept off around the dungeon, fortunately not spotting Seamus Finnigan, who was pretending to vomit into his cauldron.
 
 “You can say that a little louder,” Daphne Greengrass murmured from farther along the table.
 
-“Why shouldn't I?”
+“Why shouldn't I?” said Drusilla.
 
 “Because half the class can hear you.”
 
@@ -39,7 +39,7 @@ Snape smirked as he swept off around the dungeon, fortunately not spotting Seamu
 
 Theodore Nott, who had been working steadily through the lesson, kept his attention on his cauldron. Harry could not tell whether he agreed with either of them.
 
-“I’m quite surprised the Mudbloods haven’t all packed their bags by now,” Malfoy went on. “Bet you five Galleons the next one dies. Pity it wasn’t Granger —”
+“Really, I'm surprised the Mudbloods haven't all packed their bags by now,” Drusilla went on. “You'd think they'd have the sense to leave while they still can. I'll wager five Galleons the next one dies. It's a pity it wasn't Granger—”
 
 The bell rang at that moment, which was lucky; at Malfoy’s last words, Ron had leapt off his stool, and in the scramble to collect bags and books, his attempts to reach Malfoy went unnoticed.
 

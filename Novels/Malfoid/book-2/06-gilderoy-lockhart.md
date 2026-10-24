@@ -171,31 +171,27 @@ They finished lunch and went outside into the overcast courtyard. Hermione sat d
 
 “So I can prove I’ve met you,” said Colin Creevey eagerly, edging further forward. “I know all about you. Everyone’s told me. About how you survived when You-Know-Who tried to kill you and how he disappeared and everything and how you’ve still got a lightning scar on your forehead” (his eyes raked Harry’s hairline) “and a boy in my dormitory said if I develop the film in the right potion, the pictures’ll *move.*” Colin drew a great shuddering breath of excitement and said, “It’s *amazing* here, isn’t it? I never knew all the odd stuff I could do was magic till I got the letter from Hogwarts. My dad’s a milkman, he couldn’t believe it either. So I’m taking loads of pictures to send home to him. And it’d be really good if I had one of you” — he looked imploringly at Harry — “maybe your friend could take it and I could stand next to you? And then, could you sign it?”
 
-“*Signed photos?* You’re giving out *signed photos*, Potter?”
+“*Signed photos?* You're giving out *signed photos*, Potter?”
 
-Loud and scathing, Drusilla Malfoy’s voice echoed around the courtyard. She had stopped right behind Colin, flanked, as she always was at Hogwarts, by her large and thuggish cronies, Crabbe and Goyle.
+Drusilla Malfoy had stopped behind Colin Creevey, flanked by Crabbe and Goyle. “Oh, everyone, do come and have a look,” she announced, raising her voice. “Potter's signing photographs. I'm sure he'd be delighted to give you one.”
 
-“Everyone line up!” Malfoy roared to the crowd. “Harry Potter’s giving out signed photos!”
+“No, I'm not,” said Harry angrily, his fists clenching. “Shut up, Malfoy.”
 
-“No, I’m not,” said Harry angrily, his fists clenching. “Shut up, Malfoy.”
+“You're just jealous,” piped up Colin.
 
-“You’re just jealous,” piped up Colin, whose entire body was about as thick as Crabbe’s neck.
+“Jealous?” Drusilla repeated, looking at him in amusement. “Of what, exactly? His scar? I can't imagine why anyone would want one of those.”
 
-*“Jealous?”* said Malfoy, who didn’t need to shout anymore: Half the courtyard was listening in. “Of what? I don’t want a foul scar right across my head, thanks. I don’t think getting your head cut open makes you that special, myself.”
-
-Crabbe and Goyle were sniggering stupidly.
+Crabbe and Goyle sniggered.
 
 “Eat slugs, Malfoy,” said Ron angrily. Crabbe stopped laughing and started rubbing his knuckles in a menacing way.
 
-“Be careful, Weasley,” sneered Malfoy. “You don’t want to start any trouble or your mummy’ll have to come and take you away from school.” She put on a shrill, piercing voice. *“‘If you put another toe out of line’ —”*
+“Careful, Weasley,” she said pleasantly. “You wouldn't want your mother coming to fetch you. What was it she said? Oh, yes—” She raised her voice to an exaggerated shriek. “‘If you put another toe out of line—’”
 
-A knot of Slytherin fifth years nearby laughed loudly at this.
+A knot of Slytherin fifth years laughed.
 
-“Perhaps Potter gives discounts to his admirers,” Pansy Parkinson put in from behind Malfoy.
+“Perhaps Potter gives discounts to his admirers,” Pansy Parkinson put in from behind Malfoy. A few of the Slytherins laughed at that, too. Drusilla glanced back at Pansy, then stepped forward before the other girl could say anything more.
 
-A few of the Slytherins laughed at that, too. Drusilla glanced back at Pansy, then stepped forward before the other girl could say anything more.
-
-“Weasley would like a signed photo, Potter,” smirked Malfoy. “It’d be worth more than his family’s whole house —”
+“Perhaps Weasley should ask for a photograph,” she said to Harry. “It might be the most valuable thing his family's ever owned.”
 
 Ron whipped out his Spellotaped wand, but Hermione shut *Voyages with Vampires* with a snap and whispered, “Look out!”
 

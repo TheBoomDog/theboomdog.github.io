@@ -147,9 +147,7 @@ Harry moved automatically toward Hermione.
 
 Malfoy strutted over, smirking. Behind her walked a Slytherin girl who reminded Harry of a picture he’d seen in *Holidays with Hags.* She was large and square and her heavy jaw jutted aggressively. Hermione gave her a weak smile that she did not return.
 
-Two Slytherins a little way behind Malfoy exchanged a few quiet words. Harry recognized Daphne Greengrass and Theodore Nott from lessons. Nott leaned forward to see past the students crowding around the platform; Greengrass caught Drusilla's eye and made a small gesture toward Harry's wand.
-
-Drusilla gave the slightest nod, then turned back to Harry. She was smiling again.
+Two Slytherins a little way behind Malfoy exchanged a few quiet words. Harry recognized Daphne Greengrass and Theodore Nott from lessons. Nott leaned forward to see past the students crowding around the platform; Greengrass caught Drusilla's eye and made a small gesture toward Harry's wand. Drusilla gave the slightest nod, then turned back to Harry. She was smiling again.
 
 “Face your partners!” called Lockhart, back on the platform. “And bow!”
 
@@ -183,7 +181,7 @@ He raised his own wand, attempted a complicated sort of wiggling action, and dro
 
 Snape moved closer to Malfoy, bent down, and whispered something in her ear. Malfoy smirked, too. Harry looked up nervously at Lockhart and said, “Professor, could you show me that blocking thing again?”
 
-“Scared?” muttered Malfoy, so that Lockhart couldn’t hear her.
+“What's the matter, Potter?” Malfoy murmured, careful that Lockhart couldn't hear. “You look nervous.”
 
 “You wish,” said Harry out of the corner of his mouth.
 

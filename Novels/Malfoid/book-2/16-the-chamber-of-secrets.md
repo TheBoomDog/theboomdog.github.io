@@ -37,7 +37,11 @@ Three days before their first exam, Professor McGonagall made another announceme
 
 When the hubbub had subsided, Professor McGonagall said, “Professor Sprout has informed me that the Mandrakes are ready for cutting at last. Tonight, we will be able to revive those people who have been Petrified. I need hardly remind you all that one of them may well be able to tell us who, or what, attacked them. I am hopeful that this dreadful year will end with our catching the culprit.”
 
-There was an explosion of cheering. Harry looked over at the Slytherin table and wasn’t at all surprised to see that Drusilla Malfoy hadn’t joined in. Ron, however, was looking happier than he’d looked in days.
+There was an explosion of cheering. Harry glanced toward the Slytherin table. Drusilla Malfoy wasn't cheering, which was hardly surprising. She was watching Professor McGonagall intently. For a moment, her expression seemed to soften, and Harry thought he caught the beginnings of a smile.
+
+Then Crabbe turned to say something to her. Malfoy looked away at once, folding her arms across her chest. By the time Harry looked again, she was wearing her usual unpleasant expression.
+
+Harry frowned. He couldn't imagine what Malfoy had to be pleased about. Ron, however, was looking happier than he'd looked in days.
 
 “It won’t matter that we never asked Myrtle, then!” he said to Harry. “Hermione’ll probably have all the answers when they wake her up! Mind you, she’ll go crazy when she finds out we’ve got exams in three days’ time. She hasn’t studied. It might be kinder to leave her where she is till they’re over.”
 
