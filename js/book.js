@@ -75,7 +75,10 @@ const pages=Math.max(1,Math.ceil(matches.length/pageSize));page=Math.min(page,pa
 list.replaceChildren();
 matches.slice(page*pageSize,(page+1)*pageSize).forEach(c=>{
 const a=element("a","chapter-row");a.href=c.href;
-a.append(element("span","chapter-label",c.label||("Chapter "+(c.number??c.ordinal))),element("span","chapter-title",c.title||("Chapter "+(c.number??c.ordinal))),element("span","chapter-arrow","↗"));
+a.append(element("span","chapter-label",c.label||("Chapter "+(c.number??c.ordinal))),element("span","chapter-title",c.title||("Chapter "+(c.number??c.ordinal))));
+const change=window.NOVELHUB_CHAPTER_CHANGES?.get?.(book.id,c);
+if(change==="new"||change==="updated")a.append(element("span","chapter-flag chapter-flag-"+change,change==="new"?"New":"Updated"));
+a.append(element("span","chapter-arrow","↗"));
 list.append(a)
 });
 $("chapter-empty").hidden=matches.length>0;
