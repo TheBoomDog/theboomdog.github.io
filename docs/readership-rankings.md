@@ -28,9 +28,36 @@ have been retrieved. Tracking is active for GoatCounter site `theboomdog`.
 
 The public tracking code for `https://theboomdog.goatcounter.com/count` is
 already connected via `data/analytics-config.js` and `js/analytics.js`.
-There is no need to paste the standard tracking script into each page.
-A per-novel path override ensures all chapters of a single book contribute
-to the same visit counter.
+
+### Minimal-data collection
+
+NovelHub deliberately **does not load** GoatCounter's full `count.js` analytics
+script. Instead, when a visitor opens a novel's chapter, the site's own tiny
+script loads GoatCounter's official 1×1 tracking image using exactly one query
+parameter:
+
+`https://theboomdog.goatcounter.com/count?p=/novel/malfoid`
+
+The only application-specific data sent is the novel ID. No chapter number,
+chapter title, search query, referrer, screen dimensions, language, or campaign
+parameters are sent. The image uses `referrerPolicy="no-referrer"` to suppress
+the HTTP Referer header. The browser still makes an HTTPS request, which
+necessarily exposes network metadata such as IP address and User-Agent to the
+receiving server; GoatCounter states that it does not write these values to
+its database or disk.
+
+**Keep optional GoatCounter data collection categories disabled**, especially
+referrers, browsers, systems, locations, languages, screen dimensions, and
+individual pageviews. Keep **Sessions enabled** if you want repeat visits within
+the same approximately eight-hour session to count only once per novel.
+Sessions necessarily uses IP and User-Agent transiently in GoatCounter's
+server memory to recognize repeat visits; disabling Sessions would count
+every page load, which produces less meaningful readership counts.
+
+Because the image pixel does not send additional analytics data, it has more
+limited bot filtering than GoatCounter's normal JavaScript script and can
+include some automated visits. Browser extensions may also block it.
+The rankings are estimates of visits, not verified distinct people.
 
 To publish **weekly rankings**, one private credential remains necessary:
 
