@@ -9,6 +9,8 @@
   <link rel="icon" type="image/png" href="Images/Logo_pixel_art.png">
   <link rel="stylesheet" href="css/reader.css">
   <script defer src="data/catalog.js"></script>
+  <script defer src="data/site-config.js"></script>
+  <script defer src="js/report.js"></script>
   <script defer src="data/rankings.js"></script>
   <script defer src="data/analytics-config.js"></script>
   <script defer src="js/analytics.js"></script>
@@ -22,6 +24,7 @@
       <a class="wordmark" href="index.html" aria-label="NovelHub home"><span class="brand-mark">N</span><span class="brand-name">NOVELHUB</span></a>
       <div class="bar-book"><a href="#" id="book-link"></a><span class="bar-divider">/</span><span id="bar-chapter"></span></div>
       <div class="bar-actions">
+        <a class="icon-button reader-report-top" data-report-problem href="https://github.com/TheBoomDog/theboomdog.github.io/issues/new" aria-label="Report a chapter problem" title="Report a chapter problem">Report</a>
         <button id="toc-open" class="icon-button" type="button" title="Chapters" aria-label="Open chapter list">☷ <span class="button-label">Chapters</span></button>
         <button id="settings-open" class="icon-button" type="button" aria-label="Reading settings" aria-expanded="false" title="Reading settings"><span class="aa-mark">Aa</span></button>
       </div>
@@ -41,6 +44,7 @@
       <button id="bottom-toc" class="nav-pill nav-chapters" type="button">Chapters</button>
       <a id="bottom-next" class="nav-pill" href="#">Next <span aria-hidden="true">→</span></a>
     </nav>
+    <p class="reader-report"><a data-report-problem href="https://github.com/TheBoomDog/theboomdog.github.io/issues/new">Report a problem with this chapter ↗</a></p>
   </main>
   <footer class="reader-footer" id="reader-footer">
     <div class="footer-inner">
