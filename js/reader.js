@@ -4,14 +4,16 @@ const $=id=>document.getElementById(id);
 const books=Array.isArray(window.NOVELHUB_BOOKS)?window.NOVELHUB_BOOKS:[];
 const params=new URLSearchParams(location.search);
 const book=books.find(x=>x.id===params.get("id"));
-const ordinal=Number(params.get("chapter"));
+const requested=params.get("chapter");
+const keyIndex=book?.chapters?.findIndex(ch=>ch.key&&ch.key===requested)??-1;
+const ordinal=keyIndex>=0?keyIndex+1:Number(requested);
 const article=$("chapter-text");
 const error=message=>{article.replaceChildren();const p=document.createElement("p");p.className="loading-message";p.textContent=message;article.append(p);$("chapter-title").textContent="Chapter unavailable"};
 if(!book||!Number.isInteger(ordinal)||ordinal<1||ordinal>book.chapters.length){error("Chapter not found. Return to the library.");return}
 const chapter=book.chapters[ordinal-1];
 const chapterURL=new URL(chapter.source||chapter.href,location.href);
 if(chapterURL.origin!==location.origin||!/^https?:$/.test(chapterURL.protocol)){error("Invalid chapter source.");return}
-const readerLink=n=>"reader.html?id="+encodeURIComponent(book.id)+"&chapter="+n;
+const readerLink=n=>book.chapters[n-1]?.href||("reader.html?id="+encodeURIComponent(book.id)+"&chapter="+n);
 const detailLink="book.html?id="+encodeURIComponent(book.id);
 $("book-link").textContent=book.title;$("book-link").href=detailLink;
 $("novel-title-link").textContent=book.title;$("novel-title-link").href=detailLink;
@@ -101,11 +103,11 @@ const percent=()=>{const max=Math.max(0,document.documentElement.scrollHeight-in
 const updateProgress=()=>{
 const ratio=percent(),bar=$("scroll-progress");bar.style.width=(ratio*100).toFixed(2)+"%";bar.setAttribute("aria-valuenow",String(Math.round(ratio*100)));
 if(!ready)return;
-progressMap[book.id]={chapter:ordinal,ratio:Number(ratio.toFixed(5)),updated:Date.now()};
+progressMap[book.id]={chapter:ordinal,key:chapter.key||null,ratio:Number(ratio.toFixed(5)),updated:Date.now()};
 if(!saveQueued){saveQueued=true;setTimeout(()=>{saveJSON(progressKey,progressMap);saveQueued=false},400)}
 };
 window.addEventListener("scroll",updateProgress,{passive:true});window.addEventListener("resize",updateProgress,{passive:true});
-window.addEventListener("pagehide",()=>{if(ready){progressMap[book.id]={chapter:ordinal,ratio:Number(percent().toFixed(5)),updated:Date.now()};saveJSON(progressKey,progressMap)}});
+window.addEventListener("pagehide",()=>{if(ready){progressMap[book.id]={chapter:ordinal,key:chapter.key||null,ratio:Number(percent().toFixed(5)),updated:Date.now()};saveJSON(progressKey,progressMap)}});
 let controlsVisible=true;
 const toggleControls=()=>{controlsVisible=!controlsVisible;document.body.classList.toggle("controls-hidden",!controlsVisible)};
 article.addEventListener("click",e=>{
@@ -147,7 +149,7 @@ article.replaceChildren();
 source.childNodes.forEach(node=>article.append(sanitize(node)));
 if(!article.textContent?.trim())throw new Error("Chapter is empty");
 requestAnimationFrame(()=>requestAnimationFrame(()=>{
-if(saved&&saved.chapter===ordinal&&Number.isFinite(saved.ratio)&&saved.ratio>0){window.scrollTo(0,Math.max(0,document.documentElement.scrollHeight-innerHeight)*Math.min(1,saved.ratio))}
+if(saved&&((saved.key&&chapter.key&&saved.key===chapter.key)||(!saved.key&&saved.chapter===ordinal))&&Number.isFinite(saved.ratio)&&saved.ratio>0){window.scrollTo(0,Math.max(0,document.documentElement.scrollHeight-innerHeight)*Math.min(1,saved.ratio))}
 ready=true;updateProgress();
 }));
 }catch(e){error("Unable to load this chapter. Please try reloading the page.");console.error("NovelHub reader:",e)}
