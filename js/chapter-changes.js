@@ -1,55 +1,69 @@
 (() => {
   "use strict";
-  // Browser-local, per-novel chapter changes since the visitor's previous
-  // session. No account, tracking pixel, request, or shared visit data.
-  const key = "novelhub:known-chapters:v1";
-  const sessionGap = 30 * 60 * 1000;
+  // All chapter history stays in this browser's localStorage; nothing is sent
+  // to the site owner. A new device has no history, so chapters start "New".
+  const SEEN_KEY = "novelhub:seen-chapters:v1";
+  const PROGRESS_KEY = "novelhub:progress:v1";
+  const RECENT_MS = 3 * 24 * 60 * 60 * 1000;
   const books = Array.isArray(window.NOVELHUB_BOOKS) ? window.NOVELHUB_BOOKS : [];
-  const current = {};
-  for (const book of books) {
-    if (!book || typeof book.id !== "string" || !Array.isArray(book.chapters)) continue;
-    const entries = {};
-    for (const chapter of book.chapters) {
-      if (!chapter || typeof chapter.href !== "string") continue;
-      const chapterKey = chapter.key || chapter.href;
-      if (typeof chapterKey !== "string" || !chapterKey) continue;
-      entries[chapterKey] = typeof chapter.updatedAt === "string" ? chapter.updatedAt : "";
+  const load = key => {
+    try {
+      const data = JSON.parse(localStorage.getItem(key) || "{}");
+      return data && typeof data === "object" && !Array.isArray(data) ? data : {};
+    } catch (_) { return {}; }
+  };
+  const seen = load(SEEN_KEY);
+  const progress = load(PROGRESS_KEY);
+  const keyOf = chapter => chapter && (chapter.key || chapter.href);
+  const recent = updatedAt => {
+    const timestamp = typeof updatedAt === "string" ? Date.parse(updatedAt) : NaN;
+    const age = Date.now() - timestamp;
+    return Number.isFinite(age) && age >= 0 && age <= RECENT_MS;
+  };
+  const find = (bookId, chapter) => {
+    const book = books.find(item => item && item.id === bookId && Array.isArray(item.chapters));
+    const key = keyOf(chapter);
+    if (!book || typeof key !== "string" || !key) return null;
+    const index = book.chapters.findIndex(item => keyOf(item) === key);
+    return index >= 0 ? { book, key, index } : null;
+  };
+  const get = (bookId, chapter) => {
+    const match = find(bookId, chapter);
+    if (!match) return null;
+    const { key, index } = match;
+    const modified = typeof chapter.updatedAt === "string" ? chapter.updatedAt : "";
+    const visited = seen[bookId];
+    // An explicit successful chapter opening takes precedence over the
+    // inferred reading position. Save the revision, not a visitor identifier.
+    if (visited && Object.hasOwn(visited, key)) {
+      const readVersion = visited[key];
+      if (recent(modified) &&
+          Date.parse(modified) > (Date.parse(readVersion) || 0)) return "updated";
+      return null;
     }
-    current[book.id] = entries;
-  }
-  const now = Date.now();
-  let previous = null;
-  try {
-    previous = JSON.parse(localStorage.getItem(key) || "null");
-    if (!previous || typeof previous !== "object" || Array.isArray(previous)) previous = null;
-  } catch (_) { previous = null; }
-  const isNewSession = !previous || !Number.isFinite(previous.lastSeen) ||
-    now - previous.lastSeen > sessionGap || now < previous.lastSeen;
-  let changes = {};
-  if (!isNewSession && previous.changes && typeof previous.changes === "object") {
-    changes = previous.changes;
-  } else if (previous?.chapters && typeof previous.chapters === "object") {
-    for (const [bookId, chapters] of Object.entries(current)) {
-      const known = previous.chapters[bookId] || {};
-      for (const [chapterId, modified] of Object.entries(chapters)) {
-        if (!Object.hasOwn(known, chapterId)) {
-          (changes[bookId] ||= {})[chapterId] = "new";
-        } else if (modified && Date.parse(modified) > (Date.parse(known[chapterId]) || 0)) {
-          (changes[bookId] ||= {})[chapterId] = "updated";
-        }
+    // Preserve existing reading history from before per-chapter bookmarks
+    // existed. A reader at chapter N is presumed to have seen chapters 1..N.
+    const prior = progress[bookId];
+    if (prior && typeof prior === "object") {
+      const at = prior.key
+        ? match.book.chapters.findIndex(item => item?.key === prior.key)
+        : (Number.isInteger(prior.chapter) ? prior.chapter - 1 : -1);
+      if (at >= index && at >= 0) {
+        if (recent(modified) && Number.isFinite(prior.updated) &&
+            Date.parse(modified) > prior.updated) return "updated";
+        return null;
       }
     }
-  }
-  const store = {
-    chapters: isNewSession ? current : (previous?.chapters || current),
-    changes, lastSeen: now
+    return "new";
   };
-  try { localStorage.setItem(key, JSON.stringify(store)); } catch (_) {}
-  window.NOVELHUB_CHAPTER_CHANGES = Object.freeze({
-    get(bookId, chapter) {
-      const chapterKey = chapter?.key || chapter?.href;
-      if (typeof chapterKey !== "string") return null;
-      return changes[bookId]?.[chapterKey] || null;
-    }
-  });
+  const markSeen = (bookId, chapter) => {
+    const match = find(bookId, chapter);
+    if (!match) return;
+    if (!seen[bookId] || typeof seen[bookId] !== "object" || Array.isArray(seen[bookId]))
+      seen[bookId] = {};
+    seen[bookId][match.key] =
+      typeof chapter.updatedAt === "string" ? chapter.updatedAt : "";
+    try { localStorage.setItem(SEEN_KEY, JSON.stringify(seen)); } catch (_) {}
+  };
+  window.NOVELHUB_CHAPTER_CHANGES = Object.freeze({ get, markSeen });
 })();
