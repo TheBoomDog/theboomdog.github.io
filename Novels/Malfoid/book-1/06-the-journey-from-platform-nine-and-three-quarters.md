@@ -493,25 +493,15 @@ Two boys and a girl entered, and Harry recognized the girl at once: It was the p
 
 Ron gave a slight cough, which might have been hiding a snigger. Drusilla Malfoy looked at him.
 
-“Think my name’s funny, do you? No need to ask who you are. My father told me all the Weasleys have red hair, freckles, and more children than they can afford.”
+“Does something amuse you?” she asked. “You're a Weasley, aren't you? Father told me about your family. Red hair, freckles, and more children than they can afford.”
 
-She turned back to Harry. “You’ll soon find out some wizarding families are much better than others, Potter. You don’t want to go making friends with the wrong sort. I can help you there.”
+She turned back to Harry. “You’ll soon find out some wizarding families are much better than others, Potter. You don’t want to go making friends with the wrong sort. I can help you there.” Drusilla offered him her hand.
 
-Drusilla offered him her hand.
+Harry looked at it, then back at her. He made no move to take it. “I think I can decide for myself who I ought to be friends with,” he said.
 
-Harry looked at it, then back at her. He made no move to take it.
+For a moment she seemed not to have heard him. Her hand remained between them, and then she lowered it. A faint colour rose in her cheeks. She glanced at Ron, who had stopped trying to disguise his amusement. When she spoke again, the drawl was still there, but her words came more carefully. “You ought to be careful, Potter. Your parents didn't know what was good for them either. Keep company with people like the Weasleys and that Hagrid, and you'll end up no better than they did.”
 
-“I think I can decide for myself who I ought to be friends with,” he said.
-
-For a moment she seemed not to have heard him. Her hand remained between them, and then she lowered it. A faint colour rose in her cheeks. She glanced at Ron, who had stopped trying to disguise his amusement.
-
-When she spoke again, the drawl was still there, but her words came more carefully.
-
-“You ought to be careful, Potter. Your parents didn't know what was good for them either. Keep company with people like the Weasleys and that Hagrid, and you'll end up no better than they did.”
-
-Harry felt his face grow hot. Whatever she thought of him was one thing; speaking about his parents was another.
-
-Harry and Ron stood up together.
+Harry felt his face grow hot. Whatever she thought of him was one thing; speaking about his parents was another. Harry and Ron stood up together.
 
 Crabbe stepped into the narrow space beside Drusilla. Goyle moved as well, filling most of the doorway. Neither had been told to do it. Drusilla glanced at them only briefly.
 
@@ -521,11 +511,7 @@ Crabbe stepped into the narrow space beside Drusilla. Goyle moved as well, filli
 
 “You can leave,” Harry said. He was watching Crabbe and Goyle, who were both larger than either of them. “Right now.”
 
-Drusilla looked from Harry to Ron, and the small flush returned to her cheeks.
-
-“I don't think so. We've finished our food, and you've still got plenty.”
-
-She stood aside without looking at Goyle. He took the invitation.
+Drusilla looked from Harry to Ron, and the small flush returned to her cheeks. “I don't think so. We've finished our food, and you've still got plenty.” She stood aside without looking at Goyle. He took the invitation.
 
 Goyle reached toward the Chocolate Frogs next to Ron — Ron leapt forward, but before he’d so much as touched Goyle, Goyle let out a horrible yell.
 

@@ -81,15 +81,11 @@ The other Slytherins joined in.
 
 “Ooh, sticking up for Longbottom?” said Pansy Parkinson, a hard-faced Slytherin girl. “Never thought *you’d* like fat little crybabies, Parvati.”
 
-“Look!” said Malfoy, darting forward and snatching something out of the grass. “It’s that stupid thing Longbottom’s gran sent him.”
-
-The Remembrall glittered in the sun as she held it up.
+Malfoy glanced at Pansy, who was grinning at the laughter she had raised. For a moment Malfoy said nothing. Then something in the grass caught her eye. “Look!” she said, darting forward and snatching it up. “It’s that stupid thing Longbottom’s gran sent him.” The Remembrall glittered in the sun as she held it up.
 
 “Give that here, Malfoy,” said Harry quietly. Everyone stopped talking to watch.
 
-Malfoy smiled nastily.
-
-“I think I’ll leave it somewhere for Longbottom to find — how about — up a tree?”
+Malfoy smiled nastily. “Perhaps Longbottom would like to fetch it himself. Shall I put it up a tree?”
 
 “Give it *here*!” Harry yelled, but Malfoy had leapt onto her broomstick and taken off. She hadn’t been lying, she *could* fly well. Hovering level with the topmost branches of an oak she called, “Come and get it, Potter!”
 
@@ -109,9 +105,7 @@ Harry knew, somehow, what to do. He leaned forward and grasped the broom tightly
 
 “No Crabbe and Goyle up here to save your neck, Malfoy,” Harry called.
 
-The same thought seemed to have struck Malfoy.
-
-“Catch it if you can, then!” she shouted, and she threw the glass ball high into the air and streaked back toward the ground.
+The same thought seemed to have struck Malfoy. Her eyes flicked to Harry's broom, hovering steadily beneath him, and for a moment she seemed to forget about the Remembrall in her hand. “Catch it if you can, then!” she shouted, and she threw the glass ball high into the air and streaked back toward the ground.
 
 Harry saw, as though in slow motion, the ball rise up in the air and then start to fall. He leaned forward and pointed his broom handle down — next second he was gathering speed in a steep dive, racing the ball — wind whistled in his ears, mingled with the screams of people watching — he stretched out his hand — a foot from the ground he caught it, just in time to pull his broom straight, and he toppled gently onto the grass with the Remembrall clutched safely in his fist.
 
@@ -209,7 +203,7 @@ Fred and George had hardly disappeared when someone far less welcome turned up: 
 
 “You’re a lot braver now that you’re back on the ground and you’ve got your little friends with you,” said Harry coolly. There was of course nothing at all little about Crabbe and Goyle, but as the High Table was full of teachers, neither of them could do more than crack their knuckles and scowl.
 
-“I’d take you on anytime on my own,” said Malfoy. “Tonight, if you want. Wizard’s duel. Wands only — no contact. What’s the matter? Never heard of a wizard’s duel before, I suppose?”
+“I can manage without Crabbe and Goyle, Potter,” said Malfoy. “If you think you're so good, come and duel me tonight. Wands only. Or haven't you heard of a wizard's duel?”
 
 “Of course he has,” said Ron, wheeling around. “I’m his second, who’s yours?”
 

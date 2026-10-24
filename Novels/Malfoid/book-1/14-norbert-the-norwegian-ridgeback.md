@@ -261,6 +261,8 @@ Professor McGonagall, in a tartan bathrobe and a hair net, had Malfoy by the ear
 
 “What utter rubbish! How dare you tell such lies! Come on — I shall see Professor Snape about you, Malfoy!”
 
+Malfoy opened her mouth again, then shut it as McGonagall steered her away. Harry saw her glance once toward the tower before she disappeared around the corner.
+
 The steep spiral staircase up to the top of the tower seemed the easiest thing in the world after that. Not until they’d stepped out into the cold night air did they throw off the Cloak, glad to be able to breathe properly again. Hermione did a sort of jig.
 
 “Malfoy’s got detention! I could sing!”

@@ -155,13 +155,15 @@ Malfoy grinned broadly at Crabbe and Goyle.
 
 Ron didn’t answer; Snape had just awarded Hufflepuff a penalty because George Weasley had hit a Bludger at him. Hermione, who had all her fingers crossed in her lap, was squinting fixedly at Harry, who was circling the game like a hawk, looking for the Snitch.
 
-“You know how I think they choose people for the Gryffindor team?” said Malfoy loudly a few minutes later, as Snape awarded Hufflepuff another penalty for no reason at all. “It’s people they feel sorry for. See, there’s Potter, who’s got no parents, then there’s the Weasleys, who’ve got no money — you should be on the team, Longbottom, you’ve got no brains.”
+“I think I've worked out how Gryffindor chooses its team,” said Malfoy loudly a few minutes later, as Snape awarded Hufflepuff another penalty for no reason at all. “They pick people everyone feels sorry for. Potter hasn't any parents, the Weasleys haven't any money, and Longbottom — well, you haven't any brains. You ought to try out.”
 
 Neville went bright red but turned in his seat to face Malfoy.
 
 “I’m worth twelve of you, Malfoy,” he stammered.
 
-Malfoy, Crabbe, and Goyle howled with laughter, but Ron, still not daring to take his eyes from the game, said, “You tell her, Neville.”
+Malfoy looked taken aback by Neville's answer. Then she laughed, and Crabbe and Goyle joined her.
+
+Ron, still not daring to take his eyes from the game, said, “You tell her, Neville.”
 
 “Longbottom, if brains were gold you’d be poorer than Weasley, and that’s saying something.”
 

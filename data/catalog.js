@@ -116,7 +116,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-1/05-diagon-alley.html",
       "href": "reader.html?id=malfoid&chapter=b1-05-diagon-alley",
-      "updatedAt": "2026-10-22T20:41:52-05:00"
+      "updatedAt": "2026-10-24T17:33:22-05:00"
     },
     {
       "number": 6,
@@ -127,7 +127,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-1/06-the-journey-from-platform-nine-and-three-quarters.html",
       "href": "reader.html?id=malfoid&chapter=b1-06-the-journey-from-platform-nine-and-three-quarters",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T17:33:24-05:00"
     },
     {
       "number": 7,
@@ -138,7 +138,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-1/07-the-sorting-hat.html",
       "href": "reader.html?id=malfoid&chapter=b1-07-the-sorting-hat",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T17:33:27-05:00"
     },
     {
       "number": 8,
@@ -149,7 +149,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-1/08-the-potions-master.html",
       "href": "reader.html?id=malfoid&chapter=b1-08-the-potions-master",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T17:33:29-05:00"
     },
     {
       "number": 9,
@@ -160,7 +160,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-1/09-the-midnight-duel.html",
       "href": "reader.html?id=malfoid&chapter=b1-09-the-midnight-duel",
-      "updatedAt": "2026-10-22T20:22:33-05:00"
+      "updatedAt": "2026-10-24T17:33:31-05:00"
     },
     {
       "number": 10,
@@ -171,7 +171,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-1/10-halloween.html",
       "href": "reader.html?id=malfoid&chapter=b1-10-halloween",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T17:34:07-05:00"
     },
     {
       "number": 11,
@@ -193,7 +193,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-1/12-the-mirror-of-erised.html",
       "href": "reader.html?id=malfoid&chapter=b1-12-the-mirror-of-erised",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T17:34:09-05:00"
     },
     {
       "number": 13,
@@ -204,7 +204,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-1/13-nicolas-flamel.html",
       "href": "reader.html?id=malfoid&chapter=b1-13-nicolas-flamel",
-      "updatedAt": "2026-10-24T12:07:09-05:00"
+      "updatedAt": "2026-10-24T17:34:11-05:00"
     },
     {
       "number": 14,
@@ -215,7 +215,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-1/14-norbert-the-norwegian-ridgeback.html",
       "href": "reader.html?id=malfoid&chapter=b1-14-norbert-the-norwegian-ridgeback",
-      "updatedAt": "2026-10-24T12:07:11-05:00"
+      "updatedAt": "2026-10-24T17:34:14-05:00"
     },
     {
       "number": 15,
@@ -226,7 +226,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-1/15-the-forbidden-forest.html",
       "href": "reader.html?id=malfoid&chapter=b1-15-the-forbidden-forest",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T17:34:16-05:00"
     },
     {
       "number": 16,

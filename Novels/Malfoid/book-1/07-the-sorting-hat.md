@@ -144,9 +144,7 @@ Hermione almost ran to the stool and jammed the hat eagerly on her head.
 
 “Greengrass, Daphne!”
 
-Another girl went forward and sat on the stool. The hat considered her for a few moments before calling, “SLYTHERIN!”
-
-Harry watched her make her way to the green-and-silver table. It was difficult to pay much attention to anyone else's Sorting when he was still wondering whether the hat might refuse to choose him at all.
+Another girl went forward and sat on the stool. The hat considered her for a few moments before calling, “SLYTHERIN!” Harry watched her make her way to the green-and-silver table. It was difficult to pay much attention to anyone else's Sorting when he was still wondering whether the hat might refuse to choose him at all.
 
 A horrible thought struck Harry, as horrible thoughts always do when you’re very nervous. What if he wasn’t chosen at all? What if he just sat there with the hat over his eyes for ages, until Professor McGonagall jerked it off his head and said there had obviously been a mistake and he’d better get back on the train?
 
@@ -220,7 +218,7 @@ Sir Nicholas looked extremely miffed, as if their little chat wasn’t going at 
 
 “Like *this,*” he said irritably. He seized his left ear and pulled. His whole head swung off his neck and fell onto his shoulder as if it was on a hinge. Someone had obviously tried to behead him, but not done it properly. Looking pleased at the stunned looks on their faces, Nearly Headless Nick flipped his head back onto his neck, coughed, and said, “So — new Gryffindors! I hope you’re going to help us win the House Championship this year? Gryffindors have never gone so long without winning. Slytherins have got the Cup six years in a row! The Bloody Baron’s becoming almost unbearable — he’s the Slytherin ghost.”
 
-Harry looked over at the Slytherin table and saw a horrible ghost sitting there, with blank staring eyes, a gaunt face, and robes stained with silver blood. He was right next to Malfoy who, Harry was pleased to see, didn’t look too pleased with the seating arrangements.
+Harry looked over at the Slytherin table and saw a horrible ghost sitting there, with blank staring eyes, a gaunt face, and robes stained with silver blood. He was right next to Malfoy who, Harry was pleased to see, didn’t look too pleased with the seating arrangements. Malfoy had edged a little farther away from the ghost. Farther along the table, the girl called Greengrass was talking quietly to a thin boy Harry thought was Nott. Neither seemed particularly bothered by the Bloody Baron.
 
 “How did he get covered in blood?” asked Seamus with great interest.
 

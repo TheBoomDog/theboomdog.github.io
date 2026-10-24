@@ -31,11 +31,13 @@ They left the hall quickly, wanting to unwrap the broomstick in private before t
 
 “That’s a broomstick,” she said, throwing it back to Harry with a mixture of jealousy and spite on her face. “You’ll be in for it this time, Potter, first years aren’t allowed them.”
 
+Harry remembered her saying in Madam Malkin's that she meant to smuggle a broomstick into Hogwarts herself. Apparently the rules mattered rather more when it was somebody else's broom.
+
 Ron couldn’t resist it.
 
 “It’s not any old broomstick,” he said, “it’s a Nimbus Two Thousand. What did you say you’ve got at home, Malfoy, a Comet Two Sixty?” Ron grinned at Harry. “Comets look flashy, but they’re not in the same league as the Nimbus.”
 
-“What would you know about it, Weasley, you couldn’t afford half the handle,” Malfoy snapped back. “I suppose you and your brothers have to save up twig by twig.”
+“What would you know, Weasley?” Malfoy snapped. “You couldn't afford half the handle. I suppose your brothers have to save up for the twigs.”
 
 Before Ron could answer, Professor Flitwick appeared at Malfoy’s elbow.
 

@@ -137,7 +137,7 @@ Malfoy now turned to Hagrid.
 
 “Yeh are if yeh want ter stay at Hogwarts,” said Hagrid fiercely. “Yeh’ve done wrong an’ now yeh’ve got ter pay fer it.”
 
-“But this is servant stuff, it’s not for students to do. I thought we’d be copying lines or something, if my father knew I was doing this, he’d —”
+“But this is work for servants,” Malfoy protested. “We shouldn't be doing it. I thought we'd be copying lines. If my father knew you were sending me into the forest, he'd —”
 
 “— tell yer that’s how it is at Hogwarts,” Hagrid growled. “Copyin’ lines! What good’s that ter anyone? Yeh’ll do summat useful or yeh’ll get out. If yeh think yer father’d rather you were expelled, then get back off ter the castle an’ pack. Go on!”
 
@@ -261,7 +261,33 @@ At last, a great crunching noise announced Hagrid’s return. Malfoy, Neville, a
 
 “We’ll be lucky ter catch anythin’ now, with the racket you two were makin’. Right, we’re changin’ groups — Neville, you stay with me an’ Hermione, Harry, you go with Fang an’ this idiot. I’m sorry,” Hagrid added in a whisper to Harry, “but she’ll have a harder time frightenin’ you, an’ we’ve gotta get this done.”
 
-So Harry set off into the heart of the forest with Malfoy and Fang. They walked for nearly half an hour, deeper and deeper into the forest, until the path became almost impossible to follow because the trees were so thick. Harry thought the blood seemed to be getting thicker. There were splashes on the roots of a tree, as though the poor creature had been thrashing around in pain close by. Harry could see a clearing ahead, through the tangled branches of an ancient oak.
+So Harry set off into the heart of the forest with Malfoy and Fang. They walked for nearly half an hour, deeper and deeper into the forest, until the path became almost impossible to follow because the trees were so thick.
+
+Fang kept close to Harry's legs, and for a while neither of them spoke.
+
+“You shouldn't have frightened Neville,” Harry said at last.
+
+“I didn't know he'd send up sparks.”
+
+“You knew he was scared.”
+
+“Longbottom's scared of everything.”
+
+“So are you.”
+
+Malfoy shot him an angry look. “And you're not?”
+
+Harry glanced down at the silver-blue blood on the path.
+
+“Of course I am,” he said. “Something's killing unicorns.”
+
+She looked surprised by the answer.
+
+“Well,” she said, “at least you've got some sense.”
+
+They walked on without speaking. Harry was still angry with her, but he didn't see much point in arguing about whether the forest was frightening.
+
+Harry thought the blood seemed to be getting thicker. There were splashes on the roots of a tree, as though the poor creature had been thrashing around in pain close by. Harry could see a clearing ahead, through the tangled branches of an ancient oak.
 
 “Look —” he murmured, holding out his arm to stop Malfoy.
 

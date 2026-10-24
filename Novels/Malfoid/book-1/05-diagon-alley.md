@@ -369,7 +369,7 @@ Harry was strongly reminded of Dudley.
 
 “No,” Harry said again, wondering what on earth Quidditch could be.
 
-“*I* do — Father says it’s a crime if I’m not picked to play for my House, and I must say, I agree. Know what House you’ll be in yet?”
+“*I* do — Father says it’s a crime if I’m not picked to play for my House, and I must say, I agree. Mother says I shouldn’t boast about it before I’ve even tried out.” She sounded thoroughly unimpressed by this advice. “Know what House you’ll be in yet?”
 
 “No,” said Harry, feeling more stupid by the minute.
 
