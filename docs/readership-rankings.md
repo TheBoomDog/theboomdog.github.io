@@ -79,6 +79,21 @@ subdomain code. The default remains `theboomdog`.
 
 GitHub Actions workflow: `.github/workflows/weekly-reader-rankings.yml`.
 
+## Per-browser opt-out
+
+The public **Privacy & Source** page at `privacy.html` has an optional
+**Opt out of anonymous visit counting** checkbox. Its state is saved only
+in the current browser under `novelhub:analytics-opt-out:v1`, with value
+`1` for opted out. `js/analytics.js` checks this value synchronously
+before creating any GoatCounter request. If browser storage is blocked
+and the preference cannot be read, analytics **fails closed** (no request).
+The privacy page never sends analytics requests itself.
+
+The switch affects future reader-page openings only, on this device.
+Turning it off resumes counting. It does not delete counts already
+received by GoatCounter, disable ordinary requests to GitHub Pages,
+or synchronize the preference to another browser or device.
+
 ## Security and privacy
 
 The analytics API token remains only in an encrypted Actions secret.
