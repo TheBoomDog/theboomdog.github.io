@@ -21,3 +21,13 @@ body.controls-hidden .reader-bar{transform:translateY(calc(-100% - 4px))}
 body.controls-hidden .reader-footer{transform:translateY(calc(100% + 4px))}
 @media(max-width:650px){.reader-main{padding-top:93px}}
 @media(prefers-reduced-motion:reduce){.reader-bar,.reader-footer{transition:none}}
+
+
+/* Easy-to-find issue reporting at top and end of a chapter. */
+.reader-report-top{text-decoration:none;color:#e9e6dd;display:inline-flex;align-items:center}
+.reader-report-top:hover{color:var(--accent)}
+.reader-report{max-width:var(--reader-width);margin:0 auto 110px;padding-top:2px;text-align:center}
+.reader-report a{font-size:12px;color:var(--site-muted);text-decoration:underline;text-underline-offset:4px}
+.reader-report a:hover{color:var(--accent)}
+.reader-report a:focus-visible,.reader-report-top:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media(max-width:650px){.reader-report-top{font-size:11px;min-height:40px}.reader-report{margin-bottom:94px}}
