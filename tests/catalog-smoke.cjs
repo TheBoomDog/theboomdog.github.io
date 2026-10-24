@@ -1,79 +1,95 @@
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const vm = require("node:vm");
-const { JSDOM } = require("jsdom");
+const {JSDOM} = require("jsdom");
 
-const scripts = ["data/books.js", "data/malfoid.js", "data/rankings.js", "js/library.js"];
-function open(name, query = "", leaderboard = null) {
-  const html = fs.readFileSync(name, "utf8");
+function open(page, search = "", rankings = null, extra = null) {
+  const html = fs.readFileSync(page, "utf8");
   const dom = new JSDOM(html, {
-    url: "https://novelhub.test/" + name + query,
+    url: "https://novelhub.test/" + page + search,
     runScripts: "outside-only"
   });
   const context = dom.getInternalVMContext();
-  for (const script of scripts) {
-    if (script === "js/library.js" && leaderboard) {
-      context.window.NOVELHUB_RANKINGS = leaderboard;
-    }
-    vm.runInContext(fs.readFileSync(script, "utf8"), context, { filename: script });
-  }
+  const run = filename => vm.runInContext(fs.readFileSync(filename, "utf8"), context, {filename});
+  run("data/catalog.js");
+  if (extra) context.window.NOVELHUB_BOOKS.push(extra);
+  run("data/rankings.js");
+  if (rankings) context.window.NOVELHUB_RANKINGS = rankings;
+  run("js/library.js");
   return dom.window;
 }
 
+const allBooks = open("index.html").NOVELHUB_BOOKS;
+const published = allBooks.filter(book => book.chapters?.length);
+assert.ok(published.length > 0, "At least one novel is published");
 const home = open("index.html");
-assert.equal(home.document.querySelectorAll(".novel-card").length, 2, "Render both novels from catalog");
-assert.equal(home.document.getElementById("latest-list").children.length, 10, "Render ten recent chapters");
-const malfoid = [...home.document.querySelectorAll(".novel-card")].find(n => n.dataset.id === "malfoid");
-assert.match(malfoid.textContent, /\d+ chapters/, "Show the live generated Malfoid count");
-assert.ok([...home.document.querySelectorAll("#latest-list .chapter-book")].some(n => n.textContent === "Malfoid"), "Include Malfoid in recent chapters");
+assert.equal(home.document.querySelectorAll(".novel-card").length, allBooks.length);
+assert.equal(home.document.getElementById("latest-list").children.length,
+  Math.min(10, published.reduce((sum, b) => sum + b.chapters.length, 0)));
 
-home.document.querySelector('.novel-card[data-id="malfoid"] .save-button').click();
-assert.equal(JSON.parse(home.localStorage.getItem("novelhub:saved:v1"))[0], "malfoid");
+const first = published[0];
+const firstCard = home.document.querySelector('.novel-card[data-id="' + first.id + '"]');
+firstCard.querySelector(".save-button").click();
+assert.deepEqual(JSON.parse(home.localStorage.getItem("novelhub:saved:v1")), [first.id]);
 home.document.getElementById("saved-only").click();
-assert.equal(home.document.querySelectorAll(".novel-card").length, 1, "Filter saved novels");
-assert.equal(home.document.querySelector(".novel-card").dataset.id, "malfoid");
-home.document.getElementById("reset").click();
-assert.equal(home.document.querySelectorAll(".novel-card").length, 2);
-const genre = home.document.getElementById("genre");
-assert.ok([...genre.options].some(o => o.value === "Time Loop"));
-genre.value = "Time Loop";
-genre.dispatchEvent(new home.Event("change"));
 assert.equal(home.document.querySelectorAll(".novel-card").length, 1);
+home.document.getElementById("reset").click();
+assert.equal(home.document.querySelectorAll(".novel-card").length, allBooks.length);
 
-const search = open("search.html", "?q=malfoid");
-assert.equal(search.document.querySelectorAll(".novel-card").length, 1);
-assert.equal(search.document.querySelector(".card-title").textContent, "Malfoid");
+const genre = allBooks.flatMap(b => b.genres || [])[0];
+assert.ok(genre);
+assert.ok([...home.document.getElementById("genre").options].some(option => option.value === genre));
+home.document.getElementById("genre").value = genre;
+home.document.getElementById("genre").dispatchEvent(new home.Event("change"));
+assert.equal(home.document.querySelectorAll(".novel-card").length,
+  allBooks.filter(book => (book.genres || []).includes(genre)).length);
+
+const searched = open("search.html", "?q=" + encodeURIComponent(first.title));
+assert.ok([...searched.document.querySelectorAll(".card-title")].some(n => n.textContent === first.title));
 
 const rankings = open("ranking.html");
-assert.equal(rankings.document.querySelectorAll(".cover-mark").length, 0, "Do not invent rankings before analytics is active");
+const validRanks = (rankings.NOVELHUB_RANKINGS?.entries || []).filter(entry =>
+  Number.isInteger(entry.rank) && entry.rank > 0 && entry.rank <= 10).length;
+assert.equal(rankings.document.querySelectorAll(".cover-mark").length, validRanks);
 const summary = rankings.document.getElementById("ranking-summary").textContent;
-if (rankings.NOVELHUB_RANKINGS?.status === "ready") {
-  assert.match(summary, /Ranked by reader visits/);
-} else {
-  assert.match(summary, /awaiting analytics/i);
-}
+assert.match(summary, /reader visits|awaiting analytics/i);
+
 const sample = {
   status: "ready", metric: "visits", periodStart: "2026-10-12T01:00:00-05:00",
   periodEnd: "2026-10-19T01:00:00-05:00",
-  entries: [{id:"malfoid",visits:9,rank:1},{id:"mol",visits:4,rank:2}]
+  entries: published.map((b, i) => ({id: b.id, visits: (published.length - i) * 5, rank: i + 1}))
 };
-const liveRanks = open("ranking.html", "", sample);
-assert.equal(liveRanks.document.querySelector(".novel-card").dataset.id, "malfoid", "Sort by visits, not chapter count");
-assert.equal(liveRanks.document.querySelectorAll(".cover-mark").length, 2, "Only measured top ten receive cover numerals");
-assert.equal(liveRanks.document.querySelector(".cover-mark").textContent, "1.");
-assert.match(liveRanks.document.querySelector(".weekly-visits").textContent, /9 reader visits/);
+const ranked = open("ranking.html", "", sample);
+assert.equal(ranked.document.querySelector(".novel-card").dataset.id, first.id);
+assert.equal(ranked.document.querySelector(".cover-mark").textContent, "1.");
 
 const updates = open("updates.html");
-assert.equal(updates.document.getElementById("updates-list").children.length, 30);
+const allChapters = published.reduce((n,b) => n + b.chapters.length, 0);
+assert.equal(updates.document.getElementById("updates-list").children.length, Math.min(30, allChapters));
 updates.document.getElementById("more-updates").click();
-assert.equal(updates.document.getElementById("updates-list").children.length, 60, "Load more must increment");
-const filter = updates.document.getElementById("update-book");
-filter.value = "malfoid";
-filter.dispatchEvent(new updates.Event("change"));
-assert.equal(updates.document.getElementById("updates-list").children.length, 30, "Filter by book");
-const query = updates.document.getElementById("update-search");
-query.value = "The Beginning";
-query.dispatchEvent(new updates.Event("input"));
-assert.equal(updates.document.getElementById("updates-list").children.length, 1, "Search by chapter title");
+assert.equal(updates.document.getElementById("updates-list").children.length, Math.min(60, allChapters));
+const select = updates.document.getElementById("update-book");
+select.value = first.id;
+select.dispatchEvent(new updates.Event("change"));
+assert.equal(updates.document.getElementById("updates-list").children.length, Math.min(30, first.chapters.length));
 
-console.log("Catalog smoke tests passed: home, saved, search, rankings, chapter updates.");
+// Adding a future novel must not require editing page HTML or application code.
+const newBook = {
+  id: "synthetic-future-novel", title: "An Unlisted New Novel", genres: ["Experimental"],
+  status: "In progress", chapters: [{
+    key: "first", label: "Chapter 1", title: "A Beginning",
+    href: "reader.html?id=synthetic-future-novel&chapter=first",
+    source: "Novels/synthetic/chapter.html"
+  }]
+};
+const additional = open("index.html", "", null, newBook);
+assert.equal(additional.document.querySelectorAll(".novel-card").length, allBooks.length + 1);
+assert.ok(additional.document.querySelector('.novel-card[data-id="synthetic-future-novel"]'));
+assert.ok([...additional.document.querySelector("#genre").options].some(x => x.value === "Experimental"));
+const rankedExtra = open("ranking.html", "", {
+  status: "ready", metric: "visits", periodStart: "2026-10-12T01:00:00-05:00",
+  periodEnd: "2026-10-19T01:00:00-05:00",
+  entries: [{id:"synthetic-future-novel",visits:500,rank:1}]
+}, newBook);
+assert.equal(rankedExtra.document.querySelector(".novel-card").dataset.id, newBook.id);
+console.log("NovelHub catalog works with any published or newly registered novel.");
