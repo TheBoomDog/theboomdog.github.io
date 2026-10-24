@@ -15,7 +15,18 @@ $("cover-title").textContent=book.title;
 $("book-status").textContent=book.status||"";
 const cover=$("book-cover");if(book.cover?.start)cover.style.setProperty("--cover-start",book.cover.start);if(book.cover?.end)cover.style.setProperty("--cover-end",book.cover.end);if(book.cover?.ink)cover.style.setProperty("--cover-ink",book.cover.ink);
 if(book.cover?.image){cover.style.backgroundImage='url("'+encodeURI(book.cover.image).replaceAll('"',"%22")+'")';cover.style.backgroundSize="cover";cover.style.backgroundPosition="center";cover.querySelectorAll("span").forEach(el=>el.hidden=true)}
+const data=window.NOVELHUB_RANKINGS;
+const record=data?.status==="ready"&&Array.isArray(data.entries)
+  ? data.entries.find(item=>item.id===book.id&&Number.isInteger(item.visits)&&item.visits>=0)
+  : null;
+const numeral=cover.querySelector(".cover-mark");
+if(numeral){
+  const rank=record?.rank;
+  if(Number.isInteger(rank)&&rank>=1&&rank<=10){numeral.textContent=rank+".";numeral.hidden=false}
+  else numeral.hidden=true;
+}
 const meta=[book.author,book.chapters?.length?book.chapters.length+" chapters":"No chapters published",book.language].filter(Boolean);
+if(record)meta.push(record.visits.toLocaleString()+" reader "+(record.visits===1?"visit":"visits")+" last week");
 meta.forEach(t=>$("metadata").append(element("span","",t)));
 (book.genres||[]).forEach(g=>$("genres").append(element("span","tag",g)));
 if(book.description){$("description").textContent=book.description;$("description").hidden=false}
