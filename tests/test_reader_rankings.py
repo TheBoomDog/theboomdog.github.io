@@ -12,9 +12,24 @@ from update_reader_rankings import completed_week, catalog_ids, get_counts, buil
 
 
 class ReaderRankingTests(unittest.TestCase):
-    def test_catalog_has_both_novels(self):
+    def test_catalog_detects_any_number_of_novels(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as temp:
+            site = Path(temp)
+            (site / "data").mkdir()
+            (site / "data/catalog.js").write_text(
+                'window.NOVELHUB_BOOKS = ['
+                '{id:"alpha",chapters:[{href:"read-a"}]},'
+                '{id:"beta",chapters:[{href:"read-b"}]},'
+                '{id:"unpublished",chapters:[]}'
+                '];',
+                encoding="utf-8"
+            )
+            self.assertEqual(catalog_ids(site), ["alpha", "beta"])
+
+    def test_live_catalog_has_published_novels(self):
         site = Path(__file__).resolve().parents[1]
-        self.assertEqual(set(catalog_ids(site)), {"mol", "malfoid"})
+        self.assertGreater(len(catalog_ids(site)), 0)
 
     def test_completed_week_respects_central_daylight_time(self):
         after = datetime(2026, 3, 9, 7, 15, tzinfo=timezone.utc)
