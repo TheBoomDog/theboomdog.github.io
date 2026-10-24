@@ -9,7 +9,7 @@ or titles in website pages, analytics scripts, or ranking jobs.
 from pathlib import Path
 import argparse
 
-RESERVED = {"books.js", "catalog.js", "rankings.js", "analytics-config.js"}
+RESERVED = {"books.js", "catalog.js", "rankings.js", "analytics-config.js", "site-config.js"}
 
 def sources(site: Path) -> list[Path]:
     folder = site / "data"
