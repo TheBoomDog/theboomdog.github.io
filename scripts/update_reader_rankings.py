@@ -84,9 +84,27 @@ def get_counts(code: str, token: str, book_ids: list[str],
         try:
             with urlopen(request, timeout=30) as response:
                 data = json.load(response)
-        except (HTTPError, URLError) as exc:
-            raise RuntimeError("Unable to fetch GoatCounter statistics; check the "
-                               "site code and API token permissions") from exc
+        except HTTPError as exc:
+            # Never log the Authorization header or API key. HTTP status and
+            # GoatCounter's short error label are enough to diagnose failures.
+            detail = ""
+            try:
+                problem = json.loads(exc.read(2048).decode("utf-8", errors="replace"))
+                detail = str(problem.get("error", ""))[:160] if isinstance(problem, dict) else ""
+                detail = detail.replace(token, "[redacted]")
+            except (ValueError, OSError):
+                pass
+            hint = {
+                400: "Request parameters rejected by GoatCounter",
+                401: "API token is invalid or not authorized",
+                403: "API token lacks statistics permissions",
+                404: "GoatCounter site or statistics endpoint not found",
+            }.get(exc.code, "GoatCounter API returned an error")
+            raise RuntimeError(
+                f"GoatCounter HTTP {exc.code}: {hint}" + (f" ({detail})" if detail else "")
+            ) from exc
+        except URLError as exc:
+            raise RuntimeError("Could not reach GoatCounter over HTTPS") from exc
         if not isinstance(data.get("hits"), list):
             raise ValueError("Unexpected analytics API response: no hits list")
         for hit in data["hits"]:
