@@ -47,12 +47,25 @@
   };
   const mostRecent = book => chapterEntries(book)
     .reduce((latest, ch) => Math.max(latest, parseDate(ch.updatedAt) || 0), 0);
-  const updates = books.flatMap(book => chapterEntries(book).map((chapter, index) => ({
+  const allUpdates = books.flatMap(book => chapterEntries(book).map((chapter, index) => ({
     book, chapter, index, timestamp: parseDate(chapter.updatedAt)
-  }))).sort((x, y) =>
+  })));
+  // Recorded Git dates take priority. When a legacy novel has no dates, show
+  // its chapters after dated updates rather than inventing timestamps.
+  const updates = allUpdates.sort((x, y) =>
     (y.timestamp || 0) - (x.timestamp || 0) ||
     (x.book.id === y.book.id ? y.index - x.index : x.book.title.localeCompare(y.book.title))
   );
+  // Before an initial catalog sync, do not let the first undated book dominate
+  // the homepage; distribute its last chapters fairly across different books.
+  if (updates.length && !updates.some(item => item.timestamp)) {
+    const buckets = books.map(book => updates.filter(item => item.book.id === book.id));
+    const interleaved = [];
+    for (let i = 0; buckets.some(bucket => bucket.length); i++) {
+      for (const bucket of buckets) if (bucket.length) interleaved.push(bucket.shift());
+    }
+    updates.splice(0, updates.length, ...interleaved);
+  }
   const genreOptions = [...new Set(books.flatMap(book => Array.isArray(book.genres) ? book.genres : []))].sort((a, b) => a.localeCompare(b));
   const chapterLabel = item => item.chapter.label || "Chapter " + (item.index + 1);
 
