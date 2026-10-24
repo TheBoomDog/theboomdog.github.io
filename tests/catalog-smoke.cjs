@@ -41,6 +41,28 @@ assert.equal(home.document.querySelectorAll(".novel-card").length, allBooks.leng
 assert.equal(home.document.getElementById("latest-list").children.length,
   Math.min(10, published.reduce((sum, b) => sum + b.chapters.length, 0)));
 
+// Statuses are sourced from published novels, so future status labels need no code edits.
+for (const page of ["index.html", "browse.html", "search.html", "ranking.html"]) {
+  const view = open(page);
+  const selector = view.document.getElementById("status");
+  const optionValues = [...selector.options].map(option => option.value);
+  assert.ok(optionValues.includes("all"), page + " provides all statuses");
+  assert.ok(optionValues.includes("available"), page + " preserves the published filter");
+  assert.ok(optionValues.includes("status:completed"), page + " provides Completed");
+  assert.ok(optionValues.includes("status:in progress"), page + " provides In progress");
+  assert.ok(!optionValues.includes("unpublished"), page + " does not offer Unpublished");
+  for (const [value, matches] of [
+    ["status:completed", b => b.chapters?.length && b.status?.trim().toLowerCase() === "completed"],
+    ["status:in progress", b => b.chapters?.length && b.status?.trim().toLowerCase() === "in progress"],
+    ["available", b => b.chapters?.length]
+  ]) {
+    selector.value = value;
+    selector.dispatchEvent(new view.Event("change"));
+    const shown = [...view.document.querySelectorAll(".novel-card")].map(el => el.dataset.id).sort();
+    const expected = allBooks.filter(matches).map(b => b.id).sort();
+    assert.deepEqual(shown, expected, page + " filters correctly for " + value);
+  }
+}
 const first = published[0];
 const firstCard = home.document.querySelector('.novel-card[data-id="' + first.id + '"]');
 // The cover and title lead to book details; only Start/Continue opens a chapter.
@@ -131,6 +153,21 @@ const newBook = {
   }]
 };
 const additional = open("index.html", "", null, newBook);
+const pausedBook = {...newBook, status: "Hiatus"};
+const pausedLibrary = open("index.html", "", null, pausedBook);
+const pausedStatus = pausedLibrary.document.getElementById("status");
+assert.ok([...pausedStatus.options].some(o => o.value === "status:hiatus"),
+  "Arbitrary new published novel statuses are automatically added to the filter");
+pausedStatus.value = "status:hiatus";
+pausedStatus.dispatchEvent(new pausedLibrary.Event("change"));
+assert.deepEqual([...pausedLibrary.document.querySelectorAll(".novel-card")].map(card => card.dataset.id),
+  [pausedBook.id], "Arbitrary future statuses actually filter novel cards");
+const unpublishedComplete = open("index.html", "", null, {...newBook, status: "Completed", chapters: []});
+unpublishedComplete.document.getElementById("status").value = "status:completed";
+unpublishedComplete.document.getElementById("status").dispatchEvent(new unpublishedComplete.Event("change"));
+assert.ok(![...unpublishedComplete.document.querySelectorAll(".novel-card")]
+  .some(card => card.dataset.id === newBook.id),
+  "Unpublished books are never included in published status filters");
 const futureCard = additional.document.querySelector('.novel-card[data-id="synthetic-future-novel"]');
 assert.equal(futureCard.querySelectorAll(".card-actions a").length, 1,
   "A newly imported novel must also have one clear reading action");
