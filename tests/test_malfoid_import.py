@@ -1,5 +1,6 @@
 """Basic checks for publication filtering, without copying real manuscripts."""
 import tempfile
+import subprocess
 import unittest
 from pathlib import Path
 import sys
@@ -51,7 +52,23 @@ class ImportMalfoidTests(unittest.TestCase):
         )
         catalog = (self.site / "data/malfoid.js").read_text(encoding="utf-8")
         self.assertIn("Book 5 —", catalog)
-        self.assertIn("reader.html?id=malfoid&chapter=2", catalog)
+        self.assertIn("reader.html?id=malfoid&chapter=b5-01-a-test", catalog)
+
+    def test_git_change_date_is_preserved(self):
+        self.add_chapter(1, "Original testing prose. " * 90)
+        for args in [
+            ["git", "init", "-q"],
+            ["git", "config", "user.email", "tests@example.com"],
+            ["git", "config", "user.name", "Test runner"],
+            ["git", "add", "drafts"],
+            ["git", "commit", "-qm", "Add chapter"],
+        ]:
+            subprocess.run(args, cwd=self.source, check=True, capture_output=True)
+        total = import_books(self.source, self.site, [1])
+        self.assertEqual(total, 1)
+        catalog = (self.site / "data/malfoid.js").read_text(encoding="utf-8")
+        self.assertIn('"updatedAt":', catalog)
+        self.assertIn('"key": "b1-01-a-test"', catalog)
 
     def test_existing_book_placeholder_is_an_error(self):
         self.add_chapter(1, "<!-- navigation placeholder -->")

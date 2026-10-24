@@ -18,14 +18,5 @@ window.NOVELHUB_BOOKS = [
         href: "reader.html?id=mol&chapter=" + number
       };
     })
-  },
-  {
-    id: "malfoid",
-    title: "Malfoid",
-    status: "Unpublished",
-    genres: ["Fantasy", "Fanfiction", "Romance"],
-    description: "A Harry Potter fan rewrite featuring a gender-swapped Draco Malfoy.",
-    cover: { start: "#38483a", end: "#13221b", ink: "#e5cc9f" },
-    chapters: []
   }
 ];

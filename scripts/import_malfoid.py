@@ -14,6 +14,7 @@ PDFs, GPT notes or outlines. This script writes only approved chapter files.
 import argparse
 import json
 import re
+import subprocess
 from pathlib import Path
 
 INDEX_ENTRY = re.compile(r"^-\s+\[(.+?)\]\((book-(\d+)/chapters/([^)]*\.md))\)\s*$", re.M)
@@ -31,6 +32,19 @@ VOLUME_NAMES = {
     7: "Deathly Hallows",
 }
 DATA_MARKER = "// Auto-generated from the local Malfoid manuscript by scripts/import_malfoid.py.\n"
+
+def last_modified(source: Path, chapter_file: Path):
+    """Use manuscript git history; never invent a publication/update timestamp."""
+    if not (source / ".git").exists():
+        return None
+    relative = chapter_file.relative_to(source)
+    result = subprocess.run(
+        ["git", "log", "-1", "--format=%cI", "--", str(relative)],
+        cwd=source, capture_output=True, text=True, check=False,
+    )
+    value = result.stdout.strip()
+    return value if result.returncode == 0 and value else None
+
 
 
 def import_books(source: Path, website: Path, books: list[int]) -> int:
@@ -79,15 +93,21 @@ def import_books(source: Path, website: Path, books: list[int]) -> int:
             output_files.append((destination, site_document))
             ordinal = len(chapters) + 1
             label = f"Book {book_number} · {('Epilogue' if title.lower() == 'epilogue' else f'Chapter {local_number}')}"
-            chapters.append({
+            stable_key = f"b{book_number}-{Path(filename).stem}"
+            chapter_record = {
                 "number": ordinal,
+                "key": stable_key,
                 "label": label,
                 "title": title,
                 "volume": book_number,
                 "format": "jekyll",
                 "source": f"Novels/Malfoid/book-{book_number}/{Path(filename).stem}.html",
-                "href": f"reader.html?id=malfoid&chapter={ordinal}",
-            })
+                "href": f"reader.html?id=malfoid&chapter={stable_key}",
+            }
+            modified = last_modified(source, chapter_file)
+            if modified:
+                chapter_record["updatedAt"] = modified
+            chapters.append(chapter_record)
         if len(chapters) > initial_count:
             volumes.append({"number": book_number, "name": f"Book {book_number} — {VOLUME_NAMES[book_number]}"})
 

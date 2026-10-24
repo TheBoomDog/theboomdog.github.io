@@ -1,0 +1,51 @@
+name: Validate NovelHub
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test manuscript importer
+        run: python3 -m unittest discover -s tests -p 'test_malfoid_import.py' -v
+      - name: Validate browser JavaScript
+        run: |
+          for file in js/*.js data/*.js; do
+            node --check "$file"
+          done
+      - name: Smoke test dynamic catalog rendering
+        run: |
+          npm install --no-save --no-audit --no-fund jsdom@26
+          node tests/catalog-smoke.cjs
+      - name: Verify dynamic page entry points
+        run: |
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          class Page(HTMLParser):
+              def __init__(self):
+                  super().__init__(); self.ids=set(); self.scripts=[]
+              def handle_starttag(self, tag, attrs):
+                  data=dict(attrs)
+                  if 'id' in data: self.ids.add(data['id'])
+                  if tag=='script' and 'src' in data: self.scripts.append(data['src'])
+          pages={
+              "index.html":{"novel-list","latest-list"},
+              "browse.html":{"novel-list","latest-list"},
+              "search.html":{"novel-list","latest-list"},
+              "ranking.html":{"novel-list","latest-list"},
+              "updates.html":{"updates-list","update-book","more-updates"},
+          }
+          for file,required in pages.items():
+              p=Page();p.feed(Path(file).read_text(encoding="utf-8"))
+              assert required<=p.ids,(file,required-p.ids)
+              assert "data/books.js" in p.scripts and "data/malfoid.js" in p.scripts and "js/library.js" in p.scripts,file
+              print(file,"OK")
+          PY
