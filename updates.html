@@ -9,8 +9,11 @@
   <link rel="icon" href="Images/Logo_pixel_art.png" type="image/png">
   <link rel="stylesheet" href="css/site.css">
   <script defer src="data/catalog.js"></script>
+  <script defer src="js/nav.js"></script>
   <script defer src="js/chapter-changes.js"></script>
   <script defer src="data/rankings.js"></script>
+  <script defer src="data/site-config.js"></script>
+  <script defer src="js/report.js"></script>
   <script defer src="js/library.js"></script>
 </head>
 <body data-page="updates">
@@ -19,16 +22,15 @@
     <div class="wrap header-inner">
       <a class="brand" href="index.html" aria-label="NovelHub home"><span class="brand-icon" aria-hidden="true">N</span><span class="brand-name">NovelHub</span></a>
       <nav class="top-nav" aria-label="Main navigation">
-        <a href="index.html">Library</a><a href="browse.html">Browse</a><a href="updates.html">Updates</a>
+        <a href="browse.html" data-browse-link hidden>Browse</a><a href="ranking.html">Rankings</a><a href="updates.html">Updates</a><a class="report-nav" data-report-problem href="https://github.com/TheBoomDog/theboomdog.github.io/issues/new">Report issue ↗</a>
       </nav>
     </div>
   </header>
   <main class="wrap" id="main-content">
     <div class="page-head"><h1>Latest chapters</h1><span class="count" id="catalog-total">Loading…</span></div>
     <nav class="page-tabs" aria-label="Explore catalog">
-      <a href="index.html" >Library</a>
-      <a href="browse.html" >Browse</a>
-      <a href="ranking.html" >Rankings</a>
+      <a href="browse.html" data-browse-link hidden>Browse</a>
+      <a href="ranking.html">Rankings</a>
       <a href="updates.html" aria-current="page">Latest updates</a>
     </nav>
     
@@ -47,6 +49,6 @@
     </section>
     <noscript><p class="empty">Enable JavaScript to browse the novel catalog.</p></noscript>
   </main>
-  <footer><div class="wrap"><span>NovelHub</span><span>GitHub Pages</span></div></footer>
+  <footer><div class="wrap"><span>NovelHub</span><a href="privacy.html">Privacy &amp; source</a><span>GitHub Pages</span></div></footer>
 </body>
 </html>
