@@ -1,6 +1,20 @@
 name: Validate NovelHub
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'js/**'
+      - 'data/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'index.html'
+      - 'browse.html'
+      - 'search.html'
+      - 'ranking.html'
+      - 'book.html'
+      - 'reader.html'
+      - '.github/workflows/validate-site.yml'
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -15,6 +29,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Test manuscript importer
         run: python3 -m unittest discover -s tests -p 'test_malfoid_import.py' -v
+      - name: Test reader ranking aggregation
+        run: python3 -m unittest discover -s tests -p 'test_reader_rankings.py' -v
       - name: Validate browser JavaScript
         run: |
           for file in js/*.js data/*.js; do
@@ -46,6 +62,6 @@ jobs:
           for file,required in pages.items():
               p=Page();p.feed(Path(file).read_text(encoding="utf-8"))
               assert required<=p.ids,(file,required-p.ids)
-              assert "data/books.js" in p.scripts and "data/malfoid.js" in p.scripts and "js/library.js" in p.scripts,file
+              assert "data/books.js" in p.scripts and "data/malfoid.js" in p.scripts and "data/rankings.js" in p.scripts and "js/library.js" in p.scripts,file
               print(file,"OK")
           PY
