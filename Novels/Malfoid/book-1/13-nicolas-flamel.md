@@ -177,9 +177,9 @@ Harry had suddenly gone into a spectacular dive, which drew gasps and cheers fro
 
 “You’re in luck, Weasley, Potter’s obviously spotted some money on the ground!” said Malfoy.
 
-Ron snapped. Before Malfoy knew what was happening, Ron was on top of her, wrestling her to the ground. Neville hesitated, then clambered over the back of his seat to help.
+Ron snapped. He lunged toward Malfoy, but Crabbe and Goyle stepped between them. Crabbe caught Ron by the front of his robes. Ron shoved him back, and they went sprawling between the rows. Neville hesitated, then clambered over the back of his seat to help.
 
-“Come on, Harry!” Hermione screamed, leaping onto her seat to watch as Harry sped straight at Snape — she didn’t even notice Malfoy and Ron rolling around under her seat, or the scuffles and yelps coming from the whirl of fists that was Neville, Crabbe, and Goyle.
+“Come on, Harry!” Hermione screamed, leaping onto her seat to watch as Harry sped straight at Snape — she didn’t even notice Ron and Crabbe rolling around under her seat, or the scuffles and yelps as Neville tried to fight Goyle in the row behind.
 
 Up in the air, Snape turned on his broomstick just in time to see something scarlet shoot past him, missing him by inches — the next second, Harry had pulled out of the dive, his arm raised in triumph, the Snitch clasped in his hand.
 
@@ -235,7 +235,7 @@ He threw his cloak over his head and strode out of the clearing. It was almost d
 
 “Harry, where have you *been*?” Hermione squeaked.
 
-“We won! You won! We won!” shouted Ron, thumping Harry on the back. “And I gave Malfoy a black eye, and Neville tried to take on Crabbe and Goyle single-handed! He’s still out cold but Madam Pomfrey says he’ll be all right — talk about showing Slytherin! Everyone’s waiting for you in the common room, we’re having a party, Fred and George stole some cakes and stuff from the kitchens.”
+“We won! You won! We won!” shouted Ron, thumping Harry on the back. “And I gave Crabbe a black eye, and Neville tried to take on Goyle single-handed! He’s still out cold but Madam Pomfrey says he’ll be all right — talk about showing Slytherin! Everyone’s waiting for you in the common room, we’re having a party, Fred and George stole some cakes and stuff from the kitchens.”
 
 “Never mind that now,” said Harry breathlessly. “Let’s find an empty room, you wait ’til you hear this. . . .”
 

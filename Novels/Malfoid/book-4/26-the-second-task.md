@@ -743,6 +743,8 @@ Harry smiled at her. It was rather nice, being able to agree about something wit
 
 She stepped aside to let him pass, but when he started up the path she fell into step with him.
 
+Their sleeves brushed as they walked, and Harry glanced at her, but she was looking ahead. He left his arm where it was.
+
 “Do you know what the next task is?” she asked.
 
 “Not yet.”

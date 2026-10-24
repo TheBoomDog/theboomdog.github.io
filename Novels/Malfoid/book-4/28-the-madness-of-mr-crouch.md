@@ -247,6 +247,40 @@ She marched back up the marble staircase without a backward glance. Harry was qu
 
 Hermione, however, did not ask Harry and Ron to help her pursue vengeance against Rita Skeeter, for which they were both grateful, because their workload was mounting ever higher in the days before the Easter holidays. Harry frankly marveled at the fact that Hermione could research magical methods of eavesdropping as well as everything else they had to do. He was working flat-out just to get through all their homework, though he made a point of sending regular food packages up to the cave in the mountain for Sirius; after last summer, Harry had not forgotten what it felt like to be continually hungry. He enclosed notes to Sirius, telling him that nothing out of the ordinary had happened, and that they were still waiting for an answer from Percy.
 
+One evening during the Easter holidays, Harry found Malfoy at their usual library table, with three books spread out in front of her.
+
+“You're late,” she said.
+
+“I didn't know we were meeting.”
+
+“Then I suppose you're early for tomorrow.”
+
+Harry grinned and pulled out a chair.
+
+“Have you finished the Charms essay?”
+
+“Nearly.”
+
+“You said that yesterday.”
+
+“I've written another foot.”
+
+“How impressive.”
+
+She turned her textbook toward him, pointing to a passage halfway down the page. Harry pulled his chair closer to read it.
+
+Their elbows touched.
+
+“There,” she said, tapping the paragraph. “That's what I've been telling you.”
+
+Harry read it.
+
+“Oh.”
+
+“Yes. Oh.”
+
+He smiled, and she smiled back.
+
 Hedwig didn’t return until the end of the Easter holidays. Percy’s letter was enclosed in a package of Easter eggs that Mrs. Weasley had sent. Both Harry’s and Ron’s were the size of dragon eggs and full of homemade toffee. Hermione’s, however, was smaller than a chicken egg. Her face fell when she saw it.
 
 “Your mum doesn’t read *Witch Weekly,* by any chance, does she, Ron?” she asked quietly.

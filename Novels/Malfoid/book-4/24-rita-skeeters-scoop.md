@@ -239,6 +239,24 @@ He opened his book, grateful for an excuse not to look at her. She went back to 
 
 When Harry reached for his ink, he found she'd already moved the bottle to his side of the table.
 
+Malfoy bent over her parchment, a loose strand of pale hair falling across her cheek.
+
+Harry found himself watching her. He remembered how her hair had come loose from its pins on Christmas night, and the little colour that had appeared in her cheeks when he'd asked her to dance.
+
+“What?” she asked, looking up.
+
+“Nothing.”
+
+He looked down at his book, feeling rather foolish.
+
+“You've been staring at me.”
+
+“No, I haven't.”
+
+“Of course not, Potter.”
+
+She returned to her essay. Harry turned a page, though he hadn't finished reading the last one.
+
 There was a Hogsmeade visit halfway through January. Hermione was very surprised that Harry was going to go.
 
 “I just thought you’d want to take advantage of the common room being quiet,” she said. “Really get to work on that egg.”

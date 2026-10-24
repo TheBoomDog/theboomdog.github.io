@@ -215,7 +215,7 @@ There was a hitch. By the next morning, Ron’s bitten hand had swollen to twice
 
 Harry and Hermione rushed up to the hospital wing at the end of the day to find Ron in a terrible state in bed.
 
-“It’s not just my hand,” he whispered, “although that feels like it’s about to fall off. Malfoy told Madam Pomfrey she wanted to borrow one of my books so she could come and have a good laugh at me. She kept threatening to tell her what really bit me — I’ve told her it was a dog, but I don’t think she believes me — I shouldn’t have hit her at the Quidditch match, that’s why she’s doing this.”
+“It’s not just my hand,” he whispered, “although that feels like it’s about to fall off. Malfoy told Madam Pomfrey she wanted to borrow one of my books so she could come and have a good laugh at me. She kept threatening to tell her what really bit me — I’ve told her it was a dog, but I don’t think she believes me — I shouldn’t have gone for her at the Quidditch match, that’s why she’s doing this.”
 
 Harry and Hermione tried to calm Ron down.
 

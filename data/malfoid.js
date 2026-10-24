@@ -176,7 +176,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-1/13-nicolas-flamel.html",
       "href": "reader.html?id=malfoid&chapter=b1-13-nicolas-flamel",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-24T12:07:09-05:00"
     },
     {
       "number": 14,
@@ -187,7 +187,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-1/14-norbert-the-norwegian-ridgeback.html",
       "href": "reader.html?id=malfoid&chapter=b1-14-norbert-the-norwegian-ridgeback",
-      "updatedAt": "2026-10-23T17:04:43-05:00"
+      "updatedAt": "2026-10-24T12:07:11-05:00"
     },
     {
       "number": 15,
@@ -924,7 +924,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/24-rita-skeeters-scoop.html",
       "href": "reader.html?id=malfoid&chapter=b4-24-rita-skeeters-scoop",
-      "updatedAt": "2026-10-23T18:50:15-05:00"
+      "updatedAt": "2026-10-24T12:05:40-05:00"
     },
     {
       "number": 82,
@@ -946,7 +946,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/26-the-second-task.html",
       "href": "reader.html?id=malfoid&chapter=b4-26-the-second-task",
-      "updatedAt": "2026-10-23T18:50:23-05:00"
+      "updatedAt": "2026-10-24T12:05:42-05:00"
     },
     {
       "number": 84,
@@ -968,7 +968,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/28-the-madness-of-mr-crouch.html",
       "href": "reader.html?id=malfoid&chapter=b4-28-the-madness-of-mr-crouch",
-      "updatedAt": "2026-10-23T17:37:06-05:00"
+      "updatedAt": "2026-10-24T12:05:45-05:00"
     },
     {
       "number": 86,
