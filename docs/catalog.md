@@ -16,8 +16,9 @@ commits the bundle. Every page loads **only** `data/catalog.js` for novel
 metadata; no HTML, browser scripts or ranking code must be edited.
 
 Reserved `data/` filenames: `books.js` (base catalog),
-`catalog.js` (generated result), `rankings.js` (weekly aggregated reader
-visits), and `analytics-config.js` (public tracking configuration).
+`catalog.js` (generated result), `rankings.js` (top-ten positions only),
+`analytics-config.js` (anonymous reader-count configuration), and
+`site-config.js` (site-wide feedback destination).
 All other `data/*.js` files are registered novel sources, sorted by filename.
 For a generated novel file, follow this overlay format:
 
@@ -83,3 +84,22 @@ Additional novel importers may write their own `data/<slug>.js` alongside
 published chapter files and invoke the same catalog builder.
 
 The reader's saved-book and reading-progress storage keys remain unchanged.
+
+## Returning readers and problem reports
+
+- The homepage's **Continue reading** shelf uses the most recently read
+  chapter from `novelhub:progress:v1`, saved locally in the visitor's browser.
+  It is hidden for visitors without reading history.
+- `js/chapter-changes.js` compares the current catalog with the catalog a
+  visitor saw during a previous session (at least 30 minutes between visits).
+  New chapter keys show **New**; a later `updatedAt` on a known chapter shows
+  **Updated**. The first visit establishes a baseline and shows no false badges.
+  The comparison and progress data stay in local browser storage.
+- **Report a problem** appears on the homepage, novel detail pages, and at the
+  top and bottom of the reader. The reader links generate a prefilled issue
+  containing the current novel, chapter, URL, and a space to describe the
+  problem. The destination is configured in `data/site-config.js` so it can be
+  changed without modifying page scripts. Issue submission occurs on GitHub;
+  reporting requires a GitHub account, and submitted issues are public.
+- Feedback does not transmit local reading progress, bookmarks or settings.
+  Browser UI does not expose analytics counts.
