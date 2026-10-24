@@ -115,7 +115,7 @@ def import_books(source: Path, website: Path, books: list[int]) -> int:
         "id": "malfoid",
         "title": "Malfoid",
         "status": "In progress",
-        "genres": ["Fantasy", "Fanfiction", "Romance"],
+        "genres": ["Fantasy", "Fanfiction", "Romance", "Magic"],
         "description": "A Harry Potter fan rewrite featuring a gender-swapped Draco Malfoy.",
         "cover": {"start": "#38483a", "end": "#13221b", "ink": "#e5cc9f"},
         "volumes": volumes,
