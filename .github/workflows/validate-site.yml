@@ -14,6 +14,7 @@ on:
       - 'ranking.html'
       - 'book.html'
       - 'reader.html'
+      - 'privacy.html'
       - '.github/workflows/validate-site.yml'
   pull_request:
     branches: [main]
@@ -48,6 +49,7 @@ jobs:
           node tests/catalog-smoke.cjs
           node tests/analytics-smoke.cjs
           node tests/reader-features-smoke.cjs
+          node tests/privacy-navigation-smoke.cjs
       - name: Verify dynamic page entry points
         run: |
           python3 - <<'PY'
