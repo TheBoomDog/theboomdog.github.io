@@ -63,7 +63,7 @@ Rubeus Hagrid, who admits to being expelled from Hogwarts in his third year, has
 
 An alarmingly large and ferocious-looking man, Hagrid has been using his newfound authority to terrify the students in his care with a succession of horrific creatures. While Dumbledore turns a blind eye, Hagrid has maimed several pupils during a series of lessons that many admit to being “very frightening.”
 
-“A student was attacked by a hippogriff last year, and Vincent Crabbe was nearly injured in another lesson,” says Pansy Parkinson, a fourth-year Slytherin. “Most of us are terrified of his classes, but no one wants to say so.”
+“A student was attacked by a hippogriff last year, and Vincent Crabbe was nearly bitten by a Flobberworm in another lesson,” says Pansy Parkinson, a fourth-year Slytherin. “Most of us are terrified of his classes, but no one wants to say so.”
 
 Hagrid has no intention of ceasing his campaign of intimidation, however. In conversation with a *Daily Prophet* reporter last month, he admitted breeding creatures he has dubbed “Blast-Ended Skrewts,” highly dangerous crosses between manticores and fire-crabs. The creation of new breeds of magical creature is, of course, an activity usually closely observed by the Department for the Regulation and Control of Magical Creatures. Hagrid, however, considers himself to be above such petty restrictions.
 

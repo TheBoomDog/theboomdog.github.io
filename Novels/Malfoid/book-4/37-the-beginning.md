@@ -225,67 +225,227 @@ He left the compartment and walked toward the quieter end of the train.
 
 Harry found Malfoy standing alone near the end of the carriage, looking out of the window.
 
-She glanced at him when he approached.
+She turned when she heard him approach.
 
 “Potter.”
 
-He had come looking for her, but now that he had found her he was uncertain where to begin. There was something he had wanted to say ever since the graveyard.
+“Malfoy.”
+
+She looked at him for a moment, then glanced toward the compartment he'd come from.
+
+“Where are your friends?”
+
+“Back there.”
+
+“I see.”
+
+Harry stopped beside her. Outside, the countryside was passing in a blur of green fields and little stone walls. He had come looking for her, but now that he'd found her, he wasn't certain what to say.
+
+“You came back,” she said quietly.
+
+Harry looked at her.
+
+“I told you I would.”
+
+Malfoy lowered her eyes.
+
+For a moment he remembered her sitting on the windowsill outside the Transfiguration classroom, telling him to come back after the third task. He had promised without thinking much of it. Now he wondered how long she'd waited before someone told her what had happened.
+
+“I was rather worried,” she said.
+
+Harry gave a small, humorless smile.
+
+“You weren't the only one.”
+
+“No. I suppose not.”
+
+She turned back toward the window.
+
+Harry watched her for a moment. There were things he wanted to ask her, things he'd been thinking about since the graveyard. He had hoped that seeing her might make them easier to say.
 
 “Your father was there.”
 
-She looked at him steadily. “In the graveyard?”
+Malfoy went still.
 
-“When Voldemort came back.”
+“In the graveyard?” she asked.
 
-For a moment she said nothing.
+Harry nodded.
 
-“I wondered if he'd gone.”
+“When Voldemort called the Death Eaters. Your father came.”
 
-“I heard him. Voldemort called him Lucius. Your father answered.”
+She didn't look surprised.
 
-“I know the company my father keeps, Potter.”
+“I thought he might have.”
 
-Harry remembered meeting her in the woods at the World Cup, when he'd asked whether her parents were among the masked wizards. She had only smiled at him then.
+“He called him Lucius. I heard him answer.”
 
-“You suspected even back at the World Cup,” he said.
+“I believe you, Potter.”
 
-“I had a fairly good idea.”
+Harry had expected an argument. Somehow, that made it worse.
 
-She looked away, toward the passing fields.
+“You knew?”
 
-“He never made a secret of what he believed,” she said quietly.
+“I knew what my father believed. He never made much effort to hide it from me.”
 
-Harry waited, but she didn't continue.
+“And you knew he'd go back?”
 
-“Cedric died there,” he said.
+Malfoy looked at him.
+
+“What would you have me say?”
+
+Harry felt his temper rising.
+
+“I don't know. Something.”
+
+She folded her arms.
+
+“He's my father, Potter.”
+
+“I know who he is.”
+
+“Then perhaps you ought to understand that I can't simply...”
+
+“Cedric died there.”
+
+She stopped.
+
+Harry looked away, toward the passing fields.
+
+“He was standing right beside me. One moment we were talking, and the next...”
+
+He couldn't finish.
+
+Malfoy said nothing.
+
+“Your father stood with the people who did it,” Harry said at last.
 
 “I know.”
 
-“And your father was one of them.”
+“Do you?”
 
-“I heard you the first time, Potter.”
+She flinched a little, and Harry immediately regretted the sharpness of his voice. He hadn't meant to come here to quarrel with her.
 
-Harry felt anger rise in him. He had been hoping, foolishly perhaps, for some better answer.
+But he couldn't pretend that what had happened in the graveyard was something they could set aside until September.
 
-“What do you want me to say?” she asked.
+“I don't know what you want me to do,” she said.
 
-“I don't know.”
+Harry looked at her.
 
-“I'm going home to him today.”
+There had been a time when he would have known exactly what he wanted from Malfoy. He would have wanted her to leave him alone, stop tormenting his friends, and keep her father's opinions to herself.
 
-That stopped Harry for a moment.
+Now he wasn't certain.
 
-“It doesn't change what happened,” he said.
+“I don't know either,” he admitted.
 
-“I didn't say it did.”
+She looked down at her hands.
 
-They stood in silence. Malfoy's hands were closed tightly at her sides.
+For a while neither spoke. The train rattled along the tracks, and somewhere farther down the carriage a door slid open and closed.
 
-“I should go,” she said at last.
+“I'm going home to him today,” she said.
 
-She passed him without another word, leaving Harry beside the window.
+Harry hadn't thought about that.
 
-When Harry returned, Ron was talking quietly to Hermione about her discovery. Fred and George appeared at the door not long afterwards.
+He had spent the last several days wishing he didn't have to return to the Dursleys. It hadn't occurred to him that Malfoy might have reasons of her own to dread the end of term.
+
+“Right,” he said.
+
+“I can't change that.”
+
+“I wasn't asking you to.”
+
+“I know.”
+
+She looked at him then, and for a moment he thought she might say something else.
+
+Instead she asked, “Will you be going to the Weasleys' this summer?”
+
+“Eventually. I hope so.”
+
+“That'll be nice.”
+
+“I suppose.”
+
+She gave a small nod.
+
+Harry thought of the library table beside the window, of the music box she'd brought from home, and of the afternoon she'd waited for him outside the Transfiguration classroom.
+
+It seemed strange that they could have spent so much time together and still have so little idea what to say to one another.
+
+“You'll be back at Hogwarts in September?” he asked.
+
+“Of course.”
+
+He nodded.
+
+“Good.”
+
+Malfoy looked at him, and something in her expression changed.
+
+“Why?”
+
+Harry hadn't expected the question.
+
+“Well, we've still got that Potions essay to finish.”
+
+She stared at him.
+
+“Potter, we finished that in March.”
+
+“Oh.”
+
+For the first time since he'd found her, she smiled.
+
+“Honestly. How you've managed to pass anything without Granger doing it for you is beyond me.”
+
+Harry smiled back.
+
+It was such an ordinary thing for her to say that, for a moment, he almost forgot why he'd come.
+
+Then her smile faded.
+
+“Harry,” she began.
+
+He looked at her.
+
+She seemed to struggle with something, her fingers tightening around the edge of her sleeve.
+
+“I...”
+
+A group of students came laughing down the corridor, carrying their trunks toward the luggage racks. Malfoy stepped aside to let them pass.
+
+When they were gone, she looked at Harry again.
+
+“I should get back.”
+
+He wanted to ask what she'd been going to say.
+
+He wanted to tell her that they could still meet at the library next term, that whatever their parents had done didn't have to decide everything for them.
+
+But he had seen her father kneeling before Voldemort, and he could still hear Cedric's father crying over his son's body.
+
+He couldn't find the words.
+
+“All right,” he said.
+
+Malfoy nodded, though she didn't move immediately.
+
+“Goodbye, Potter.”
+
+“See you in September, Malfoy.”
+
+She looked at him for another moment.
+
+“September,” she repeated.
+
+Then she turned and walked back down the corridor.
+
+Harry watched until she disappeared into the next carriage.
+
+He remained by the window for a little while longer. There was nothing to be gained by standing there, he knew, but he found himself reluctant to return to the compartment.
+
+At last he turned and went back to Ron and Hermione.
+
+Ron was still talking quietly to Hermione about her discovery. Fred and George appeared at the door not long afterwards.
 
 “Exploding Snap, anyone?” Fred asked, holding up a pack of cards.
 

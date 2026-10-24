@@ -57,7 +57,7 @@ Harry and Hermione went to see. Pansy Parkinson was standing in the shadow of a 
 
 “Looks like she's talking to herself,” Harry said.
 
-“He can’t be,” said Hermione, “I’ve told you, those sorts of things don’t work around Hogwarts. Come on, Harry,” she added briskly, turning away from the window and moving back into the middle of the room, “let’s try that Shield Charm again.”
+“Probably plotting something unpleasant,” said Hermione, turning away from the window. “Come on, Harry, let’s try that Shield Charm again.”
 
 Sirius was sending daily owls now. Like Hermione, he seemed to want to concentrate on getting Harry through the last task before they concerned themselves with anything else. He reminded Harry in every letter that whatever might be going on outside the walls of Hogwarts was not Harry’s responsibility, nor was it within his power to influence it.
 

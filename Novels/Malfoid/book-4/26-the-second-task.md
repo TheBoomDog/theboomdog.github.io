@@ -153,7 +153,7 @@ Drusilla dipped her quill. Daphne had finished her work an hour ago and was now 
 
 “Potter's still in here,” Daphne remarked.
 
-Drusilla glanced up before she could stop herself. She could just see Harry beyond a shelf of books, leaning over a pile of volumes with Granger and Weasley.
+Drusilla glanced up before she could stop herself. She could just see Harry beyond a shelf of books, alone at a table piled with volumes.
 
 “So?” she said, a little too quickly.
 
@@ -251,7 +251,7 @@ Drusilla folded her arms. She did not much like being observed by an elf, partic
 
 “No, miss. Dobby is doing this himself.”
 
-She remembered the noise that had come from the golden egg in the common room when someone had opened it, and Potter's attempts to pretend he wasn't worried about the next task. She had seen him in the library almost every evening lately.
+She had heard students complain about the horrible noise from Potter's golden egg, and seen Potter trying to pretend he wasn't worried about the next task. He had been in the library almost every evening lately.
 
 “Is it to help him with tomorrow?”
 
