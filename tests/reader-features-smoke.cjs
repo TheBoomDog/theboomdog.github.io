@@ -27,51 +27,86 @@ function page(name, query = "", setup = () => {}) {
 const initial = page("index.html");
 assert.equal(initial.document.querySelector("#continue-reading").hidden, true,
   "No Continue Reading shelf before reading a chapter");
-assert.equal(initial.document.querySelectorAll(".chapter-flag").length, 0,
-  "Never mark the initial catalog as all-new");
-const known = JSON.parse(initial.localStorage.getItem("novelhub:known-chapters:v1"));
-assert.ok(known?.chapters, "Store the visitor's chapter baseline locally");
-
 const first = initial.NOVELHUB_BOOKS.find(book => book.chapters?.length);
 assert.ok(first);
 const chapter = first.chapters[0];
+assert.equal(initial.NOVELHUB_CHAPTER_CHANGES.get(first.id, chapter), "new",
+  "A new device has no chapter history, so unread chapters are New");
+assert.ok(initial.document.querySelectorAll(".chapter-flag-new").length > 0,
+  "A first-time visitor sees locally unread chapters marked New");
+assert.equal(initial.localStorage.getItem("novelhub:seen-chapters:v1"), null,
+  "Browsing the catalog must not mark chapters as read");
+
+// An existing reader's last chapter also supplies a useful continuation
+// point, without pretending that all earlier chapters are unread.
 const withProgress = page("index.html", "", w => {
   w.localStorage.setItem("novelhub:progress:v1", JSON.stringify({
     [first.id]: {key: chapter.key || null, chapter: 1, ratio: 0.36, updated: Date.now()}
   }));
 });
 const shelf = withProgress.document.querySelector("#continue-reading");
-assert.equal(shelf.hidden, false, "Show the Continue Reading shelf for existing progress");
+assert.equal(shelf.hidden, false, "Show Continue Reading for existing progress");
 assert.equal(withProgress.document.querySelector("#continue-link").getAttribute("href"), chapter.href);
 assert.match(withProgress.document.querySelector("#continue-details").textContent, /36% through chapter/);
 assert.match(withProgress.document.querySelector("#continue-details").textContent, new RegExp(first.title));
+assert.equal(withProgress.NOVELHUB_CHAPTER_CHANGES.get(first.id, withProgress.NOVELHUB_BOOKS
+  .find(book => book.id === first.id).chapters[0]), null,
+  "Chapters already reached in saved progress are not New");
 
-const baseline = {...known, lastSeen: Date.now() - 31 * 60 * 1000};
-const modified = page("index.html", "", w => {
-  w.localStorage.setItem("novelhub:known-chapters:v1", JSON.stringify(baseline));
-  const record = w.NOVELHUB_BOOKS.find(b => b.id === first.id);
-  record.chapters[0].updatedAt = "2999-01-01T00:00:00Z";
-  record.chapters.push({
-    key: "return-visit-new-chapter", label: "A later chapter", title: "Added later",
-    href: "reader.html?id=" + encodeURIComponent(first.id) + "&chapter=return-visit-new-chapter",
-    source: "Novels/test/later.html", updatedAt:"2999-01-01T00:00:00Z"
-  });
+// Explicit reading clears a New badge, without contacting any server.
+initial.NOVELHUB_CHAPTER_CHANGES.markSeen(first.id, chapter);
+assert.equal(initial.NOVELHUB_CHAPTER_CHANGES.get(first.id, chapter), null);
+const readHistory = JSON.parse(initial.localStorage.getItem("novelhub:seen-chapters:v1"));
+assert.ok(Object.hasOwn(readHistory[first.id], chapter.key || chapter.href));
+const reopened = page("index.html", "", w => {
+  w.localStorage.setItem("novelhub:seen-chapters:v1", JSON.stringify(readHistory));
 });
-assert.equal(modified.NOVELHUB_CHAPTER_CHANGES.get(first.id, modified.NOVELHUB_BOOKS.find(b=>b.id===first.id).chapters[0]), "updated");
-assert.equal(modified.NOVELHUB_CHAPTER_CHANGES.get(first.id, modified.NOVELHUB_BOOKS.find(b=>b.id===first.id).chapters.at(-1)), "new");
-assert.ok(modified.document.querySelector(".chapter-flag-new"), "Display New chapter badge");
-assert.ok(modified.document.querySelector(".chapter-flag-updated"), "Display Updated chapter badge");
+assert.equal(reopened.NOVELHUB_CHAPTER_CHANGES.get(first.id, reopened.NOVELHUB_BOOKS
+  .find(book => book.id === first.id).chapters[0]), null,
+  "Read receipts survive navigation on the same browser");
 
-const stable = page("index.html", "", w => {
-  w.localStorage.setItem("novelhub:known-chapters:v1", JSON.stringify(
-    JSON.parse(modified.localStorage.getItem("novelhub:known-chapters:v1"))
-  ));
-  const record = w.NOVELHUB_BOOKS.find(b => b.id === first.id);
-  record.chapters[0].updatedAt = "2999-01-01T00:00:00Z";
-  record.chapters.push({key:"return-visit-new-chapter",href:"reader.html?id="+first.id+"&chapter=return-visit-new-chapter"});
+// A revision gets an Updated badge only during its first three days and
+// only until the revised version has been opened.
+const DAY = 24 * 60 * 60 * 1000;
+const today = Date.now();
+const earlier = new Date(today - 8 * DAY).toISOString();
+const revised = new Date(today - 2 * DAY).toISOString();
+const oldRevision = new Date(today - 4 * DAY).toISOString();
+const revision = page("index.html", "", w => {
+  w.NOVELHUB_BOOKS.find(book => book.id === first.id).chapters[0].updatedAt = revised;
+  w.localStorage.setItem("novelhub:seen-chapters:v1", JSON.stringify({
+    [first.id]: {[chapter.key || chapter.href]: earlier}
+  }));
 });
-assert.ok(stable.document.querySelector(".chapter-flag-new"),
-  "Changes remain visible on navigation within a session");
+const revisedChapter = revision.NOVELHUB_BOOKS.find(b => b.id === first.id).chapters[0];
+assert.equal(revision.NOVELHUB_CHAPTER_CHANGES.get(first.id, revisedChapter), "updated");
+assert.ok(revision.document.querySelector(".chapter-flag-updated"));
+revision.NOVELHUB_CHAPTER_CHANGES.markSeen(first.id, revisedChapter);
+assert.equal(revision.NOVELHUB_CHAPTER_CHANGES.get(first.id, revisedChapter), null);
+const stale = page("index.html", "", w => {
+  w.NOVELHUB_BOOKS.find(book => book.id === first.id).chapters[0].updatedAt = oldRevision;
+  w.localStorage.setItem("novelhub:seen-chapters:v1", JSON.stringify({
+    [first.id]: {[chapter.key || chapter.href]: earlier}
+  }));
+});
+assert.equal(stale.NOVELHUB_CHAPTER_CHANGES.get(first.id,
+  stale.NOVELHUB_BOOKS.find(b => b.id === first.id).chapters[0]), null,
+  "An already-read chapter does not show an outdated revision badge");
+const neverSeen = page("index.html", "", w => {
+  w.NOVELHUB_BOOKS.find(book => book.id === first.id).chapters[0].updatedAt = oldRevision;
+});
+assert.equal(neverSeen.NOVELHUB_CHAPTER_CHANGES.get(first.id,
+  neverSeen.NOVELHUB_BOOKS.find(b => b.id === first.id).chapters[0]), "new",
+  "An unread chapter remains New, even if it was published long ago");
+
+const newEntry = page("index.html", "", w => {
+  const record = w.NOVELHUB_BOOKS.find(b => b.id === first.id);
+  record.chapters.push({key:"dynamic-future-chapter",
+    href:"reader.html?id="+encodeURIComponent(first.id)+"&chapter=dynamic-future-chapter",
+    title:"Later chapter",updatedAt:revised});
+});
+assert.equal(newEntry.NOVELHUB_CHAPTER_CHANGES.get(first.id,
+  newEntry.NOVELHUB_BOOKS.find(b => b.id === first.id).chapters.at(-1)), "new");
 
 const homepageLink = initial.document.querySelector("a[data-report-problem]");
 assert.ok(homepageLink, "Homepage needs a prominently visible report link");
