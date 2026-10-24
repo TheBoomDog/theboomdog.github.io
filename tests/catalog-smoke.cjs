@@ -43,6 +43,17 @@ assert.equal(home.document.getElementById("latest-list").children.length,
 
 const first = published[0];
 const firstCard = home.document.querySelector('.novel-card[data-id="' + first.id + '"]');
+// The cover and title lead to book details; only Start/Continue opens a chapter.
+// Do not add another "Chapters" link to the same detail page.
+const detailsHref = "book.html?id=" + encodeURIComponent(first.id);
+assert.equal(firstCard.querySelector(".card-title a").getAttribute("href"), detailsHref);
+assert.equal(firstCard.querySelector(".book-cover").getAttribute("href"), detailsHref);
+const actionLinks = [...firstCard.querySelectorAll(".card-actions a")];
+assert.equal(actionLinks.length, 1, "Published novels have one direct reading action");
+assert.match(actionLinks[0].textContent, /^(Start|Continue) reading/);
+assert.equal(actionLinks[0].getAttribute("href"), first.chapters[0].href);
+assert.ok(!actionLinks.some(link => link.getAttribute("href") === detailsHref),
+  "Do not duplicate the book-details destination on a novel card");
 firstCard.querySelector(".save-button").click();
 assert.deepEqual(JSON.parse(home.localStorage.getItem("novelhub:saved:v1")), [first.id]);
 home.document.getElementById("saved-only").click();
@@ -120,6 +131,9 @@ const newBook = {
   }]
 };
 const additional = open("index.html", "", null, newBook);
+const futureCard = additional.document.querySelector('.novel-card[data-id="synthetic-future-novel"]');
+assert.equal(futureCard.querySelectorAll(".card-actions a").length, 1,
+  "A newly imported novel must also have one clear reading action");
 assert.equal(additional.document.querySelectorAll(".novel-card").length, allBooks.length + 1);
 assert.ok(additional.document.querySelector('.novel-card[data-id="synthetic-future-novel"]'));
 assert.ok([...additional.document.querySelector("#genre").options].some(x => x.value === "Experimental"));
