@@ -41,9 +41,8 @@ const fs = require('fs');
 const vm = require('vm');
 const site = process.argv[1];
 const scope = {window: {NOVELHUB_BOOKS: []}};
-for (const filename of ['data/books.js', 'data/malfoid.js']) {
-  vm.runInNewContext(fs.readFileSync(site + '/' + filename, 'utf8'), scope, {filename});
-}
+const filename = 'data/catalog.js';
+vm.runInNewContext(fs.readFileSync(site + '/' + filename, 'utf8'), scope, {filename});
 const books = scope.window.NOVELHUB_BOOKS;
 process.stdout.write(JSON.stringify(books.filter(
   b => b && typeof b.id === 'string' && /^[a-z0-9-]{1,80}$/.test(b.id) &&
