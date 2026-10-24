@@ -9,6 +9,7 @@
   <link rel="icon" type="image/png" href="Images/Logo_pixel_art.png">
   <link rel="stylesheet" href="css/book.css">
   <script defer src="data/catalog.js"></script>
+  <script defer src="js/nav.js"></script>
   <script defer src="js/chapter-changes.js"></script>
   <script defer src="data/site-config.js"></script>
   <script defer src="js/report.js"></script>
@@ -22,7 +23,7 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="index.html" aria-label="NovelHub home"><span class="brand-icon">N</span><span class="brand-name">NovelHub</span></a>
-      <nav class="top-nav" aria-label="Main navigation"><a href="index.html#novels">Library</a><a href="index.html#chapters">Latest chapters</a></nav>
+      <nav class="top-nav" aria-label="Main navigation"><a href="browse.html" data-browse-link hidden>Browse</a><a href="ranking.html">Rankings</a><a href="updates.html">Updates</a><a class="report-nav" data-report-problem href="https://github.com/TheBoomDog/theboomdog.github.io/issues/new">Report issue ↗</a></nav>
     </div>
   </header>
   <main class="wrap" id="content">
@@ -65,6 +66,6 @@
       </section>
     </div>
   </main>
-  <footer class="site-footer"><div class="wrap"><span>NovelHub</span><a href="index.html">Library</a></div></footer>
+  <footer class="site-footer"><div class="wrap"><span>NovelHub</span><a href="privacy.html">Privacy &amp; source</a><a href="index.html">Home</a></div></footer>
 </body>
 </html>
