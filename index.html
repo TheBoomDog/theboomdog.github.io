@@ -2,160 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#101414">
   <meta name="description" content="Browse novels and chapters on NovelHub.">
   <title>NovelHub — Library</title>
-  <link rel="icon" type="image/png" href="Images/Logo_pixel_art.png">
-  <style>
-    :root {
-      color-scheme: dark;
-      --bg: #101414;
-      --surface: #171e1b;
-      --surface-2: #1b2521;
-      --border: #33413a;
-      --border-light: #293630;
-      --text: #f0ede5;
-      --muted: #b5beb6;
-      --faint: #86958a;
-      --accent: #d9ba82;
-      --accent-soft: #ead2a8;
-      --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      --serif: Georgia, "Times New Roman", serif;
-    }
-    *, *::before, *::after { box-sizing: border-box; }
-    [hidden] { display: none !important; }
-    html { scroll-behavior: smooth; }
-    body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--sans); line-height: 1.5; }
-    a { color: inherit; }
-    button, input, select { font: inherit; }
-    button { cursor: pointer; }
-    :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-    .wrap { width: min(1120px, calc(100% - 56px)); margin: 0 auto; }
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
-    .skip-link { position: absolute; left: 12px; top: -80px; z-index: 20; padding: 10px 14px; color: var(--bg); background: var(--accent); }
-    .skip-link:focus { top: 10px; }
-    .site-header { border-bottom: 1px solid var(--border-light); }
-    .header-inner { min-height: 77px; display: flex; align-items: center; justify-content: space-between; gap: 22px; }
-    .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
-    .brand-icon { width: 35px; height: 35px; display: grid; place-items: center; border: 1px solid var(--accent); color: var(--accent); font: italic 22px var(--serif); }
-    .brand-name { text-transform: uppercase; letter-spacing: .19em; font-size: 15px; font-weight: 700; }
-    .top-nav { display: flex; align-items: center; gap: 26px; }
-    .top-nav a { text-decoration: none; color: var(--muted); font-size: 13px; }
-    .top-nav a:hover { color: var(--accent); }
-    .page-head { padding: 43px 0 23px; display: flex; justify-content: space-between; align-items: end; gap: 12px; }
-    h1, h2, h3, p { margin: 0; }
-    h1 { font: normal clamp(34px, 4vw, 46px)/1.15 var(--serif); letter-spacing: -.04em; }
-    .count { font-size: 12px; color: var(--faint); padding-bottom: 7px; }
-    .search-row { display: grid; grid-template-columns: minmax(0, 1fr) 168px 155px 132px; gap: 10px; align-items: stretch; margin-bottom: 14px; }
-    .search-field { position: relative; }
-    .search-field svg { position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: var(--faint); pointer-events: none; }
-    .control { border: 1px solid var(--border); background: var(--surface); border-radius: 0; color: var(--text); min-height: 46px; width: 100%; padding: 10px 13px; font-size: 13px; }
-    .search-field .control { padding-left: 44px; }
-    .control::placeholder { color: #93a097; }
-    select.control { appearance: none; padding-right: 29px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23b5beb6' stroke-width='1.7' viewBox='0 0 24 24'%3E%3Cpath d='m7 10 5 5 5-5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; }
-    select option { background: #171e1b; }
-    .utility-bar { min-height: 33px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 25px; }
-    .results { color: var(--faint); font-size: 12px; }
-    .utility-buttons { display: flex; gap: 17px; align-items: center; }
-    .text-button { background: none; border: 0; padding: 3px 0; color: var(--muted); font-size: 12px; }
-    .text-button:hover, .text-button[aria-pressed="true"] { color: var(--accent); }
-    .site-grid { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 31px; align-items: start; }
-    .section-heading { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 15px; gap: 10px; }
-    h2 { font: normal 25px/1.2 var(--serif); letter-spacing: -.025em; }
-    .section-subtle { font-size: 11px; color: var(--faint); }
-    .novel-list { display: flex; flex-direction: column; gap: 13px; }
-    .novel-card { display: grid; grid-template-columns: 130px minmax(0, 1fr); min-height: 202px; border: 1px solid var(--border); background: var(--surface); }
-    .book-cover { text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; padding: 17px 14px; min-height: 200px; position: relative; overflow: hidden; }
-    .book-cover::after { content: ''; position: absolute; inset: 8px; border: 1px solid rgba(255,255,255,.14); pointer-events: none; }
-    .cover-malfoid { background: #30443b; }
-    .cover-mol { background: #4a3b35; }
-    .cover-label { position: relative; z-index: 1; font-size: 8px; text-transform: uppercase; letter-spacing: .15em; color: #e4ddd1; }
-    .cover-title { position: relative; z-index: 1; font: normal 23px/1.17 var(--serif); letter-spacing: -.04em; }
-    .cover-mark { position: relative; z-index: 1; color: #dcc7a9; font: italic 21px var(--serif); }
-    .card-body { padding: 19px 21px 18px; display: flex; flex-direction: column; min-width: 0; }
-    .card-top { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; }
-    .card-title { font: normal 24px/1.2 var(--serif); letter-spacing: -.025em; }
-    .card-title a { text-decoration: none; }
-    .card-title a:hover { color: var(--accent); }
-    .save-button { min-height: 30px; min-width: 30px; display: inline-grid; place-items: center; border: 1px solid var(--border); background: transparent; color: var(--muted); font-size: 18px; line-height: 1; flex: 0 0 auto; }
-    .save-button:hover, .save-button[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); }
-    .meta { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; color: var(--muted); font-size: 12px; margin: 10px 0 15px; }
-    .status { color: var(--accent); }
-    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
-    .tag { border: 1px solid #405047; color: #c6cdc5; font-size: 11px; padding: 3px 8px; background: transparent; }
-    button.tag:hover { border-color: var(--accent); color: var(--accent); }
-    .card-actions { display: flex; align-items: center; gap: 17px; flex-wrap: wrap; margin-top: auto; }
-    .card-actions a { font-size: 12px; color: var(--accent-soft); text-decoration: none; border-bottom: 1px solid #7e7159; padding-bottom: 2px; }
-    .card-actions a:hover { color: #fff; }
-    .card-actions .unavailable { font-size: 12px; color: var(--faint); }
-    .sidebar { border-left: 1px solid var(--border-light); padding-left: 28px; }
-    .chapter-list { margin-top: 19px; border-top: 1px solid var(--border-light); }
-    .chapter-item { display: block; padding: 16px 0; border-bottom: 1px solid var(--border-light); text-decoration: none; }
-    .chapter-item:hover .chapter-name { color: var(--accent); }
-    .chapter-book { display: block; color: var(--faint); font-size: 11px; margin-bottom: 5px; }
-    .chapter-name { display: block; font: normal 16px/1.3 var(--serif); }
-    .chapter-number { display: block; color: var(--faint); font-size: 11px; margin-top: 5px; }
-    .empty { padding: 29px; border: 1px solid var(--border); background: var(--surface); color: var(--muted); font-size: 13px; }
-    footer { border-top: 1px solid var(--border-light); margin-top: 77px; padding: 21px 0 28px; font-size: 11px; color: var(--faint); }
-    footer .wrap { display: flex; justify-content: space-between; gap: 16px; }
-    @media(max-width: 850px) {
-      .site-grid { grid-template-columns: 1fr; gap: 42px; }
-      .sidebar { border-left: 0; border-top: 1px solid var(--border-light); padding: 25px 0 0; }
-      .search-row { grid-template-columns: minmax(0, 1fr) minmax(120px, 180px); }
-      .search-field { grid-column: 1 / -1; }
-      .search-row > label:last-child { grid-column: 1 / -1; }
-    }
-    @media(max-width: 540px) {
-      .wrap { width: min(100% - 32px,1120px); }
-      .header-inner { min-height: 67px; }
-      .brand-icon { width: 32px; height: 32px; }
-      .brand-name { font-size: 12px; }
-      .top-nav { gap: 17px; }
-      .top-nav a { font-size: 12px; }
-      .page-head { padding-top: 27px; }
-      .search-row { grid-template-columns: repeat(2,minmax(0,1fr)); }
-      .search-row > label:last-child { grid-column: 1 / -1; }
-      .novel-card { grid-template-columns: 103px minmax(0, 1fr); min-height: 190px; }
-      .book-cover { min-height: 190px; padding: 14px 12px; }
-      .cover-title { font-size: 21px; }
-      .card-body { padding: 14px 13px; }
-      .card-title { font-size: 20px; }
-      .meta { gap: 5px 10px; font-size: 11px; margin: 8px 0 10px; }
-      .tags { margin-bottom: 10px; }
-      .tag { padding: 2px 6px; font-size: 10px; }
-      .card-actions { gap: 13px; }
-      .card-actions a, .card-actions .unavailable { font-size: 11px; }
-      footer { margin-top: 52px; }
-    }
-    @media(prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-  </style>
+  <link rel="icon" href="Images/Logo_pixel_art.png" type="image/png">
+  <link rel="stylesheet" href="css/site.css">
   <script defer src="data/books.js"></script>
   <script defer src="data/malfoid.js"></script>
-  <script defer src="js/home-malfoid.js"></script>
+  <script defer src="js/library.js"></script>
 </head>
-<body>
-  <a href="#novels" class="skip-link">Skip to novels</a>
+<body data-page="home">
+  <a href="#main-content" class="skip-link">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="index.html" aria-label="NovelHub home"><span class="brand-icon" aria-hidden="true">N</span><span class="brand-name">NovelHub</span></a>
-      <nav class="top-nav" aria-label="Main navigation"><a href="#novels">Novels</a><a href="#chapters">Chapters</a></nav>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="index.html">Library</a><a href="browse.html">Browse</a><a href="updates.html">Updates</a>
+      </nav>
     </div>
   </header>
-  <main class="wrap">
-    <div class="page-head"><h1>Browse novels</h1><span class="count">2 titles</span></div>
-    <div class="search-row" role="search">
-      <label class="search-field">
-        <span class="sr-only">Search novels</span>
+  <main class="wrap" id="main-content">
+    <div class="page-head"><h1>Browse novels</h1><span class="count" id="total-count">Loading…</span></div>
+    <nav class="page-tabs" aria-label="Explore catalog">
+      <a href="index.html" aria-current="page">Library</a>
+      <a href="browse.html" >Browse</a>
+      <a href="ranking.html" >Most chapters</a>
+      <a href="updates.html" >Latest updates</a>
+    </nav>
+    
+    <div class="search-row" role="search" aria-label="Filter novels">
+      <label class="search-field"><span class="sr-only">Search novels</span>
         <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
         <input class="control" id="search" type="search" placeholder="Search novels..." autocomplete="off">
       </label>
-      <label><span class="sr-only">Genre</span><select class="control" id="genre"><option value="all">All genres</option><option>Fantasy</option><option>Fanfiction</option><option>Romance</option><option>Time Loop</option></select></label>
-      <label><span class="sr-only">Status</span><select class="control" id="status"><option value="all">All statuses</option><option value="available">Available</option><option value="unpublished">Unpublished</option></select></label>
-      <label><span class="sr-only">Sort novels</span><select class="control" id="sort"><option value="az">Title: A–Z</option><option value="za">Title: Z–A</option></select></label>
+      <label><span class="sr-only">Genre</span><select class="control" id="genre"><option value="all">All genres</option></select></label>
+      <label><span class="sr-only">Availability</span><select class="control" id="status"><option value="all">All statuses</option><option value="available">Available</option><option value="unpublished">Unpublished</option></select></label>
+      <label><span class="sr-only">Sort novels</span><select class="control" id="sort">
+        <option value="az">Title: A–Z</option><option value="za">Title: Z–A</option>
+        <option value="recent">Recently updated</option><option value="chapters">Most chapters</option>
+      </select></label>
     </div>
     <div class="utility-bar">
-      <span class="results" id="results" role="status" aria-live="polite">Showing 2 novels</span>
+      <span class="results" id="results" role="status" aria-live="polite">Loading novels…</span>
       <div class="utility-buttons">
         <button type="button" class="text-button" id="saved-only" aria-pressed="false">☆ Saved (<span id="saved-count">0</span>)</button>
         <button type="button" class="text-button" id="reset">Clear filters</button>
@@ -164,101 +53,17 @@
     <div class="site-grid">
       <section id="novels" aria-label="Novels">
         <div class="section-heading"><h2>Novels</h2></div>
-        <div class="novel-list" id="novel-list">
-          <article class="novel-card" data-title="Mother of Learning" data-status="available" data-genres="Fantasy,Time Loop,Magic" data-id="mol">
-            <a class="book-cover cover-mol" href="book.html?id=mol" aria-label="Mother of Learning chapters"><span class="cover-label">NovelHub</span><span class="cover-title">Mother<br>of Learning</span><span class="cover-mark">I.</span></a>
-            <div class="card-body">
-              <div class="card-top"><h3 class="card-title"><a href="book.html?id=mol">Mother of Learning</a></h3><button class="save-button" type="button" aria-label="Save Mother of Learning" aria-pressed="false" title="Save novel">☆</button></div>
-              <div class="meta"><span class="status">Available</span><span>108 chapters</span></div>
-              <div class="tags"><button type="button" class="tag" data-filter="Fantasy">Fantasy</button><button type="button" class="tag" data-filter="Time Loop">Time Loop</button></div>
-              <div class="card-actions"><a href="reader.html?id=mol&amp;chapter=1">Start reading ↗</a><a href="book.html?id=mol">Chapters</a></div>
-            </div>
-          </article>
-          <article class="novel-card" data-title="Malfoid" data-status="unpublished" data-genres="Fantasy,Fanfiction,Romance" data-id="malfoid">
-            <a class="book-cover cover-malfoid" href="book.html?id=malfoid" aria-label="Malfoid details"><span class="cover-label">NovelHub</span><span class="cover-title">Malfoid</span><span class="cover-mark">II.</span></a>
-            <div class="card-body">
-              <div class="card-top"><h3 class="card-title"><a href="book.html?id=malfoid">Malfoid</a></h3><button class="save-button" type="button" aria-label="Save Malfoid" aria-pressed="false" title="Save novel">☆</button></div>
-              <div class="meta"><span class="status">Unpublished</span><span>Harry Potter fanfiction</span></div>
-              <div class="tags"><button type="button" class="tag" data-filter="Fantasy">Fantasy</button><button type="button" class="tag" data-filter="Fanfiction">Fanfiction</button><button type="button" class="tag" data-filter="Romance">Romance</button></div>
-              <div class="card-actions"><a href="book.html?id=malfoid">Details</a><span class="unavailable">Chapters not published</span></div>
-            </div>
-          </article>
-        </div>
+        <div class="novel-list" id="novel-list" aria-live="polite"></div>
         <div class="empty" id="empty" hidden>No matching novels. <button class="text-button" type="button" id="empty-reset">Clear filters</button></div>
       </section>
       <aside class="sidebar" id="chapters" aria-labelledby="chapter-heading">
-        <div class="section-heading"><h2 id="chapter-heading">Latest chapters</h2></div>
-        <div class="chapter-list">
-          <a class="chapter-item" href="reader.html?id=mol&amp;chapter=108"><span class="chapter-book">Mother of Learning</span><span class="chapter-name">Afterword</span><span class="chapter-number">Chapter 108</span></a>
-          <a class="chapter-item" href="reader.html?id=mol&amp;chapter=107"><span class="chapter-book">Mother of Learning</span><span class="chapter-name">Epilogue</span><span class="chapter-number">Chapter 107</span></a>
-          <a class="chapter-item" href="reader.html?id=mol&amp;chapter=106"><span class="chapter-book">Mother of Learning</span><span class="chapter-name">I Win (III)</span><span class="chapter-number">Chapter 106</span></a>
-        </div>
+        <div class="section-heading"><h2 id="chapter-heading">Latest chapters</h2><a class="section-link" href="updates.html">View all →</a></div>
+        <div class="chapter-list" id="latest-list"></div>
+        <p class="empty" id="latest-empty" hidden>No chapters published yet.</p>
       </aside>
     </div>
+    <noscript><p class="empty">Enable JavaScript to browse the novel catalog.</p></noscript>
   </main>
   <footer><div class="wrap"><span>NovelHub</span><span>GitHub Pages</span></div></footer>
-  <script>
-    (() => {
-      'use strict';
-      const search = document.getElementById('search');
-      const genre = document.getElementById('genre');
-      const status = document.getElementById('status');
-      const sort = document.getElementById('sort');
-      const list = document.getElementById('novel-list');
-      const novels = [...list.querySelectorAll('.novel-card')];
-      const results = document.getElementById('results');
-      const empty = document.getElementById('empty');
-      const savedOnly = document.getElementById('saved-only');
-      const savedCount = document.getElementById('saved-count');
-      const storageKey = 'novelhub:saved:v1';
-      let saved = [];
-      let showSaved = false;
-      try {
-        const value = JSON.parse(localStorage.getItem(storageKey) || '[]');
-        if (Array.isArray(value)) saved = value.filter(x => typeof x === 'string');
-      } catch (_) { /* Bookmarks still work this session if storage is disabled. */ }
-      const writeSaved = () => { try { localStorage.setItem(storageKey, JSON.stringify(saved)); } catch (_) {} };
-      const syncSaves = () => {
-        savedCount.textContent = saved.length;
-        novels.forEach(card => {
-          const btn = card.querySelector('.save-button');
-          const isSaved = saved.includes(card.dataset.id);
-          btn.textContent = isSaved ? '★' : '☆';
-          btn.setAttribute('aria-pressed', String(isSaved));
-          btn.title = isSaved ? 'Remove saved novel' : 'Save novel';
-          btn.setAttribute('aria-label', (isSaved ? 'Remove ' : 'Save ') + card.dataset.title);
-        });
-      };
-      const filter = () => {
-        const query = search.value.toLocaleLowerCase().trim();
-        const selectedGenre = genre.value.toLocaleLowerCase();
-        const selectedStatus = status.value;
-        const direction = sort.value;
-        novels.sort((a, b) => a.dataset.title.localeCompare(b.dataset.title) * (direction === 'za' ? -1 : 1));
-        let visible = 0;
-        for (const card of novels) {
-          list.append(card);
-          const searchText = [card.dataset.title, card.dataset.genres, card.textContent].join(' ').toLocaleLowerCase();
-          const matches = (!query || searchText.includes(query)) && (selectedGenre === 'all' || card.dataset.genres.toLocaleLowerCase().split(',').includes(selectedGenre)) && (selectedStatus === 'all' || card.dataset.status === selectedStatus) && (!showSaved || saved.includes(card.dataset.id));
-          card.hidden = !matches;
-          if (matches) visible++;
-        }
-        empty.hidden = visible > 0;
-        results.textContent = `Showing ${visible} ${visible === 1 ? 'novel' : 'novels'}`;
-      };
-      const reset = () => { search.value = ''; genre.value = 'all'; status.value = 'all'; sort.value = 'az'; showSaved = false; savedOnly.setAttribute('aria-pressed', 'false'); filter(); };
-      [search, genre, status, sort].forEach(el => el.addEventListener(el === search ? 'input' : 'change', filter));
-      document.getElementById('reset').addEventListener('click', reset);
-      document.getElementById('empty-reset').addEventListener('click', reset);
-      savedOnly.addEventListener('click', () => { showSaved = !showSaved; savedOnly.setAttribute('aria-pressed', String(showSaved)); filter(); });
-      document.querySelectorAll('[data-filter]').forEach(btn => btn.addEventListener('click', () => { genre.value = btn.dataset.filter; filter(); search.focus(); }));
-      novels.forEach(card => card.querySelector('.save-button').addEventListener('click', () => {
-        const key = card.dataset.id;
-        saved = saved.includes(key) ? saved.filter(id => id !== key) : [...saved, key];
-        writeSaved(); syncSaves(); filter();
-      }));
-      syncSaves(); filter();
-    })();
-  </script>
 </body>
 </html>
