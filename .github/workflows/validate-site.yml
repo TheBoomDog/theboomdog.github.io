@@ -47,6 +47,7 @@ jobs:
           npm install --no-save --no-audit --no-fund jsdom@26
           node tests/catalog-smoke.cjs
           node tests/analytics-smoke.cjs
+          node tests/reader-features-smoke.cjs
       - name: Verify dynamic page entry points
         run: |
           python3 - <<'PY'
