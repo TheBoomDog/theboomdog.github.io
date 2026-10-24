@@ -4,6 +4,12 @@
   const books = (Array.isArray(window.NOVELHUB_BOOKS) ? window.NOVELHUB_BOOKS : [])
     .filter(book => book && typeof book.id === "string" && typeof book.title === "string");
   const page = document.body.dataset.page || "home";
+  const rankingData = window.NOVELHUB_RANKINGS || {};
+  const rankingsReady = rankingData.status === "ready" && Array.isArray(rankingData.entries);
+  const rankById = new Map(rankingsReady
+    ? rankingData.entries.filter(entry => entry && typeof entry.id === "string" &&
+      Number.isInteger(entry.visits) && entry.visits >= 0)
+      .map(entry => [entry.id, entry]) : []);
   const savedKey = "novelhub:saved:v1";
   const progressKey = "novelhub:progress:v1";
   const fromStorage = (key, fallback) => {
@@ -76,8 +82,12 @@
     cover.style.setProperty("--cover-ink", book.cover?.ink || "#e5cc9f");
     cover.setAttribute("aria-label", "View " + book.title);
     cover.append(el("span", "cover-label", "NovelHub"), el("span", "cover-title", book.title));
-    const marks = ["I.","II.","III.","IV.","V.","VI.","VII.","VIII.","IX.","X."];
-    cover.append(el("span", "cover-mark", marks[i] || String(i + 1) + "."));
+    const rank = rankById.get(book.id)?.rank;
+    // Cover numerals are earned through the weekly readership leaderboard.
+    if (Number.isInteger(rank) && rank >= 1 && rank <= 10) {
+      cover.append(el("span", "cover-mark", String(rank) + "."));
+      cover.setAttribute("aria-label", "Rank " + rank + ": " + book.title);
+    }
     if (book.cover?.image && !/^(?:[a-z][\w+.-]*:|\/)/i.test(book.cover.image)) {
       cover.style.backgroundImage = 'url("' + encodeURI(book.cover.image).replaceAll('"', "%22") + '")';
       cover.classList.add("cover-image");
@@ -116,6 +126,9 @@
     meta.append(el("span", "status", statusOf(book)));
     const chapters = chapterEntries(book);
     meta.append(el("span", "", chapters.length + (chapters.length === 1 ? " chapter" : " chapters")));
+    const weekly = rankById.get(book.id);
+    if (weekly) meta.append(el("span", "weekly-visits",
+      weekly.visits.toLocaleString() + " reader " + (weekly.visits === 1 ? "visit" : "visits") + " last week"));
     if (Array.isArray(book.volumes) && book.volumes.length > 1) {
       meta.append(el("span", "", book.volumes.length + " books"));
     }
@@ -170,7 +183,14 @@
   });
   const sortBooks = (arr, how) => {
     const copy = [...arr];
-    if (how === "za") copy.sort((x, y) => y.title.localeCompare(x.title));
+    if (how === "readers") {
+      // Don't substitute chapter count or made-up popularity for missing readership data.
+      copy.sort((x, y) => {
+        const a = rankById.get(x.id)?.visits ?? -1;
+        const b = rankById.get(y.id)?.visits ?? -1;
+        return b - a || x.title.localeCompare(y.title);
+      });
+    } else if (how === "za") copy.sort((x, y) => y.title.localeCompare(x.title));
     else if (how === "chapters") copy.sort((x, y) => chapterEntries(y).length - chapterEntries(x).length || x.title.localeCompare(y.title));
     else if (how === "recent") copy.sort((x, y) => mostRecent(y) - mostRecent(x) || x.title.localeCompare(y.title));
     else copy.sort((x, y) => x.title.localeCompare(y.title));
@@ -245,13 +265,13 @@
     const url = new URL(location.href);
     if (url.searchParams.get("q")) search.value = url.searchParams.get("q");
     if (url.searchParams.get("genre") && genreOptions.includes(url.searchParams.get("genre"))) genre.value = url.searchParams.get("genre");
-    if (url.searchParams.get("sort") && ["az","za","recent","chapters"].includes(url.searchParams.get("sort"))) $("sort").value = url.searchParams.get("sort");
-    if (page === "ranking" && !url.searchParams.has("sort")) $("sort").value = "chapters";
+    if (url.searchParams.get("sort") && ["az","za","recent","chapters","readers"].includes(url.searchParams.get("sort"))) $("sort").value = url.searchParams.get("sort");
+    if (page === "ranking" && !url.searchParams.has("sort")) $("sort").value = "readers";
     const reset = () => {
       search.value = "";
       genre.value = "all";
       $("status").value = "all";
-      $("sort").value = page === "ranking" ? "chapters" : "az";
+      $("sort").value = page === "ranking" ? "readers" : "az";
       savedOnly = false;
       $("saved-only").setAttribute("aria-pressed", "false");
       renderBooks();
@@ -268,6 +288,16 @@
     $("empty-reset").addEventListener("click", reset);
     if ($("total-count")) $("total-count").textContent = books.length + (books.length === 1 ? " title" : " titles");
     renderBooks();
+    if (page === "ranking" && $("ranking-summary")) {
+      if (!rankingsReady) {
+        $("ranking-summary").textContent = "Readership rankings are awaiting analytics setup. No positions are assigned until actual visits are recorded.";
+      } else {
+        const from = rankingData.periodStart ? new Date(rankingData.periodStart).toLocaleString(undefined, {dateStyle:"medium"}) : "";
+        const until = rankingData.periodEnd ? new Date(rankingData.periodEnd).toLocaleString(undefined, {dateStyle:"medium"}) : "";
+        $("ranking-summary").textContent = "Ranked by reader visits · " + from + " – " + until +
+          " · refreshed weekly Mondays at 1:00 a.m. Central";
+      }
+    }
     if (page === "search") $("search").focus();
   }
   if ($("latest-list")) renderRecent();
