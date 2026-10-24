@@ -3,8 +3,8 @@ const fs = require("node:fs");
 const vm = require("node:vm");
 const { JSDOM } = require("jsdom");
 
-const scripts = ["data/books.js", "data/malfoid.js", "js/library.js"];
-function open(name, query = "") {
+const scripts = ["data/books.js", "data/malfoid.js", "data/rankings.js", "js/library.js"];
+function open(name, query = "", leaderboard = null) {
   const html = fs.readFileSync(name, "utf8");
   const dom = new JSDOM(html, {
     url: "https://novelhub.test/" + name + query,
@@ -12,6 +12,9 @@ function open(name, query = "") {
   });
   const context = dom.getInternalVMContext();
   for (const script of scripts) {
+    if (script === "js/library.js" && leaderboard) {
+      context.window.NOVELHUB_RANKINGS = leaderboard;
+    }
     vm.runInContext(fs.readFileSync(script, "utf8"), context, { filename: script });
   }
   return dom.window;
@@ -21,7 +24,7 @@ const home = open("index.html");
 assert.equal(home.document.querySelectorAll(".novel-card").length, 2, "Render both novels from catalog");
 assert.equal(home.document.getElementById("latest-list").children.length, 10, "Render ten recent chapters");
 const malfoid = [...home.document.querySelectorAll(".novel-card")].find(n => n.dataset.id === "malfoid");
-assert.match(malfoid.textContent, /94 chapters/, "Show the live generated Malfoid count");
+assert.match(malfoid.textContent, /\d+ chapters/, "Show the live generated Malfoid count");
 assert.ok([...home.document.querySelectorAll("#latest-list .chapter-book")].some(n => n.textContent === "Malfoid"), "Include Malfoid in recent chapters");
 
 home.document.querySelector('.novel-card[data-id="malfoid"] .save-button').click();
@@ -42,7 +45,18 @@ assert.equal(search.document.querySelectorAll(".novel-card").length, 1);
 assert.equal(search.document.querySelector(".card-title").textContent, "Malfoid");
 
 const rankings = open("ranking.html");
-assert.equal(rankings.document.querySelector(".novel-card").dataset.id, "mol", "Rank by actual chapter count");
+assert.equal(rankings.document.querySelectorAll(".cover-mark").length, 0, "Do not invent rankings before analytics is active");
+assert.match(rankings.document.getElementById("ranking-summary").textContent, /awaiting analytics/i);
+const sample = {
+  status: "ready", metric: "visits", periodStart: "2026-10-12T01:00:00-05:00",
+  periodEnd: "2026-10-19T01:00:00-05:00",
+  entries: [{id:"malfoid",visits:9,rank:1},{id:"mol",visits:4,rank:2}]
+};
+const liveRanks = open("ranking.html", "", sample);
+assert.equal(liveRanks.document.querySelector(".novel-card").dataset.id, "malfoid", "Sort by visits, not chapter count");
+assert.equal(liveRanks.document.querySelectorAll(".cover-mark").length, 2, "Only measured top ten receive cover numerals");
+assert.equal(liveRanks.document.querySelector(".cover-mark").textContent, "1.");
+assert.match(liveRanks.document.querySelector(".weekly-visits").textContent, /9 reader visits/);
 
 const updates = open("updates.html");
 assert.equal(updates.document.getElementById("updates-list").children.length, 30);
