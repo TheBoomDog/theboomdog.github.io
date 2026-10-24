@@ -74,6 +74,34 @@
   }
   const genreOptions = [...new Set(books.flatMap(book => Array.isArray(book.genres) ? book.genres : []))].sort((a, b) => a.localeCompare(b));
   const chapterLabel = item => item.chapter.label || "Chapter " + (item.index + 1);
+  const changeKind = (book, chapter) => window.NOVELHUB_CHAPTER_CHANGES?.get?.(book.id, chapter);
+  const changeBadge = kind => kind === "new" || kind === "updated"
+    ? el("span", "chapter-flag chapter-flag-" + kind, kind === "new" ? "New" : "Updated")
+    : null;
+  const renderContinue = () => {
+    const shelf = $("continue-reading");
+    if (!shelf) return;
+    const progress = readProgress();
+    const choices = books.flatMap(book => {
+      const saved = progress[book.id];
+      if (!saved || typeof saved !== "object") return [];
+      const chapters = chapterEntries(book);
+      const chapter = saved.key
+        ? chapters.find(item => item.key === saved.key)
+        : (Number.isInteger(saved.chapter) ? chapters[saved.chapter - 1] : null);
+      return chapter ? [{ book, chapter, saved }] : [];
+    }).sort((a, b) => (Number(b.saved.updated) || 0) - (Number(a.saved.updated) || 0));
+    if (!choices.length) { shelf.hidden = true; return; }
+    const { book, chapter, saved } = choices[0];
+    const ratio = Number(saved.ratio);
+    const label = chapter.title || chapter.label || "Your chapter";
+    $("continue-details").textContent = book.title + " · " + label +
+      (Number.isFinite(ratio) && ratio >= 0 && ratio <= 1
+        ? " · " + Math.round(ratio * 100) + "% through chapter" : "");
+    $("continue-link").href = chapter.href;
+    $("continue-link").setAttribute("aria-label", "Continue " + book.title + ": " + label);
+    shelf.hidden = false;
+  };
 
   const createCover = (book, i) => {
     const cover = a(bookURL(book), "book-cover cover-generated");
@@ -126,6 +154,10 @@
     meta.append(el("span", "status", statusOf(book)));
     const chapters = chapterEntries(book);
     meta.append(el("span", "", chapters.length + (chapters.length === 1 ? " chapter" : " chapters")));
+    const newCount = chapters.filter(chapter => changeKind(book, chapter) === "new").length;
+    const revisedCount = chapters.filter(chapter => changeKind(book, chapter) === "updated").length;
+    if (newCount) meta.append(el("span", "chapter-flag chapter-flag-new", newCount + " new"));
+    if (revisedCount) meta.append(el("span", "chapter-flag chapter-flag-updated", revisedCount + " updated"));
     if (Array.isArray(book.volumes) && book.volumes.length > 1) {
       meta.append(el("span", "", book.volumes.length + " books"));
     }
@@ -211,6 +243,8 @@
       const node = a(href, "chapter-item");
       node.append(el("span", "chapter-book", book.title), el("span", "chapter-name", chapter.title || chapterLabel(entry)));
       node.append(el("span", "chapter-number", chapterLabel(entry)));
+      const flag = changeBadge(changeKind(book, chapter));
+      if (flag) node.append(flag);
       if (entry.timestamp) node.append(el("span", "chapter-date", displayDate(chapter.updatedAt)));
       return node;
     }
@@ -218,6 +252,8 @@
     const labels = el("div", "update-details");
     labels.append(el("span", "update-book", book.title), el("span", "update-title", chapter.title || chapterLabel(entry)));
     labels.append(el("span", "update-label", chapterLabel(entry)));
+    const flag = changeBadge(changeKind(book, chapter));
+    if (flag) labels.append(flag);
     node.append(labels);
     if (entry.timestamp) { const when = el("time", "update-time", displayDate(chapter.updatedAt)); when.dateTime = chapter.updatedAt; node.append(when); }
     return node;
@@ -292,6 +328,7 @@
     }
     if (page === "search") $("search").focus();
   }
+  renderContinue();
   if ($("latest-list")) renderRecent();
   if ($("updates-list")) {
     const selector = $("update-book");
