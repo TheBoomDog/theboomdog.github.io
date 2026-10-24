@@ -27,6 +27,9 @@ a{color:inherit}button,input,select{font:inherit}button{cursor:pointer}
 h1{font:normal clamp(32px,4.6vw,49px)/1.12 var(--serif);letter-spacing:-.045em;margin:13px 0 16px}
 .metadata{display:flex;flex-wrap:wrap;gap:8px 22px;color:var(--muted);font-size:13px}.metadata span+span::before{content:"·";color:var(--faint);margin-right:19px}
 .tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}.tag{border:1px solid var(--border);border-radius:2px;padding:4px 9px;color:var(--muted);font-size:11px}
+.tags a.tag{display:inline-flex;align-items:center;text-decoration:none;cursor:pointer}
+.tags a.tag:hover,.tags a.tag:focus-visible{color:var(--accent);border-color:var(--accent)}
+.tags a.tag:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .description{max-width:660px;color:var(--muted);font-size:13px;line-height:1.75;margin:22px 0 0}
 .actions{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-top:26px}
 .primary-action,.secondary-action{display:inline-flex;align-items:center;justify-content:center;gap:13px;min-height:41px;padding:9px 16px;text-decoration:none;font-size:12px;border-radius:2px}
