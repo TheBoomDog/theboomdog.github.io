@@ -79,7 +79,8 @@ def get_counts(code: str, token: str, book_ids: list[str],
         request = Request(
             endpoint,
             headers={"Authorization": "Bearer " + token,
-                     "Accept": "application/json"},
+                     "Accept": "application/json",
+                     "Content-Type": "application/json"},
         )
         try:
             with urlopen(request, timeout=30) as response:
