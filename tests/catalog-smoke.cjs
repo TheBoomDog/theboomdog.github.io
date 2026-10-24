@@ -52,16 +52,21 @@ const validRanks = (rankings.NOVELHUB_RANKINGS?.entries || []).filter(entry =>
   Number.isInteger(entry.rank) && entry.rank > 0 && entry.rank <= 10).length;
 assert.equal(rankings.document.querySelectorAll(".cover-mark").length, validRanks);
 const summary = rankings.document.getElementById("ranking-summary").textContent;
-assert.match(summary, /reader visits|awaiting analytics/i);
+assert.match(summary, /Weekly rankings|being prepared/i);
 
 const sample = {
   status: "ready", metric: "visits", periodStart: "2026-10-12T01:00:00-05:00",
   periodEnd: "2026-10-19T01:00:00-05:00",
-  entries: published.map((b, i) => ({id: b.id, visits: (published.length - i) * 5, rank: i + 1}))
+  entries: published.map((b, i) => ({id: b.id, rank: i + 1}))
 };
 const ranked = open("ranking.html", "", sample);
 assert.equal(ranked.document.querySelector(".novel-card").dataset.id, first.id);
 assert.equal(ranked.document.querySelector(".cover-mark").textContent, "1.");
+assert.equal(ranked.document.querySelectorAll(".weekly-visits").length, 0,
+  "Never show visit totals publicly");
+assert.ok(!ranked.document.body.textContent.toLowerCase().includes("reader visits"),
+  "Rankings should not disclose analytics terminology");
+
 
 const updates = open("updates.html");
 const allChapters = published.reduce((n,b) => n + b.chapters.length, 0);
@@ -89,7 +94,7 @@ assert.ok([...additional.document.querySelector("#genre").options].some(x => x.v
 const rankedExtra = open("ranking.html", "", {
   status: "ready", metric: "visits", periodStart: "2026-10-12T01:00:00-05:00",
   periodEnd: "2026-10-19T01:00:00-05:00",
-  entries: [{id:"synthetic-future-novel",visits:500,rank:1}]
+  entries: [{id:"synthetic-future-novel",rank:1}]
 }, newBook);
 assert.equal(rankedExtra.document.querySelector(".novel-card").dataset.id, newBook.id);
 console.log("NovelHub catalog works with any published or newly registered novel.");
