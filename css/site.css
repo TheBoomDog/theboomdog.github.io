@@ -212,3 +212,13 @@ body[data-page="updates"] .search-row > label:last-child{grid-column:auto}
 footer a{color:var(--faint);text-decoration:none}
 footer a:hover,footer a[aria-current=page]{color:var(--accent)}
 @media(max-width:540px){.privacy-page .privacy-lead{padding:15px 16px;font-size:13px}.privacy-page section{padding:19px 0}.privacy-page h2{font-size:21px}footer .wrap{flex-wrap:wrap}}
+
+
+/* Low-key, browser-local analytics preference on the privacy page only. */
+.privacy-page .privacy-choice{margin:21px 0 0;padding:17px 19px;border:1px solid var(--border);background:var(--surface)}
+.privacy-choice-label{display:flex;gap:11px;align-items:center;cursor:pointer;color:var(--text);font-size:13px;font-weight:600}
+.privacy-choice-label input{width:19px;height:19px;flex-shrink:0;margin:0;accent-color:var(--accent);cursor:pointer}
+.privacy-choice-label input:disabled{cursor:not-allowed}
+.privacy-page .privacy-choice p{margin:11px 0 0;font-size:12px;line-height:1.65;color:var(--muted)}
+.privacy-page #analytics-opt-out-status{color:var(--accent-soft);font-size:11px}
+@media(max-width:540px){.privacy-page .privacy-choice{padding:15px}}
