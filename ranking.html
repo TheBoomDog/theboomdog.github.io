@@ -1,29 +1,69 @@
-<!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <title>Web Novel Rankings</title>
-        <link rel="stylesheet" href="css/ranking.css">
-        <link rel="stylesheet" href="css/navbar.css">
-    </head>
-    <header class="main-header">
-        <div class="wrapper">
-          <a href="index.html" class="nav-logo">
-            <image src="https://raw.githubusercontent.com/TheBoomDog/theboomdog.github.io/main/Images/logo-no-background.png" alt="Novel Hub"></image>
-          </a>
-          <div class="navigation-bar">
-            <nav>
-            <span>Yet another ripping site!</span>
-            <ul class="navbar-menu">
-              <li class="nav-item"><a class="nav-link" title="Search Light Novels" href="search.html">Search</a></li>
-              <li class="nav-item"><a class="nav-link" title="Browse Light Novels" href="browse.html">Browse</a></li>
-              <li class="nav-item"><a class="nav-link" title="Novel Ranking" href="ranking.html">Ranking</a></li>
-              <li class="nav-item"><a class="nav-link" title="Latest Light Novel Updates" href="updates.html">Updates</a></li>
-              <li class="nav-item"><a class="nav-link" title="Explore Novels With Filter Functions" href="searchadv.html">Filter</a></li>
-              <li class="nav-item"><a class="nav-link" title="Announcements From The Dev" href="notices.html">DEV</a></li>
-              <li class="nav-item"><a class="nav-link" title="Color Theme Mode" hhref="https://www.google.com/"></a></li>
-            </ul>
-            </nav>
-          </div>
-        </div>
-      </header>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101414">
+  <meta name="description" content="Browse novels and chapters on NovelHub.">
+  <title>Novel rankings | NovelHub</title>
+  <link rel="icon" href="Images/Logo_pixel_art.png" type="image/png">
+  <link rel="stylesheet" href="css/site.css">
+  <script defer src="data/books.js"></script>
+  <script defer src="data/malfoid.js"></script>
+  <script defer src="js/library.js"></script>
+</head>
+<body data-page="ranking">
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="NovelHub home"><span class="brand-icon" aria-hidden="true">N</span><span class="brand-name">NovelHub</span></a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="index.html">Library</a><a href="browse.html">Browse</a><a href="updates.html">Updates</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" id="main-content">
+    <div class="page-head"><h1>Most chapters</h1><span class="count" id="total-count">Loading…</span></div>
+    <nav class="page-tabs" aria-label="Explore catalog">
+      <a href="index.html" >Library</a>
+      <a href="browse.html" >Browse</a>
+      <a href="ranking.html" aria-current="page">Most chapters</a>
+      <a href="updates.html" >Latest updates</a>
+    </nav>
+    
+    <div class="search-row" role="search" aria-label="Filter novels">
+      <label class="search-field"><span class="sr-only">Search novels</span>
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+        <input class="control" id="search" type="search" placeholder="Search novels..." autocomplete="off">
+      </label>
+      <label><span class="sr-only">Genre</span><select class="control" id="genre"><option value="all">All genres</option></select></label>
+      <label><span class="sr-only">Availability</span><select class="control" id="status"><option value="all">All statuses</option><option value="available">Available</option><option value="unpublished">Unpublished</option></select></label>
+      <label><span class="sr-only">Sort novels</span><select class="control" id="sort">
+        <option value="az">Title: A–Z</option><option value="za">Title: Z–A</option>
+        <option value="recent">Recently updated</option><option value="chapters">Most chapters</option>
+      </select></label>
+    </div>
+    <div class="utility-bar">
+      <span class="results" id="results" role="status" aria-live="polite">Loading novels…</span>
+      <div class="utility-buttons">
+        <button type="button" class="text-button" id="saved-only" aria-pressed="false">☆ Saved (<span id="saved-count">0</span>)</button>
+        <button type="button" class="text-button" id="reset">Clear filters</button>
+      </div>
+    </div>
+    <div class="site-grid">
+      <section id="novels" aria-label="Novels">
+        <div class="section-heading"><h2>Novels</h2></div>
+        <div class="novel-list" id="novel-list" aria-live="polite"></div>
+        <div class="empty" id="empty" hidden>No matching novels. <button class="text-button" type="button" id="empty-reset">Clear filters</button></div>
+      </section>
+      <aside class="sidebar" id="chapters" aria-labelledby="chapter-heading">
+        <div class="section-heading"><h2 id="chapter-heading">Latest chapters</h2><a class="section-link" href="updates.html">View all →</a></div>
+        <div class="chapter-list" id="latest-list"></div>
+        <p class="empty" id="latest-empty" hidden>No chapters published yet.</p>
+      </aside>
+    </div>
+    <noscript><p class="empty">Enable JavaScript to browse the novel catalog.</p></noscript>
+  </main>
+  <footer><div class="wrap"><span>NovelHub</span><span>GitHub Pages</span></div></footer>
+</body>
 </html>
