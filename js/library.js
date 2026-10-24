@@ -276,8 +276,8 @@
       opt.value = book.id;
       selector.append(opt);
     }
-    $("update-search").addEventListener("input", () => renderUpdatesPage(true));
-    selector.addEventListener("change", () => renderUpdatesPage(true));
+    $("update-search").addEventListener("input", () => renderUpdatesPage("reset"));
+    selector.addEventListener("change", () => renderUpdatesPage("reset"));
     $("more-updates").addEventListener("click", () => renderUpdatesPage("more"));
     renderUpdatesPage("reset");
   }
