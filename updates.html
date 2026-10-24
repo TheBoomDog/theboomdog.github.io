@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101414">
+  <meta name="description" content="Browse novels and chapters on NovelHub.">
+  <title>Latest chapters | NovelHub</title>
+  <link rel="icon" href="Images/Logo_pixel_art.png" type="image/png">
+  <link rel="stylesheet" href="css/site.css">
+  <script defer src="data/books.js"></script>
+  <script defer src="data/malfoid.js"></script>
+  <script defer src="js/library.js"></script>
+</head>
+<body data-page="updates">
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="NovelHub home"><span class="brand-icon" aria-hidden="true">N</span><span class="brand-name">NovelHub</span></a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="index.html">Library</a><a href="browse.html">Browse</a><a href="updates.html">Updates</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" id="main-content">
+    <div class="page-head"><h1>Latest chapters</h1><span class="count" id="catalog-total">Loading…</span></div>
+    <nav class="page-tabs" aria-label="Explore catalog">
+      <a href="index.html" >Library</a>
+      <a href="browse.html" >Browse</a>
+      <a href="ranking.html" >Most chapters</a>
+      <a href="updates.html" aria-current="page">Latest updates</a>
+    </nav>
+    
+    <div class="search-row" role="search" aria-label="Filter chapters">
+      <label class="search-field"><span class="sr-only">Search chapters</span>
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+        <input class="control" id="update-search" type="search" placeholder="Search chapter titles…" autocomplete="off">
+      </label>
+      <label><span class="sr-only">Novel</span><select class="control" id="update-book"><option value="all">All novels</option></select></label>
+    </div>
+    <div class="utility-bar"><span class="results" id="update-results" role="status" aria-live="polite">Loading chapters…</span></div>
+    <section id="chapters" aria-label="Recent chapter updates">
+      <div id="updates-list" class="updated-list"></div>
+      <p id="update-empty" class="empty" hidden>No matching chapters.</p>
+      <div class="updates-more"><button id="more-updates" class="load-more" type="button" hidden>Load more</button></div>
+    </section>
+    <noscript><p class="empty">Enable JavaScript to browse the novel catalog.</p></noscript>
+  </main>
+  <footer><div class="wrap"><span>NovelHub</span><span>GitHub Pages</span></div></footer>
+</body>
+</html>
