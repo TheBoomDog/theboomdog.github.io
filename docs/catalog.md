@@ -90,11 +90,14 @@ The reader's saved-book and reading-progress storage keys remain unchanged.
 - The homepage's **Continue reading** shelf uses the most recently read
   chapter from `novelhub:progress:v1`, saved locally in the visitor's browser.
   It is hidden for visitors without reading history.
-- `js/chapter-changes.js` compares the current catalog with the catalog a
-  visitor saw during a previous session (at least 30 minutes between visits).
-  New chapter keys show **New**; a later `updatedAt` on a known chapter shows
-  **Updated**. The first visit establishes a baseline and shows no false badges.
-  The comparison and progress data stay in local browser storage.
+- `js/chapter-changes.js` tracks chapters successfully opened on the
+  **current browser** using `novelhub:seen-chapters:v1` in localStorage. Unread
+  chapters show **New** until opened; a previously read chapter that was
+  subsequently revised shows **Updated** only during the first **three days**
+  after that revision, until opened again. Existing Continue Reading history
+  counts previously reached chapters as read. With no history on a different
+  device, all chapters initially count as unread. Chapter history never leaves
+  the browser and is not available to the site owner.
 - **Report a problem** appears on the homepage, novel detail pages, and at the
   top and bottom of the reader. The reader links generate a prefilled issue
   containing the current novel, chapter, URL, and a space to describe the
