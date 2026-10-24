@@ -149,3 +149,19 @@
 .empty a{color:var(--accent)}
 .save-button:focus-visible{outline:2px solid var(--accent)}
 @media(max-width:540px){.top-nav{gap:10px}.top-nav a{font-size:11px}.update-row{padding:13px 12px}.update-time{font-size:10px}.page-tabs{gap:12px}}
+
+
+/* Catalog forms and pagination used by the shared updates view. */
+body[data-page="updates"] .search-row{grid-template-columns:minmax(0,1fr) 230px}
+body[data-page="updates"] .search-field{grid-column:auto}
+body[data-page="updates"] .search-row > label:last-child{grid-column:auto}
+.updates-more{text-align:center;margin:24px auto 0}
+.load-more{background:var(--surface);color:var(--text);border:1px solid var(--border);min-height:40px;padding:9px 22px;font-size:12px}
+.load-more:hover{color:var(--accent);border-color:var(--accent)}
+.cover-image{background-size:cover;background-position:center}
+.novel-card .chapter-detail{line-height:1.45;max-height:3em;margin-bottom:9px}
+@media(max-width:650px){
+ body[data-page="updates"] .search-row{grid-template-columns:1fr}
+ body[data-page="updates"] .search-field{grid-column:1/-1}
+ body[data-page="updates"] .search-row > label:last-child{grid-column:1/-1}
+}
