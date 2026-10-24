@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish a weekly GoatCounter reader-visit snapshot for the NovelHub catalog.
+"""Publish only weekly top-ten positions derived from private GoatCounter visits.
 
 Visits are counted per novel path (/novel/<book-id>) rather than per chapter.
 GoatCounter deduplicates visits within a session; this is not a count of
@@ -118,10 +118,12 @@ def get_counts(code: str, token: str, book_ids: list[str],
 def build_snapshot(book_ids: list[str], counts: dict[str, int],
                    start: datetime, end: datetime) -> dict:
     sorted_ids = sorted(book_ids, key=lambda i: (-counts.get(i, 0), i))
+    # Keep raw visit totals in the private analytics dashboard only.
+    # The public site receives positions, never visitor counts.
     entries = [
-        {"id": book_id, "visits": counts.get(book_id, 0),
-         "rank": position if position <= 10 and counts.get(book_id, 0) > 0 else None}
+        {"id": book_id, "rank": position}
         for position, book_id in enumerate(sorted_ids, 1)
+        if position <= 10 and counts.get(book_id, 0) > 0
     ]
     return {
         "status": "ready",
@@ -157,7 +159,7 @@ def main() -> int:
         return 0
     counts = get_counts(code, token, books, start, end)
     snapshot = build_snapshot(books, counts, start, end)
-    content = ("// Generated reader visit counts for the last completed Central week.\n"
+    content = ("// Generated top-ten positions for the last completed Central week.\n"
                + "window.NOVELHUB_RANKINGS = "
                + json.dumps(snapshot, ensure_ascii=False, indent=2) + ";\n")
     # Only write live config after successful analytics retrieval.
