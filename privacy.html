@@ -8,6 +8,7 @@
   <title>Privacy &amp; source | NovelHub</title>
   <link rel="icon" type="image/png" href="Images/Logo_pixel_art.png">
   <link rel="stylesheet" href="css/site.css">
+  <script defer src="js/privacy-optout.js"></script>
 </head>
 <body data-page="about">
   <a href="#main-content" class="skip-link">Skip to content</a>
@@ -27,6 +28,14 @@
       <h2 id="privacy-counting">Exactly what we count</h2>
       <p>When you open a chapter, our site sends a small request to <a href="https://www.goatcounter.com/">GoatCounter</a> identifying only the <em>novel</em>, such as <code>/novel/example</code>. We don't include which chapter you opened, your reading position, a referral URL, or screen-size details. GoatCounter's statistics retention is configured for <strong>31 days</strong>. We use the counts to calculate the weekly top ten, but publish only ranking positions, not visit totals. Past ranking positions may remain in the public GitHub commit history after the underlying visit statistics expire.</p>
       <p><strong>Anonymous does not mean that no network information is transmitted.</strong> GoatCounter receives ordinary request information such as your IP address and browser's User-Agent. According to <a href="https://www.goatcounter.com/help/privacy">GoatCounter's privacy documentation</a>, it does not save IP addresses or full User-Agent headers to its database; it can use them temporarily in memory for up to eight hours to avoid counting repeat visits. The analytics request uses no tracking cookies or persistent identifier.</p>
+      <div class="privacy-choice">
+        <label class="privacy-choice-label" for="analytics-opt-out">
+          <input id="analytics-opt-out" type="checkbox" disabled>
+          <span>Opt out of anonymous visit counting</span>
+        </label>
+        <p>This choice is saved only in this browser. Once enabled, future chapter visits on this device won't send a request to GoatCounter. It won't undo earlier counts or affect GitHub Pages hosting. Repeat the choice on other devices or browsers.</p>
+        <p id="analytics-opt-out-status" role="status" aria-live="polite">Checking your preference…</p>
+      </div>
     </section>
 
     <section aria-labelledby="privacy-local">
