@@ -6,9 +6,9 @@ until GoatCounter is connected.
 
 ## Metric
 
-- Each visit to `book.html?id=novel-id` or
-  `reader.html?id=novel-id&chapter=...` is recorded under the SAME canonical
-  path `/novel/novel-id`.
+- Visits to the actual **reader** page, `reader.html?id=novel-id&chapter=...`,
+  are recorded under one canonical path per novel: `/novel/novel-id`.
+  Opening a book’s detail page does not count as a reader visit.
 - GoatCounter deduplicates repeat visits to the same path within a session.
   This is **reader visits**, not a census of distinct people: a person returning
   in a later session may count again, and blocked analytics may go uncounted.
