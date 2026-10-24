@@ -21,23 +21,29 @@
   </header>
   <main class="wrap privacy-page" id="main-content">
     <div class="page-head"><h1>Privacy &amp; source code</h1></div>
-    <p class="privacy-lead"><strong>The short version:</strong> You don't need an account to read. NovelHub does not use advertising cookies, collect reading histories, or build reader profiles. Your bookmarks, reading position, and chapter-read indicators stay on your own device. The site's code is publicly available to inspect.</p>
+    <p class="privacy-lead"><strong>TL;DR:</strong> NovelHub's website code is publicly available on <a href="https://github.com/TheBoomDog/theboomdog.github.io">GitHub</a>. We use GoatCounter to count anonymous visits to each novel for weekly rankings, with statistics set to a <strong>31-day retention period</strong>. We do not collect reading histories, require accounts, run ads, or build profiles of readers.</p>
 
     <section aria-labelledby="privacy-counting">
-      <h2 id="privacy-counting">One exception: anonymous visit counts</h2>
-      <p>NovelHub currently uses <a href="https://www.goatcounter.com/">GoatCounter</a> to count visits to a novel's reader, solely for the weekly popularity rankings. We send an anonymous request identifying <em>which novel</em> was opened—not the chapter, your reading position, your name, or a user account. We do not send referral-page or screen-size analytics.</p>
-      <p>This is still a form of visit counting, not literally zero tracking. Like any remote service, GoatCounter necessarily receives ordinary network information such as your IP address and browser headers when the request is made. The public site only displays ranking positions, not visit totals. Browser privacy tools may block the counter.</p>
+      <h2 id="privacy-counting">Exactly what we count</h2>
+      <p>When you open a chapter, our site sends a small request to <a href="https://www.goatcounter.com/">GoatCounter</a> identifying only the <em>novel</em>, such as <code>/novel/example</code>. We don't include which chapter you opened, your reading position, a referral URL, or screen-size details. GoatCounter's statistics retention is configured for <strong>31 days</strong>. We use the counts to calculate the weekly top ten, but publish only ranking positions, not visit totals.</p>
+      <p><strong>Anonymous does not mean that no network information is transmitted.</strong> GoatCounter receives ordinary request information such as your IP address and browser's User-Agent. According to <a href="https://www.goatcounter.com/help/privacy">GoatCounter's privacy documentation</a>, it does not save IP addresses or full User-Agent headers to its database; it can use them temporarily in memory for up to eight hours to avoid counting repeat visits. The analytics request uses no tracking cookies or persistent identifier.</p>
     </section>
 
     <section aria-labelledby="privacy-local">
-      <h2 id="privacy-local">What stays in your browser</h2>
-      <p>Saved novels, your last-read chapter and scroll position, reading settings, and New/Updated chapter status use your browser's local storage. NovelHub does not upload that information or sync it between devices. Clearing your browser's site data clears it, and another device starts without that history.</p>
+      <h2 id="privacy-local">Your reading data stays on your device</h2>
+      <p>Saved books, chapter progress and scroll position, reading preferences, and New/Updated chapter indicators are stored locally in your browser. We cannot see this information and do not send it to an account or sync it between devices. Clearing the site's browser storage removes this reading history.</p>
+    </section>
+
+    <section aria-labelledby="privacy-third-party">
+      <h2 id="privacy-third-party">Other services involved</h2>
+      <p><a href="https://pages.github.com/">GitHub Pages</a> hosts the website. Like other hosting services, it handles ordinary requests to deliver the pages; its infrastructure and logging are governed by GitHub's own policies, not our 31-day GoatCounter setting. Readers may also block the GoatCounter request with browser privacy tools, which can make our counts less accurate.</p>
+      <p>Our <strong>Report a problem</strong> links open <a href="https://github.com/TheBoomDog/theboomdog.github.io/issues">public GitHub issues</a>. Filing a report requires a GitHub account, and the text you choose to submit is public. No locally saved reading progress is automatically included.</p>
     </section>
 
     <section aria-labelledby="privacy-source">
-      <h2 id="privacy-source">Public source code</h2>
-      <p>NovelHub is built as a static GitHub Pages site, and its website files can be read on <a href="https://github.com/TheBoomDog/theboomdog.github.io">GitHub</a>. You can inspect the code behind the reader, catalog, visit-counting and publishing features. The repository does not currently include an open-source license, so publicly viewable source should not be mistaken for blanket permission to reuse it.</p>
-      <p>The novels and other third-party literary material are separate from the website software. Their presence in a public repository does not grant permission to republish or relicense them.</p>
+      <h2 id="privacy-source">Read the source code</h2>
+      <p>The source for NovelHub's website, including its reader, catalog, and anonymous visit-counting implementation, is <a href="https://github.com/TheBoomDog/theboomdog.github.io">publicly viewable on GitHub</a>. You can inspect exactly what the site's own scripts do.</p>
+      <p><strong>Publicly available isn't the same as open-source licensed.</strong> The repository does not currently contain a software license granting reuse rights. The hosted novels and other literary works are also not being offered for unrestricted reuse.</p>
     </section>
 
     <p class="privacy-last"><a href="index.html">← Back to NovelHub</a></p>
