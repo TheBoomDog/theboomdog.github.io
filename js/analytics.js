@@ -8,6 +8,14 @@
   if (typeof code !== "string" || !/^[a-z0-9-]{2,50}$/.test(code)) return;
   if (!location.pathname.endsWith("/reader.html")) return;
 
+  // The user's preference is checked before any GoatCounter image is created.
+  // Fail closed if storage cannot be read (e.g., strict browser privacy mode).
+  try {
+    if (localStorage.getItem("novelhub:analytics-opt-out:v1") === "1") return;
+  } catch (_) {
+    return;
+  }
+
   const id = new URLSearchParams(location.search).get("id");
   const book = (Array.isArray(window.NOVELHUB_BOOKS) ? window.NOVELHUB_BOOKS : [])
     .find(item => item.id === id && Array.isArray(item.chapters) && item.chapters.length);
