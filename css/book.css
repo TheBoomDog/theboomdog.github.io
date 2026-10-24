@@ -67,3 +67,10 @@ h1{font:normal clamp(32px,4.6vw,49px)/1.12 var(--serif);letter-spacing:-.045em;m
   .chapter-controls select[aria-label="Select book volume"] {flex:1 1 100%;max-width:none}
   .chapter-controls input {flex:1 1 45%}
 }
+
+
+/* Returning readers see what's new or revised, without site-side tracking. */
+.chapter-flag{display:inline-flex;align-items:center;flex-shrink:0;white-space:nowrap;border:1px solid #6b735a;color:#e2cca0;background:#242e25;padding:2px 7px;border-radius:2px;font-size:10px}
+.chapter-flag-new{border-color:#758968;color:#dcebc9}
+.chapter-flag-updated{border-color:#8b7456;color:#ebd3a6}
+@media(max-width:650px){.chapter-row{flex-wrap:wrap;gap:7px 10px}.chapter-title{flex-basis:55%}}
