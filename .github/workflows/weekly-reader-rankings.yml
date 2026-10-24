@@ -2,11 +2,6 @@ name: Update weekly reader rankings
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'scripts/update_reader_rankings.py'
-  # Diagnostic reruns on changes to the ranking script; normal refresh is weekly.
   schedule:
     - cron: '0 1 * * 1'
       timezone: "America/Chicago"
