@@ -25,6 +25,10 @@ class CatalogBuilderTests(unittest.TestCase):
                 '{id:"entirely-new-novel",chapters:[{href:"read-2"}]});})();',
                 encoding="utf-8"
             )
+            (data / "site-config.js").write_text(
+                'window.NOVELHUB_SITE={reportIssuesUrl:"https://github.com/example/test/issues/new"};',
+                encoding="utf-8"
+            )
             (data / "rankings.js").write_text(
                 'window.NOVELHUB_RANKINGS = {status:"ready"};',encoding="utf-8"
             )
@@ -49,6 +53,7 @@ class CatalogBuilderTests(unittest.TestCase):
             )
             self.assertNotIn("NOVELHUB_RANKINGS", output.read_text(encoding="utf-8"))
             self.assertNotIn("NOVELHUB_ANALYTICS", output.read_text(encoding="utf-8"))
+            self.assertNotIn("NOVELHUB_SITE", output.read_text(encoding="utf-8"))
 
 if __name__ == "__main__":
     unittest.main()
