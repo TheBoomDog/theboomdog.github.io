@@ -27,7 +27,7 @@ if(numeral){
 }
 const meta=[book.author,book.chapters?.length?book.chapters.length+" chapters":"No chapters published",book.language].filter(Boolean);
 meta.forEach(t=>$("metadata").append(element("span","",t)));
-(book.genres||[]).forEach(g=>$("genres").append(element("span","tag",g)));
+(book.genres||[]).forEach(g=>{const link=element("a","tag",g);link.href="search.html?genre="+encodeURIComponent(g);$("genres").append(link)});
 if(book.description){$("description").textContent=book.description;$("description").hidden=false}
 const chapters=Array.isArray(book.chapters)?book.chapters.filter(c=>c&&typeof c.href==="string"&&c.href):[];
 const first=chapters[0],last=chapters[chapters.length-1];
