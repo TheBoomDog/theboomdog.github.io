@@ -31,7 +31,7 @@ VOLUME_NAMES = {
     6: "Half-Blood Prince",
     7: "Deathly Hallows",
 }
-DATA_MARKER = "// Auto-generated from the local Malfoid manuscript by scripts/import_malfoid.py.\\n"
+DATA_MARKER = "// Auto-generated from the local Malfoid manuscript by scripts/import_malfoid.py.\n"
 
 def last_modified(source: Path, chapter_file: Path):
     """Use manuscript git history; never invent a publication/update timestamp."""
