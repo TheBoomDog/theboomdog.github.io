@@ -10,7 +10,8 @@
   const book = (Array.isArray(window.NOVELHUB_BOOKS) ? window.NOVELHUB_BOOKS : [])
     .find(item => item.id === id && Array.isArray(item.chapters) && item.chapters.length);
   if (!book || !/^[a-z0-9-]{1,80}$/.test(book.id)) return;
-  if (!["/reader.html", "/book.html"].some(path => location.pathname.endsWith(path))) return;
+  // Visiting a novel details page is not evidence that the person read it.
+  if (!location.pathname.endsWith("/reader.html")) return;
 
   const loader = document.createElement("script");
   loader.async = true;
