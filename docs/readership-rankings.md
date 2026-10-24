@@ -81,8 +81,10 @@ GitHub Actions workflow: `.github/workflows/weekly-reader-rankings.yml`.
 
 ## Security and privacy
 
-The analytics API token remains only in an encrypted Actions secret; only
-weekly aggregate counts are committed to the public repository.
+The analytics API token remains only in an encrypted Actions secret.
+Raw visit totals remain in the private GoatCounter dashboard and are not
+published in NovelHub's data files or public pages. Only rank positions
+for the top ten novels appear in data/rankings.js.
 
 GoatCounter counts first visits to canonical paths per approximately eight-hour
 session, rather than logging per-chapter reading events for rankings. This
