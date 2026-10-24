@@ -50,6 +50,7 @@ jobs:
           node tests/analytics-smoke.cjs
           node tests/reader-features-smoke.cjs
           node tests/privacy-navigation-smoke.cjs
+          node tests/privacy-optout-smoke.cjs
       - name: Verify dynamic page entry points
         run: |
           python3 - <<'PY'
