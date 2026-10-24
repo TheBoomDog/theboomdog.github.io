@@ -132,8 +132,10 @@
     const actions = el("div", "card-actions");
     if (chapters.length) {
       const progress = readProgress()[book.id];
-      if (progress && Number.isInteger(progress.chapter) && chapters[progress.chapter - 1]) {
-        actions.append(a(chapters[progress.chapter - 1].href, "", "Continue reading ↗"));
+      const resume = progress?.key ? chapters.find(ch => ch.key === progress.key)
+        : (Number.isInteger(progress?.chapter) ? chapters[progress.chapter - 1] : null);
+      if (resume) {
+        actions.append(a(resume.href, "", "Continue reading ↗"));
       } else {
         actions.append(a(chapters[0].href, "", "Start reading ↗"));
       }
