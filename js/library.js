@@ -176,9 +176,7 @@
       } else {
         actions.append(a(chapters[0].href, "", "Start reading ↗"));
       }
-      actions.append(a(bookURL(book), "", "Chapters"));
     } else {
-      actions.append(a(bookURL(book), "", "Details"));
       actions.append(el("span", "unavailable", "Not published"));
     }
     body.append(top, meta, tags);
