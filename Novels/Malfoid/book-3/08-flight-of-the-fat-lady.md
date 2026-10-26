@@ -25,7 +25,7 @@ Oliver Wood was a burly seventeen-year-old, now in his seventh and final year at
 
 “This is our last chance — *my* last chance — to win the Quidditch Cup,” he told them, striding up and down in front of them. “I’ll be leaving at the end of this year. I’ll never get another shot at it.
 
-“Gryffindor hasn’t won for seven years now. Okay, so we’ve had the worst luck in the world — injuries — then the tournament getting called off last year. . . .” Wood swallowed, as though the memory still brought a lump to his throat. “But we also know we’ve got the *best — ruddy — team — in — the — school,”* he said, punching a fist into his other hand, the old manic glint back in his eye.
+“Gryffindor hasn’t won for seven years now. Okay, so we’ve had the worst luck in the world — injuries — then the tournament getting called off last year. . . .” Wood swallowed, as though the memory still brought a lump to his throat. “But we also know we’ve got the *best — ruddy — team — in — the — school*,” he said, punching a fist into his other hand, the old manic glint back in his eye.
 
 “We’ve got three *superb* Chasers.”
 
@@ -35,7 +35,7 @@ Wood pointed at Alicia Spinnet, Angelina Johnson, and Katie Bell.
 
 “Stop it, Oliver, you’re embarrassing us,” said Fred and George Weasley together, pretending to blush.
 
-“And we’ve got a Seeker who has *never failed to win us a match*!”* *Wood rumbled, glaring at Harry with a kind of furious pride. “And me,” he added as an afterthought.
+“And we’ve got a Seeker who has *never failed to win us a match*!” Wood rumbled, glaring at Harry with a kind of furious pride. “And me,” he added as an afterthought.
 
 “We think you’re very good too, Oliver,” said George.
 
@@ -67,7 +67,7 @@ Harry threw himself into a chair beside Ron, his high spirits ebbing away. Hermi
 
 “Black’s not fool enough to try anything in Hogsmeade,” said Ron. “Ask McGonagall if you can go this time, Harry. The next one might not be for ages —”
 
-*“Ron!” *said Hermione. “Harry’s supposed to stay *in school* —”
+*“Ron!”* said Hermione. “Harry’s supposed to stay *in school* —”
 
 “He can’t be the only third year left behind,” said Ron. “Ask McGonagall, go on, Harry —”
 
@@ -139,7 +139,7 @@ Lavender Brown seemed to be crying. Parvati had her arm around her and was expla
 
 The whole class was gathered around Lavender now. Seamus shook his head seriously. Hermione hesitated; then she said, “You — you were dreading Binky being killed by a fox?”
 
-“Well, not necessarily by a *fox,*” said Lavender, looking up at Hermione with streaming eyes, “but I was *obviously* dreading him dying, wasn’t I?”
+“Well, not necessarily by a *fox*,” said Lavender, looking up at Hermione with streaming eyes, “but I was *obviously* dreading him dying, wasn’t I?”
 
 “Oh,” said Hermione. She paused again. Then —
 
@@ -203,7 +203,9 @@ There was nothing to be done. Ron called Professor McGonagall a lot of names tha
 
 The Halloween feast was always good, but it would taste a lot better if he was coming to it after a day in Hogsmeade with everyone else. Nothing anyone said made him feel any better about being left behind. Dean Thomas, who was good with a quill, had offered to forge Uncle Vernon’s signature on the form, but as Harry had already told Professor McGonagall he hadn’t had it signed, that was no good. Ron halfheartedly suggested the Invisibility Cloak, but Hermione stamped on that one, reminding Ron what Dumbledore had told them about the dementors being able to see through them. Percy had what were possibly the least helpful words of comfort.
 
-“They make a fuss about Hogsmeade, but I assure you, Harry, it’s not all it’s cracked up to be,” he said seriously. “All right, the sweetshop’s rather good, and Zonko’s Joke Shop’s frankly dangerous, and yes, the Shrieking Shack’s always worth a visit, but really, Harry, apart from that, you’re not missing anything.” On Halloween morning, Harry awoke with the rest and went down to breakfast, feeling thoroughly depressed, though doing his best to act normally.
+“They make a fuss about Hogsmeade, but I assure you, Harry, it’s not all it’s cracked up to be,” he said seriously. “All right, the sweetshop’s rather good, and Zonko’s Joke Shop’s frankly dangerous, and yes, the Shrieking Shack’s always worth a visit, but really, Harry, apart from that, you’re not missing anything.”
+
+On Halloween morning, Harry awoke with the rest and went down to breakfast, feeling thoroughly depressed, though doing his best to act normally.
 
 “We’ll bring you lots of sweets back from Honeydukes,” said Hermione, looking desperately sorry for him.
 
@@ -215,7 +217,7 @@ He accompanied them to the entrance hall, where Filch, the caretaker, was standi
 
 “Staying here, Potter?” shouted Malfoy, who was standing in line with Crabbe and Goyle. “Scared of passing the dementors?”
 
-Harry ignored him and made his solitary way up the marble staircase, through the deserted corridors, and back to Gryffindor Tower.
+Harry ignored her and made his solitary way up the marble staircase, through the deserted corridors, and back to Gryffindor Tower.
 
 “Password?” said the Fat Lady, jerking out of a doze.
 
@@ -383,7 +385,7 @@ By the sound of it — everywhere. Dervish and Banges, the wizarding equipment s
 
 He told them all about the goblet. Ron’s mouth fell open.
 
-*“Lupin drank it?” *he gasped. “Is he mad?”
+*“Lupin drank it?”* he gasped. “Is he mad?”
 
 Hermione checked her watch.
 

@@ -479,7 +479,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/03-the-knight-bus.html",
       "href": "reader.html?id=malfoid&chapter=b3-03-the-knight-bus",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-26T17:04:23-05:00"
     },
     {
       "number": 39,
@@ -490,7 +490,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/04-the-leaky-cauldron.html",
       "href": "reader.html?id=malfoid&chapter=b3-04-the-leaky-cauldron",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-26T17:26:43-05:00"
     },
     {
       "number": 40,
@@ -501,7 +501,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/05-the-dementor.html",
       "href": "reader.html?id=malfoid&chapter=b3-05-the-dementor",
-      "updatedAt": "2026-10-23T17:19:29-05:00"
+      "updatedAt": "2026-10-26T17:45:50-05:00"
     },
     {
       "number": 41,
@@ -512,7 +512,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/06-talons-and-tea-leaves.html",
       "href": "reader.html?id=malfoid&chapter=b3-06-talons-and-tea-leaves",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-26T18:04:47-05:00"
     },
     {
       "number": 42,
@@ -523,7 +523,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/07-the-boggart-in-the-wardrobe.html",
       "href": "reader.html?id=malfoid&chapter=b3-07-the-boggart-in-the-wardrobe",
-      "updatedAt": "2026-10-22T20:22:33-05:00"
+      "updatedAt": "2026-10-26T18:26:59-05:00"
     },
     {
       "number": 43,
@@ -534,7 +534,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/08-flight-of-the-fat-lady.html",
       "href": "reader.html?id=malfoid&chapter=b3-08-flight-of-the-fat-lady",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-26T18:42:50-05:00"
     },
     {
       "number": 44,

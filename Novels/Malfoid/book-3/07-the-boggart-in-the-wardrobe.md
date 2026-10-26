@@ -57,11 +57,11 @@ Harry took Malfoy’s shrivelfig as Ron began trying to repair the damage to the
 
 “Keep talking, Malfoy, and I’ll give you a real injury,” snarled Ron.
 
-“— he’s complained to the school governors. *And* to the Ministry of Magic. Father’s got a lot of influence, you know. And a lasting injury like this” — he gave a huge, fake sigh — “who knows if my arm’ll ever be the same again?”
+“— he’s complained to the school governors. *And* to the Ministry of Magic. Father’s got a lot of influence, you know. And a lasting injury like this” — she gave a huge, fake sigh — “who knows if my arm’ll ever be the same again?”
 
 “So that’s why you’re putting it on,” said Harry, accidentally beheading a dead caterpillar because his hand was shaking in anger. “To try to get Hagrid fired.”
 
-“Well,” said Malfoy, lowering his voice to a whisper, “*partly, *Potter. But there are other benefits too. Weasley, slice my caterpillars for me.”
+“Well,” said Malfoy, lowering her voice to a whisper, “*partly*, Potter. But there are other benefits too. Weasley, slice my caterpillars for me.”
 
 A few cauldrons away, Neville was in trouble. Neville regularly went to pieces in Potions lessons; it was his worst subject, and his great fear of Professor Snape made things ten times worse. His potion, which was supposed to be a bright, acid green, had turned —
 
@@ -105,13 +105,13 @@ Malfoy let out a low, sneering laugh.
 
 “Maybe you’d rather not risk your neck,” she said. “Want to leave it to the dementors, do you? But if it was me, I’d want revenge. I’d hunt him down myself.”
 
-*“What are you talking about?” *said Harry angrily, but at that moment Snape called, “You should have finished adding your ingredients by now; this potion needs to stew before it can be drunk, so clear away while it simmers and then we’ll test Longbottom’s. . . .”
+*“What are you talking about?”* said Harry angrily, but at that moment Snape called, “You should have finished adding your ingredients by now; this potion needs to stew before it can be drunk, so clear away while it simmers and then we’ll test Longbottom’s. . . .”
 
 Crabbe and Goyle laughed openly, watching Neville sweat as he stirred his potion feverishly. Hermione was muttering instructions to him out of the corner of her mouth, so that Snape wouldn’t see. Harry and Ron packed away their unused ingredients and went to wash their hands and ladles in the stone basin in the corner.
 
 “What did Malfoy mean?” Harry muttered to Ron as he stuck his hands under the icy jet that poured from the gargoyle’s mouth. “Why would I want revenge on Black? He hasn’t done anything to me — yet.”
 
-“He’s making it up,” said Ron savagely. “He’s trying to make you do something stupid. . . .”
+“She’s making it up,” said Ron savagely. “She’s trying to make you do something stupid. . . .”
 
 The end of the lesson in sight, Snape strode over to Neville, who was cowering by his cauldron.
 
@@ -195,7 +195,7 @@ Professor Lupin gave a small sigh and took out his wand.
 
 “This is a useful little spell,” he told the class over his shoulder. “Please watch closely.”
 
-He raised the wand to shoulder height, said, *“Waddiwasi!” *and pointed it at Peeves.
+He raised the wand to shoulder height, said, *“Waddiwasi!”* and pointed it at Peeves.
 
 With the force of a bullet, the wad of chewing gum shot out of the keyhole and straight down Peeves’s left nostril; he whirled upright and zoomed away, cursing.
 

@@ -31,7 +31,7 @@ Price on request . . . Harry didn’t like to think how much gold the Firebolt w
 
 There were, however, things that Harry needed to buy. He went to the Apothecary to replenish his store of potions ingredients, and as his school robes were now several inches too short in the arm and leg, he visited Madam Malkin’s Robes for All Occasions and bought new ones. Most important of all, he had to buy his new schoolbooks, which would include those for his two new subjects, Care of Magical Creatures and Divination.
 
-Harry got a surprise as he looked in at the bookshop window. Instead of the usual display of gold-embossed spellbooks the size of paving slabs, there was a large iron cage behind the glass that held about a hundred copies of *The Monster Book of Monsters.* Torn pages were flying everywhere as the books grappled with each other, locked together in furious wrestling matches and snapping aggressively.
+Harry got a surprise as he looked in at the bookshop window. Instead of the usual display of gold-embossed spellbooks the size of paving slabs, there was a large iron cage behind the glass that held about a hundred copies of *The Monster Book of Monsters*. Torn pages were flying everywhere as the books grappled with each other, locked together in furious wrestling matches and snapping aggressively.
 
 Harry pulled his booklist out of his pocket and consulted it for the first time. *The Monster Book of Monsters* was listed as the required book for Care of Magical Creatures. Now Harry understood why Hagrid had said it would come in useful. He felt relieved; he had been wondering whether Hagrid wanted help with some terrifying new pet.
 
@@ -53,11 +53,11 @@ A loud ripping noise rent the air; two of the *Monster Books* had seized a third
 
 “Yes,” said Harry, looking down his booklist, “I need *Unfogging the Future* by Cassandra Vablatsky.”
 
-“Ah, starting Divination, are you?” said the manager, stripping off his gloves and leading Harry into the back of the shop, where there was a corner devoted to fortune-telling. A small table was stacked with volumes such as *Predicting the Unpredictable: Insulate Yourself Against Shocks* and *Broken Balls: When Fortunes Turn Foul.*
+“Ah, starting Divination, are you?” said the manager, stripping off his gloves and leading Harry into the back of the shop, where there was a corner devoted to fortune-telling. A small table was stacked with volumes such as *Predicting the Unpredictable: Insulate Yourself Against Shocks* and *Broken Balls: When Fortunes Turn Foul*.
 
-“Here you are,” said the manager, who had climbed a set of steps to take down a thick, black-bound book. “*Unfogging the Future.* Very good guide to all your basic fortune-telling methods — palmistry, crystal balls, bird entrails —”
+“Here you are,” said the manager, who had climbed a set of steps to take down a thick, black-bound book. “*Unfogging the Future*. Very good guide to all your basic fortune-telling methods — palmistry, crystal balls, bird entrails —”
 
-But Harry wasn’t listening. His eyes had fallen on another book, which was among a display on a small table: *Death Omens: What to Do When You Know the Worst Is Coming.*
+But Harry wasn’t listening. His eyes had fallen on another book, which was among a display on a small table: *Death Omens: What to Do When You Know the Worst Is Coming*.
 
 “Oh, I wouldn’t read that if I were you,” said the manager lightly, looking to see what Harry was staring at. “You’ll start seeing death omens everywhere. It’s enough to frighten anyone to death.”
 
@@ -67,7 +67,7 @@ The manager pressed *Unfogging the Future* into Harry’s hands.
 
 “Anything else?” he said.
 
-“Yes,” said Harry, tearing his eyes away from the dog’s and dazedly consulting his booklist. “Er — I need *Intermediate Transfiguration *and* The Standard Book of Spells, Grade Three.*”
+“Yes,” said Harry, tearing his eyes away from the dog’s and dazedly consulting his booklist. “Er — I need *Intermediate Transfiguration* and *The Standard Book of Spells, Grade Three*.”
 
 Harry emerged from Flourish and Blotts ten minutes later with his new books under his arms and made his way back to the Leaky Cauldron, hardly noticing where he was going and bumping into several people.
 
@@ -123,7 +123,7 @@ Hermione nodded, beaming. “Mum and Dad dropped me off this morning with all my
 
 “I’ve still got ten Galleons,” she said, checking her purse. “It’s my birthday in September, and Mum and Dad gave me some money to get myself an early birthday present.”
 
-“How about a nice *book*?”* *said Ron innocently.
+“How about a nice *book*?” said Ron innocently.
 
 “No, I don’t think so,” said Hermione composedly. “I really want an owl. I mean, Harry’s got Hedwig and you’ve got Errol —”
 
@@ -175,7 +175,7 @@ Ron buckled as something huge and orange came soaring from the top of the highes
 
 “Scabbers!” Ron shouted, racing out of the shop after him; Harry followed.
 
-It took them nearly ten minutes to catch Scabbers, who had taken refuge under a wastepaper bin outside Quality Quidditch Supplies*.* Ron stuffed the trembling rat back into his pocket and straightened up, massaging his head.
+It took them nearly ten minutes to catch Scabbers, who had taken refuge under a wastepaper bin outside Quality Quidditch Supplies. Ron stuffed the trembling rat back into his pocket and straightened up, massaging his head.
 
 “What *was* that?”
 
@@ -189,7 +189,7 @@ They made their way back up the crowded street to the Magical Menagerie. As they
 
 “You *bought* that monster?” said Ron, his mouth hanging open.
 
-“He’s *gorgeous,* isn’t he?” said Hermione, glowing.
+“He’s *gorgeous*, isn’t he?” said Hermione, glowing.
 
 That was a matter of opinion, thought Harry. The cat’s ginger fur was thick and fluffy, but it was definitely a bit bowlegged and its face looked grumpy and oddly squashed, as though it had run headlong into a brick wall. Now that Scabbers was out of sight, however, the cat was purring contentedly in Hermione’s arms.
 
@@ -199,7 +199,7 @@ That was a matter of opinion, thought Harry. The cat’s ginger fur was thick an
 
 “And what about Scabbers?” said Ron, pointing at the lump in his chest pocket. “He needs rest and relaxation! How’s he going to get it with that thing around?”
 
-“That reminds me, you forgot your rat tonic,” said Hermione, slapping the small red bottle into Ron’s hand. “And stop *worrying,* Crookshanks will be sleeping in my dormitory and Scabbers in yours, what’s the problem? Poor Crookshanks, that witch said he’d been in there for ages; no one wanted him.”
+“That reminds me, you forgot your rat tonic,” said Hermione, slapping the small red bottle into Ron’s hand. “And stop *worrying*, Crookshanks will be sleeping in my dormitory and Scabbers in yours, what’s the problem? Poor Crookshanks, that witch said he’d been in there for ages; no one wanted him.”
 
 “I wonder why,” said Ron sarcastically as they set off toward the Leaky Cauldron.
 
@@ -347,7 +347,7 @@ Fred and George were crouching in the shadows on the landing, heaving with laugh
 
 “We’ve got it,” Fred whispered to Harry. “We’ve been improving it.”
 
-The badge now read *Bighead Boy.*
+The badge now read *Bighead Boy*.
 
 Harry forced a laugh, went to give Ron the rat tonic, then shut himself in his room and lay down on his bed.
 

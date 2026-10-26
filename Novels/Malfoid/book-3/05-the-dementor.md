@@ -129,7 +129,7 @@ Harry, Ron, and Hermione had already had two Defense Against the Dark Arts teach
 
 Harry explained all about Mr. and Mrs. Weasley’s argument and the warning Mr. Weasley had just given him. When he’d finished, Ron looked thunderstruck, and Hermione had her hands over her mouth. She finally lowered them to say, “Sirius Black escaped to come after *you*? Oh, Harry . . . you’ll have to be really, really careful. Don’t go looking for trouble, Harry —”
 
-“I don’t go looking for trouble,” said Harry, nettled. “Trouble usually finds *me.”*
+“I don’t go looking for trouble,” said Harry, nettled. “Trouble usually finds *me*.”
 
 “How thick would Harry have to be, to go looking for a nutter who wants to kill him?” said Ron shakily.
 
@@ -221,7 +221,7 @@ He didn’t move.
 
 “Don’t worry, dear,” said the witch as she handed Harry a large stack of Cauldron Cakes. “If he’s hungry when he wakes, I’ll be up front with the driver.”
 
-“I suppose he *is *asleep?” said Ron quietly as the witch slid the compartment door closed. “I mean — he hasn’t died, has he?”
+“I suppose he *is* asleep?” said Ron quietly as the witch slid the compartment door closed. “I mean — he hasn’t died, has he?”
 
 “No, no, he’s breathing,” whispered Hermione, taking the Cauldron Cake Harry passed her.
 
@@ -421,7 +421,7 @@ As the carriage trundled toward a pair of magnificent wrought iron gates, flanke
 
 As Harry stepped down, a drawling, delighted voice sounded in his ear.
 
-“You *fainted,* Potter? Is Longbottom telling the truth? You actually *fainted*?”
+“You *fainted*, Potter? Is Longbottom telling the truth? You actually *fainted*?”
 
 Malfoy elbowed past Hermione to block Harry’s way up the stone steps to the castle, her face gleeful and her pale eyes glinting maliciously.
 
@@ -431,7 +431,7 @@ Malfoy elbowed past Hermione to block Harry’s way up the stone steps to the ca
 
 “Is there a problem?” said a mild voice. Professor Lupin had just gotten out of the next carriage.
 
-Malfoy gave Professor Lupin an insolent stare, which took in the patches on his robes and the dilapidated suitcase. With a tiny hint of sarcasm in her voice, she said, “Oh, no — er — *Professor,*” then she smirked at Crabbe and Goyle and led them up the steps into the castle.
+Malfoy gave Professor Lupin an insolent stare, which took in the patches on his robes and the dilapidated suitcase. With a tiny hint of sarcasm in her voice, she said, “Oh, no — er — *Professor*,” then she smirked at Crabbe and Goyle and led them up the steps into the castle.
 
 Hermione prodded Ron in the back to make him hurry, and the three of them joined the crowd swarming up the steps, through the giant oak front doors, into the cavernous entrance hall, which was lit with flaming torches, and housed a magnificent marble staircase that led to the upper floors.
 
@@ -465,7 +465,7 @@ They exchanged a dark look, and Madam Pomfrey clucked disapprovingly.
 
 “What does he need?” said Professor McGonagall crisply. “Bed rest? Should he perhaps spend tonight in the hospital wing?”
 
-“I’m *fine*!”* *said Harry, jumping up. The thought of what Drusilla Malfoy would say if he had to go to the hospital wing was torture.
+“I’m *fine*!” said Harry, jumping up. The thought of what Drusilla Malfoy would say if he had to go to the hospital wing was torture.
 
 “Well, he should have some chocolate, at the very least,” said Madam Pomfrey, who was now trying to peer into Harry’s eyes.
 
@@ -475,7 +475,7 @@ They exchanged a dark look, and Madam Pomfrey clucked disapprovingly.
 
 “Are you sure you feel all right, Potter?” Professor McGonagall said sharply.
 
-*“Yes,” *said Harry.
+*“Yes,”* said Harry.
 
 “Very well. Kindly wait outside while I have a quick word with Miss Granger about her course schedule, then we can go down to the feast together.”
 

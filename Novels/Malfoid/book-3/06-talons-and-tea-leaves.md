@@ -7,7 +7,7 @@ When Harry, Ron, and Hermione entered the Great Hall for breakfast the next day,
 
 “Ignore her,” said Hermione, who was right behind Harry. “Just ignore her, it’s not worth it. . . .”
 
-“Hey, Potter!” shrieked Pansy Parkinson, a Slytherin girl with a face like a pug. “Potter! The dementors are coming, Potter! *Woooooooo!”*
+“Hey, Potter!” shrieked Pansy Parkinson, a Slytherin girl with a face like a pug. “Potter! The dementors are coming, Potter! *Woooooooo!*”
 
 Harry dropped into a seat at the Gryffindor table, next to George Weasley.
 
@@ -41,7 +41,7 @@ Hermione was examining her new schedule.
 
 “I’ll manage. I’ve fixed it all with Professor McGonagall.”
 
-“But look,” said Ron, laughing, “see this morning? Nine o’clock, Divination. And underneath, nine o’clock, Muggle Studies. And” — Ron leaned closer to the schedule, disbelieving — “*look* — underneath that, Arithmancy, *nine o’clock.* I mean, I know you’re good, Hermione, but no one’s *that* good. How’re you supposed to be in three classes at once?”
+“But look,” said Ron, laughing, “see this morning? Nine o’clock, Divination. And underneath, nine o’clock, Muggle Studies. And” — Ron leaned closer to the schedule, disbelieving — “*look* — underneath that, Arithmancy, *nine o’clock*. I mean, I know you’re good, Hermione, but no one’s *that* good. How’re you supposed to be in three classes at once?”
 
 “Don’t be silly,” said Hermione shortly. “Of course I won’t be in three classes at once.”
 
@@ -153,7 +153,7 @@ Lavender, looking relieved, stood up, took an enormous teapot from the shelf, an
 
 Lavender trembled.
 
-“Now, I want you all to divide into pairs. Collect a teacup from the shelf, come to me, and I will fill it. Then sit down and drink, drink until only the dregs remain. Swill these around the cup three times with the left hand, then turn the cup upside down on its saucer, wait for the last of the tea to drain away, then give your cup to your partner to read. You will interpret the patterns using pages five and six of *Unfogging the Future.* I shall move among you, helping and instructing. Oh, and dear” — she caught Neville by the arm as he made to stand up — “after you’ve broken your first cup, would you be so kind as to select one of the blue-patterned ones? I’m rather attached to the pink.”
+“Now, I want you all to divide into pairs. Collect a teacup from the shelf, come to me, and I will fill it. Then sit down and drink, drink until only the dregs remain. Swill these around the cup three times with the left hand, then turn the cup upside down on its saucer, wait for the last of the tea to drain away, then give your cup to your partner to read. You will interpret the patterns using pages five and six of *Unfogging the Future*. I shall move among you, helping and instructing. Oh, and dear” — she caught Neville by the arm as he made to stand up — “after you’ve broken your first cup, would you be so kind as to select one of the blue-patterned ones? I’m rather attached to the pink.”
 
 Sure enough, Neville had no sooner reached the shelf of teacups when there was a tinkle of breaking china. Professor Trelawney swept over to him holding a dustpan and brush and said, “One of the blue ones, then, dear, if you wouldn’t mind . . . thank you. . . .”
 
@@ -167,7 +167,7 @@ When Harry and Ron had had their teacups filled, they went back to their table a
 
 Harry tried to pull himself together.
 
-“Right, you’ve got a crooked sort of cross . . .” He consulted *Unfogging the Future.* “That means you’re going to have ‘trials and suffering’ — sorry about that — but there’s a thing that could be the sun . . . hang on . . . that means ‘great happiness’ . . . so you’re going to suffer but be very happy. . . .”
+“Right, you’ve got a crooked sort of cross . . .” He consulted *Unfogging the Future*. “That means you’re going to have ‘trials and suffering’ — sorry about that — but there’s a thing that could be the sun . . . hang on . . . that means ‘great happiness’ . . . so you’re going to suffer but be very happy. . . .”
 
 “You need your Inner Eye tested, if you ask me,” said Ron, and they both had to stifle their laughs as Professor Trelawney gazed in their direction.
 
@@ -175,7 +175,7 @@ Harry tried to pull himself together.
 
 He turned the teacup the other way up.
 
-“But this way it looks more like an acorn. . . . What’s that?” He scanned his copy of *Unfogging the Future.* “‘A windfall, unexpected gold.’ Excellent, you can lend me some . . . and there’s a thing here,” he turned the cup again, “that looks like an animal . . . yeah, if that was its head . . . it looks like a hippo . . . no, a sheep . . .”
+“But this way it looks more like an acorn. . . . What’s that?” He scanned his copy of *Unfogging the Future*. “‘A windfall, unexpected gold.’ Excellent, you can lend me some . . . and there’s a thing here,” he turned the cup again, “that looks like an animal . . . yeah, if that was its head . . . it looks like a hippo . . . no, a sheep . . .”
 
 Professor Trelawney whirled around as Harry let out a snort of laughter.
 
@@ -185,7 +185,7 @@ Professor Trelawney was staring into the teacup, rotating it counterclockwise.
 
 “The falcon . . . my dear, you have a deadly enemy.”
 
-“But everyone knows *that,”* said Hermione in a loud whisper. Professor Trelawney stared at her.
+“But everyone knows *that*,” said Hermione in a loud whisper. Professor Trelawney stared at her.
 
 “Well, they do,” said Hermione. “Everybody knows about Harry and You-Know-Who.”
 
@@ -317,7 +317,7 @@ For one nasty moment, Harry thought that Hagrid was going to lead them into the 
 
 “Eh?” said Hagrid.
 
-“How do we open our books?” Malfoy repeated. She took out her copy of *The Monster Book of Monsters,* which she had bound shut with a length of rope. Other people took theirs out too; some, like Harry, had belted their book shut; others had crammed them inside tight bags or clamped them together with binder clips.
+“How do we open our books?” Malfoy repeated. She took out her copy of *The Monster Book of Monsters*, which she had bound shut with a length of rope. Other people took theirs out too; some, like Harry, had belted their book shut; others had crammed them inside tight bags or clamped them together with binder clips.
 
 “Hasn’ — hasn’ anyone bin able ter open their books?” said Hagrid, looking crestfallen.
 
@@ -471,7 +471,7 @@ Ron looked at his watch.
 
 “I don’t know,” Hermione said slowly, and Harry saw her glance at him.
 
-“I’m allowed to walk across the *grounds*,”* *he said pointedly. “Sirius Black hasn’t got past the dementors here, has he?”
+“I’m allowed to walk across the *grounds*,” he said pointedly. “Sirius Black hasn’t got past the dementors here, has he?”
 
 So they put their things away and headed out of the portrait hole, glad not to meet anybody on their way to the front doors, as they weren’t entirely sure they were supposed to be out.
 
@@ -485,9 +485,9 @@ Hagrid was sitting in his shirtsleeves at his scrubbed wooden table; his boarhou
 
 “Not yet,” said Hagrid miserably, taking a huge gulp of whatever was in the tankard. “But ’s only a matter o’ time, i’n’t it, after Malfoy . . .”
 
-“How is he?” said Ron as they all sat down. “It wasn’t serious, was it?”
+“How is she?” said Ron as they all sat down. “It wasn’t serious, was it?”
 
-“Madam Pomfrey fixed him best she could,” said Hagrid dully, “but he’s sayin’ it’s still agony . . . covered in bandages . . . moanin’ . . .”
+“Madam Pomfrey fixed her best she could,” said Hagrid dully, “but she’s sayin’ it’s still agony . . . covered in bandages . . . moanin’ . . .”
 
 “She’s faking it,” said Harry at once. “Madam Pomfrey can mend anything. She regrew half my bones last year. Trust Malfoy to milk it for all it’s worth.”
 

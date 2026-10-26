@@ -19,13 +19,13 @@ A funny prickling on the back of his neck had made Harry feel he was being watch
 
 He bent over his trunk again, but almost immediately stood up once more, his hand clenched on his wand. He had sensed rather than heard it: Someone or something was standing in the narrow gap between the garage and the fence behind him. Harry squinted at the black alleyway. If only it would move, then he’d know whether it was just a stray cat or — something else.
 
-“*Lumos,”* Harry muttered, and a light appeared at the end of his wand, almost dazzling him. He held it high over his head, and the pebble-dashed walls of number two suddenly sparkled; the garage door gleamed, and between them Harry saw, quite distinctly, the hulking outline of something very big, with wide, gleaming eyes.
+“*Lumos*,” Harry muttered, and a light appeared at the end of his wand, almost dazzling him. He held it high over his head, and the pebble-dashed walls of number two suddenly sparkled; the garage door gleamed, and between them Harry saw, quite distinctly, the hulking outline of something very big, with wide, gleaming eyes.
 
 Harry stepped backward. His legs hit his trunk and he tripped. His wand flew out of his hand as he flung out an arm to break his fall, and he landed, hard, in the gutter —
 
 There was a deafening BANG, and Harry threw up his hands to shield his eyes against a sudden blinding light —
 
-With a yell, he rolled back onto the pavement, just in time. A second later, a gigantic pair of wheels and headlights screeched to a halt exactly where Harry had just been lying. They belonged, as Harry saw when he raised his head, to a triple-decker, violently purple bus, which had appeared out of thin air. Gold lettering over the windshield spelled *The Knight Bus.*
+With a yell, he rolled back onto the pavement, just in time. A second later, a gigantic pair of wheels and headlights screeched to a halt exactly where Harry had just been lying. They belonged, as Harry saw when he raised his head, to a triple-decker, violently purple bus, which had appeared out of thin air. Gold lettering over the windshield spelled *The Knight Bus*.
 
 For a split second, Harry wondered if he had been knocked silly by his fall. Then a conductor in a purple uniform leapt out of the bus and began to speak loudly to the night.
 
