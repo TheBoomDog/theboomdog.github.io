@@ -21,7 +21,7 @@ The reporter had reappeared.
 
 Aunt Petunia, who was bony and horse-faced, whipped around and peered intently out of the kitchen window. Harry knew Aunt Petunia would simply love to be the one to call the hot line number. She was the nosiest woman in the world and spent most of her life spying on the boring, law-abiding neighbors.
 
-“When will they *learn,*”* *said Uncle Vernon, pounding the table with his large purple fist, “that hanging’s the only way to deal with these people?”
+“When will they *learn*,” said Uncle Vernon, pounding the table with his large purple fist, “that hanging’s the only way to deal with these people?”
 
 “Very true,” said Aunt Petunia, who was still squinting into next door’s runner beans.
 
@@ -49,7 +49,7 @@ Dudley smirked and withdrew his gaze from the television. Watching Harry being b
 
 “And thirdly,” said Uncle Vernon, his mean little eyes now slits in his great purple face, “we’ve told Marge you attend St. Brutus’s Secure Center for Incurably Criminal Boys.”
 
-*“What?” *Harry yelled.
+*“What?”* Harry yelled.
 
 “And you’ll be sticking to that story, boy, or there’ll be trouble,” spat Uncle Vernon.
 
@@ -89,7 +89,7 @@ Uncle Vernon eyed him suspiciously.
 
 “Exactly,” said Harry, looking calmly up into Uncle Vernon’s large, purple face. “It’s a lot to remember. I’ll have to make it sound convincing, won’t I? What if I accidentally let something slip?”
 
-*“You’ll get the stuffing knocked out of you, won’t you?” *roared Uncle Vernon, advancing on Harry with his fist raised. But Harry stood his ground.
+*“You’ll get the stuffing knocked out of you, won’t you?”* roared Uncle Vernon, advancing on Harry with his fist raised. But Harry stood his ground.
 
 “Knocking the stuffing out of me won’t make Aunt Marge forget what I could tell her,” he said grimly.
 
@@ -211,7 +211,7 @@ Aunt Marge had already had quite a lot of wine. Her huge face was very red.
 
 Dudley was eating his fourth slice of pie. Aunt Petunia was sipping coffee with her little finger sticking out. Harry really wanted to disappear into his bedroom, but he met Uncle Vernon’s angry little eyes and knew he would have to sit it out.
 
-“Aah,” said Aunt Marge, smacking her lips and putting the empty brandy glass back down. “Excellent nosh, Petunia. It’s normally just a fry-up for me of an evening, with twelve dogs to look after. . . .” She burped richly and patted her great tweed stomach. “Pardon me. But I do like to see a healthy-sized boy,” she went on, winking at Dudley. “You’ll be a proper-sized man, Dudders, like your father. Yes, I’ll have a spot more brandy, Vernon. . . .
+“Aah,” said Aunt Marge, smacking her lips and putting the empty brandy glass back down. “Excellent nosh, Petunia. It’s normally just a fry-up for me of an evening, with twelve dogs to look after. . . .” She burped richly and patted her great tweed stomach. “Pardon me. But I do like to see a healthy-sized boy,” she went on, winking at Dudley. “You’ll be a proper-sized man, Dudders, like your father. Yes, I’ll have a spot more brandy, Vernon. . . .”
 
 “Now, this one here —”
 

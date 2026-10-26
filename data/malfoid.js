@@ -429,7 +429,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/01-owl-post.html",
       "href": "reader.html?id=malfoid&chapter=b3-01-owl-post",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-26T16:28:56-05:00"
     },
     {
       "number": 37,
@@ -440,7 +440,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/02-aunt-marges-big-mistake.html",
       "href": "reader.html?id=malfoid&chapter=b3-02-aunt-marges-big-mistake",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-26T16:44:22-05:00"
     },
     {
       "number": 38,

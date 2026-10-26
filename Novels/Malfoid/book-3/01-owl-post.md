@@ -9,9 +9,7 @@ It was nearly midnight, and he was lying on his stomach in bed, the blankets dra
 
 The quill paused at the top of a likely-looking paragraph. Harry pushed his round glasses up the bridge of his nose, moved his flashlight closer to the book, and read:
 
-*Non-magic people (more commonly known as Muggles) were particularly afraid of magic in medieval times, but not very good at recognizing it. On the rare occasion that they did catch a real witch or wizard, burning had no effect whatsoever. The witch or wizard would perform a basic Flame-Freezing Charm and then pretend to shriek with pain while enjoying a gentle, tickling sensation. Indeed,*
-
-*Wendelin the Weird enjoyed being burned so much that she allowed herself to be caught no less than forty-seven times in various disguises.*
+*Non-magic people (more commonly known as Muggles) were particularly afraid of magic in medieval times, but not very good at recognizing it. On the rare occasion that they did catch a real witch or wizard, burning had no effect whatsoever. The witch or wizard would perform a basic Flame-Freezing Charm and then pretend to shriek with pain while enjoying a gentle, tickling sensation. Indeed, Wendelin the Weird enjoyed being burned so much that she allowed herself to be caught no less than forty-seven times in various disguises.*
 
 Harry put his quill between his teeth and reached underneath his pillow for his ink bottle and a roll of parchment. Slowly and very carefully he unscrewed the ink bottle, dipped his quill into it, and began to write, pausing every now and then to listen, because if any of the Dursleys heard the scratching of his quill on their way to the bathroom, he’d probably find himself locked in the cupboard under the stairs for the rest of the summer.
 
@@ -43,7 +41,7 @@ And he threw the receiver back onto the telephone as if dropping a poisonous spi
 
 The fight that had followed had been one of the worst ever.
 
-“HOW DARE YOU GIVE THIS NUMBER TO PEOPLE LIKE — PEOPLE LIKE *YOU*!”* *Uncle Vernon had roared, spraying Harry with spit.
+“HOW DARE YOU GIVE THIS NUMBER TO PEOPLE LIKE — PEOPLE LIKE YOU!” Uncle Vernon had roared, spraying Harry with spit.
 
 Ron obviously realized that he’d gotten Harry into trouble, because he hadn’t called again. Harry’s other best friend from Hogwarts, Hermione Granger, hadn’t been in touch either. Harry suspected that Ron had warned Hermione not to call, which was a pity, because Hermione, the cleverest witch in Harry’s year, had Muggle parents, knew perfectly well how to use a telephone, and would probably have had enough sense not to say that she went to Hogwarts.
 
@@ -51,7 +49,7 @@ So Harry had had no word from any of his wizarding friends for five long weeks, 
 
 Harry finished writing about Wendelin the Weird and paused to listen again. The silence in the dark house was broken only by the distant, grunting snores of his enormous cousin, Dudley. *It must be very late,* Harry thought. His eyes were itching with tiredness. Perhaps he’d finish this essay tomorrow night. . . .
 
-He replaced the top of the ink bottle; pulled an old pillowcase from under his bed; put the flashlight, *A History of Magic,* his essay, quill, and ink inside it; got out of bed; and hid the lot under a loose floorboard under his bed. Then he stood up, stretched, and checked the time on the luminous alarm clock on his bedside table.
+He replaced the top of the ink bottle; pulled an old pillowcase from under his bed; put the flashlight, *A History of Magic*, his essay, quill, and ink inside it; got out of bed; and hid the lot under a loose floorboard under his bed. Then he stood up, stretched, and checked the time on the luminous alarm clock on his bedside table.
 
 It was one o’clock in the morning. Harry’s stomach gave a funny jolt. He had been thirteen years old, without realizing it, for a whole hour.
 
@@ -85,7 +83,7 @@ The clipping had clearly come out of the wizarding newspaper, the *Daily Prophet
 
 > Arthur Weasley, Head of the Misuse of Muggle Artifacts Office at the Ministry of Magic, has won the annual *Daily Prophet* Grand Prize Galleon Draw.
 >
-> A delighted Mr. Weasley told the *Daily Prophet, *“We will be spending the gold on a summer holiday in Egypt, where our eldest son, Bill, works as a curse breaker for Gringotts Wizarding Bank.”
+> A delighted Mr. Weasley told the *Daily Prophet*, “We will be spending the gold on a summer holiday in Egypt, where our eldest son, Bill, works as a curse breaker for Gringotts Wizarding Bank.”
 >
 > The Weasley family will be spending a month in Egypt, returning for the start of the new school year at Hogwarts, which five of the Weasley children currently attend.
 
@@ -111,6 +109,8 @@ Harry remembered only too well the occasion when Ron’s old wand had snapped. I
 
 *Try and come to London,*
 
+*Ron*
+
 *P.S. Percy’s Head Boy. He got the letter last week.*
 
 Harry glanced back at the photograph. Percy, who was in his seventh and final year at Hogwarts, was looking particularly smug. He had pinned his Head Boy badge to the fez perched jauntily on top of his neat hair, his horn-rimmed glasses flashing in the Egyptian sun.
@@ -120,6 +120,8 @@ Harry now turned to his present and unwrapped it. Inside was what looked like a 
 *Harry — this is a Pocket Sneakoscope. If there’s someone untrustworthy around, it’s supposed to light up and spin. Bill says it’s rubbish sold for wizard tourists and isn’t reliable, because it kept lighting up at dinner last night. But he didn’t realize Fred and George had put beetles in his soup.*
 
 *Bye —*
+
+*Ron*
 
 Harry put the Pocket Sneakoscope on his bedside table, where it stood quite still, balanced on its point, reflecting the luminous hands of his clock. He looked at it happily for a few seconds, then picked up the parcel Hedwig had brought.
 
@@ -136,6 +138,8 @@ Inside this, too, there was a wrapped present, a card, and a letter, this time f
 *Ron says he’s going to be in London in the last week of the holidays. Can you make it? Will your aunt and uncle let you come? I really hope you can. If not, I’ll see you on the Hogwarts Express on September first!*
 
 *Love from*
+
+*Hermione*
 
 *P.S. Ron says Percy’s Head Boy. I’ll bet Percy’s really pleased. Ron doesn’t seem too happy about it.*
 
@@ -190,6 +194,8 @@ Noticing that it was rather thicker than usual, Harry slit open the envelope, pu
 *A list of books for next year is enclosed.*
 
 *Yours sincerely,*
+
+*Professor M. McGonagall*
 
 *Deputy Headmistress*
 
