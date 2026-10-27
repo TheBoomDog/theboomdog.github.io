@@ -71,13 +71,13 @@ Again, Harry didn’t answer. He didn’t know what he wanted to do. All he knew
 
 “Malfoy’s dad must have told her,” said Harry, ignoring Ron. “He was right in Voldemort’s inner circle —”
 
-*“Say You-Know-Who, will you?” *interjected Ron angrily.
+*“Say You-Know-Who, will you?”* interjected Ron angrily.
 
 “— so obviously, the Malfoys knew Black was working for Voldemort —”
 
 “— and Malfoy’d love to see you blown into about a million pieces, like Pettigrew! Get a grip. Malfoy’s just hoping you’ll get yourself killed before she has to play you at Quidditch.”
 
-“Harry, *please,*” said Hermione, her eyes now shining with tears, “*please* be sensible. Black did a terrible, terrible thing, but d-don’t put yourself in danger, it’s what Black wants. . . . Oh, Harry, you’d be playing right into Black’s hands if you went looking for him. Your mum and dad wouldn’t want you to get hurt, would they? They’d never want you to go looking for Black!”
+“Harry, *please*,” said Hermione, her eyes now shining with tears, “*please* be sensible. Black did a terrible, terrible thing, but d-don’t put yourself in danger, it’s what Black wants. . . . Oh, Harry, you’d be playing right into Black’s hands if you went looking for him. Your mum and dad wouldn’t want you to get hurt, would they? They’d never want you to go looking for Black!”
 
 “I’ll never know what they’d have wanted, because thanks to Black, I’ve never spoken to them,” said Harry shortly.
 
@@ -413,7 +413,7 @@ Harry and Ron looked around at Hermione. They could see her forehead reddening o
 
 “No,” said Harry blankly.
 
-“I see . . . ,” said Professor McGonagall. “Well, I’m afraid I will have to take this, Potter.”
+“I see . . .” said Professor McGonagall. “Well, I’m afraid I will have to take this, Potter.”
 
 “W-what?” said Harry, scrambling to his feet. “Why?”
 

@@ -57,11 +57,11 @@ Before he knew what he was doing, Harry had crossed the room in three strides an
 
 “YOU’RE PATHETIC!” Harry yelled. “JUST BECAUSE THEY MADE A FOOL OF YOU AT SCHOOL YOU WON’T EVEN LISTEN —”
 
-“SILENCE! I WILL NOT BE SPOKEN TO LIKE THAT!” Snape shrieked, looking madder than ever. “Like father, like son, Potter! I have just saved your neck; you should be thanking me on bended knee! You would have been well served if he’d killed you! You’d have died like your father, too arrogant to believe you might be mistaken in Black — now get out of the way, or I will *make you. *GET OUT OF THE WAY, POTTER!”
+“SILENCE! I WILL NOT BE SPOKEN TO LIKE THAT!” Snape shrieked, looking madder than ever. “Like father, like son, Potter! I have just saved your neck; you should be thanking me on bended knee! You would have been well served if he’d killed you! You’d have died like your father, too arrogant to believe you might be mistaken in Black — now get out of the way, or I will *make you.* GET OUT OF THE WAY, POTTER!”
 
 Harry made up his mind in a split second. Before Snape could take even one step toward him, he had raised his wand.
 
-*“Expelliarmus!” *he yelled — except that his wasn’t the only voice that shouted. There was a blast that made the door rattle on its hinges; Snape was lifted off his feet and slammed into the wall, then slid down it to the floor, a trickle of blood oozing from under his hair. He had been knocked out.
+*“Expelliarmus!”* he yelled — except that his wasn’t the only voice that shouted. There was a blast that made the door rattle on its hinges; Snape was lifted off his feet and slammed into the wall, then slid down it to the floor, a trickle of blood oozing from under his hair. He had been knocked out.
 
 Harry looked around. Both Ron and Hermione had tried to Disarm Snape at exactly the same moment. Snape’s wand soared in a high arc and landed on the bed next to Crookshanks.
 
@@ -69,7 +69,7 @@ Harry looked around. Both Ron and Hermione had tried to Disarm Snape at exactly 
 
 Harry avoided Black’s eyes. He wasn’t sure, even now, that he’d done the right thing.
 
-“We attacked a teacher. . . . We attacked a teacher . . . ,” Hermione whimpered, staring at the lifeless Snape with frightened eyes. “Oh, we’re going to be in so much trouble —”
+“We attacked a teacher. . . . We attacked a teacher . . .” Hermione whimpered, staring at the lifeless Snape with frightened eyes. “Oh, we’re going to be in so much trouble —”
 
 Lupin was struggling against his bonds. Black bent down quickly and untied him. Lupin straightened up, rubbing his arms where the ropes had cut into them.
 
@@ -207,7 +207,7 @@ Pettigrew flinched as though Black had brandished a whip at him.
 
 “You haven’t been hiding from *me* for twelve years,” said Black. “You’ve been hiding from Voldemort’s old supporters. I heard things in Azkaban, Peter. . . . They all think you’re dead, or you’d have to answer to them. . . . I’ve heard them screaming all sorts of things in their sleep. Sounds like they think the double-crosser double-crossed them. Voldemort went to the Potters’ on your information . . . and Voldemort met his downfall there. And not all Voldemort’s supporters ended up in Azkaban, did they? There are still plenty out here, biding their time, pretending they’ve seen the error of their ways. . . . If they ever got wind that you were still alive, Peter —”
 
-“Don’t know . . . what you’re talking about . . . ,” said Pettigrew again, more shrilly than ever. He wiped his face on his sleeve and looked up at Lupin. “You don’t believe this — this madness, Remus —”
+“Don’t know . . . what you’re talking about . . .” said Pettigrew again, more shrilly than ever. He wiped his face on his sleeve and looked up at Lupin. “You don’t believe this — this madness, Remus —”
 
 “I must admit, Peter, I have difficulty in understanding why an innocent man would want to spend twelve years as a rat,” said Lupin evenly.
 
@@ -289,7 +289,7 @@ Black kicked out and Pettigrew recoiled.
 
 “Yes, I think so,” said Lupin grimly.
 
-“You wouldn’t . . . you won’t . . . ,” gasped Pettigrew. And he scrambled around to Ron.
+“You wouldn’t . . . you won’t . . .” gasped Pettigrew. And he scrambled around to Ron.
 
 “Ron . . . haven’t I been a good friend . . . a good pet? You won’t let them kill me, Ron, will you . . . you’re on my side, aren’t you?”
 
@@ -297,7 +297,7 @@ But Ron was staring at Pettigrew with the utmost revulsion.
 
 “I let you sleep in my *bed*!” he said.
 
-“Kind boy . . . kind master . . .” Pettigrew crawled toward Ron, “you won’t let them do it. . . . I was your rat. . . . I was a good pet. . . .”
+“Kind boy . . . kind master . . .” Pettigrew crawled toward Ron. “You won’t let them do it. . . . I was your rat. . . . I was a good pet. . . .”
 
 “If you made a better rat than a human, it’s not much to boast about, Peter,” said Black harshly. Ron, going still paler with pain, wrenched his broken leg out of Pettigrew’s reach. Pettigrew turned on his knees, staggered forward, and seized the hem of Hermione’s robes.
 

@@ -556,7 +556,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/10-the-marauders-map.html",
       "href": "reader.html?id=malfoid&chapter=b3-10-the-marauders-map",
-      "updatedAt": "2026-10-22T20:41:52-05:00"
+      "updatedAt": "2026-10-27T11:08:12-05:00"
     },
     {
       "number": 46,
@@ -567,7 +567,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/11-the-firebolt.html",
       "href": "reader.html?id=malfoid&chapter=b3-11-the-firebolt",
-      "updatedAt": "2026-10-22T20:41:52-05:00"
+      "updatedAt": "2026-10-27T11:30:14-05:00"
     },
     {
       "number": 47,
@@ -578,7 +578,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/12-the-patronus.html",
       "href": "reader.html?id=malfoid&chapter=b3-12-the-patronus",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-27T11:45:20-05:00"
     },
     {
       "number": 48,
@@ -589,7 +589,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/13-gryffindor-versus-ravenclaw.html",
       "href": "reader.html?id=malfoid&chapter=b3-13-gryffindor-versus-ravenclaw",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-27T12:20:45-05:00"
     },
     {
       "number": 49,
@@ -600,7 +600,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/14-snapes-grudge.html",
       "href": "reader.html?id=malfoid&chapter=b3-14-snapes-grudge",
-      "updatedAt": "2026-10-23T17:19:31-05:00"
+      "updatedAt": "2026-10-27T12:37:49-05:00"
     },
     {
       "number": 50,
@@ -611,7 +611,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/15-the-quidditch-final.html",
       "href": "reader.html?id=malfoid&chapter=b3-15-the-quidditch-final",
-      "updatedAt": "2026-10-23T17:19:34-05:00"
+      "updatedAt": "2026-10-27T13:05:04-05:00"
     },
     {
       "number": 51,
@@ -622,7 +622,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/16-professor-trelawneys-prediction.html",
       "href": "reader.html?id=malfoid&chapter=b3-16-professor-trelawneys-prediction",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-27T13:23:26-05:00"
     },
     {
       "number": 52,
@@ -633,7 +633,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/17-cat-rat-and-dog.html",
       "href": "reader.html?id=malfoid&chapter=b3-17-cat-rat-and-dog",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-27T14:57:55-05:00"
     },
     {
       "number": 53,
@@ -644,7 +644,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/18-moony-wormtail-padfoot-and-prongs.html",
       "href": "reader.html?id=malfoid&chapter=b3-18-moony-wormtail-padfoot-and-prongs",
-      "updatedAt": "2026-10-22T22:48:10Z"
+      "updatedAt": "2026-10-27T15:20:38-05:00"
     },
     {
       "number": 54,
@@ -655,7 +655,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/19-the-servant-of-lord-voldemort.html",
       "href": "reader.html?id=malfoid&chapter=b3-19-the-servant-of-lord-voldemort",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-27T15:34:23-05:00"
     },
     {
       "number": 55,

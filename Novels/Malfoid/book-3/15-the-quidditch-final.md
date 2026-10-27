@@ -3,7 +3,7 @@ layout: null
 render_with_liquid: false
 ---
 
-He — he sent me this,” Hermione said, holding out the letter.
+“He — he sent me this,” Hermione said, holding out the letter.
 
 Harry took it. The parchment was damp, and enormous teardrops had smudged the ink so badly in places that it was very difficult to read.
 
@@ -16,7 +16,7 @@ Harry took it. The parchment was damp, and enormous teardrops had smudged the in
 
 “They can’t do this,” said Harry. “They can’t. Buckbeak isn’t dangerous.”
 
-“Malfoy’s dad’s frightened the Committee into it,” said Hermione, wiping her eyes. “You know what he’s like. They’re a bunch of doddery old fools, and they were scared. There’ll be an appeal, though, there always is. Only I can’t see any hope. . . . .Nothing will have changed.”
+“Malfoy’s dad’s frightened the Committee into it,” said Hermione, wiping her eyes. “You know what he’s like. They’re a bunch of doddery old fools, and they were scared. There’ll be an appeal, though, there always is. Only I can’t see any hope. . . . Nothing will have changed.”
 
 “Yeah, it will,” said Ron fiercely. “You won’t have to do all the work alone this time, Hermione. I’ll help.”
 
@@ -24,7 +24,7 @@ Harry took it. The parchment was damp, and enormous teardrops had smudged the in
 
 Hermione flung her arms around Ron’s neck and broke down completely. Ron, looking quite terrified, patted her very awkwardly on the top of the head. Finally, Hermione drew away.
 
-“Ron, I’m really, really sorry about Scabbers . . . . ,” she sobbed.
+“Ron, I’m really, really sorry about Scabbers . . .” she sobbed.
 
 “Oh — well — he was old,” said Ron, looking thoroughly relieved that she had let go of him. “And he was a bit useless. You never know, Mum and Dad might get me an owl now.”
 
@@ -56,15 +56,15 @@ She had slapped Malfoy across the face with all the strength she could muster. M
 
 “Hermione!” said Ron weakly, and he tried to grab her hand as she swung it back.
 
-“Get *off,* Ron!”
+“Get *off*, Ron!”
 
 Hermione pulled out her wand. Malfoy stepped backward. Crabbe and Goyle looked at her for instructions, thoroughly bewildered.
 
 “C’mon,” Malfoy muttered, and in a moment, all three of them had disappeared into the passageway to the dungeons.
 
-*“Hermione!” *Ron said again, sounding both stunned and impressed.
+*“Hermione!”* Ron said again, sounding both stunned and impressed.
 
-“Harry, you’d better beat him in the Quidditch final!” Hermione said shrilly. “You just better had, because I can’t stand it if Slytherin wins!”
+“Harry, you’d better beat her in the Quidditch final!” Hermione said shrilly. “You just better had, because I can’t stand it if Slytherin wins!”
 
 “We’re due in Charms,” said Ron, still goggling at Hermione. “We’d better go.”
 
@@ -106,7 +106,7 @@ Hermione was sitting at a table, fast asleep, her head resting on an open Arithm
 
 “No, I’m not!” said Hermione, brushing her hair out of her eyes and staring hopelessly around for her bag. “I just made a mistake, that’s all! I’d better go and see Professor Flitwick and say sorry. . . . I’ll see you in Divination!”
 
-Hermione joined them at the foot of the ladder to Professor Trelawney’s classroom twenty minutes later, looking extremely harrassed.
+Hermione joined them at the foot of the ladder to Professor Trelawney’s classroom twenty minutes later, looking extremely harassed.
 
 “I can’t believe I missed Cheering Charms! And I bet they come up in our exams; Professor Flitwick hinted they might!”
 
@@ -150,13 +150,13 @@ Both Harry and Hermione burst out laughing.
 
 Harry was prepared to bet everything he owned, including his Firebolt, that it wasn’t good news, whatever it was. And sure enough —
 
-“My dear . . . ,” Professor Trelawney breathed, gazing up at Harry. “It is here, plainer than ever before . . . my dear, stalking toward you, growing ever closer . . . the Gr —”
+“My dear . . .” Professor Trelawney breathed, gazing up at Harry. “It is here, plainer than ever before . . . my dear, stalking toward you, growing ever closer . . . the Gr —”
 
 “Oh, for *goodness’* sake!” said Hermione loudly. “Not that ridiculous Grim *again*!”
 
 Professor Trelawney raised her enormous eyes to Hermione’s face. Parvati whispered something to Lavender, and they both glared at Hermione too. Professor Trelawney stood up, surveying Hermione with unmistakable anger.
 
-“I am sorry to say that from the moment you have arrived in this class, my *dear,* it has been apparent that you do not have what the noble art of Divination requires. Indeed, I don’t remember ever meeting a student whose mind was so hopelessly mundane.”
+“I am sorry to say that from the moment you have arrived in this class, my *dear*, it has been apparent that you do not have what the noble art of Divination requires. Indeed, I don’t remember ever meeting a student whose mind was so hopelessly mundane.”
 
 There was a moment’s silence. Then —
 
@@ -186,7 +186,7 @@ The Easter holidays were not exactly relaxing. The third years had never had so 
 
 But nobody had as much to do as Hermione. Even without Divination, she was taking more subjects than anybody else. She was usually last to leave the common room at night, first to arrive at the library the next morning; she had shadows like Lupin’s under her eyes, and seemed constantly close to tears.
 
-Ron had taken over responsibility for Buckbeak’s appeal. When he wasn’t doing his own work, he was poring over enormously thick volumes with names like *The Handbook of Hippogriff Psychology* and *Fowl or Foul? A Study of Hippogriff Brutality.* He was so absorbed, he even forgot to be horrible to Crookshanks.
+Ron had taken over responsibility for Buckbeak’s appeal. When he wasn’t doing his own work, he was poring over enormously thick volumes with names like *The Handbook of Hippogriff Psychology* and *Fowl or Foul? A Study of Hippogriff Brutality*. He was so absorbed, he even forgot to be horrible to Crookshanks.
 
 Harry, meanwhile, had to fit in his homework around Quidditch practice every day, not to mention endless discussions of tactics with Wood. The Gryffindor-Slytherin match would take place on the first Saturday after the Easter holidays. Slytherin was leading the tournament by exactly two hundred points. This meant (as Wood constantly reminded his team) that they needed to win the match by more than that amount to win the Cup. It also meant that the burden of winning fell largely on Harry, because capturing the Snitch was worth one hundred and fifty points.
 
@@ -210,7 +210,7 @@ There was a great deal of noise. Fred and George Weasley were dealing with the p
 
 “You’ve got a *Firebolt*!” said Ron.
 
-“Yeah . . . ,” said Harry, his stomach writhing.
+“Yeah . . .” said Harry, his stomach writhing.
 
 It came as a relief when Wood suddenly stood up and yelled, “Team! Bed!”
 
@@ -350,7 +350,7 @@ And Angelina scored. Sixty–ten. Moments later, Fred Weasley pelted a Bludger a
 
 The Gryffindor crowd below was screaming itself hoarse — Gryffindor was sixty points in the lead, and if Harry caught the Snitch now, the Cup was theirs. Harry could almost feel hundreds of eyes following him as he soared around the field, high above the rest of the game, with Malfoy speeding along behind him.
 
-Harry pushed the Firebolt faster. The Snitch glittered ahead of him, hardly more than an arm's length away.
+Harry pushed the Firebolt faster. The Snitch glittered ahead of him, hardly more than an arm’s length away.
 
 A streak of green crossed his path. Malfoy had seen it too.
 
@@ -398,7 +398,7 @@ Harry threw himself forward, taking both hands off his broom. He pushed Malfoy�
 
 He pulled out of his dive, his hand in the air, and the stadium exploded. Harry soared above the crowd, an odd ringing in his ears. The tiny golden ball was held tight in his fist, beating its wings hopelessly against his fingers.
 
-Then Wood was speeding toward him, half-blinded by tears; he seized Harry around the neck and sobbed unrestrainedly into his shoulder. Harry felt two large thumps as Fred and George hit them; then Angelina’s, Alicia’s, and Katie’s voices, *“We’ve won the Cup! We’ve won the Cup!” *Tangled together in a many-armed hug, the Gryffindor team sank, yelling hoarsely, back to earth.
+Then Wood was speeding toward him, half-blinded by tears; he seized Harry around the neck and sobbed unrestrainedly into his shoulder. Harry felt two large thumps as Fred and George hit them; then Angelina’s, Alicia’s, and Katie’s voices, *“We’ve won the Cup! We’ve won the Cup!”* Tangled together in a many-armed hug, the Gryffindor team sank, yelling hoarsely, back to earth.
 
 Wave upon wave of crimson supporters was pouring over the barriers onto the field. Hands were raining down on their backs. Harry had a confused impression of noise and bodies pressing in on him. Then he, and the rest of the team, were hoisted onto the shoulders of the crowd. Thrust into the light, he saw Hagrid, plastered with crimson rosettes — “Yeh beat ’em, Harry, yeh beat ’em! Wait till I tell Buckbeak!” There was Percy, jumping up and down like a maniac, all dignity forgotten. Professor McGonagall was sobbing harder even than Wood, wiping her eyes with an enormous Gryffindor flag; and there, fighting their way toward Harry, were Ron and Hermione. Words failed them. They simply beamed as Harry was borne toward the stands, where Dumbledore stood waiting with the enormous Quidditch Cup.
 

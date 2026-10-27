@@ -201,9 +201,9 @@ But he stopped abruptly at the sight of their faces.
 
 “Buckbeak lost,” said Ron weakly. “Hagrid’s just sent this.”
 
-Hagrid’s note was dry this time, no tears had splattered it, yet his hand seemed to have shaken so much as he wrote that it was hardly legible.
+Hagrid’s note was dry this time; no tears had splattered it, yet his hand seemed to have shaken so much as he wrote that it was hardly legible.
 
-> *Lost appeal. They’re going to execute at sunset.Nothing you can do. Don’t come down. I don’t wantyou to see it.*
+> *Lost appeal. They’re going to execute at sunset. Nothing you can do. Don’t come down. I don’t want you to see it.*
 >
 > *Hagrid*
 
@@ -263,7 +263,7 @@ Hagrid’s hand trembled so violently that the milk jug slipped from his grasp a
 
 “Isn’t there anything anyone can do, Hagrid?” Harry asked fiercely, sitting down next to him. “Dumbledore —”
 
-“He’s tried,” said Hagrid. “He’s got no power ter overrule the Committee. He told ’em Buckbeak’s all right, but they’re scared. . . . Yeh know what Lucius Malfoy’s like . . . threatened ’em, I expect . . . an’ the executioner, Macnair, he’s an old pal o’ Malfoy’s . . . but it’ll be quick an’ clean . . . an’ I’ll be beside him. . . . ”
+“He’s tried,” said Hagrid. “He’s got no power ter overrule the Committee. He told ’em Buckbeak’s all right, but they’re scared. . . . Yeh know what Lucius Malfoy’s like . . . threatened ’em, I expect . . . an’ the executioner, Macnair, he’s an old pal o’ Malfoy’s . . . but it’ll be quick an’ clean . . . an’ I’ll be beside him. . . .”
 
 Hagrid swallowed. His eyes were darting all over the cabin as though looking for some shred of hope or comfort.
 

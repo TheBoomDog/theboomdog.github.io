@@ -312,7 +312,7 @@ Harry stayed silent. Snape was trying to provoke him into telling the truth. He 
 
 “How extraordinarily like your father you are, Potter,” Snape said suddenly, his eyes glinting. “He too was exceedingly arrogant. A small amount of talent on the Quidditch field made him think he was a cut above the rest of us too. Strutting around the place with his friends and admirers . . . The resemblance between you is uncanny.”
 
-“My dad didn’t *strut,*” said Harry, before he could stop himself. “And neither do I.”
+“My dad didn’t *strut*,” said Harry, before he could stop himself. “And neither do I.”
 
 “Your father didn’t set much store by rules either,” Snape went on, pressing his advantage, his thin face full of malice. “Rules were for lesser mortals, not Quidditch Cup-winners. His head was so swollen —”
 
@@ -364,7 +364,7 @@ His hand moved toward the fire.
 
 Harry blinked. Snape’s eyes gleamed.
 
-“Let me see, let me see . . . ,” he muttered, taking out his wand and smoothing the map out on his desk. “Reveal your secret!” he said, touching the wand to the parchment.
+“Let me see, let me see . . .” he muttered, taking out his wand and smoothing the map out on his desk. “Reveal your secret!” he said, touching the wand to the parchment.
 
 Nothing happened. Harry clenched his hands to stop them from shaking.
 
@@ -392,7 +392,7 @@ Harry closed his eyes in horror. When he’d opened them, the map had had its la
 
 Harry waited for the blow to fall.
 
-“So . . . ,” said Snape softly. “We’ll see about this. . . .”
+“So . . .” said Snape softly. “We’ll see about this. . . .”
 
 He strode across to his fire, seized a fistful of glittering powder from a jar on the fireplace, and threw it into the flames.
 
@@ -410,7 +410,7 @@ Snape pointed at the parchment, on which the words of Messrs. Moony, Wormtail, P
 
 Lupin continued to stare at the map. Harry had the impression that Lupin was doing some very quick thinking.
 
-*“Well?” *said Snape again. “This parchment is plainly full of Dark Magic. This is supposed to be your area of expertise, Lupin. Where do you imagine Potter got such a thing?”
+*“Well?”* said Snape again. “This parchment is plainly full of Dark Magic. This is supposed to be your area of expertise, Lupin. Where do you imagine Potter got such a thing?”
 
 Lupin looked up and, by the merest half-glance in Harry’s direction, warned him not to interrupt.
 
@@ -442,7 +442,7 @@ Harry had expected that, and was too keen for explanations to protest.
 
 “Why did Snape think I’d got it from the manufacturers?”
 
-“Because . . . ,” Lupin hesitated, “because these mapmakers would have wanted to lure you out of school. They’d think it extremely entertaining.”
+“Because . . .” Lupin hesitated, “because these mapmakers would have wanted to lure you out of school. They’d think it extremely entertaining.”
 
 “Do you *know* them?” said Harry, impressed.
 

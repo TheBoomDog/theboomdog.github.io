@@ -37,7 +37,7 @@ But the cat was getting nearer —
 
 Too late — the rat had slipped between Ron’s clutching fingers, hit the ground, and scampered away. In one bound, Crookshanks sprang after him, and before Harry or Hermione could stop him, Ron had thrown the Invisibility Cloak off himself and pelted away into the darkness.
 
-*“Ron!” *Hermione moaned.
+*“Ron!”* Hermione moaned.
 
 She and Harry looked at each other, then followed at a sprint; it was impossible to run full out under the Cloak; they pulled it off and it streamed behind them like a banner as they hurtled after Ron; they could hear his feet thundering along ahead and his shouts at Crookshanks.
 
@@ -127,7 +127,7 @@ Quietly as they could, they crept out into the hall and up the crumbling stairca
 
 They reached the dark landing.
 
-*“Nox,” *they whispered together, and the lights at the end of their wands went out. Only one door was open. As they crept toward it, they heard movement from behind it; a low moan, and then a deep, loud purring. They exchanged a last look, a last nod.
+*“Nox,”* they whispered together, and the lights at the end of their wands went out. Only one door was open. As they crept toward it, they heard movement from behind it; a low moan, and then a deep, loud purring. They exchanged a last look, a last nod.
 
 Wand held tightly before him, Harry kicked the door wide open.
 
@@ -149,13 +149,15 @@ Ron was staring over Harry’s shoulder. Harry wheeled around. With a snap, the 
 
 A mass of filthy, matted hair hung to his elbows. If eyes hadn’t been shining out of the deep, dark sockets, he might have been a corpse. The waxy skin was stretched so tightly over the bones of his face, it looked like a skull. His yellow teeth were bared in a grin. It was Sirius Black.
 
-*“Expelliarmus!” *he croaked, pointing Ron’s wand at them.
+*“Expelliarmus!”* he croaked, pointing Ron’s wand at them.
 
 Harry’s and Hermione’s wands shot out of their hands, high in the air, and Black caught them. Then he took a step closer. His eyes were fixed on Harry.
 
 “I thought you’d come and help your friend,” he said hoarsely. His voice sounded as though he had long since lost the habit of using it. “Your father would have done the same for me. Brave of you, not to run for a teacher. I’m grateful . . . it will make everything much easier. . . .”
 
-The taunt about his father rang in Harry’s ears as though Black had bellowed it. A boiling hate erupted in Harry’s chest, leaving no place for fear. For the first time in his life, he wanted his wand back in his hand, not to defend himself, but to attack . . . to kill. Without knowing what he was doing, he started forward, but there was a sudden movement on either side of him and two pairs of hands grabbed him and held him back. . . . “No, Harry!” Hermione gasped in a petrified whisper; Ron, however, spoke to Black.
+The taunt about his father rang in Harry’s ears as though Black had bellowed it. A boiling hate erupted in Harry’s chest, leaving no place for fear. For the first time in his life, he wanted his wand back in his hand, not to defend himself, but to attack . . . to kill. Without knowing what he was doing, he started forward, but there was a sudden movement on either side of him and two pairs of hands grabbed him and held him back. . . .
+
+“No, Harry!” Hermione gasped in a petrified whisper; Ron, however, spoke to Black.
 
 “If you want to kill Harry, you’ll have to kill us too!” he said fiercely, though the effort of standing upright was draining him of still more color, and he swayed slightly as he spoke.
 
@@ -237,9 +239,9 @@ Muffled footsteps were echoing up through the floor — someone was moving downs
 
 Black made a startled movement that almost dislodged Crookshanks; Harry gripped his wand convulsively — *Do it now!* said a voice in his head — but the footsteps were thundering up the stairs and Harry still hadn’t done it.
 
-The door of the room burst open in a shower of red sparks and Harry wheeled around as Professor Lupin came hurtling into the room, his face bloodless, his wand raised and ready. His eyes flickered over Ron, lying on the floor, over Hermione, cowering next to the door, to Harry, standing there with his wand covering Black, and then to Black himself, crumpled and bleeding at Harry’s feet.
+The door of the room burst open in a shower of red sparks and Harry wheeled around as Professor Lupin came hurtling into the room, his face bloodless, his wand raised and ready. His eyes flickered over Ron, lying on the bed, over Hermione, cowering next to the door, to Harry, standing there with his wand covering Black, and then to Black himself, crumpled and bleeding at Harry’s feet.
 
-*“Expelliarmus!” *Lupin shouted.
+*“Expelliarmus!”* Lupin shouted.
 
 Harry’s wand flew once more out of his hand; so did the two Hermione was holding. Lupin caught them all deftly, then moved into the room, staring at Black, who still had Crookshanks lying protectively across his chest.
 
@@ -253,7 +255,7 @@ Harry looked quickly at Lupin. He didn’t understand what Lupin meant. Who was 
 
 Black’s face was quite expressionless. For a few seconds, he didn’t move at all. Then, very slowly, he raised his empty hand and pointed straight at Ron. Mystified, Harry glanced around at Ron, who looked bewildered.
 
-“But then . . . ,” Lupin muttered, staring at Black so intently it seemed he was trying to read his mind, “. . . why hasn’t he shown himself before now? Unless” — Lupin’s eyes suddenly widened, as though he was seeing something beyond Black, something none of the rest could see — “unless *he* was the one . . . unless you switched . . . without telling me?”
+“But then . . .” Lupin muttered, staring at Black so intently it seemed he was trying to read his mind, “. . . why hasn’t he shown himself before now? Unless” — Lupin’s eyes suddenly widened, as though he was seeing something beyond Black, something none of the rest could see — “unless *he* was the one . . . unless you switched . . . without telling me?”
 
 Very slowly, his sunken gaze never leaving Lupin’s face, Black nodded.
 
@@ -331,7 +333,7 @@ Harry didn’t know what to think. Was it a trick?
 
 “Of course I know how to work it,” said Lupin, waving his hand impatiently. “I helped write it. I’m Moony — that was my friends’ nickname for me at school.”
 
-“You *wrote — *?”
+“You *wrote* — ?”
 
 “The important thing is, I was watching it carefully this evening, because I had an idea that you, Ron, and Hermione might try and sneak out of the castle to visit Hagrid before his hippogriff was executed. And I was right, wasn’t I?”
 
@@ -341,7 +343,7 @@ He had started to pace up and down, looking at them. Little patches of dust rose
 
 “How d’you know about the Cloak?”
 
-“The number of times I saw James disappearing under it . . . ,” said Lupin, waving an impatient hand again. “The point is, even if you’re wearing an Invisibility Cloak, you still show up on the Marauder’s Map. I watched you cross the grounds and enter Hagrid’s hut. Twenty minutes later, you left Hagrid, and set off back toward the castle. But you were now accompanied by somebody else.”
+“The number of times I saw James disappearing under it . . .” said Lupin, waving an impatient hand again. “The point is, even if you’re wearing an Invisibility Cloak, you still show up on the Marauder’s Map. I watched you cross the grounds and enter Hagrid’s hut. Twenty minutes later, you left Hagrid, and set off back toward the castle. But you were now accompanied by somebody else.”
 
 “What?” said Harry. “No, we weren’t!”
 

@@ -11,7 +11,7 @@ It took a few seconds for the absurdity of this statement to sink in. Then Ron v
 
 “Peter Pettigrew’s *dead*!” said Harry. “*He* killed him twelve years ago!” He pointed at Black, whose face twitched convulsively.
 
-“I meant to,” he growled, his yellow teeth bared, “but little Peter got the better of me … not this time, though!”
+“I meant to,” he growled, his yellow teeth bared, “but little Peter got the better of me . . . not this time, though!”
 
 And Crookshanks was thrown to the floor as Black lunged at Scabbers; Ron yelled with pain as Black’s weight fell on his broken leg.
 
@@ -49,13 +49,13 @@ Then Hermione spoke, in a trembling, would-be calm sort of voice, as though tryi
 
 “Because . . . because people would *know* if Peter Pettigrew had been an Animagus. We did Animagi in class with Professor McGonagall. And I looked them up when I did my homework — the Ministry of Magic keeps tabs on witches and wizards who can become animals; there’s a register showing what animal they become, and their markings and things . . . and I went and looked Professor McGonagall up on the register, and there have been only seven Animagi this century, and Pettigrew’s name wasn’t on the list —”
 
-Harry had barely had time to marvel inwardly at the effort Hermione put into her homework, when Lupin started to laugh.
+Harry had barely had time to marvel inwardly at the effort Hermione put into her homework when Lupin started to laugh.
 
 “Right again, Hermione!” he said. “But the Ministry never knew that there used to be three unregistered Animagi running around Hogwarts.”
 
 “If you’re going to tell them the story, get a move on, Remus,” snarled Black, who was still watching Scabbers’s every desperate move. “I’ve waited twelve years, I’m not going to wait much longer.”
 
-“All right . . . but you’ll need to help me, Sirius,” said Lupin, “I only know how it began . . .”
+“All right . . . but you’ll need to help me, Sirius,” said Lupin. “I only know how it began . . .”
 
 Lupin broke off. There had been a loud creak behind him. The bedroom door had opened of its own accord. All five of them stared at it. Then Lupin strode toward it and looked out into the landing.
 

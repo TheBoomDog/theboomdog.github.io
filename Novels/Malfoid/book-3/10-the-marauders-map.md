@@ -13,7 +13,7 @@ And then there were the dementors. Harry felt sick and humiliated every time he 
 
 Because Harry knew who that screaming voice belonged to now. He had heard her words, heard them over and over again during the night hours in the hospital wing while he lay awake, staring at the strips of moonlight on the ceiling. When the dementors approached him, he heard the last moments of his mother’s life, her attempts to protect him, Harry, from Lord Voldemort, and Voldemort’s laughter before he murdered her. . . . Harry dozed fitfully, sinking into dreams full of clammy, rotted hands and petrified pleading, jerking awake to dwell again on his mother’s voice.
 
-It was a relief to return to the noise and bustle of the main school on Monday, where he was forced to think about other things, even if he had to endure Drusilla Malfoy’s taunting. Malfoy was almost beside herself with glee at Gryffindor’s defeat. She had finally taken off her bandages, and celebrated having the full use of both arms again by doing spirited imitations of Harry falling off his broom. Malfoy spent much of their next Potions class doing dementor imitations across the dungeon; Ron finally cracked and flung a large, slippery crocodile heart at Malfoy, which hit her in the face and caused Snape to take fifty points from Gryffindor.
+It was a relief to return to the noise and bustle of the main school on Monday, where he was forced to think about other things, even if he had to endure Drusilla Malfoy’s taunting. Malfoy was almost beside herself with glee at Gryffindor’s defeat. She had finally taken off her bandages, and celebrated having the full use of both arms again by doing spirited imitations of Harry falling off his broom. Malfoy spent much of their next Potions class doing dementor imitations across the dungeon; Ron finally cracked and flung a large, slippery crocodile heart at Malfoy, which hit her in the face. Malfoy stood quite still for a moment, the heart sliding down the front of her robes. Daphne Greengrass handed her a handkerchief. Malfoy took it without a word and wiped her face, glaring at Ron as Snape took fifty points from Gryffindor.
 
 “If Snape’s teaching Defense Against the Dark Arts again, I’m skiving off,” said Ron as they headed toward Lupin’s classroom after lunch. “Check who’s in there, Hermione.”
 
@@ -77,7 +77,7 @@ Lupin looked at him quickly.
 
 A ray of wintery sunlight fell across the classroom, illuminating Lupin’s gray hairs and the lines on his young face.
 
-“Dementors are among the foulest creatures that walk this earth. They infest the darkest, filthiest places, they glory in decay and despair, they drain peace, hope, and happiness out of the air around them. Even Muggles feel their presence, though they can’t see them. Get too near a dementor and every good feeling, every happy memory will be sucked out of you. If it can, the dementor will feed on you long enough to reduce you to something like itself . . . soulless and evil. You’ll be left with nothing but the worst experiences of your life. And the worst that happened to *you,* Harry, is enough to make anyone fall off their broom. You have nothing to feel ashamed of.”
+“Dementors are among the foulest creatures that walk this earth. They infest the darkest, filthiest places, they glory in decay and despair, they drain peace, hope, and happiness out of the air around them. Even Muggles feel their presence, though they can’t see them. Get too near a dementor and every good feeling, every happy memory will be sucked out of you. If it can, the dementor will feed on you long enough to reduce you to something like itself . . . soulless and evil. You’ll be left with nothing but the worst experiences of your life. And the worst that happened to *you*, Harry, is enough to make anyone fall off their broom. You have nothing to feel ashamed of.”
 
 “When they get near me —” Harry stared at Lupin’s desk, his throat tight. “I can hear Voldemort murdering my mum.”
 
@@ -161,11 +161,11 @@ Harry snorted. He doubted whether Fred and George had ever been innocent.
 
 “— disembowelment —”
 
-“— and we couldn’t help noticing a drawer in one of his filing cabinets marked *Confiscated and Highly Dangerous.”*
+“— and we couldn’t help noticing a drawer in one of his filing cabinets marked *Confiscated and Highly Dangerous*.”
 
 “Don’t tell me —” said Harry, starting to grin.
 
-“Well, what would you’ve done?” said Fred. “George caused a diversion by dropping another Dungbomb, I whipped the drawer open and grabbed — *this.”*
+“Well, what would you’ve done?” said Fred. “George caused a diversion by dropping another Dungbomb, I whipped the drawer open and grabbed — *this*.”
 
 “It’s not as bad as it sounds, you know,” said George. “We don’t reckon Filch ever found out how to work it. He probably suspected what it was, though, or he wouldn’t have confiscated it.”
 
@@ -183,11 +183,11 @@ And at once, thin ink lines began to spread like a spider’s web from the point
 
 <p align="center"><em>Messrs. Moony, Wormtail, Padfoot, and Prongs</em><br><em>Purveyors of Aids to Magical Mischief-Makers</em><br><em>are proud to present</em><br><strong>THE MARAUDER’S MAP</strong></p>
 
-It was a map showing every detail of the Hogwarts castle and grounds. But the truly remarkable thing were the tiny ink dots moving around it, each labeled with a name in minuscule writing. Astounded, Harry bent over it. A labeled dot in the top left corner showed that Professor Dumbledore was pacing his study; the caretaker’s cat, Mrs. Norris, was prowling the second floor; and Peeves the Poltergeist was currently bouncing around the trophy room. And as Harry’s eyes traveled up and down the familiar corridors, he noticed something else.
+It was a map showing every detail of the Hogwarts castle and grounds. But the truly remarkable thing was the tiny ink dots moving around it, each labeled with a name in minuscule writing. Astounded, Harry bent over it. A labeled dot in the top left corner showed that Professor Dumbledore was pacing his study; the caretaker’s cat, Mrs. Norris, was prowling the second floor; and Peeves the Poltergeist was currently bouncing around the trophy room. And as Harry’s eyes traveled up and down the familiar corridors, he noticed something else.
 
 This map showed a set of passages he had never entered. And many of them seemed to lead —
 
-“Right into Hogsmeade,” said Fred, tracing one of them with his finger. “There are seven in all. Now, Filch knows about these four” — he pointed them out — “but we’re sure we’re the only ones who know about *these.* Don’t bother with the one behind the mirror on the fourth floor. We used it until last winter, but it’s caved in — completely blocked. And we don’t reckon anyone’s ever used this one, because the Whomping Willow’s planted right over the entrance. But this one here, this one leads right into the cellar of Honeydukes. We’ve used it loads of times. And as you might’ve noticed, the entrance is right outside this room, through that one-eyed old crone’s hump.”
+“Right into Hogsmeade,” said Fred, tracing one of them with his finger. “There are seven in all. Now, Filch knows about these four” — he pointed them out — “but we’re sure we’re the only ones who know about *these*. Don’t bother with the one behind the mirror on the fourth floor. We used it until last winter, but it’s caved in — completely blocked. And we don’t reckon anyone’s ever used this one, because the Whomping Willow’s planted right over the entrance. But this one here, this one leads right into the cellar of Honeydukes. We’ve used it loads of times. And as you might’ve noticed, the entrance is right outside this room, through that one-eyed old crone’s hump.”
 
 “Moony, Wormtail, Padfoot, and Prongs,” sighed George, patting the heading of the map. “We owe them so much.”
 
@@ -217,7 +217,7 @@ Harry traced the secret passage to Honeydukes with his finger.
 
 Then, quite suddenly, as though following orders, he rolled up the map, stuffed it inside his robes, and hurried to the door of the classroom. He opened it a couple of inches. There was no one outside. Very carefully, he edged out of the room and behind the statue of the one-eyed witch.
 
-What did he have to do? He pulled out the map again and saw, to his astonishment, that a new ink figure had appeared upon it, labeled *Harry Potter.* This figure was standing exactly where the real Harry was standing, about halfway down the third-floor corridor. Harry watched carefully. His little ink self appeared to be tapping the witch with his minute wand. Harry quickly took out his real wand and tapped the statue. Nothing happened. He looked back at the map. The tiniest speech bubble had appeared next to his figure. The word inside said, *“Dissendium.”*
+What did he have to do? He pulled out the map again and saw, to his astonishment, that a new ink figure had appeared upon it, labeled *Harry Potter*. This figure was standing exactly where the real Harry was standing, about halfway down the third-floor corridor. Harry watched carefully. His little ink self appeared to be tapping the witch with his minute wand. Harry quickly took out his real wand and tapped the statue. Nothing happened. He looked back at the map. The tiniest speech bubble had appeared next to his figure. The word inside said, *“Dissendium.”*
 
 *“Dissendium!”* Harry whispered, tapping the stone witch again.
 
@@ -247,9 +247,7 @@ Honeydukes was so crowded with Hogwarts students that no one looked twice at Har
 
 There were shelves upon shelves of the most succulent-looking sweets imaginable. Creamy chunks of nougat, shimmering pink squares of coconut ice, fat, honey-colored toffees; hundreds of different kinds of chocolate in neat rows; there was a large barrel of Every Flavor Beans, and another of Fizzing Whizbees, the levitating sherbet balls that Ron had mentioned; along yet another wall were “Special Effects” sweets: Drooble’s Best Blowing Gum (which filled a room with bluebell-colored bubbles that refused to pop for days), the strange, splintery Toothflossing Stringmints, tiny black Pepper Imps (“Breathe fire for your friends!”), Ice Mice (“Hear your teeth chatter and squeak!”), peppermint creams shaped like toads (“Hop realistically in the stomach!”), fragile sugar-spun quills, and exploding bonbons.
 
-Harry squeezed himself through a crowd of sixth years and saw a sign hanging in the farthest corner of the shop (UNUSUAL TASTES). Ron and
-
-Hermione were standing underneath it, examining a tray of blood-flavored lollipops. Harry sneaked up behind them.
+Harry squeezed himself through a crowd of sixth years and saw a sign hanging in the farthest corner of the shop (UNUSUAL TASTES). Ron and Hermione were standing underneath it, examining a tray of blood-flavored lollipops. Harry sneaked up behind them.
 
 “Ugh, no, Harry won’t want one of those, they’re for vampires, I expect,” Hermione was saying.
 
@@ -259,13 +257,13 @@ Hermione were standing underneath it, examining a tray of blood-flavored lollipo
 
 Ron nearly dropped the jar.
 
-*“Harry!” *squealed Hermione. “What are you doing here? How — how did you — ?”
+*“Harry!”* squealed Hermione. “What are you doing here? How — how did you — ?”
 
 “Wow!” said Ron, looking very impressed, “you’ve learned to Apparate!”
 
 “’Course I haven’t,” said Harry. He dropped his voice so that none of the sixth years could hear him and told them all about the Marauder’s Map.
 
-“How come Fred and George never gave it to *me*!”* *said Ron, outraged. “I’m their brother!”
+“How come Fred and George never gave it to *me*!” said Ron, outraged. “I’m their brother!”
 
 “But Harry isn’t going to keep it!” said Hermione, as though the idea were ludicrous. “He’s going to hand it in to Professor McGonagall, aren’t you, Harry?”
 
@@ -479,7 +477,7 @@ There was a small chink of glass on wood. Someone had set down their glass.
 
 “You know, Cornelius, if you’re dining with the headmaster, we’d better head back up to the castle,” said Professor McGonagall.
 
-One by one, the pairs of feet in front of Harry took the weight of their owners once more; hems of cloaks swung into sight, and Madam Rosemerta’s glittering heels disappeared behind the bar. The door of the Three Broomsticks opened again, there was another flurry of snow, and the teachers had disappeared.
+One by one, the pairs of feet in front of Harry took the weight of their owners once more; hems of cloaks swung into sight, and Madam Rosmerta’s glittering heels disappeared behind the bar. The door of the Three Broomsticks opened again, there was another flurry of snow, and the teachers had disappeared.
 
 “Harry?”
 

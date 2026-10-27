@@ -93,7 +93,7 @@ Harry cast his mind about for a happy memory. Certainly, nothing that had happen
 
 “The incantation is this —” Lupin cleared his throat. *“Expecto Patronum!”*
 
-*“Expecto Patronum,” *Harry repeated under his breath, *“Expecto Patronum.”*
+*“Expecto Patronum,”* Harry repeated under his breath, *“Expecto Patronum.”*
 
 “Concentrating hard on your happy memory?”
 
@@ -137,7 +137,7 @@ Lupin looked paler than usual.
 
 “I do!” said Harry fiercely, stuffing the rest of the Chocolate Frog into his mouth. “I’ve got to! What if the dementors turn up at our match against Ravenclaw? I can’t afford to fall off again. If we lose this game we’ve lost the Quidditch Cup!”
 
-“All right then . . . ,” said Lupin. “You might want to select another memory, a happy memory, I mean, to concentrate on. . . . That one doesn’t seem to have been strong enough. . . .”
+“All right then . . .” said Lupin. “You might want to select another memory, a happy memory, I mean, to concentrate on. . . . That one doesn’t seem to have been strong enough. . . .”
 
 Harry thought hard and decided his feelings when Gryffindor had won the House Championship last year had definitely qualified as very happy. He gripped his wand tightly again and took up his position in the middle of the classroom.
 
@@ -257,7 +257,7 @@ Lupin raised an eyebrow.
 
 “Oh — Ron and Hermione brought me some back from Hogsmeade,” Harry lied quickly.
 
-“I see,” said Lupin, though he still looked slightly suspicious. “Well — let’s drink to a Gryffindor victory against Ravenclaw! Not that I’m supposed to take sides, as a teacher . . . ,” he added hastily.
+“I see,” said Lupin, though he still looked slightly suspicious. “Well — let’s drink to a Gryffindor victory against Ravenclaw! Not that I’m supposed to take sides, as a teacher . . .” he added hastily.
 
 They drank the butterbeer in silence, until Harry voiced something he’d been wondering for a while.
 
@@ -307,7 +307,7 @@ Speechless, Harry carried the Firebolt back upstairs toward Gryffindor Tower. As
 
 “She gave it to you? Excellent! Listen, can I still have a go on it? Tomorrow?”
 
-“Yeah . . . anything . . . ,” said Harry, his heart lighter than it had been in a month. “You know what — we should make up with Hermione. . . . She was only trying to help. . . .”
+“Yeah . . . anything . . .” said Harry, his heart lighter than it had been in a month. “You know what — we should make up with Hermione. . . . She was only trying to help. . . .”
 
 “Yeah, all right,” said Ron. “She’s in the common room now — working, for a change —”
 

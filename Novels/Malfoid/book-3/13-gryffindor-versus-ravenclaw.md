@@ -93,7 +93,7 @@ Wood, too, was basking in the reflected glory of the Firebolt.
 
 Penelope put the Firebolt down again, thanked Harry, and went back to her table.
 
-“Harry — make sure you win,” said Percy, in an urgent whisper. “*I haven’t got ten Galleons.* Yes, I’m coming, Penny!” And he bustled off to join her in a piece of toast.
+“Harry — make sure you win,” said Percy, in an urgent whisper. “*I haven’t got ten Galleons.* Yes, I’m coming, Penny!” And he bustled off to join her at the Ravenclaw table.
 
 “Sure you can manage that broom, Potter?” said a cold, drawling voice.
 
@@ -125,7 +125,7 @@ They walked out onto the field to tumultuous applause. The Ravenclaw team, dress
 
 Harry kicked off into the air and the Firebolt zoomed higher and faster than any other broom; he soared around the stadium and began squinting around for the Snitch, listening all the while to the commentary, which was being provided by the Weasley twins’ friend Lee Jordan.
 
-“They’re off, and the big excitement this match is the Firebolt that Harry Potter is flying for Gryffindor. According to *Which Broomstick,* the Firebolt’s going to be the broom of choice for the national teams at this year’s World Championship —”
+“They’re off, and the big excitement this match is the Firebolt that Harry Potter is flying for Gryffindor. According to *Which Broomstick*, the Firebolt’s going to be the broom of choice for the national teams at this year’s World Championship —”
 
 “Jordan, would you mind telling us what’s going on in the match?” interrupted Professor McGonagall’s voice.
 
@@ -179,7 +179,7 @@ Madam Hooch’s whistle sounded. Harry turned around in midair and saw six scarl
 
 “Yes!” Ron yelled, yanking Harry’s arm into the air. “Yes! Yes!”
 
-“Well *done,* Harry!” said Percy, looking delighted. “Ten Galleons to me! Must find Penelope, excuse me —”
+“Well *done*, Harry!” said Percy, looking delighted. “Ten Galleons to me! Must find Penelope, excuse me —”
 
 “Good for you, Harry!” roared Seamus Finnigan.
 
@@ -197,7 +197,7 @@ He led Harry out of the crowd until they were able to see the edge of the field.
 
 “You gave them quite a fright,” said Lupin.
 
-Harry stared. Marcus Flint, Crabbe, Goyle and Pansy Parkinson were sprawled on the grass, struggling out of long black robes. Pansy had apparently been standing on Goyle's shoulders; Goyle was still trying to free his head from the folds of cloth.
+Harry stared. Marcus Flint, Crabbe, Goyle and Pansy Parkinson were sprawled on the grass, struggling out of long black robes. Pansy had apparently been standing on Goyle’s shoulders; Goyle was still trying to free his head from the folds of cloth.
 
 Professor McGonagall stood over the four of them, furious.
 
@@ -215,7 +215,7 @@ Ron began to laugh. Harry would have joined him, but he was still trying to work
 
 “With a little help from Moony, Wormtail, Padfoot, and Prongs,” Fred muttered in Harry’s ear.
 
-Only one person wasn’t joining in the festivities. Hermione, incredibly, was sitting in a corner, attempting to read an enormous book entitled *Home Life and Social Habits of British Muggles.* Harry broke away from the table where Fred and George had started juggling butterbeer bottles and went over to her.
+Only one person wasn’t joining in the festivities. Hermione, incredibly, was sitting in a corner, attempting to read an enormous book entitled *Home Life and Social Habits of British Muggles*. Harry broke away from the table where Fred and George had started juggling butterbeer bottles and went over to her.
 
 “Did you even come to the match?” he asked her.
 
@@ -225,7 +225,7 @@ Only one person wasn’t joining in the festivities. Hermione, incredibly, was s
 
 “I can’t, Harry. I’ve still got four hundred and twenty-two pages to read!” said Hermione, now sounding slightly hysterical. “Anyway . . .” She glanced over at Ron too. “*He* doesn’t want me to join in.”
 
-There was no arguing with this, as Ron chose that moment to say loudly, “If Scabbers hadn’t just been *eaten,* he could have had some of those Fudge Flies. He used to really like them —”
+There was no arguing with this, as Ron chose that moment to say loudly, “If Scabbers hadn’t just been *eaten*, he could have had some of those Fudge Flies. He used to really like them —”
 
 Hermione burst into tears. Before Harry could say or do anything, she tucked the enormous book under her arm, and, still sobbing, ran toward the staircase to the girls’ dormitories and out of sight.
 
@@ -247,7 +247,7 @@ Ron was sitting up in bed, the hangings torn from one side, a look of utmost ter
 
 “Black! Sirius Black! With a knife!”
 
-“*What?”*
+*“What?”*
 
 “Here! Just now! Slashed the curtains! Woke me up!”
 
