@@ -6,23 +6,30 @@ have been retrieved. Tracking is active for GoatCounter site `theboomdog`.
 
 ## Metric
 
-- Visits to the actual **reader** page, `reader.html?id=novel-id&chapter=...`,
-  are recorded under one canonical path per novel: `/novel/novel-id`.
-  Opening a book’s detail page does not count as a reader visit.
-- GoatCounter deduplicates repeat visits to the same path within a session.
-  This is **reader visits**, not a census of distinct people: a person returning
-  in a later session may count again, and blocked analytics may go uncounted.
-- The public ranking uses data from the last **completed** Monday at 1:00 AM
-  through the following Monday at 1:00 AM in `America/Chicago`. GitHub Actions
-  schedules are timezone aware and move between CST and CDT automatically.
-  Scheduled GitHub runs may be delayed.
-- Sort by the number of recorded reader visits. Tied values are ordered by
-  novel ID for reproducibility. Only novels in positions 1–10 with positive
-  observed visits get numbered cover marks.
-- Other novels receive no number. Until data exists, no novel gets a ranking
-  number. No fabricated view totals or chapter-count-based ranks are used.
-- The reader rankings snapshot is generated under `data/rankings.js` each week;
-  manual runs publish the latest **completed** Monday-to-Monday week.
+- **Sitewide visits:** opening any NovelHub HTML page (including Privacy &
+  Source) sends the same canonical GoatCounter path, `/site/visit`. With
+  Sessions enabled, repeat visits to that path within a session are counted
+  once. This is the separate site traffic estimate, not a count of unique people.
+- **Novel readership:** once a chapter has loaded successfully and its nonempty
+  text has rendered, the reader sends one path per novel: `/novel/<novel-id>`.
+  A novel information page, invalid chapter or failed load does **not** count
+  as a novel-reading visit.
+- The sitewide and novel counts **overlap**. Do not sum rows in GoatCounter to
+  calculate website visitors; use the `/site/visit` row for site traffic.
+  Neither path contains a chapter identifier or individual page URL.
+- GoatCounter deduplicates repeat visits to a given path during a session
+  (typically up to eight hours). Visits are estimates, not distinct readers.
+  Browser privacy tools may block counts.
+- The public ranking uses novel paths only, from the last **completed** Monday
+  at 1:00 AM through the following Monday at 1:00 AM in
+  `America/Chicago`. GitHub Actions schedules are timezone aware, including
+  daylight saving time; scheduled jobs may run later than expected.
+- Sort by recorded novel visits; ties are ordered by novel ID. Only positions
+  1–10 with observed visits get numbered covers; missing ranks remain empty.
+  No fabricated view totals or chapter-count-based ranks are used.
+- `data/rankings.js` stores only the weekly positions, not visit totals.
+  Manually running the ranking workflow also uses the most recently completed
+  Monday-to-Monday interval.
 
 ## One-time analytics setup
 
@@ -31,20 +38,20 @@ already connected via `data/analytics-config.js` and `js/analytics.js`.
 
 ### Minimal-data collection
 
-NovelHub deliberately **does not load** GoatCounter's full `count.js` analytics
-script. Instead, when a visitor opens a novel's chapter, the site's own tiny
-script loads GoatCounter's official 1×1 tracking image using exactly one query
-parameter:
+NovelHub deliberately **does not load** GoatCounter's full `count.js`
+script. Instead, it requests GoatCounter's official 1×1 image using only
+the `p` parameter:
 
-`https://theboomdog.goatcounter.com/count?p=/novel/<novel-id>`
+- Every site page: `https://theboomdog.goatcounter.com/count?p=/site/visit`
+- After a successfully loaded chapter: `https://theboomdog.goatcounter.com/count?p=/novel/<novel-id>`
 
-The only application-specific data sent is the novel ID. No chapter number,
-chapter title, search query, referrer, screen dimensions, language, or campaign
-parameters are sent. The image uses `referrerPolicy="no-referrer"` to suppress
-the HTTP Referer header. The browser still makes an HTTPS request, which
-necessarily exposes network metadata such as IP address and User-Agent to the
-receiving server; GoatCounter states that it does not write these values to
-its database or disk.
+The application sends only one of these canonical paths, never the actual
+page URL, chapter number/title, search text, browsing history, reading
+position, referrer, screen dimensions, language, or campaign fields.
+The image uses `referrerPolicy="no-referrer"` to prevent the HTTP
+Referer header. Normal HTTPS connection metadata (IP address and User-Agent)
+still reaches GoatCounter; it says those full values are not persisted in
+its database or on disk.
 
 **Keep optional GoatCounter data collection categories disabled**, especially
 referrers, browsers, systems, locations, languages, screen dimensions, and
@@ -85,11 +92,11 @@ The public **Privacy & Source** page at `privacy.html` has an optional
 **Opt out of anonymous visit counting** checkbox. Its state is saved only
 in the current browser under `novelhub:analytics-opt-out:v1`, with value
 `1` for opted out. `js/analytics.js` checks this value synchronously
-before creating any GoatCounter request. If browser storage is blocked
+before creating **either** GoatCounter request. If browser storage is blocked
 and the preference cannot be read, analytics **fails closed** (no request).
-The privacy page never sends analytics requests itself.
+The privacy page also participates in sitewide counting when not opted out.
 
-The switch affects future reader-page openings only, on this device.
+The switch affects future sitewide page visits and reader-page openings, on this device.
 Turning it off resumes counting. It does not delete counts already
 received by GoatCounter, disable ordinary requests to GitHub Pages,
 or synchronize the preference to another browser or device.
@@ -101,9 +108,10 @@ Raw visit totals remain in the private GoatCounter dashboard and are not
 published in NovelHub's data files or public pages. Only rank positions
 for the top ten novels appear in data/rankings.js.
 
-GoatCounter counts first visits to canonical paths per approximately eight-hour
-session, rather than logging per-chapter reading events for rankings. This
-avoids inflating popularity when a reader opens many chapters.
+GoatCounter counts first visits to each canonical path per approximately eight-hour
+session. The separate `/site/visit` path measures site traffic; the `/novel/*`
+paths measure readership without recording per-chapter activity. The weekly
+rankings only include novel paths.
 
 GoatCounter can be blocked by browser tracking protection or ad blockers;
 counts are estimates, not exact unique-reader statistics.

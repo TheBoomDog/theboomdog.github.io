@@ -16,7 +16,10 @@ for (const filename of pages) {
 const disclosure = new JSDOM(read("privacy.html")).window.document;
 const body = disclosure.body.textContent;
 assert.match(body, /31.day retention/i);
-assert.match(body, /anonymous visits/i);
+assert.match(body, /anonymous sitewide visits/i);
+assert.match(body, /\/site\/visit/);
+assert.match(body, /\/novel\/example/);
+assert.match(body, /future page visits and chapter reads/i);
 assert.match(body, /GoatCounter/i);
 assert.match(body, /IP address/i);
 assert.match(body, /browser/i);

@@ -148,6 +148,8 @@ if(pageTitle){$("chapter-title").textContent=pageTitle;$("bar-chapter").textCont
 article.replaceChildren();
 source.childNodes.forEach(node=>article.append(sanitize(node)));
 if(!article.textContent?.trim())throw new Error("Chapter is empty");
+// Count novel readership only after rendering real, nonempty chapter text.
+document.dispatchEvent(new CustomEvent("novelhub:chapter-loaded",{detail:{novelId:book.id}}));
 // Record a chapter as seen only after its content loads successfully.
 // This is stored on this device and clears its New/Updated label.
 window.NOVELHUB_CHAPTER_CHANGES?.markSeen?.(book.id,chapter);
