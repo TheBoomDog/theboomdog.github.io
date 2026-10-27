@@ -37,9 +37,9 @@ function checkPixel(pixel, path) {
 
 for (const page of pages) {
   const src = read(page);
-  assert.equal((src.match(/src="js\\/analytics\\.js"/g) || []).length, 1,
+  assert.equal(src.split('src="js/analytics.js"').length - 1, 1,
     page + " must run minimal analytics exactly once");
-  assert.equal((src.match(/src="data\\/analytics-config\\.js"/g) || []).length, 1,
+  assert.equal(src.split('src="data/analytics-config.js"').length - 1, 1,
     page + " must load GoatCounter configuration exactly once");
   const pageview = open(page);
   const doc = pageview.window.document;
