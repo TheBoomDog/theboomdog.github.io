@@ -517,7 +517,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/09-grim-defeat.html",
       "href": "reader.html?id=malfoid&chapter=b3-09-grim-defeat",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-26T19:21:43-05:00"
     },
     {
       "number": 45,

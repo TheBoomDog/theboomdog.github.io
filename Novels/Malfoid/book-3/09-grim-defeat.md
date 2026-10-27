@@ -41,7 +41,7 @@ All around them, people were asking one another the same question: *“How did h
 
 “Probably,” said Ron. “Why?”
 
-“Because the castle’s protected by more than *walls,* you know,” said Hermione. “There are all sorts of enchantments on it, to stop people entering by stealth. You can’t just Apparate in here. And I’d like to see the disguise that could fool those dementors. They’re guarding every single entrance to the grounds. They’d have seen him fly in too. And Filch knows all the secret passages, they’ll have them covered. . . .”
+“Because the castle’s protected by more than *walls*, you know,” said Hermione. “There are all sorts of enchantments on it, to stop people entering by stealth. You can’t just Apparate in here. And I’d like to see the disguise that could fool those dementors. They’re guarding every single entrance to the grounds. They’d have seen him fly in too. And Filch knows all the secret passages, they’ll have them covered. . . .”
 
 “The lights are going out now!” Percy shouted. “I want everyone in their sleeping bags and no more talking!”
 
@@ -193,7 +193,7 @@ Harry watched him flick through the textbook, to the very back chapter, which he
 
 “But, sir,” said Hermione, seemingly unable to restrain herself, “we’re not supposed to do werewolves yet, we’re due to start hinkypunks —”
 
-“Miss Granger,” said Snape in a voice of deadly calm, “I was under the impression that I am teaching this lesson, not you. And I am telling you all to turn to page 394.” He glanced around again. *“All* of you! *Now!”*
+“Miss Granger,” said Snape in a voice of deadly calm, “I was under the impression that I am teaching this lesson, not you. And I am telling you all to turn to page 394.” He glanced around again. “*All* of you! *Now!*”
 
 With many bitter sidelong looks and some sullen muttering, the class opened their books.
 
@@ -205,7 +205,7 @@ Everyone sat in motionless silence; everyone except Hermione, whose hand, as it 
 
 “We told you,” said Parvati suddenly, “we haven’t got as far as werewolves yet, we’re still on —”
 
-*“Silence!” *snarled Snape. “Well, well, well, I never thought I’d meet a third-year class who wouldn’t even recognize a werewolf when they saw one. I shall make a point of informing Professor Dumbledore how very behind you all are. . . .”
+*“Silence!”* snarled Snape. “Well, well, well, I never thought I’d meet a third-year class who wouldn’t even recognize a werewolf when they saw one. I shall make a point of informing Professor Dumbledore how very behind you all are. . . .”
 
 “Please, sir,” said Hermione, whose hand was still in the air, “the werewolf differs from the true wolf in several small ways. The snout of the werewolf —”
 
@@ -233,7 +233,7 @@ Harry and Hermione left the room with the rest of the class, who waited until th
 
 Ron caught up with them five minutes later, in a towering rage.
 
-“D’you know what that” — (he called Snape something that made Hermione say *“Ron!”*) — “is making me do? I’ve got to scrub out the bedpans in the hospital wing. *Without magic!” *He was breathing deeply, his fists clenched. “Why couldn’t Black have hidden in Snape’s office, eh? He could have finished him off for us!”
+“D’you know what that” — (he called Snape something that made Hermione say *“Ron!”*) — “is making me do? I’ve got to scrub out the bedpans in the hospital wing. *Without magic!*” He was breathing deeply, his fists clenched. “Why couldn’t Black have hidden in Snape’s office, eh? He could have finished him off for us!”
 
 Harry woke extremely early the next morning; so early that it was still dark. For a moment he thought the roaring of the wind had woken him. Then he felt a cold breeze on the back of his neck and sat bolt upright — Peeves the Poltergeist had been floating next to him, blowing hard in his ear.
 
