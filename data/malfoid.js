@@ -649,7 +649,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/21-hermiones-secret.html",
       "href": "reader.html?id=malfoid&chapter=b3-21-hermiones-secret",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-28T11:03:58-05:00"
     },
     {
       "number": 57,
@@ -660,7 +660,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/22-owl-post-again.html",
       "href": "reader.html?id=malfoid&chapter=b3-22-owl-post-again",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-28T11:44:27-05:00"
     },
     {
       "number": 58,

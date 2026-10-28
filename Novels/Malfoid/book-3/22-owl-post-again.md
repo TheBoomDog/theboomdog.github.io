@@ -3,7 +3,7 @@ layout: null
 render_with_liquid: false
 ---
 
-Harry!”
+“Harry!”
 
 Hermione was tugging at his sleeve, staring at her watch. “We’ve got exactly ten minutes to get back down to the hospital wing without anybody seeing us — before Dumbledore locks the door —”
 
@@ -43,7 +43,7 @@ Dumbledore beamed at them.
 
 “Well done. I think —” He listened intently for any sound within the hospital wing. “Yes, I think you’ve gone too — get inside — I’ll lock you in —”
 
-Harry and Hermione slipped back inside the dormitory. It was empty except for Ron, who was still lying motionless in the end bed. As the lock clicked behind them, Harry and Hermione crept back to their own beds, Hermione tucking the Time-Turner back under her robes. A moment later, Madam Pomfrey came striding back out of her office.
+Harry and Hermione slipped back inside the ward. It was empty except for Ron, who was still lying motionless in the end bed. As the lock clicked behind them, Harry and Hermione crept back to their own beds, Hermione tucking the Time-Turner back under her robes. A moment later, Madam Pomfrey came striding back out of her office.
 
 “Did I hear the headmaster leaving? Am I allowed to look after my patients now?”
 
@@ -99,7 +99,7 @@ Snape stood there, seething, staring from Fudge, who looked thoroughly shocked a
 
 “Oh yes, they’ll have to go,” said Fudge, running his fingers distractedly through his hair. “Never dreamed they’d attempt to administer the Kiss on an innocent boy. . . . Completely out of control . . . no, I’ll have them packed off back to Azkaban tonight. . . . Perhaps we should think about dragons at the school entrance. . . .”
 
-“Hagrid would like that,” said Dumbledore with a swift smile at Harry and Hermione. As he and Fudge left the dormitory, Madam Pomfrey hurried to the door and locked it again. Muttering angrily to herself, she headed back to her office.
+“Hagrid would like that,” said Dumbledore with a swift smile at Harry and Hermione. As he and Fudge left the ward, Madam Pomfrey hurried to the door and locked it again. Muttering angrily to herself, she headed back to her office.
 
 There was a low moan from the other end of the ward. Ron had woken up. They could see him sitting up, rubbing his head, looking around.
 
@@ -207,7 +207,7 @@ Harry sat down in his vacated chair, staring glumly at the floor. He heard the d
 
 “Didn’t make any difference?” said Dumbledore quietly. “It made all the difference in the world, Harry. You helped uncover the truth. You saved an innocent man from a terrible fate.”
 
-*Terrible.* Something stirred in Harry’s memory. *Greater and more terrible than ever before . . . *Professor Trelawney’s prediction!
+*Terrible.* Something stirred in Harry’s memory. *Greater and more terrible than ever before . . .* Professor Trelawney’s prediction!
 
 “Professor Dumbledore — yesterday, when I was having my Divination exam, Professor Trelawney went very — very strange.”
 

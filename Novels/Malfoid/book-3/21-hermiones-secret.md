@@ -3,7 +3,7 @@ layout: null
 render_with_liquid: false
 ---
 
-Shocking business . . . shocking . . . miracle none of them died . . . never heard the like . . . by thunder, it was lucky you were there, Snape. . . .”
+“Shocking business . . . shocking . . . miracle none of them died . . . never heard the like . . . by thunder, it was lucky you were there, Snape. . . .”
 
 “Thank you, Minister.”
 
@@ -309,7 +309,7 @@ But Hermione nudged him and pointed toward the castle. Harry moved his head a fe
 
 And sure enough, moments later, Hagrid’s back door opened, and Harry saw himself, Ron, and Hermione walking out of it with Hagrid. It was, without a doubt, the strangest sensation of his life, standing behind the tree, and watching himself in the pumpkin patch.
 
-“It’s okay, Beaky, it’s okay . . . ,” Hagrid said to Buckbeak. Then he turned to Harry, Ron, and Hermione. “Go on. Get goin’.”
+“It’s okay, Beaky, it’s okay . . .” Hagrid said to Buckbeak. Then he turned to Harry, Ron, and Hermione. “Go on. Get goin’.”
 
 “Hagrid, we can’t —”
 
@@ -347,7 +347,7 @@ Careful not to blink, Harry stared up into Buckbeak’s fierce orange eyes once 
 
 “Come on, Buckbeak,” Harry murmured, “come on, we’re going to help you. Quietly . . . quietly . . .”
 
-“ . . . *as witnessed below.* Hagrid, you sign here. . . .”
+“. . . *as witnessed below.* Hagrid, you sign here. . . .”
 
 Harry threw all his weight onto the rope, but Buckbeak had dug in his front feet.
 
@@ -429,7 +429,7 @@ The Whomping Willow was creaking and lashing out with its lower branches; they c
 
 “That was Crookshanks pressing the knot,” said Hermione.
 
-“And there we go . . . ,” Harry muttered. “We’re in.”
+“And there we go . . .” Harry muttered. “We’re in.”
 
 The moment they disappeared, the tree began to move again. Seconds later, they heard footsteps quite close by. Dumbledore, Macnair, Fudge, and the old Committee member were making their way up to the castle.
 
@@ -611,7 +611,7 @@ Harry stood there, hand still outstretched. Then, with a great leap of his heart
 
 *“What did you do?”* she said fiercely. “You said you were only going to keep a lookout!”
 
-“I just saved all our lives . . . ,” said Harry. “Get behind here — behind this bush — I’ll explain.”
+“I just saved all our lives . . .” said Harry. “Get behind here — behind this bush — I’ll explain.”
 
 Hermione listened to what had just happened with her mouth open yet again.
 
