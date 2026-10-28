@@ -11,7 +11,7 @@ Getting back into the tunnel was difficult. Lupin, Pettigrew, and Ron had to tur
 
 “You’re free,” said Harry.
 
-“Yes . . . ,” said Sirius. “But I’m also — I don’t know if anyone ever told you — I’m your godfather.”
+“Yes . . .” said Sirius. “But I’m also — I don’t know if anyone ever told you — I’m your godfather.”
 
 “Yeah, I knew that,” said Harry.
 

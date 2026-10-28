@@ -638,7 +638,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-3/20-the-dementors-kiss.html",
       "href": "reader.html?id=malfoid&chapter=b3-20-the-dementors-kiss",
-      "updatedAt": "2026-10-23T01:36:50Z"
+      "updatedAt": "2026-10-27T16:50:05-05:00"
     },
     {
       "number": 56,
