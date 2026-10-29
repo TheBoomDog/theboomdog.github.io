@@ -3,7 +3,7 @@ layout: null
 render_with_liquid: false
 ---
 
-By the time Harry arrived in the kitchen, the three Dursleys were already seated around the table. None of them looked up as he entered or sat down. Uncle Vernon’s large red face was hidden behind the morning’s *Daily Mail,* and Aunt Petunia was cutting a grapefruit into quarters, her lips pursed over her horselike teeth.
+By the time Harry arrived in the kitchen, the three Dursleys were already seated around the table. None of them looked up as he entered or sat down. Uncle Vernon’s large red face was hidden behind the morning’s *Daily Mail*, and Aunt Petunia was cutting a grapefruit into quarters, her lips pursed over her horselike teeth.
 
 Dudley looked furious and sulky, and somehow seemed to be taking up even more space than usual. This was saying something, as he always took up an entire side of the square table by himself. When Aunt Petunia put a quarter of unsweetened grapefruit onto Dudley’s plate with a tremulous “There you are, Diddy darling,” Dudley glowered at her. His life had taken a most unpleasant turn since he had come home for the summer with his end-of-year report.
 
@@ -33,7 +33,7 @@ Aunt Petunia set the teapot down on the table and looked curiously around to see
 
 Bewildered, wondering what on earth he was supposed to have done this time, Harry got up and followed Uncle Vernon out of the kitchen and into the next room. Uncle Vernon closed the door sharply behind both of them.
 
-“So,” he said, marching over to the fireplace and turning to face Harry as though he were about to pronounce him under arrest. *“So.”*
+“So,” he said, marching over to the fireplace and turning to face Harry as though he were about to pronounce him under arrest. “*So*.”
 
 Harry would have dearly loved to have said, “So what?” but he didn’t feel that Uncle Vernon’s temper should be tested this early in the morning, especially when it was already under severe strain from lack of food. He therefore settled for looking politely puzzled.
 
@@ -57,6 +57,8 @@ Uncle Vernon glared at Harry, then looked down at the letter and began to read a
 >
 > *Yours sincerely,*
 >
+> *Molly Weasley*
+>
 > *P.S. I do hope we’ve put enough stamps on.*
 
 Uncle Vernon finished reading, put his hand back into his breast pocket, and drew out something else.
@@ -67,7 +69,7 @@ He held up the envelope in which Mrs. Weasley’s letter had come, and Harry had
 
 “She did put enough stamps on, then,” said Harry, trying to sound as though Mrs. Weasley’s was a mistake anyone could make. His uncle’s eyes flashed.
 
-“The postman noticed,” he said through gritted teeth. “Very interested to know where this letter came from, he was. That’s why he rang the doorbell. Seemed to think it was *funny.*”
+“The postman noticed,” he said through gritted teeth. “Very interested to know where this letter came from, he was. That’s why he rang the doorbell. Seemed to think it was *funny*.”
 
 Harry didn’t say anything. Other people might not understand why Uncle Vernon was making a fuss about too many stamps, but Harry had lived with the Dursleys too long not to know how touchy they were about anything even slightly out of the ordinary. Their worst fear was that someone would find out that they were connected (however distantly) with people like Mrs. Weasley.
 
@@ -91,7 +93,7 @@ Harry frowned. He thought it was a bit rich of Uncle Vernon to call anyone “du
 
 Uncle Vernon was perusing the letter again.
 
-“Quidditch,” he muttered under his breath. “*Quidditch — *what is this rubbish?”
+“Quidditch,” he muttered under his breath. “*Quidditch* — what is this rubbish?”
 
 Harry felt a second stab of annoyance.
 
@@ -147,6 +149,8 @@ Harry stared at the word “Pig,” then looked up at the tiny owl now zooming a
 
 *See you soon —*
 
+*Ron*
+
 “Calm down!” Harry said as the small owl flew low over his head, twittering madly with what Harry could only assume was pride at having delivered the letter to the right person. “Come here, I need you to take my answer back!”
 
 The owl fluttered down on top of Hedwig’s cage. Hedwig looked coldly up at it, as though daring it to try and come any closer.
@@ -154,6 +158,8 @@ The owl fluttered down on top of Hedwig’s cage. Hedwig looked coldly up at it,
 Harry seized his eagle-feather quill once more, grabbed a fresh piece of parchment, and wrote:
 
 *Ron, it’s all okay, the Muggles say I can come. See you five o’clock tomorrow. Can’t wait.*
+
+*Harry*
 
 He folded this note up very small, and with immense difficulty, tied it to the tiny owl’s leg as it hopped on the spot with excitement. The moment the note was secure, the owl was off again; it zoomed out of the window and out of sight.
 

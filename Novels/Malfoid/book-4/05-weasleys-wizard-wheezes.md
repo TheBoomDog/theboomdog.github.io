@@ -15,11 +15,11 @@ The tiny kitchen exploded with laughter; Harry looked around and saw that Ron an
 
 “How’re you doing, Harry?” said the nearer of the two, grinning at him and holding out a large hand, which Harry shook, feeling calluses and blisters under his fingers. This had to be Charlie, who worked with dragons in Romania. Charlie was built like the twins, shorter and stockier than Percy and Ron, who were both long and lanky. He had a broad, good-natured face, which was weather-beaten and so freckly that he looked almost tanned; his arms were muscular, and one of them had a large, shiny burn on it.
 
-Bill got to his feet, smiling, and also shook Harry’s hand. Bill came as something of a surprise. Harry knew that he worked for the Wizarding bank, Gringotts, and that Bill had been Head Boy at Hogwarts; Harry had always imagined Bill to be an older version of Percy: fussy about rule-breaking and fond of bossing everyone around. However, Bill was — there was no other word for it — *cool.* He was tall, with long hair that he had tied back in a ponytail. He was wearing an earring with what looked like a fang dangling from it. Bill’s clothes would not have looked out of place at a rock concert, except that Harry recognized his boots to be made, not of leather, but of dragon hide.
+Bill got to his feet, smiling, and also shook Harry’s hand. Bill came as something of a surprise. Harry knew that he worked for the Wizarding bank, Gringotts, and that Bill had been Head Boy at Hogwarts; Harry had always imagined Bill to be an older version of Percy: fussy about rule-breaking and fond of bossing everyone around. However, Bill was — there was no other word for it — *cool*. He was tall, with long hair that he had tied back in a ponytail. He was wearing an earring with what looked like a fang dangling from it. Bill’s clothes would not have looked out of place at a rock concert, except that Harry recognized his boots to be made, not of leather, but of dragon hide.
 
 Before any of them could say anything else, there was a faint popping noise, and Mr. Weasley appeared out of thin air at George’s shoulder. He was looking angrier than Harry had ever seen him.
 
-“That *wasn’t funny,* Fred!” he shouted. “What on earth did you give that Muggle boy?”
+“That *wasn’t funny*, Fred!” he shouted. “What on earth did you give that Muggle boy?”
 
 “I didn’t give him anything,” said Fred, with another evil grin. “I just *dropped* it. . . . It was his fault he went and ate it, I never told him to.”
 
@@ -45,11 +45,11 @@ Harry and the Weasleys roared with laughter again.
 
 Mrs. Weasley had just entered the kitchen. She was a short, plump woman with a very kind face, though her eyes were presently narrowed with suspicion.
 
-“Oh hello, Harry, dear,” she said, spotting him and smiling. Then her eyes snapped back to her husband. “Tell me *what,* Arthur?”
+“Oh hello, Harry, dear,” she said, spotting him and smiling. Then her eyes snapped back to her husband. “Tell me *what*, Arthur?”
 
 Mr. Weasley hesitated. Harry could tell that, however angry he was with Fred and George, he hadn’t really intended to tell Mrs. Weasley what had happened. There was a silence, while Mr. Weasley eyed his wife nervously. Then two girls appeared in the kitchen doorway behind Mrs. Weasley. One, with very bushy brown hair and rather large front teeth, was Harry’s and Ron’s friend, Hermione Granger. The other, who was small and red-haired, was Ron’s younger sister, Ginny. Both of them smiled at Harry, who grinned back, which made Ginny go scarlet — she had been very taken with Harry ever since his first visit to the Burrow.
 
-“Tell me *what,* Arthur?” Mrs. Weasley repeated, in a dangerous sort of voice.
+“Tell me *what*, Arthur?” Mrs. Weasley repeated, in a dangerous sort of voice.
 
 “It’s nothing, Molly,” mumbled Mr. Weasley, “Fred and George just — but I’ve had words with them —”
 
@@ -65,7 +65,7 @@ Mr. Weasley hesitated. Harry could tell that, however angry he was with Fred and
 
 “Yeah, we’ll come too,” said George.
 
-*“You stay where you are!”* snarled Mrs. Weasley.
+“*You stay where you are!*” snarled Mrs. Weasley.
 
 Harry and Ron edged out of the kitchen, and they, Hermione, and Ginny set off along the narrow hallway and up the rickety staircase that zigzagged through the house to the upper stories.
 
@@ -89,13 +89,13 @@ Just then a door on the second landing opened, and a face poked out wearing horn
 
 “Oh hello, Harry,” said Percy. “I was wondering who was making all the noise. I’m trying to work in here, you know — I’ve got a report to finish for the office — and it’s rather difficult to concentrate when people keep thundering up and down the stairs.”
 
-“We’re not *thundering,*” said Ron irritably. “We’re walking. Sorry if we’ve disturbed the top-secret workings of the Ministry of Magic.”
+“We’re not *thundering*,” said Ron irritably. “We’re walking. Sorry if we’ve disturbed the top-secret workings of the Ministry of Magic.”
 
 “What are you working on?” said Harry.
 
 “A report for the Department of International Magical Cooperation,” said Percy smugly. “We’re trying to standardize cauldron thickness. Some of these foreign imports are just a shade too thin — leakages have been increasing at a rate of almost three percent a year —”
 
-“That’ll change the world, that report will,” said Ron. “Front page of the *Daily Prophet,* I expect, cauldron leaks.”
+“That’ll change the world, that report will,” said Ron. “Front page of the *Daily Prophet*, I expect, cauldron leaks.”
 
 Percy went slightly pink.
 
@@ -105,7 +105,7 @@ Percy went slightly pink.
 
 The room at the top of the house where Ron slept looked much as it had the last time that Harry had come to stay: the same posters of Ron’s favorite Quidditch team, the Chudley Cannons, were whirling and waving on the walls and sloping ceiling, and the fish tank on the windowsill, which had previously held frog spawn, now contained one extremely large frog. Ron’s old rat, Scabbers, was here no more, but instead there was the tiny gray owl that had delivered Ron’s letter to Harry in Privet Drive. It was hopping up and down in a small cage and twittering madly.
 
-“Shut *up,* Pig,” said Ron, edging his way between two of the four beds that had been squeezed into the room. “Fred and George are in here with us, because Bill and Charlie are in their room,” he told Harry. “Percy gets to keep his room all to himself because he’s got to *work.*”
+“Shut *up*, Pig,” said Ron, edging his way between two of the four beds that had been squeezed into the room. “Fred and George are in here with us, because Bill and Charlie are in their room,” he told Harry. “Percy gets to keep his room all to himself because he’s got to *work*.”
 
 “Er — why are you calling that owl Pig?” Harry asked Ron.
 
@@ -121,7 +121,7 @@ Pigwidgeon zoomed happily around his cage, hooting shrilly. Harry knew Ron too w
 
 “Percy’s enjoying work, then?” said Harry, sitting down on one of the beds and watching the Chudley Cannons zooming in and out of the posters on the ceiling.
 
-“Enjoying it?” said Ron darkly. “I don’t reckon he’d come home if Dad didn’t make him. He’s obsessed. Just don’t get him onto the subject of his boss. *According to Mr. Crouch . . . as I was saying to Mr. Crouch . . . Mr. Crouch is of the opinion . . . Mr. Crouch was telling me . . . *They’ll be announcing their engagement any day now.”
+“Enjoying it?” said Ron darkly. “I don’t reckon he’d come home if Dad didn’t make him. He’s obsessed. Just don’t get him onto the subject of his boss. *According to Mr. Crouch . . . as I was saying to Mr. Crouch . . . Mr. Crouch is of the opinion . . . Mr. Crouch was telling me . . .* They’ll be announcing their engagement any day now.”
 
 “Have you had a good summer, Harry?” said Hermione. “Did you get our food parcels and everything?”
 
@@ -135,7 +135,7 @@ Pigwidgeon zoomed happily around his cage, hooting shrilly. Harry knew Ron too w
 
 “We’re eating out in the garden,” she said when they came in. “There’s just not room for eleven people in here. Could you take the plates outside, girls? Bill and Charlie are setting up the tables. Knives and forks, please, you two,” she said to Ron and Harry, pointing her wand a little more vigorously than she had intended at a pile of potatoes in the sink, which shot out of their skins so fast that they ricocheted off the walls and ceiling.
 
-“Oh for heaven’s *sake,*” she snapped, now directing her wand at a dustpan, which hopped off the sideboard and started skating across the floor, scooping up the potatoes. “Those two!” she burst out savagely, now pulling pots and pans out of a cupboard, and Harry knew she meant Fred and George. “I don’t know what’s going to happen to them, I really don’t. No ambition, unless you count making as much trouble as they possibly can. . . .”
+“Oh for heaven’s *sake*,” she snapped, now directing her wand at a dustpan, which hopped off the sideboard and started skating across the floor, scooping up the potatoes. “Those two!” she burst out savagely, now pulling pots and pans out of a cupboard, and Harry knew she meant Fred and George. “I don’t know what’s going to happen to them, I really don’t. No ambition, unless you count making as much trouble as they possibly can. . . .”
 
 Mrs. Weasley slammed a large copper saucepan down on the kitchen table and began to wave her wand around inside it. A creamy sauce poured from the wand-tip as she stirred.
 
@@ -177,7 +177,7 @@ At the far end of the table, Percy was telling his father all about his report o
 
 “Yes, I was asking Ludo about that,” said Mr. Weasley, frowning. “He says Bertha’s gotten lost plenty of times before now — though I must say, if it was someone in my department, I’d be worried. . . .”
 
-“Oh Bertha’s *hopeless,* all right,” said Percy. “I hear she’s been shunted from department to department for years, much more trouble than she’s worth . . . but all the same, Bagman ought to be trying to find her. Mr. Crouch has been taking a personal interest, she worked in our department at one time, you know, and I think Mr. Crouch was quite fond of her — but Bagman just keeps laughing and saying she probably misread the map and ended up in Australia instead of Albania. However” — Percy heaved an impressive sigh and took a deep swig of elderflower wine — “we’ve got quite enough on our plates at the Department of International Magical Cooperation without trying to find members of other departments too. As you know, we’ve got another big event to organize right after the World Cup.”
+“Oh Bertha’s *hopeless*, all right,” said Percy. “I hear she’s been shunted from department to department for years, much more trouble than she’s worth . . . but all the same, Bagman ought to be trying to find her. Mr. Crouch has been taking a personal interest, she worked in our department at one time, you know, and I think Mr. Crouch was quite fond of her — but Bagman just keeps laughing and saying she probably misread the map and ended up in Australia instead of Albania. However” — Percy heaved an impressive sigh and took a deep swig of elderflower wine — “we’ve got quite enough on our plates at the Department of International Magical Cooperation without trying to find members of other departments too. As you know, we’ve got another big event to organize right after the World Cup.”
 
 Percy cleared his throat significantly and looked down toward the end of the table where Harry, Ron, and Hermione were sitting. “*You* know the one I’m talking about, Father.” He raised his voice slightly. “The top-secret one.”
 

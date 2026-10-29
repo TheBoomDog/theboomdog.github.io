@@ -671,7 +671,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/01-the-riddle-house.html",
       "href": "reader.html?id=malfoid&chapter=b4-01-the-riddle-house",
-      "updatedAt": "2026-10-23T01:59:26Z"
+      "updatedAt": "2026-10-28T17:05:47-05:00"
     },
     {
       "number": 59,
@@ -682,7 +682,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/02-the-scar.html",
       "href": "reader.html?id=malfoid&chapter=b4-02-the-scar",
-      "updatedAt": "2026-10-23T01:59:26Z"
+      "updatedAt": "2026-10-28T17:22:22-05:00"
     },
     {
       "number": 60,
@@ -693,7 +693,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/03-the-invitation.html",
       "href": "reader.html?id=malfoid&chapter=b4-03-the-invitation",
-      "updatedAt": "2026-10-23T01:59:26Z"
+      "updatedAt": "2026-10-28T17:33:58-05:00"
     },
     {
       "number": 61,
@@ -704,7 +704,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/04-back-to-the-burrow.html",
       "href": "reader.html?id=malfoid&chapter=b4-04-back-to-the-burrow",
-      "updatedAt": "2026-10-23T01:59:26Z"
+      "updatedAt": "2026-10-28T17:46:04-05:00"
     },
     {
       "number": 62,
@@ -715,7 +715,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/05-weasleys-wizard-wheezes.html",
       "href": "reader.html?id=malfoid&chapter=b4-05-weasleys-wizard-wheezes",
-      "updatedAt": "2026-10-23T01:59:26Z"
+      "updatedAt": "2026-10-28T17:56:15-05:00"
     },
     {
       "number": 63,
@@ -726,7 +726,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/06-the-portkey.html",
       "href": "reader.html?id=malfoid&chapter=b4-06-the-portkey",
-      "updatedAt": "2026-10-23T01:59:26Z"
+      "updatedAt": "2026-10-28T18:08:03-05:00"
     },
     {
       "number": 64,
@@ -737,7 +737,7 @@
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/07-bagman-and-crouch.html",
       "href": "reader.html?id=malfoid&chapter=b4-07-bagman-and-crouch",
-      "updatedAt": "2026-10-23T01:59:26Z"
+      "updatedAt": "2026-10-28T20:15:01-05:00"
     },
     {
       "number": 65,

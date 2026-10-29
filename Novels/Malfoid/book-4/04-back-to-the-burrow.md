@@ -43,7 +43,7 @@ Ten past five . . . then a quarter past five . . . Harry was starting to feel an
 
 “Maybe they think they’ll get invited to dinner if they’re late.”
 
-“Well, they most certainly won’t be,” said Uncle Vernon, and Harry heard him stand up and start pacing the living room. “They’ll take the boy and go, there’ll be no hanging around. That’s if they’re coming at all. Probably mistaken the day. I daresay *their kind *don’t set much store by punctuality. Either that or they drive some tin-pot car that’s broken d — AAAAAAAARRRRRGH!”
+“Well, they most certainly won’t be,” said Uncle Vernon, and Harry heard him stand up and start pacing the living room. “They’ll take the boy and go, there’ll be no hanging around. That’s if they’re coming at all. Probably mistaken the day. I daresay *their kind* don’t set much store by punctuality. Either that or they drive some tin-pot car that’s broken d — AAAAAAAARRRRRGH!”
 
 Harry jumped up. From the other side of the living room door came the sounds of the three Dursleys scrambling, panic-stricken, across the room. Next moment Dudley came flying into the hall, looking terrified.
 
@@ -145,13 +145,13 @@ Fred and George came back into the room carrying Harry’s school trunk. They gl
 
 He pushed up the sleeves of his robes and took out his wand. Harry saw the Dursleys draw back against the wall as one.
 
-*“Incendio!”* said Mr. Weasley, pointing his wand at the hole in the wall behind him.
+“*Incendio!*” said Mr. Weasley, pointing his wand at the hole in the wall behind him.
 
 Flames rose at once in the fireplace, crackling merrily as though they had been burning for hours. Mr. Weasley took a small drawstring bag from his pocket, untied it, took a pinch of the powder inside, and threw it onto the flames, which turned emerald green and roared higher than ever.
 
 “Off you go then, Fred,” said Mr. Weasley.
 
-“Coming,” said Fred. “Oh no* — *hang on —”
+“Coming,” said Fred. “Oh no — hang on —”
 
 A bag of sweets had spilled out of Fred’s pocket and the contents were now rolling in every direction — big, fat toffees in brightly colored wrappers.
 
@@ -167,7 +167,7 @@ Harry helped George carry the trunk forward into the flames and turn it onto its
 
 Now Harry and Mr. Weasley alone remained.
 
-“Well . . .’bye then,” Harry said to the Dursleys.
+“Well . . . ’bye then,” Harry said to the Dursleys.
 
 They didn’t say anything at all. Harry moved toward the fire, but just as he reached the edge of the hearth, Mr. Weasley put out a hand and held him back. He was looking at the Dursleys in amazement.
 

@@ -45,7 +45,7 @@ At once, Hermione Granger’s voice seemed to fill his head, shrill and panicky.
 
 *“Your scar hurt? Harry, that’s really serious. . . . Write to Professor Dumbledore! And I’ll go and check* Common Magical Ailments and Afflictions. . . . *Maybe there’s something in there about curse scars. . . .”*
 
-Yes, that would be Hermione’s advice: Go straight to the headmaster of Hogwarts, and in the meantime, consult a book. Harry stared out of the window at the inky blue-black sky. He doubted very much whether a book could help him now. As far as he knew, he was the only living person to have survived a curse like Voldemort’s; it was highly unlikely, therefore, that he would find his symptoms listed in *Common Magical Ailments and Afflictions.* As for informing the headmaster, Harry had no idea where Dumbledore went during the summer holidays. He amused himself for a moment, picturing Dumbledore, with his long silver beard, full-length wizard’s robes, and pointed hat, stretched out on a beach somewhere, rubbing suntan lotion onto his long crooked nose. Wherever Dumbledore was, though, Harry was sure that Hedwig would be able to find him; Harry’s owl had never yet failed to deliver a letter to anyone, even without an address. But what would he write?
+Yes, that would be Hermione’s advice: Go straight to the headmaster of Hogwarts, and in the meantime, consult a book. Harry stared out of the window at the inky blue-black sky. He doubted very much whether a book could help him now. As far as he knew, he was the only living person to have survived a curse like Voldemort’s; it was highly unlikely, therefore, that he would find his symptoms listed in *Common Magical Ailments and Afflictions*. As for informing the headmaster, Harry had no idea where Dumbledore went during the summer holidays. He amused himself for a moment, picturing Dumbledore, with his long silver beard, full-length wizard’s robes, and pointed hat, stretched out on a beach somewhere, rubbing suntan lotion onto his long crooked nose. Wherever Dumbledore was, though, Harry was sure that Hedwig would be able to find him; Harry’s owl had never yet failed to deliver a letter to anyone, even without an address. But what would he write?
 
 *Dear Professor Dumbledore, Sorry to bother you, but my scar hurt this morning. Yours sincerely, Harry Potter.*
 
@@ -59,7 +59,7 @@ Mr. Weasley was a fully qualified wizard who worked in the Misuse of Muggle Arti
 
 Harry kneaded his forehead with his knuckles. What he really wanted (and it felt almost shameful to admit it to himself) was someone like — someone like a *parent*: an adult wizard whose advice he could ask without feeling stupid, someone who cared about him, who had had experience with Dark Magic. . . .
 
-And then the solution came to him. It was so simple, and so obvious, that he couldn’t believe it had taken so long — *Sirius.*
+And then the solution came to him. It was so simple, and so obvious, that he couldn’t believe it had taken so long — *Sirius*.
 
 Harry leapt up from the bed, hurried across the room, and sat down at his desk; he pulled a piece of parchment toward him, loaded his eagle-feather quill with ink, wrote *Dear Sirius,* then paused, wondering how best to phrase his problem, still marveling at the fact that he hadn’t thought of Sirius straight away. But then, perhaps it wasn’t so surprising — after all, he had only found out that Sirius was his godfather two months ago.
 

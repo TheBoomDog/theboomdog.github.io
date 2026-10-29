@@ -133,7 +133,7 @@ Wormtail, who had been sputtering incoherently, fell silent at once. For a few s
 
 “If?” whispered the second voice. “*If?* If you follow the plan, Wormtail, the Ministry need never know that anyone else has died. You will do it quietly and without fuss; I only wish that I could do it myself, but in my present condition . . . Come, Wormtail, one more death and our path to Harry Potter is clear. I am not asking you to do it alone. By that time, my *faithful* servant will have rejoined us —”
 
-*“I* am a faithful servant,” said Wormtail, the merest trace of sullenness in his voice.
+“*I* am a faithful servant,” said Wormtail, the merest trace of sullenness in his voice.
 
 “Wormtail, I need somebody with brains, somebody whose loyalty has never wavered, and you, unfortunately, fulfill neither requirement.”
 
@@ -157,7 +157,7 @@ Wormtail muttered something so quietly that Frank could not hear it, but it made
 
 “*We could have modified her memory?* But Memory Charms can be broken by a powerful wizard, as I proved when I questioned her. It would be an insult to her *memory* not to use the information I extracted from her, Wormtail.”
 
-Out in the corridor, Frank suddenly became aware that the hand gripping his walking stick was slippery with sweat. The man with the cold voice had killed a woman. He was talking about it without any kind of remorse — with *amusement.* He was dangerous — a madman. And he was planning more murders — this boy, Harry Potter, whoever he was — was in danger —
+Out in the corridor, Frank suddenly became aware that the hand gripping his walking stick was slippery with sweat. The man with the cold voice had killed a woman. He was talking about it without any kind of remorse — with *amusement*. He was dangerous — a madman. And he was planning more murders — this boy, Harry Potter, whoever he was — was in danger —
 
 Frank knew what he must do. Now, if ever, was the time to go to the police. He would creep out of the house and head straight for the telephone box in the village . . . but the cold voice was speaking again, and Frank remained where he was, frozen to the spot, listening with all his might.
 
@@ -203,7 +203,7 @@ The fire was the only source of light in the room; it cast long, spidery shadows
 
 “You have no wife,” said the cold voice, very quietly. “Nobody knows you are here. You told nobody that you were coming. Do not lie to Lord Voldemort, Muggle, for he knows . . . he always knows. . . .”
 
-“Is that right?” said Frank roughly. “Lord, is it? Well, I don’t think much of your manners, *my Lord.* Turn ’round and face me like a man, why don’t you?”
+“Is that right?” said Frank roughly. “Lord, is it? Well, I don’t think much of your manners, *my Lord*. Turn ’round and face me like a man, why don’t you?”
 
 “But I am not a man, Muggle,” said the cold voice, barely audible now over the crackling of the flames. “I am much, much more than a man. However . . . why not? I will face you. . . . Wormtail, come turn my chair around.”
 

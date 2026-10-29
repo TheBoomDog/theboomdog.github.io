@@ -59,7 +59,7 @@ Mr. Roberts rummaged around in a tin for some change.
 
 At that moment, a wizard in plus-fours appeared out of thin air next to Mr. Roberts’s front door.
 
-*“Obliviate!”* he said sharply, pointing his wand at Mr. Roberts.
+“*Obliviate!*” he said sharply, pointing his wand at Mr. Roberts.
 
 Instantly, Mr. Roberts’s eyes slid out of focus, his brows unknitted, and a look of dreamy unconcern fell over his face. Harry recognized the symptoms of one who had just had his memory modified.
 
@@ -117,9 +117,7 @@ She had trodden on the giant slug, which burst. Her scolding carried after them 
 
 A short way farther on, they saw two little witches, barely older than Kevin, who were riding toy broomsticks that rose only high enough for the girls’ toes to skim the dewy grass. A Ministry wizard had already spotted them; as he hurried past Harry, Ron, and Hermione he muttered distractedly, “In broad daylight! Parents having a lie-in, I suppose —”
 
-Here and there adult wizards and witches were emerging from their tents and starting to cook breakfast. Some, with furtive looks around them, conjured fires with their wands; others were striking matches with dubious looks on their faces, as though sure this couldn’t work. Three African wizards sat in serious conversation, all of them wearing long white robes and roasting what looked like a rabbit on a bright purple fire, while a group of middle-aged American witches sat gossiping happily beneath a spangled banner stretched between their tents that read: THE SALEM WITCHES’ INSTITUTE. Harry caught
-
-snatches of conversation in strange languages from the inside of tents they passed, and though he couldn’t understand a word, the tone of every single voice was excited.
+Here and there adult wizards and witches were emerging from their tents and starting to cook breakfast. Some, with furtive looks around them, conjured fires with their wands; others were striking matches with dubious looks on their faces, as though sure this couldn’t work. Three African wizards sat in serious conversation, all of them wearing long white robes and roasting what looked like a rabbit on a bright purple fire, while a group of middle-aged American witches sat gossiping happily beneath a spangled banner stretched between their tents that read: THE SALEM WITCHES’ INSTITUTE. Harry caught snatches of conversation in strange languages from the inside of tents they passed, and though he couldn’t understand a word, the tone of every single voice was excited.
 
 “Er — is it my eyes, or has everything gone green?” said Ron.
 
@@ -147,7 +145,7 @@ The tents here had not been bedecked with plant life, but each and every one of 
 
 “He looks really grumpy,” said Hermione, looking around at the many Krums blinking and scowling at them.
 
-*“‘Really grumpy’?”* Ron raised his eyes to the heavens. “Who cares what he looks like? He’s unbelievable. He’s really young too. Only just eighteen or something. He’s a *genius,* you wait until tonight, you’ll see.”
+“‘*Really grumpy*’?” Ron raised his eyes to the heavens. “Who cares what he looks like? He’s unbelievable. He’s really young too. Only just eighteen or something. He’s a *genius*, you wait until tonight, you’ll see.”
 
 There was already a small queue for the tap in the corner of the field. Harry, Ron, and Hermione joined it, right behind a pair of men who were having a heated argument. One of them was a very old wizard who was wearing a long flowery nightgown. The other was clearly a Ministry wizard; he was holding out a pair of pinstriped trousers and almost crying with exasperation.
 
@@ -155,7 +153,7 @@ There was already a small queue for the tap in the corner of the field. Harry, R
 
 “I bought this in a Muggle shop,” said the old wizard stubbornly. “Muggles wear them.”
 
-“Muggle *women* wear them, Archie, not the men, they wear *these,*” said the Ministry wizard, and he brandished the pinstriped trousers.
+“Muggle *women* wear them, Archie, not the men, they wear *these*,” said the Ministry wizard, and he brandished the pinstriped trousers.
 
 “I’m not putting them on,” said old Archie in indignation. “I like a healthy breeze ’round my privates, thanks.”
 

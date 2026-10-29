@@ -75,7 +75,7 @@ There were footsteps down the passageway and Hermione and Ginny came into the ki
 
 “Don’t you lie to me!”
 
-Mrs. Weasley pointed her wand at George’s pocket and said, *“Accio!”*
+Mrs. Weasley pointed her wand at George’s pocket and said, “*Accio!*”
 
 Several small, brightly colored objects zoomed out of George’s pocket; he made a grab for them but missed, and they sped right into Mrs. Weasley’s outstretched hand.
 
@@ -83,7 +83,7 @@ Several small, brightly colored objects zoomed out of George’s pocket; he made
 
 It was an unpleasant scene; the twins had evidently been trying to smuggle as many toffees out of the house as possible, and it was only by using her Summoning Charm that Mrs. Weasley managed to find them all.
 
-*“Accio! Accio! Accio!”* she shouted, and toffees zoomed from all sorts of unlikely places, including the lining of George’s jacket and the turn-ups of Fred’s jeans.
+“*Accio! Accio! Accio!*” she shouted, and toffees zoomed from all sorts of unlikely places, including the lining of George’s jacket and the turn-ups of Fred’s jeans.
 
 “We spent six months developing those!” Fred shouted at his mother as she threw the toffees away.
 
@@ -91,7 +91,7 @@ It was an unpleasant scene; the twins had evidently been trying to smuggle as ma
 
 All in all, the atmosphere was not very friendly as they took their departure. Mrs. Weasley was still glowering as she kissed Mr. Weasley on the cheek, though not nearly as much as the twins, who had each hoisted their rucksacks onto their backs and walked out without a word to her.
 
-“Well, have a lovely time,” said Mrs. Weasley, “and *behave yourselves,*” she called after the twins’ retreating backs, but they did not look back or answer. “I’ll send Bill, Charlie, and Percy along around midday,” Mrs. Weasley said to Mr. Weasley, as he, Harry, Ron, Hermione, and Ginny set off across the dark yard after Fred and George.
+“Well, have a lovely time,” said Mrs. Weasley, “and *behave yourselves*,” she called after the twins’ retreating backs, but they did not look back or answer. “I’ll send Bill, Charlie, and Percy along around midday,” Mrs. Weasley said to Mr. Weasley, as he, Harry, Ron, Hermione, and Ginny set off across the dark yard after Fred and George.
 
 It was chilly and the moon was still out. Only a dull, greenish tinge along the horizon to their right showed that daybreak was drawing closer. Harry, having been thinking about thousands of wizards speeding toward the Quidditch World Cup, sped up to walk with Mr. Weasley.
 
