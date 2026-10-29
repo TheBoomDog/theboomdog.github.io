@@ -776,7 +776,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/08-the-quidditch-world-cup.html",
       "href": "reader.html?id=malfoid&chapter=b4-08-the-quidditch-world-cup",
-      "updatedAt": "2026-10-22T21:02:50-05:00"
+      "updatedAt": "2026-10-29T10:14:35-05:00"
     },
     {
       "number": 66,

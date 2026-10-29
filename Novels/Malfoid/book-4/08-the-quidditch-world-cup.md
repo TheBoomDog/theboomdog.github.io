@@ -17,7 +17,7 @@ A hundred thousand witches and wizards were taking their places in the seats, wh
 
 Harry tore his eyes away from the sign and looked over his shoulder to see who else was sharing the box with them. So far it was empty, except for a tiny creature sitting in the second from last seat at the end of the row behind them. The creature, whose legs were so short they stuck out in front of it on the chair, was wearing a tea towel draped like a toga, and it had its face hidden in its hands. Yet those long, batlike ears were oddly familiar. . . .
 
-*“Dobby?”* said Harry incredulously.
+“*Dobby?*” said Harry incredulously.
 
 The tiny creature looked up and stretched its fingers, revealing enormous brown eyes and a nose the exact size and shape of a large tomato. It wasn’t Dobby — it was, however, unmistakably a house-elf, as Harry’s friend Dobby had been. Harry had set Dobby free from his old owners, the Malfoy family.
 
@@ -41,7 +41,7 @@ The tiny creature looked up and stretched its fingers, revealing enormous brown 
 
 “Why not?” said Harry.
 
-Winky lowered her voice by a half-octave and whispered, *“He is wanting paying for his work, sir.”*
+Winky lowered her voice by a half-octave and whispered, “*He is wanting paying for his work, sir.*”
 
 “Paying?” said Harry blankly. “Well — why shouldn’t he be paid?”
 
@@ -105,7 +105,7 @@ Mr. Malfoy’s eyes had returned to Hermione, who went slightly pink, but stared
 
 “Ready when you are, Ludo,” said Fudge comfortably.
 
-Ludo whipped out his wand, directed it at his own throat, and said *“Sonorus!”* and then spoke over the roar of sound that was now filling the packed stadium; his voice echoed over them, booming into every corner of the stands.
+Ludo whipped out his wand, directed it at his own throat, and said “*Sonorus!*” and then spoke over the roar of sound that was now filling the packed stadium; his voice echoed over them, booming into every corner of the stands.
 
 “Ladies and gentlemen . . . welcome! Welcome to the final of the four hundred and twenty-second Quidditch World Cup!”
 
@@ -115,7 +115,7 @@ The spectators screamed and clapped. Thousands of flags waved, adding their disc
 
 The right-hand side of the stands, which was a solid block of scarlet, roared its approval.
 
-“I wonder what they’ve brought,” said Mr. Weasley, leaning forward in his seat. “Aaah!” He suddenly whipped off his glasses and polished them hurriedly on his robes. *“Veela!”*
+“I wonder what they’ve brought,” said Mr. Weasley, leaning forward in his seat. “Aaah!” He suddenly whipped off his glasses and polished them hurriedly on his robes. “*Veela!*”
 
 “What are veel — ?”
 
@@ -135,7 +135,7 @@ Angry yells were filling the stadium. The crowd didn’t want the veela to go. H
 
 “Huh?” said Ron, staring openmouthed at the veela, who had now lined up along one side of the field.
 
-Hermione made a loud tutting noise. She reached up and pulled Harry back into his seat. *“Honestly!”* she said.
+Hermione made a loud tutting noise. She reached up and pulled Harry back into his seat. “*Honestly!*” she said.
 
 “And now,” roared Ludo Bagman’s voice, “kindly put your wands in the air . . . for the Irish National Team Mascots!”
 
@@ -185,7 +185,7 @@ It was Quidditch as Harry had never seen it played before. He was pressing his O
 
 Furious with himself, Harry spun his speed dial back to normal as play resumed.
 
-Harry knew enough about Quidditch to see that the Irish Chasers were superb. They worked as a seamless team, their movements so well coordinated that they appeared to be reading one another’s minds as they positioned themselves, and the rosette on Harry’s chest kept squeaking their names: *“Troy — Mullet — Moran!”* And within ten minutes, Ireland had scored twice more, bringing their lead to thirty–zero and causing a thunderous tide of roars and applause from the green-clad supporters.
+Harry knew enough about Quidditch to see that the Irish Chasers were superb. They worked as a seamless team, their movements so well coordinated that they appeared to be reading one another’s minds as they positioned themselves, and the rosette on Harry’s chest kept squeaking their names: “*Troy — Mullet — Moran!*” And within ten minutes, Ireland had scored twice more, bringing their lead to thirty–zero and causing a thunderous tide of roars and applause from the green-clad supporters.
 
 The match became still faster, but more brutal. Volkov and Vulchanov, the Bulgarian Beaters, were whacking the Bludgers as fiercely as possible at the Irish Chasers, and were starting to prevent them from using some of their best moves; twice they were forced to scatter, and then, finally, Ivanova managed to break through their ranks; dodge the Keeper, Ryan; and score Bulgaria’s first goal.
 
@@ -237,13 +237,13 @@ It did: The Bulgarian Beaters, Volkov and Vulchanov, landed on either side of Mo
 
 Play now reached a level of ferocity beyond anything they had yet seen. The Beaters on both sides were acting without mercy: Volkov and Vulchanov in particular seemed not to care whether their clubs made contact with Bludger or human as they swung them violently through the air. Dimitrov shot straight at Moran, who had the Quaffle, nearly knocking her off her broom.
 
-*“Foul!”* roared the Irish supporters as one, all standing up in a great wave of green.
+“*Foul!*” roared the Irish supporters as one, all standing up in a great wave of green.
 
 “Foul!” echoed Ludo Bagman’s magically magnified voice. “Dimitrov skins Moran — deliberately flying to collide there — and it’s got to be another penalty — yes, there’s the whistle!”
 
 The leprechauns had risen into the air again, and this time, they formed a giant hand, which was making a very rude sign indeed at the veela across the field. At this, the veela lost control. Instead of dancing, they launched themselves across the field and began throwing what seemed to be handfuls of fire at the leprechauns. Watching through his Omnioculars, Harry saw that they didn’t look remotely beautiful now. On the contrary, their faces were elongating into sharp, cruel-beaked bird heads, and long, scaly wings were bursting from their shoulders —
 
-“And *that,* boys,” yelled Mr. Weasley over the tumult of the crowd below, “is why you should never go for looks alone!”
+“And *that*, boys,” yelled Mr. Weasley over the tumult of the crowd below, “is why you should never go for looks alone!”
 
 Ministry wizards were flooding onto the field to separate the veela and the leprechauns, but with little success; meanwhile, the pitched battle below was nothing to the one taking place above. Harry turned this way and that, staring through his Omnioculars, as the Quaffle changed hands with the speed of a bullet.
 
@@ -259,7 +259,7 @@ Harry wanted someone to realize that Krum was injured; even though he was suppor
 
 “Time-out! Ah, come on, he can’t play like that, look at him —”
 
-*“Look at Lynch!”* Harry yelled.
+“*Look at Lynch!*” Harry yelled.
 
 For the Irish Seeker had suddenly gone into a dive, and Harry was quite sure that this was no Wronski Feint; this was the real thing. . . .
 
@@ -311,7 +311,7 @@ One by one, the Bulgarians filed between the rows of seats in the box, and Bagma
 
 And then came the Irish team. Aidan Lynch was being supported by Moran and Connolly; the second crash seemed to have dazed him and his eyes looked strangely unfocused. But he grinned happily as Troy and Quigley lifted the Cup into the air and the crowd below thundered its approval. Harry’s hands were numb with clapping.
 
-At last, when the Irish team had left the box to perform another lap of honor on their brooms (Aidan Lynch on the back of Connolly’s, clutching hard around his waist and still grinning in a bemused sort of way), Bagman pointed his wand at his throat and muttered, *“Quietus.”*
+At last, when the Irish team had left the box to perform another lap of honor on their brooms (Aidan Lynch on the back of Connolly’s, clutching hard around his waist and still grinning in a bemused sort of way), Bagman pointed his wand at his throat and muttered, “*Quietus.*”
 
 “They’ll be talking about this one for years,” he said hoarsely, “a really unexpected twist, that. . . . shame it couldn’t have lasted longer. . . . Ah yes. . . . yes, I owe you . . . how much?”
 
