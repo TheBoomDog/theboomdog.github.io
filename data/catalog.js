@@ -787,7 +787,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/09-the-dark-mark.html",
       "href": "reader.html?id=malfoid&chapter=b4-09-the-dark-mark",
-      "updatedAt": "2026-10-23T17:29:17-05:00"
+      "updatedAt": "2026-10-29T16:11:33-05:00"
     },
     {
       "number": 67,
@@ -798,7 +798,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/10-mayhem-at-the-ministry.html",
       "href": "reader.html?id=malfoid&chapter=b4-10-mayhem-at-the-ministry",
-      "updatedAt": "2026-10-23T01:59:26Z"
+      "updatedAt": "2026-10-29T16:23:45-05:00"
     },
     {
       "number": 68,
@@ -809,7 +809,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/11-aboard-the-hogwarts-express.html",
       "href": "reader.html?id=malfoid&chapter=b4-11-aboard-the-hogwarts-express",
-      "updatedAt": "2026-10-22T23:05:04-05:00"
+      "updatedAt": "2026-10-29T17:43:27-05:00"
     },
     {
       "number": 69,
@@ -820,7 +820,7 @@ window.NOVELHUB_BOOKS = [
       "format": "jekyll",
       "source": "Novels/Malfoid/book-4/12-the-triwizard-tournament.html",
       "href": "reader.html?id=malfoid&chapter=b4-12-the-triwizard-tournament",
-      "updatedAt": "2026-10-22T23:01:32-05:00"
+      "updatedAt": "2026-10-29T18:10:21-05:00"
     },
     {
       "number": 70,

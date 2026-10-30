@@ -51,7 +51,7 @@ Mr. Diggory’s head looked around at Mrs. Weasley.
 
 Mrs. Weasley took a piece of buttered toast from a stack on the kitchen table, put it into the fire tongs, and transferred it into Mr. Diggory’s mouth.
 
-“Fanks,” he said in a muffled voice, and then, with a small *pop,* vanished.
+“Fanks,” he said in a muffled voice, and then, with a small *pop*, vanished.
 
 Harry could hear Mr. Weasley calling hurried good-byes to Bill, Charlie, Percy, and the girls. Within five minutes, he was back in the kitchen, his robes on the right way now, dragging a comb through his hair.
 
@@ -75,7 +75,7 @@ As Mr. Weasley vanished, Bill and Charlie entered the kitchen.
 
 “He’s an old friend of Dumbledore’s, isn’t he?” said Charlie.
 
-“Dumbledore’s not what you’d call *normal,* though, is he?” said Fred. “I mean, I know he’s a genius and everything . . .”
+“Dumbledore’s not what you’d call *normal*, though, is he?” said Fred. “I mean, I know he’s a genius and everything . . .”
 
 “Who *is* Mad-Eye?” asked Harry.
 
@@ -107,7 +107,7 @@ The Hogwarts Express, a gleaming scarlet steam engine, was already there, clouds
 
 “Yeah, I sort of wish I were back at Hogwarts this year,” said Bill, hands in his pockets, looking almost wistfully at the train.
 
-*“Why?”* said George impatiently.
+“*Why?*” said George impatiently.
 
 “You’re going to have an interesting year,” said Bill, his eyes twinkling. “I might even get time off to come and watch a bit of it. . . .”
 
@@ -149,7 +149,7 @@ Hermione got up, tiptoed to the compartment door, and slid it shut, blocking out
 
 “Durmstrang’s another Wizarding school?” said Harry.
 
-“Yes,” said Hermione sniffily, “and it’s got a horrible reputation. According to *An Appraisal of Magical Education in Europe,* it puts a lot of emphasis on the Dark Arts.”
+“Yes,” said Hermione sniffily, “and it’s got a horrible reputation. According to *An Appraisal of Magical Education in Europe*, it puts a lot of emphasis on the Dark Arts.”
 
 “I think I’ve heard of it,” said Ron vaguely. “Where is it? What country?”
 
@@ -161,13 +161,11 @@ Hermione got up, tiptoed to the compartment door, and slid it shut, blocking out
 
 “Come off it,” said Ron, starting to laugh. “Durmstrang’s got to be about the same size as Hogwarts — how are you going to hide a great big castle?”
 
-“But Hogwarts *is* hidden,” said Hermione, in surprise. “Everyone knows that . . . well, everyone who’s read *Hogwarts: A History,* anyway.”
+“But Hogwarts *is* hidden,” said Hermione, in surprise. “Everyone knows that . . . well, everyone who’s read *Hogwarts: A History*, anyway.”
 
 “Just you, then,” said Ron. “So go on — how d’you hide a place like Hogwarts?”
 
-“It’s bewitched,” said Hermione. “If a Muggle looks at it, all they see is a moldering old ruin with a sign over the entrance saying DANGER, DO NOT
-
-ENTER, UNSAFE.”
+“It’s bewitched,” said Hermione. “If a Muggle looks at it, all they see is a moldering old ruin with a sign over the entrance saying DANGER, DO NOT ENTER, UNSAFE.”
 
 “So Durmstrang’ll just look like a ruin to an outsider too?”
 
@@ -209,7 +207,7 @@ Harry was about to answer when Daphne Greengrass and Theodore Nott appeared at t
 
 Malfoy went inside. Harry returned to Ron and Hermione with his Cauldron Cakes, annoyed to find that he was still considering what she had said.
 
-Several of their friends looked in on them as the afternoon progressed, including Seamus Finnigan, Dean Thomas, and Neville Longbottom, a round-faced, extremely forgetful boy who had been brought up by his formidable witch of a grandmother. Seamus was still wearing his Ireland rosette. Some of its magic seemed to be wearing off now; it was still squeaking *“Troy — Mullet — Moran!”* but in a very feeble and exhausted sort of way. After half an hour or so, Hermione, growing tired of the endless Quidditch talk, buried herself once more in *The Standard Book of Spells, Grade 4,* and started trying to learn a Summoning Charm.
+Several of their friends looked in on them as the afternoon progressed, including Seamus Finnigan, Dean Thomas, and Neville Longbottom, a round-faced, extremely forgetful boy who had been brought up by his formidable witch of a grandmother. Seamus was still wearing his Ireland rosette. Some of its magic seemed to be wearing off now; it was still squeaking “*Troy — Mullet — Moran!*” but in a very feeble and exhausted sort of way. After half an hour or so, Hermione, growing tired of the endless Quidditch talk, buried herself once more in *The Standard Book of Spells, Grade 4*, and started trying to learn a Summoning Charm.
 
 Neville listened jealously to the others’ conversation as they relived the Cup match.
 
@@ -219,7 +217,7 @@ Neville listened jealously to the others’ conversation as they relived the Cup
 
 He rummaged in his trunk up in the luggage rack and pulled out the miniature figure of Viktor Krum.
 
-“Oh *wow,*” said Neville enviously as Ron tipped Krum onto his pudgy hand.
+“Oh *wow*,” said Neville enviously as Ron tipped Krum onto his pudgy hand.
 
 “We saw him right up close, as well,” said Ron. “We were in the Top Box —”
 
@@ -245,9 +243,9 @@ Crabbe and Goyle, who had scarcely reacted to Malfoy's remark, burst out laughin
 
 “What are you talking about?” snapped Ron.
 
-*“Are you going to enter?”* Malfoy repeated. “I suppose *you* will, Potter? You never miss a chance to show off, do you?”
+“*Are you going to enter?*” Malfoy repeated. “I suppose *you* will, Potter? You never miss a chance to show off, do you?”
 
-“Either explain what you’re on about or go away, Malfoy,” said Hermione testily, over the top of *The Standard Book of Spells, Grade 4.*
+“Either explain what you’re on about or go away, Malfoy,” said Hermione testily, over the top of *The Standard Book of Spells, Grade 4*.
 
 A gleeful smile spread across Malfoy’s pale face.
 
@@ -257,9 +255,9 @@ Laughing once more, Malfoy turned and left, followed by Pansy, Crabbe, and Goyle
 
 Ron got to his feet and slammed the sliding compartment door so hard behind them that the glass shattered.
 
-“*Ron!”* said Hermione reproachfully, and she pulled out her wand, muttered *“Reparo!”* and the glass shards flew back into a single pane and back into the door.
+“*Ron!*” said Hermione reproachfully, and she pulled out her wand, muttered “*Reparo!*” and the glass shards flew back into a single pane and back into the door.
 
-“Well . . . making it look like she knows everything and we don’t. . . .” Ron snarled. “*‘Father’s always associated with the top people at the Ministry.’ . . .* Dad could’ve got a promotion any time . . . he just likes it where he is. . . .”
+“Well . . . making it look like she knows everything and we don’t. . . .” Ron snarled. “*‘Father’s always associated with the top people at the Ministry.’* . . . Dad could’ve got a promotion any time . . . he just likes it where he is. . . .”
 
 “Of course he does,” said Hermione quietly. “Don’t let Malfoy get to you, Ron —”
 
@@ -275,4 +273,4 @@ As the train doors opened, there was a rumble of thunder overhead. Hermione bund
 
 First years traditionally reached Hogwarts Castle by sailing across the lake with Hagrid.
 
-“Oooh, I wouldn’t fancy crossing the lake in this weather,” said Hermione fervently, shivering as they inched slowly along the dark platform with the rest of the crowd. A hundred horseless carriages stood waiting for them outside the station. Harry, Ron, Hermione, and Neville climbed gratefully into one of them, the door shut with a snap, and a few moments later, with a great lurch, the long procession of carriages was rumbling and splashing its way up the track toward Hogwarts Castle.
+“Oooh, I wouldn’t fancy crossing the lake in this weather,” said Hermione fervently, shivering as they inched slowly along the dark platform with the rest of the crowd. A hundred horseless carriages stood waiting for them outside the station. Harry, Ron, Hermione, and Neville climbed gratefully into one of them. The door shut with a snap, and a few moments later, with a great lurch, the long procession of carriages was rumbling and splashing its way up the track toward Hogwarts Castle.

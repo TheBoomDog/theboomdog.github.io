@@ -3,7 +3,7 @@ layout: null
 render_with_liquid: false
 ---
 
-D*on’t* tell your mother you’ve been gambling,” Mr. Weasley implored Fred and George as they all made their way slowly down the purple-carpeted stairs.
+“Don’t tell your mother you’ve been gambling,” Mr. Weasley implored Fred and George as they all made their way slowly down the purple-carpeted stairs.
 
 “Don’t worry, Dad,” said Fred gleefully, “we’ve got big plans for this money. We don’t want it confiscated.”
 
@@ -137,7 +137,7 @@ The floating people were suddenly illuminated as they passed over a burning tent
 
 Hermione and Ginny came hurrying toward them, pulling coats over their nightdresses, with Mr. Weasley right behind them. At the same moment, Bill, Charlie, and Percy emerged from the boys’ tent, fully dressed, with their sleeves rolled up and their wands out.
 
-“We’re going to help the Ministry!” Mr. Weasley shouted over all the noise, rolling up his own sleeves. “You lot — get into the woods, and *stick together.* I’ll come and fetch you when we’ve sorted this out!”
+“We’re going to help the Ministry!” Mr. Weasley shouted over all the noise, rolling up his own sleeves. “You lot — get into the woods, and *stick together*. I’ll come and fetch you when we’ve sorted this out!”
 
 Bill, Charlie, and Percy were already sprinting away toward the oncoming marchers; Mr. Weasley tore after them. Ministry wizards were dashing from every direction toward the source of the trouble. The crowd beneath the Roberts family was coming ever closer.
 
@@ -163,7 +163,7 @@ She nodded at Hermione, and at the same moment, a blast like a bomb sounded from
 
 “What’s that supposed to mean?” said Hermione defiantly.
 
-“Granger, they’re after *Muggles,*” said Malfoy. “D’you want to be showing off your knickers in midair? Because if you do, hang around . . . they’re moving this way, and it would give us all a laugh.”
+“Granger, they’re after *Muggles*,” said Malfoy. “D’you want to be showing off your knickers in midair? Because if you do, hang around . . . they’re moving this way, and it would give us all a laugh.”
 
 “Hermione’s a witch,” Harry snarled.
 
@@ -177,7 +177,7 @@ There came a bang from the other side of the trees that was louder than anything
 
 Harry stared at her; it seemed impossible that he'd laughed with her about Quidditch only a few hours earlier.
 
-“Scare easily, don’t they?” she said lazily. “I suppose your daddy told you all to hide? What’s he up to — trying to rescue the Muggles?”
+“Scare easily, don’t they?” she said lazily. She glanced at Ron. “I suppose your daddy told you all to hide? What’s he up to — trying to rescue the Muggles?”
 
 “Where’re *your* parents?” said Harry, his temper rising. “Out there wearing masks, are they?”
 
@@ -189,13 +189,13 @@ Malfoy turned her face to Harry, still smiling.
 
 “Keep that big bushy head down, Granger,” sneered Malfoy.
 
-“Come *on,*” Hermione repeated, and she pulled Harry and Ron up the path again.
+“Come *on*,” Hermione repeated, and she pulled Harry and Ron up the path again.
 
 “I’ll bet you anything her dad *is* one of that masked lot!” said Ron hotly.
 
 “Well, with any luck, the Ministry will catch him!” said Hermione fervently. “Oh I can’t believe this. Where have the others got to?”
 
-Fred, George, and Ginny were nowhere to be seen, though the path was packed with plenty of other people, all looking nervously over their shoulders toward the commotion back at the campsite. A huddle of teenagers in pajamas was arguing vociferously a little way along the path. When they saw Harry, Ron, and Hermione, a girl with thick curly hair turned and said quickly, *“Où est Madame Maxime? Nous l’avons perdue —”*
+Fred, George, and Ginny were nowhere to be seen, though the path was packed with plenty of other people, all looking nervously over their shoulders toward the commotion back at the campsite. A huddle of teenagers in pajamas was arguing vociferously a little way along the path. When they saw Harry, Ron, and Hermione, a girl with thick curly hair turned and said quickly, “*Où est Madame Maxime? Nous l’avons perdue —*”
 
 “Er — what?” said Ron.
 
@@ -205,7 +205,7 @@ Fred, George, and Ginny were nowhere to be seen, though the path was packed with
 
 “Sorry?” said Harry.
 
-“They must go to Beauxbatons,” said Hermione. “You know . . . Beauxbatons Academy of Magic . . . I read about it in *An Appraisal of Magical Education in Europe.*”
+“They must go to Beauxbatons,” said Hermione. “You know . . . Beauxbatons Academy of Magic . . . I read about it in *An Appraisal of Magical Education in Europe*.”
 
 “Oh . . . yeah . . . right,” said Harry.
 
@@ -231,7 +231,7 @@ A rustling noise nearby made all three of them jump. Winky the house-elf was fig
 
 And she disappeared into the trees on the other side of the path, panting and squeaking as she fought the force that was restraining her.
 
-“What’s up with her*?*” said Ron, looking curiously after Winky. “Why can’t she run properly?”
+“What’s up with her?” said Ron, looking curiously after Winky. “Why can’t she run properly?”
 
 “Bet she didn’t ask permission to hide,” said Harry. He was thinking of Dobby: Every time he had tried to do something the Malfoys wouldn’t like, the house-elf had been forced to start beating himself up.
 
@@ -239,7 +239,7 @@ And she disappeared into the trees on the other side of the path, panting and sq
 
 “Well, the elves are happy, aren’t they?” Ron said. “You heard old Winky back at the match . . . ‘House-elves is not supposed to have fun’ . . . that’s what she likes, being bossed around. . . .”
 
-“It’s people like *you,* Ron,” Hermione began hotly, “who prop up rotten and unjust systems, just because they’re too lazy to —”
+“It’s people like *you*, Ron,” Hermione began hotly, “who prop up rotten and unjust systems, just because they’re too lazy to —”
 
 Another loud bang echoed from the edge of the wood.
 
@@ -255,7 +255,7 @@ A third young wizard, whose pimples were visible even by the dim, silvery light 
 
 Harry snorted with laughter. He recognized the pimply wizard: His name was Stan Shunpike, and he was in fact a conductor on the triple-decker Knight Bus. He turned to tell Ron this, but Ron’s face had gone oddly slack, and next second Ron was yelling, “Did I tell you I’ve invented a broomstick that’ll reach Jupiter?”
 
-*“Honestly!”* said Hermione, and she and Harry grabbed Ron firmly by the arms, wheeled him around, and marched him away. By the time the sounds of the veela and their admirers had faded completely, they were in the very heart of the wood. They seemed to be alone now; everything was much quieter.
+“*Honestly!*” said Hermione, and she and Harry grabbed Ron firmly by the arms, wheeled him around, and marched him away. By the time the sounds of the veela and their admirers had faded completely, they were in the very heart of the wood. They seemed to be alone now; everything was much quieter.
 
 Harry looked around. “I reckon we can just wait here, you know. We’ll hear anyone coming a mile off.”
 
@@ -309,7 +309,7 @@ There was silence. Harry got to his feet and peered around the tree. It was too 
 
 And then, without warning, the silence was rent by a voice unlike any they had heard in the wood; and it uttered, not a panicked shout, but what sounded like a spell.
 
-*“MORSMORDRE!”*
+“*MORSMORDRE!*”
 
 And something vast, green, and glittering erupted from the patch of darkness Harry’s eyes had been struggling to penetrate; it flew up over the treetops and into the sky.
 
@@ -327,7 +327,7 @@ Suddenly, the wood all around them erupted with screams. Harry didn’t understa
 
 “It’s the Dark Mark, Harry!” Hermione moaned, pulling him as hard as she could. “You-Know-Who’s sign!”
 
-*“Voldemort’s — ?”*
+“*Voldemort’s — ?*”
 
 “Harry, come *on*!”
 
@@ -339,7 +339,7 @@ Without pausing to think, he yelled, “DUCK!”
 
 He seized the other two and pulled them down onto the ground.
 
-*“STUPEFY!”* roared twenty voices — there was a blinding series of flashes and Harry felt the hair on his head ripple as though a powerful wind had swept the clearing. Raising his head a fraction of an inch he saw jets of fiery red light flying over them from the wizards’ wands, crossing one another, bouncing off tree trunks, rebounding into the darkness —
+“*STUPEFY!*” roared twenty voices — there was a blinding series of flashes and Harry felt the hair on his head ripple as though a powerful wind had swept the clearing. Raising his head a fraction of an inch he saw jets of fiery red light flying over them from the wizards’ wands, crossing one another, bouncing off tree trunks, rebounding into the darkness —
 
 “Stop!” yelled a voice he recognized. “STOP! *That’s my son!*”
 
@@ -399,11 +399,11 @@ But Mr. Crouch did not seem prepared to take his word for it. They could hear hi
 
 “Yeah,” said Mr. Diggory, “and she *had* a wand.”
 
-*“What?”* said Mr. Weasley.
+“*What?*” said Mr. Weasley.
 
 “Here, look.” Mr. Diggory held up a wand and showed it to Mr. Weasley. “Had it in her hand. So that’s clause three of the Code of Wand Use broken, for a start. *No non-human creature is permitted to carry or use a wand.*”
 
-Just then there was another *pop,* and Ludo Bagman Apparated right next to Mr. Weasley. Looking breathless and disorientated, he spun on the spot, goggling upward at the emerald-green skull.
+Just then there was another *pop*, and Ludo Bagman Apparated right next to Mr. Weasley. Looking breathless and disorientated, he spun on the spot, goggling upward at the emerald-green skull.
 
 “The Dark Mark!” he panted, almost trampling Winky as he turned inquiringly to his colleagues. “Who did it? Did you get them? Barty! What’s going on?”
 
@@ -417,11 +417,11 @@ Mr. Crouch had returned empty-handed. His face was still ghostly white, and his 
 
 Comprehension dawned suddenly on Bagman’s round, shiny face; he looked up at the skull, down at Winky, and then at Mr. Crouch.
 
-*“No!”* he said. “Winky? Conjure the Dark Mark? She wouldn’t know how! She’d need a wand, for a start!”
+“*No!*” he said. “Winky? Conjure the Dark Mark? She wouldn’t know how! She’d need a wand, for a start!”
 
 “And she had one,” said Mr. Diggory. “I found her holding one, Ludo. If it’s all right with you, Mr. Crouch, I think we should hear what she’s got to say for herself.”
 
-Crouch gave no sign that he had heard Mr. Diggory, but Mr. Diggory seemed to take his silence for assent. He raised his own wand, pointed it at Winky, and said, *“Rennervate!”*
+Crouch gave no sign that he had heard Mr. Diggory, but Mr. Diggory seemed to take his silence for assent. He raised his own wand, pointed it at Winky, and said, “*Rennervate!*”
 
 Winky stirred feebly. Her great brown eyes opened and she blinked several times in a bemused sort of way. Watched by the silent wizards, she raised herself shakily into a sitting position. She caught sight of Mr. Diggory’s feet, and slowly, tremulously, raised her eyes to stare up into his face; then, more slowly still, she looked up into the sky. Harry could see the floating skull reflected twice in her enormous, glassy eyes. She gave a gasp, looked wildly around the crowded clearing, and burst into terrified sobs.
 
@@ -465,17 +465,17 @@ Everyone in the clearing looked at him.
 
 Winky trembled and shook her head frantically, her ears flapping, as Mr. Diggory raised his own wand again and placed it tip to tip with Harry’s.
 
-*“Prior Incantato!”* roared Mr. Diggory.
+“*Prior Incantato!*” roared Mr. Diggory.
 
 Harry heard Hermione gasp, horrified, as a gigantic serpent-tongued skull erupted from the point where the two wands met, but it was a mere shadow of the green skull high above them; it looked as though it were made of thick gray smoke: the ghost of a spell.
 
-*“Deletrius!”* Mr. Diggory shouted, and the smoky skull vanished in a wisp of smoke.
+“*Deletrius!*” Mr. Diggory shouted, and the smoky skull vanished in a wisp of smoke.
 
 “So,” said Mr. Diggory with a kind of savage triumph, looking down upon Winky, who was still shaking convulsively.
 
 “I is not doing it!” she squealed, her eyes rolling in terror. “I is not, I is not, I is not knowing how! I is a good elf, I isn’t using wands, I isn’t knowing how!”
 
-*“You’ve been caught red-handed, elf!”* Mr. Diggory roared. *“Caught with the guilty wand in your hand!”*
+“*You’ve been caught red-handed, elf!*” Mr. Diggory roared. “*Caught with the guilty wand in your hand!*”
 
 “Amos,” said Mr. Weasley loudly, “think about it . . . precious few wizards know how to do that spell. . . . Where would she have learned it?”
 
@@ -495,7 +495,7 @@ There was a deeply unpleasant silence. Amos Diggory looked horrified. “Mr. Cro
 
 “She — she might’ve picked it up anywhere —”
 
-“Precisely, Amos,” said Mr. Weasley. “*She might have picked it up anywhere. . . . *Winky?” he said kindly, turning to the elf, but she flinched as though he too was shouting at her. “Where exactly did you find Harry’s wand?”
+“Precisely, Amos,” said Mr. Weasley. “*She might have picked it up anywhere. . . .* Winky?” he said kindly, turning to the elf, but she flinched as though he too was shouting at her. “Where exactly did you find Harry’s wand?”
 
 Winky was twisting the hem of her tea towel so violently that it was fraying beneath her fingers.
 
@@ -577,11 +577,11 @@ Bill was sitting at the small kitchen table, holding a bedsheet to his arm, whic
 
 “No,” said Mr. Weasley. “We found Barty Crouch’s elf holding Harry’s wand, but we’re none the wiser about who actually conjured the Mark.”
 
-*“What?”* said Bill, Charlie, and Percy together.
+“*What?*” said Bill, Charlie, and Percy together.
 
 “Harry’s wand?” said Fred.
 
-*“Mr. Crouch’s elf?”* said Percy, sounding thunderstruck.
+“*Mr. Crouch’s elf?*” said Percy, sounding thunderstruck.
 
 With some assistance from Harry, Ron, and Hermione, Mr. Weasley explained what had happened in the woods. When they had finished their story, Percy swelled indignantly.
 
@@ -595,7 +595,7 @@ With some assistance from Harry, Ron, and Hermione, Mr. Weasley explained what h
 
 “Look, can someone just explain what that skull thing was?” said Ron impatiently. “It wasn’t hurting anyone. . . . Why’s it such a big deal?”
 
-“I told you, it’s You-Know-Who’s symbol, Ron,” said Hermione, before anyone else could answer. “I read about it in *The Rise and Fall of the Dark Arts.*”
+“I told you, it’s You-Know-Who’s symbol, Ron,” said Hermione, before anyone else could answer. “I read about it in *The Rise and Fall of the Dark Arts*.”
 
 “And it hasn’t been seen for thirteen years,” said Mr. Weasley quietly. “Of course people panicked . . . it was almost like seeing You-Know-Who back again.”
 
@@ -633,19 +633,11 @@ He thought of the letter he had written to Sirius before leaving Privet Drive. W
 
 * * *
 
-Drusilla lay on her side, listening to voices outside the tent.
+Drusilla lay on her side, listening to voices outside the tent. Her mother had told her to go to bed an hour ago. She had done so without arguing, which was unusual enough that Narcissa had looked at her twice. Every now and then footsteps passed close to the tent and Drusilla raised her head. None of them stopped.
 
-Her mother had told her to go to bed an hour ago. She had done so without arguing, which was unusual enough that Narcissa had looked at her twice.
+She could still see the Muggle family high over the burning tents. The father had been turning slowly in the air, and one of the children had hung quite still, its arms dangling beneath it. She turned onto her other side.
 
-Every now and then footsteps passed close to the tent and Drusilla raised her head. None of them stopped.
-
-She could still see the Muggle family high over the burning tents. The father had been turning slowly in the air, and one of the children had hung quite still, its arms dangling beneath it.
-
-She turned onto her other side.
-
-She had laughed when the explosion had frightened Potter and his friends. Weasley had been furious. Granger had looked frightened, too, just as Drusilla had intended. But the people over the campsite had not been laughing, and neither had the child.
-
-She could not remember seeing them brought down. Perhaps it had happened after she went into the trees.
+She had laughed when the explosion had frightened Potter and his friends. Weasley had been furious. Granger had looked frightened, too, just as Drusilla had intended. But the people over the campsite had not been laughing, and neither had the child. She could not remember seeing them brought down. Perhaps it had happened after she went into the trees.
 
 Across the tent, her mother was putting something away in a travelling case.
 
@@ -657,12 +649,8 @@ Across the tent, her mother was putting something away in a travelling case.
 
 Narcissa closed the case. “The Ministry will deal with it. Go to sleep.”
 
-Drusilla waited until her mother had turned away.
+Drusilla waited until her mother had turned away. Potter had asked whether her parents were among the masked wizards. She had smiled at him then. It had been easy enough to do; she'd said far worse things to him before.
 
-Potter had asked whether her parents were among the masked wizards. She had smiled at him then. It had been easy enough to do; she'd said far worse things to him before.
-
-She looked toward the entrance of the tent.
-
-Her father had not come back yet.
+She looked toward the entrance of the tent. Her father had not come back yet.
 
 At last she pulled the blanket up to her chin and closed her eyes. A burst of laughter came from somewhere outside, and she opened them again.

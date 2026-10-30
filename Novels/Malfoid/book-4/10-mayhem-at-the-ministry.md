@@ -15,7 +15,7 @@ Mrs. Weasley, who had evidently been waiting for them in the front yard, came ru
 
 “Arthur — I’ve been so worried — *so worried* —”
 
-She flung her arms around Mr. Weasley’s neck, and the *Daily Prophet* fell out of her limp hand onto the ground. Looking down, Harry saw the headline: *SCENES OF TERROR AT THE QUIDDITCH WORLD CUP,* complete with a twinkling black-and-white photograph of the Dark Mark over the treetops.
+She flung her arms around Mr. Weasley’s neck, and the *Daily Prophet* fell out of her limp hand onto the ground. Looking down, Harry saw the headline: *SCENES OF TERROR AT THE QUIDDITCH WORLD CUP*, complete with a twinkling black-and-white photograph of the Dark Mark over the treetops.
 
 “You’re all right,” Mrs. Weasley muttered distractedly, releasing Mr. Weasley and staring around at them all with red eyes, “you’re alive. . . . Oh *boys* . . .”
 
@@ -29,7 +29,7 @@ And to everybody’s surprise, she seized Fred and George and pulled them both i
 
 When they were all crammed into the tiny kitchen, and Hermione had made Mrs. Weasley a cup of very strong tea, into which Mr. Weasley insisted on pouring a shot of Ogdens Old Firewhisky, Bill handed his father the newspaper. Mr. Weasley scanned the front page while Percy looked over his shoulder.
 
-“I knew it,” said Mr. Weasley heavily. “*Ministry blunders . . . culprits not apprehended . . . lax security . . . Dark wizards running unchecked . . . national disgrace . . . *Who wrote this? Ah . . . of course . . . Rita Skeeter.”
+“I knew it,” said Mr. Weasley heavily. “*Ministry blunders . . . culprits not apprehended . . . lax security . . . Dark wizards running unchecked . . . national disgrace . . .* Who wrote this? Ah . . . of course . . . Rita Skeeter.”
 
 “That woman’s got it in for the Ministry of Magic!” said Percy furiously. “Last week she was saying we’re wasting our time quibbling about cauldron thickness, when we should be stamping out vampires! As if it wasn’t *specifically* stated in paragraph twelve of the Guidelines for the Treatment of Non-Wizard Part-Humans —”
 
@@ -39,7 +39,7 @@ When they were all crammed into the tiny kitchen, and Hermione had made Mrs. Wea
 
 “Where?” spluttered Mrs. Weasley, choking on her tea and whisky. “If I’d seen that, I’d have known you were alive!”
 
-“Not by name,” said Mr. Weasley. “Listen to this: *‘If the terrified wizards and witches who waited breathlessly for news at the edge of the wood expected reassurance from the Ministry of Magic, they were sadly disappointed. A Ministry official emerged some time after the appearance of the Dark Mark alleging that nobody had been hurt, but refusing to give any more information. Whether this statement will be enough to quash the rumors that several bodies were removed from the woods an hour later, remains to be seen.’* Oh really,” said Mr. Weasley in exasperation, handing the paper to Percy. “Nobody *was* hurt. What was I supposed to say? *Rumors that several bodies were removed from the woods . . . *well, there certainly will be rumors now she’s printed that.”
+“Not by name,” said Mr. Weasley. “Listen to this: *‘If the terrified wizards and witches who waited breathlessly for news at the edge of the wood expected reassurance from the Ministry of Magic, they were sadly disappointed. A Ministry official emerged some time after the appearance of the Dark Mark alleging that nobody had been hurt, but refusing to give any more information. Whether this statement will be enough to quash the rumors that several bodies were removed from the woods an hour later, remains to be seen.’* Oh really,” said Mr. Weasley in exasperation, handing the paper to Percy. “Nobody *was* hurt. What was I supposed to say? *Rumors that several bodies were removed from the woods . . .* well, there certainly will be rumors now she’s printed that.”
 
 He heaved a deep sigh. “Molly, I’m going to have to go into the office; this is going to take some smoothing over.”
 
@@ -107,7 +107,7 @@ There was a silence in which Ron fidgeted absentmindedly with a hole in his Chud
 
 “Yeah, I want to play Quidditch,” said Harry suddenly. “Hang on, I’ll get my Firebolt.”
 
-Hermione left the room, muttering something that sounded very much like *“Boys.”*
+Hermione left the room, muttering something that sounded very much like “*Boys.*”
 
 Neither Mr. Weasley nor Percy was at home much over the following week. Both left the house each morning before the rest of the family got up, and returned well after dinner every night.
 
@@ -131,9 +131,9 @@ Eight of the hands were currently pointing to the “home” position, but Mr. W
 
 “Well, it *is* a bit long, dear,” said Mrs. Weasley gently. “If you’d just let me —”
 
-“*No,* Mum.”
+“*No*, Mum.”
 
-Rain lashed against the living room window. Hermione was immersed in *The Standard Book of Spells, Grade 4,* copies of which Mrs. Weasley had bought for her, Harry, and Ron in Diagon Alley. Charlie was darning a fireproof balaclava. Harry was polishing his Firebolt, the broomstick servicing kit Hermione had given him for his thirteenth birthday open at his feet. Fred and George were sitting in a far corner, quills out, talking in whispers, their heads bent over a piece of parchment.
+Rain lashed against the living room window. Hermione was immersed in *The Standard Book of Spells, Grade 4*, copies of which Mrs. Weasley had bought for her, Harry, and Ron in Diagon Alley. Charlie was darning a fireproof balaclava. Harry was polishing his Firebolt, the broomstick servicing kit Hermione had given him for his thirteenth birthday open at his feet. Fred and George were sitting in a far corner, quills out, talking in whispers, their heads bent over a piece of parchment.
 
 “What are you two up to?” said Mrs. Weasley sharply, her eyes on the twins.
 
@@ -143,7 +143,7 @@ Rain lashed against the living room window. Hermione was immersed in *The Standa
 
 “Yeah, we’ve left it a bit late,” said George.
 
-“You’re not by any chance writing out a new *order form,* are you?” said Mrs. Weasley shrewdly. “You wouldn’t be thinking of re-starting Weasleys’ Wizard Wheezes, by any chance?”
+“You’re not by any chance writing out a new *order form*, are you?” said Mrs. Weasley shrewdly. “You wouldn’t be thinking of re-starting Weasleys’ Wizard Wheezes, by any chance?”
 
 “Now, Mum,” said Fred, looking up at her, a pained look on his face. “If the Hogwarts Express crashed tomorrow, and George and I died, how would you feel to know that the last thing we ever heard from you was an unfounded accusation?”
 
@@ -169,7 +169,7 @@ A few moments later, Mr. Weasley came into the warm living room carrying his din
 
 “Now look here, Hermione!” said Percy. “A high-ranking Ministry official like Mr. Crouch deserves unswerving obedience from his servants —”
 
-“His *slave,* you mean!” said Hermione, her voice rising passionately, “because he didn’t *pay* Winky, did he?”
+“His *slave*, you mean!” said Hermione, her voice rising passionately, “because he didn’t *pay* Winky, did he?”
 
 “I think you’d all better go upstairs and check that you’ve packed properly!” said Mrs. Weasley, breaking up the argument. “Come on now, all of you. . . .”
 
@@ -181,13 +181,13 @@ Harry poked a few Owl Treats through the bars of Pigwidgeon’s cage, then turne
 
 “It’s been over a week,” Harry said, looking at Hedwig’s deserted perch. “Ron, you don’t reckon Sirius has been caught, do you?”
 
-“Nah, it would’ve been in the *Daily Prophet,*” said Ron. “The Ministry would want to show they’d caught *someone,* wouldn’t they?”
+“Nah, it would’ve been in the *Daily Prophet*,” said Ron. “The Ministry would want to show they’d caught *someone*, wouldn’t they?”
 
 “Yeah, I suppose. . . .”
 
 “Look, here’s the stuff Mum got for you in Diagon Alley. And she’s got some gold out of your vault for you . . . and she’s washed all your socks.”
 
-He heaved a pile of parcels onto Harry’s camp bed and dropped the money bag and a load of socks next to it. Harry started unwrapping the shopping. Apart from *The Standard Book of Spells, Grade 4,* by Miranda Goshawk, he had a handful of new quills, a dozen rolls of parchment, and refills for his potion-making kit — he had been running low on spine of lionfish and essence of belladonna. He was just piling underwear into his cauldron when Ron made a loud noise of disgust behind him.
+He heaved a pile of parcels onto Harry’s camp bed and dropped the money bag and a load of socks next to it. Harry started unwrapping the shopping. Apart from *The Standard Book of Spells, Grade 4*, by Miranda Goshawk, he had a handful of new quills, a dozen rolls of parchment, and refills for his potion-making kit — he had been running low on spine of lionfish and essence of belladonna. He was just piling underwear into his cauldron when Ron made a loud noise of disgust behind him.
 
 “What is *that* supposed to be?”
 
@@ -201,7 +201,7 @@ There was a knock on the door, and Mrs. Weasley entered, carrying an armful of f
 
 “Of course I haven’t,” said Mrs. Weasley. “That’s for you. Dress robes.”
 
-*“What?”* said Ron, looking horror-struck.
+“*What?*” said Ron, looking horror-struck.
 
 “Dress robes!” repeated Mrs. Weasley. “It says on your school list that you’re supposed to have dress robes this year . . . robes for formal occasions.”
 

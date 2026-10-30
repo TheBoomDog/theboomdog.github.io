@@ -7,7 +7,7 @@ Through the gates, flanked with statues of winged boars, and up the sweeping dri
 
 “Blimey,” said Ron, shaking his head and sending water everywhere, “if that keeps up the lake’s going to overflow. I’m soak — ARRGH!”
 
-A large, red, water-filled balloon had dropped from out of the ceiling onto Ron’s head and exploded. Drenched and sputtering, Ron staggered sideways into Harry, just as a second water bomb dropped — narrowly missing Hermione, it burst at Harry’s feet, sending a wave of cold water over his sneakers into his socks. People all around them shrieked and started pushing one another in their efforts to get out of the line of fire. Harry looked up and saw, floating twenty feet above them, Peeves the Poltergeist, a little man in a bell-covered hat and orange bow tie, his wide, malicious face contorted with concentration as he took aim again.
+A large, red, water-filled balloon had dropped from out of the ceiling onto Ron’s head and exploded. Drenched and sputtering, Ron staggered sideways into Harry, just as a second water bomb dropped — narrowly missing Hermione — and burst at Harry’s feet, sending a wave of cold water over his sneakers into his socks. People all around them shrieked and started pushing one another in their efforts to get out of the line of fire. Harry looked up and saw, floating twenty feet above them, Peeves the Poltergeist, a little man in a bell-covered hat and orange bow tie, his wide, malicious face contorted with concentration as he took aim again.
 
 “PEEVES!” yelled an angry voice. “Peeves, come down here at ONCE!”
 
@@ -159,7 +159,7 @@ A boy walked forward, visibly trembling from head to foot, picked up the Sorting
 
 “RAVENCLAW!” shouted the hat.
 
-Stewart Ackerley took off the hat and hurried into a seat at the Ravenclaw table, where everyone was applauding him. Harry caught a glimpse of Cho, the Ravenclaw Seeker, cheering Stewart Ackerley as he sat down. For a fleeting second, Harry had a strange desire to join the Ravenclaw table too.
+Stewart Ackerley took off the hat and hurried into a seat at the Ravenclaw table, where everyone was applauding him. Harry caught a glimpse of Cho, the Ravenclaw Seeker, cheering Stewart Ackerley as he sat down.
 
 “Baddock, Malcolm!”
 
@@ -187,13 +187,13 @@ Hagrid clapped along with the Gryffindors as Dennis Creevey, beaming widely, too
 
 “Cool!” said Colin, just as excitedly. “It was probably the giant squid, Dennis!”
 
-*“Wow!”* said Dennis, as though nobody in their wildest dreams could hope for more than being thrown into a storm-tossed, fathoms-deep lake, and pushed out of it again by a giant sea monster.
+“*Wow!*” said Dennis, as though nobody in their wildest dreams could hope for more than being thrown into a storm-tossed, fathoms-deep lake, and pushed out of it again by a giant sea monster.
 
 “Dennis! Dennis! See that boy down there? The one with the black hair and glasses? See him? *Know who he is, Dennis?*”
 
 Harry looked away, staring very hard at the Sorting Hat, now Sorting Emma Dobbs.
 
-The Sorting continued; boys and girls with varying degrees of fright on their faces moving one by one to the four-legged stool, the line dwindling slowly as Professor McGonagall passed the L’s.
+The Sorting continued. Boys and girls with varying degrees of fright on their faces moved one by one to the four-legged stool, the line dwindling slowly as Professor McGonagall passed the L’s.
 
 “Oh hurry up,” Ron moaned, massaging his stomach.
 
@@ -213,13 +213,13 @@ Gryffindor had won the Inter-House Championship for the last three years in a ro
 
 “RAVENCLAW!”
 
-And finally, with “Whitby, Kevin!”(“HUFFLEPUFF!”), the Sorting ended. Professor McGonagall picked up the hat and the stool and carried them away.
+And finally, with “Whitby, Kevin!” (“HUFFLEPUFF!”), the Sorting ended. Professor McGonagall picked up the hat and the stool and carried them away.
 
 “About time,” said Ron, seizing his knife and fork and looking expectantly at his golden plate.
 
 Professor Dumbledore had gotten to his feet. He was smiling around at the students, his arms opened wide in welcome.
 
-“I have only two words to say to you,” he told them, his deep voice echoing around the Hall. *“Tuck in.”*
+“I have only two words to say to you,” he told them, his deep voice echoing around the Hall. “*Tuck in.*”
 
 “Hear, hear!” said Harry and Ron loudly as the empty dishes filled magically before their eyes.
 
@@ -253,7 +253,7 @@ Hermione had knocked over her golden goblet. Pumpkin juice spread steadily over 
 
 Hermione stared at him.
 
-“But they get *paid*?” she said. “They get *holidays,* don’t they? And — and sick leave, and pensions, and everything?”
+“But they get *paid*?” she said. “They get *holidays*, don’t they? And — and sick leave, and pensions, and everything?”
 
 Nearly Headless Nick chortled so much that his ruff slipped and his head flopped off, dangling on the inch or so of ghostly skin and muscle that still attached it to his neck.
 
@@ -263,7 +263,7 @@ Hermione looked down at her hardly touched plate of food, then put her knife and
 
 “Oh c’mon, ’Er-my-knee,” said Ron, accidentally spraying Harry with bits of Yorkshire pudding. “Oops — sorry, ’Arry —” He swallowed. “You won’t get them sick leave by starving yourself!”
 
-“Slave labor,” said Hermione, breathing hard through her nose. “That’s what made this dinner. *Slave labor.*”
+“Slave labor,” said Hermione, breathing hard through her nose. “That’s what made this dinner. *Slave labor*.”
 
 And she refused to eat another bite.
 
@@ -275,7 +275,11 @@ But Hermione gave him a look so reminiscent of Professor McGonagall that he gave
 
 When the puddings too had been demolished, and the last crumbs had faded off the plates, leaving them sparkling clean, Albus Dumbledore got to his feet again. The buzz of chatter filling the Hall ceased almost at once, so that only the howling wind and pounding rain could be heard.
 
-“So!” said Dumbledore, smiling around at them all. “Now that we are all fed and watered,” (“Hmph!” said Hermione) “I must once more ask for your attention, while I give out a few notices.
+“So!” said Dumbledore, smiling around at them all. “Now that we are all fed and watered,”
+
+“Hmph!” said Hermione.
+
+“I must once more ask for your attention, while I give out a few notices,” Dumbledore continued.
 
 “Mr. Filch, the caretaker, has asked me to tell you that the list of objects forbidden inside the castle has this year been extended to include Screaming Yo-yos, Fanged Frisbees, and Ever-Bashing Boomerangs. The full list comprises some four hundred and thirty-seven items, I believe, and can be viewed in Mr. Filch’s office, if anybody would like to check it.”
 
@@ -283,7 +287,7 @@ The corners of Dumbledore’s mouth twitched. He continued, “As ever, I would 
 
 “It is also my painful duty to inform you that the Inter-House Quidditch Cup will not take place this year.”
 
-*“What?”* Harry gasped. He looked around at Fred and George, his fellow members of the Quidditch team. They were mouthing soundlessly at Dumbledore, apparently too appalled to speak. Dumbledore went on, “This is due to an event that will be starting in October, and continuing throughout the school year, taking up much of the teachers’ time and energy — but I am sure you will all enjoy it immensely. I have great pleasure in announcing that this year at Hogwarts —”
+“*What?*” Harry gasped. He looked around at Fred and George, his fellow members of the Quidditch team. They were mouthing soundlessly at Dumbledore, apparently too appalled to speak. Dumbledore went on, “This is due to an event that will be starting in October, and continuing throughout the school year, taking up much of the teachers’ time and energy — but I am sure you will all enjoy it immensely. I have great pleasure in announcing that this year at Hogwarts —”
 
 But at that moment, there was a deafening rumble of thunder and the doors of the Great Hall banged open.
 
@@ -329,7 +333,7 @@ Professor McGonagall cleared her throat loudly.
 
 “The Triwizard Tournament was first established some seven hundred years ago as a friendly competition between the three largest European schools of wizardry: Hogwarts, Beauxbatons, and Durmstrang. A champion was selected to represent each school, and the three champions competed in three magical tasks. The schools took it in turns to host the tournament once every five years, and it was generally agreed to be a most excellent way of establishing ties between young witches and wizards of different nationalities — until, that is, the death toll mounted so high that the tournament was discontinued.”
 
-*“Death toll?”* Hermione whispered, looking alarmed. But her anxiety did not seem to be shared by the majority of students in the Hall; many of them were whispering excitedly to one another, and Harry himself was far more interested in hearing about the tournament than in worrying about deaths that had happened hundreds of years ago.
+“*Death toll?*” Hermione whispered, looking alarmed. But her anxiety did not seem to be shared by the majority of students in the Hall; many of them were whispering excitedly to one another, and Harry himself was far more interested in hearing about the tournament than in worrying about deaths that had happened hundreds of years ago.
 
 “There have been several attempts over the centuries to reinstate the tournament,” Dumbledore continued, “none of which has been very successful. However, our own Departments of International Magical Cooperation and Magical Games and Sports have decided the time is ripe for another attempt. We have worked hard over the summer to ensure that this time, no champion will find himself or herself in mortal danger.
 
@@ -389,7 +393,7 @@ They made their way up to the entrance to Gryffindor Tower, which was concealed 
 
 “Balderdash,” said George, “a prefect downstairs told me.”
 
-The portrait swung forward to reveal a hole in the wall through which they all climbed. A crackling fire warmed the circular common room, which was full of squashy armchairs and tables. Hermione cast the merrily dancing flames a dark look, and Harry distinctly heard her mutter *“Slave labor,”* before bidding them good night and disappearing through the doorway to the girls’ dormitory.
+The portrait swung forward to reveal a hole in the wall through which they all climbed. A crackling fire warmed the circular common room, which was full of squashy armchairs and tables. Hermione cast the merrily dancing flames a dark look, and Harry distinctly heard her mutter “*Slave labor*,” before bidding them good night and disappearing through the doorway to the girls’ dormitory.
 
 Harry, Ron, and Neville climbed up the last, spiral staircase until they reached their own dormitory, which was situated at the top of the tower. Five four-poster beds with deep crimson hangings stood against the walls, each with its owner’s trunk at the foot. Dean and Seamus were already getting into bed; Seamus had pinned his Ireland rosette to his headboard, and Dean had tacked up a poster of Viktor Krum over his bedside table. His old poster of the West Ham football team was pinned right next to it.
 
